@@ -1,0 +1,339 @@
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
+    "CLAUDE_CODE_COORDINATOR_MODE": "1",
+    "CLAUDE_CODE_EFFORT_LEVEL": "auto",
+    "BASH_MAX_OUTPUT_LENGTH": "30000",
+    "MAX_MCP_OUTPUT_TOKENS": "25000"
+  },
+
+  "sandbox": {
+    "enabled": true,
+    "filesystem": {
+      "denyWrite": ["~/.ssh", "~/.gnupg", "~/.aws", "~/.config/solana/id.json"]
+    }
+  },
+
+  "defaultMode": "default",
+
+  "enabledPlugins": {
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "typescript-lsp@claude-plugins-official": true,
+    "csharp-lsp@claude-plugins-official": true
+  },
+
+  "includeCoAuthoredBy": false,
+
+  "permissions": {
+    "allow": [
+      "Bash(anchor *)",
+      "Bash(cargo build*)",
+      "Bash(cargo test*)",
+      "Bash(cargo clippy *)",
+      "Bash(cargo fmt *)",
+      "Bash(cargo audit *)",
+      "Bash(cargo install *)",
+      "Bash(cargo geiger *)",
+      "Bash(cargo check *)",
+      "Bash(cargo doc *)",
+      "Bash(cargo run *)",
+      "Bash(cargo add *)",
+      "Bash(cargo remove *)",
+      "Bash(cargo update *)",
+      "Bash(cargo clean *)",
+      "Bash(cargo bench *)",
+      "Bash(cargo fix *)",
+      "Bash(cargo tree *)",
+      "Bash(cargo metadata *)",
+      "Bash(rustup *)",
+      "Bash(rustfmt *)",
+      "Bash(trident *)",
+
+      "Bash(solana config *)",
+      "Bash(solana address *)",
+      "Bash(solana balance *)",
+      "Bash(solana airdrop *)",
+      "Bash(solana program show *)",
+      "Bash(solana program dump *)",
+      "Bash(solana logs *)",
+      "Bash(solana account *)",
+      "Bash(solana cluster-version *)",
+      "Bash(solana epoch-info *)",
+      "Bash(solana slot *)",
+      "Bash(solana rent *)",
+      "Bash(solana decode *)",
+      "Bash(solana transaction-history *)",
+      "Bash(solana confirm *)",
+      "Bash(solana-keygen *)",
+      "Bash(solana-test-validator *)",
+      "Bash(surfpool *)",
+
+      "Bash(npm *)",
+      "Bash(yarn *)",
+      "Bash(pnpm *)",
+      "Bash(bun *)",
+      "Bash(npx *)",
+      "Bash(node *)",
+      "Bash(tsx *)",
+      "Bash(tsc *)",
+      "Bash(next *)",
+      "Bash(vite *)",
+      "Bash(vitest *)",
+      "Bash(prettier *)",
+      "Bash(eslint *)",
+      "Bash(create-solana-dapp *)",
+
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git show *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git fetch *)",
+      "Bash(git branch *)",
+      "Bash(git checkout *)",
+      "Bash(git switch *)",
+      "Bash(git merge *)",
+      "Bash(git rebase *)",
+      "Bash(git stash *)",
+      "Bash(git tag *)",
+      "Bash(git remote *)",
+      "Bash(git submodule *)",
+      "Bash(git blame *)",
+      "Bash(git cherry-pick *)",
+      "Bash(gh *)",
+
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(grep *)",
+      "Bash(rg *)",
+      "Bash(find *)",
+      "Bash(fd *)",
+      "Bash(mkdir *)",
+      "Bash(touch *)",
+      "Bash(echo *)",
+      "Bash(printf *)",
+      "Bash(pwd)",
+      "Bash(cd *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(wc *)",
+      "Bash(sort *)",
+      "Bash(uniq *)",
+      "Bash(diff *)",
+      "Bash(tree *)",
+      "Bash(which *)",
+      "Bash(command *)",
+      "Bash(type *)",
+      "Bash(env *)",
+      "Bash(export *)",
+      "Bash(date *)",
+      "Bash(basename *)",
+      "Bash(dirname *)",
+      "Bash(realpath *)",
+      "Bash(readlink *)",
+      "Bash(xargs *)",
+      "Bash(sed *)",
+      "Bash(awk *)",
+      "Bash(cut *)",
+      "Bash(tr *)",
+      "Bash(tee *)",
+      "Bash(jq *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "Bash(tar *)",
+      "Bash(unzip *)",
+      "Bash(du *)",
+      "Bash(df *)",
+      "Bash(file *)",
+      "Bash(stat *)",
+      "Bash(sha256sum *)",
+      "Bash(md5sum *)",
+      "Bash(base64 *)",
+      "Bash(openssl *)",
+
+      "Bash(docker build *)",
+      "Bash(docker run *)",
+      "Bash(docker compose *)",
+      "Bash(docker ps *)",
+      "Bash(docker logs *)",
+      "Bash(docker images *)",
+      "Bash(docker exec *)",
+      "Bash(docker stop *)",
+      "Bash(docker inspect *)",
+
+      "Bash(unity-editor *)",
+      "Bash(dotnet *)",
+      "Bash(nuget *)",
+
+      "Bash(python *)",
+      "Bash(python3 *)",
+      "Bash(pip *)",
+      "Bash(pip3 *)",
+
+      "Bash(avm *)",
+      "Bash(solana-verify *)",
+      "Bash(mollusk *)",
+      "Bash(litesvm *)",
+      "Bash(spl-token *)",
+      "Bash(just *)",
+      "Bash(make *)",
+      "Bash(cmake *)",
+      "Bash(wasm-pack *)",
+      "Bash(cross *)",
+      "Bash(cargo-generate *)",
+      "Bash(solana-install *)",
+
+      "Read(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Glob(*)",
+      "Grep(*)",
+      "Agent(*)",
+      "WebFetch(*)",
+      "WebSearch(*)"
+    ],
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~*)",
+      "Bash(rm -rf .*)",
+      "Bash(sudo *)",
+      "Bash(chmod 777 *)",
+      "Bash(chmod -R 777 *)",
+      "Bash(chown *)",
+      "Bash(mkfs *)",
+      "Bash(dd *)",
+      "Bash(shutdown *)",
+      "Bash(reboot *)",
+      "Bash(kill -9 *)",
+      "Bash(killall *)",
+      "Bash(pkill *)",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git reset --hard *)",
+      "Bash(git clean -fd *)",
+      "Bash(solana program deploy *mainnet*)",
+      "Bash(solana transfer *)",
+      "Bash(solana withdraw-from-nonce-account *)",
+      "Bash(docker rm *)",
+      "Bash(docker rmi *)",
+      "Bash(docker system prune *)",
+      "Bash(solana close *)",
+      "Bash(solana authorize *)",
+      "Bash(spl-token burn *)",
+      "Bash(spl-token close *)",
+      "Bash(git push * --force*)",
+      "Bash(git push * -f *)"
+    ]
+  },
+
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '🤖 Solana Claude Config is ON 🚀🦾 powered by @SuperteamBR 🇧🇷'\necho ''\nif command -v solana >/dev/null 2>&1; then\n  echo \"🔗 $(solana config get | grep 'RPC URL' | awk '{print $3}')\"\n  echo \"👛 $(solana address 2>/dev/null || echo 'No wallet configured')\"\nelse\n  echo '⚠️  Solana CLI not found'\nfi"
+          }
+        ]
+      }
+    ],
+
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "for f in $(git diff --cached --name-only 2>/dev/null); do\n  case \"$f\" in\n    *.rs) command -v rustfmt >/dev/null 2>&1 && rustfmt \"$f\" 2>/dev/null || true ;;\n    *.ts|*.tsx|*.js|*.jsx|*.json) command -v npx >/dev/null 2>&1 && npx prettier --write \"$f\" 2>/dev/null || true ;;\n  esac\ndone"
+          }
+        ]
+      }
+    ],
+
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"🤖 Agent completed: ${CLAUDE_SUBAGENT_NAME:-unknown}\""
+          }
+        ]
+      }
+    ],
+
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ -z \"$CLAUDE_FILE_PATH\" ]; then exit 0; fi\n\ncase \"$CLAUDE_FILE_PATH\" in\n  *.rs)\n    command -v rustfmt >/dev/null 2>&1 && rustfmt \"$CLAUDE_FILE_PATH\" || true\n    ;;\n  *.ts|*.tsx|*.js|*.jsx|*.json|*.md)\n    command -v npx >/dev/null 2>&1 && npx prettier --write \"$CLAUDE_FILE_PATH\" || true\n    ;;\nesac"
+          }
+        ]
+      },
+
+      {
+        "matcher": "Bash",
+        "when": {
+          "command_matches": "cargo test|anchor test"
+        },
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"\"\necho \"📊 Test Summary:\";\nif [ \"$CLAUDE_TOOL_EXIT_CODE\" -eq 0 ]; then\n  echo \"✅ All tests passed!\"\nelse\n  echo \"❌ Some tests failed. Review output above.\"\nfi"
+          }
+        ]
+      },
+
+      {
+        "matcher": "Bash",
+        "when": {
+          "command_matches": "dotnet test|unity-editor.*-runTests"
+        },
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"\"\necho \"📊 .NET Test Summary:\";\nif [ \"$CLAUDE_TOOL_EXIT_CODE\" -eq 0 ]; then\n  echo \"✅ All tests passed!\"\nelse\n  echo \"❌ Some tests failed. Review output above.\"\nfi"
+          }
+        ]
+      }
+    ],
+
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "when": {
+          "command_matches": "git commit"
+        },
+        "hooks": [
+          {
+            "type": "command",
+            "command": "set -e\n\necho \"🔍 Running pre-commit checks...\"\n\nif [ -f \"Anchor.toml\" ] || grep -q \"solana-program\" Cargo.toml 2>/dev/null; then\n  cargo fmt --check || { cargo fmt; exit 1; }\n  cargo clippy --all-targets -- -D warnings || exit 1\n  cargo test --lib || exit 1\nfi\n\nif [ -f \"package.json\" ]; then\n  npx prettier --check \"**/*.{ts,tsx,js,jsx,json}\" || { npx prettier --write \"**/*.{ts,tsx,js,jsx,json}\"; exit 1; }\n  [ -f \"tsconfig.json\" ] && npx tsc --noEmit || exit 1\nfi\n\necho \"✅ Pre-commit checks passed\""
+          }
+        ]
+      },
+
+      {
+        "matcher": "Bash",
+        "when": {
+          "command_matches": "solana program deploy|anchor deploy"
+        },
+        "hooks": [
+          {
+            "type": "command",
+            "command": "set -e\n\necho \"🚨 PRE-DEPLOY CHECKS\"\nNETWORK=$(solana config get | grep \"RPC URL\" | awk '{print $3}')\necho \"Network: $NETWORK\"\n\nif echo \"$NETWORK\" | grep -q mainnet; then\n  echo \"⚠️ MAINNET DEPLOY\"\n  echo \"Type 'DEPLOY TO MAINNET' to continue:\";\n  read -r CONFIRM;\n  [ \"$CONFIRM\" = \"DEPLOY TO MAINNET\" ] || exit 1\nfi\n\nif [ -f \"Anchor.toml\" ]; then\n  ls target/deploy/*.so >/dev/null 2>&1 || { echo \"❌ No build found\"; exit 1; }\nfi\n\necho \"✅ Pre-deploy checks passed\""
+          }
+        ]
+      }
+    ]
+  },
+
+  "modelDefaults": {
+    "agent": "opus",
+    "command": "sonnet"
+  }
+}

@@ -1,0 +1,111 @@
+# Cursos e Educacao
+
+Solana tem um ecossistema rico de recursos de aprendizado, desde cursos interativos no seu ritmo ate programas intensivos de turmas e treinamentos focados em seguranca. Esta pagina os organiza por estilo de aprendizado e nivel para que voce encontre o mais adequado.
+
+---
+
+## Cursos Interativos no Seu Ritmo
+
+Esses cursos permitem que voce aprenda na sua velocidade com curriculos estruturados e exercicios praticos.
+
+### Cursos da Solana Foundation
+
+[https://solana.com/developers/courses](https://solana.com/developers/courses)
+
+O curriculo oficial mantido pela Solana Foundation. Este e o recurso gratuito mais abrangente para aprender desenvolvimento Solana do zero. Cobre desenvolvimento client-side, desenvolvimento de programas on-chain com Anchor e topicos avancados como compressed NFTs e Solana Mobile. Cada modulo inclui explicacoes, exemplos de codigo e exercicios de laboratorio. Se voce for seguir apenas um curso, faca este.
+
+### RareSkills Solana Tutorial
+
+[https://rareskills.io/solana-tutorial](https://rareskills.io/solana-tutorial)
+
+Um curso estruturado de 60 dias amplamente considerado como o melhor recurso para desenvolvedores EVM em transicao para Solana. O RareSkills mapeia explicitamente conceitos Solana para seus equivalentes em Ethereum -- explicando como contas se relacionam com armazenamento de contratos, como PDAs substituem mappings e como CPIs diferem de delegate calls. A profundidade da explicacao tecnica e excepcional, cobrindo topicos como rent, compute units e o BPF loader que muitos cursos ignoram. Melhor para desenvolvedores que ja entendem smart contracts e querem aprender Solana especificamente.
+
+### freeCodeCamp Solana
+
+[https://web3.freecodecamp.org/solana](https://web3.freecodecamp.org/solana)
+
+Aprendizado interativo baseado em IDE que segue a filosofia do freeCodeCamp de aprender fazendo. Voce escreve codigo real no navegador e recebe feedback imediato. E uma boa opcao para desenvolvedores que aprendem melhor digitando codigo do que lendo documentacao. O curriculo cobre os fundamentos e progride gradualmente para programas mais complexos.
+
+### RiseIn Build on Solana
+
+[https://www.risein.com/courses/build-on-solana](https://www.risein.com/courses/build-on-solana)
+
+Um curso amigavel para iniciantes disponivel em formatos de texto e video. O RiseIn estrutura o aprendizado em torno da construcao de projetos, entao voce sempre tem contexto de por que esta aprendendo cada conceito. Bom para desenvolvedores que preferem uma abordagem guiada e baseada em projetos com multiplos formatos de midia.
+
+---
+
+## Programas de Turmas
+
+Esses programas oferecem cronogramas estruturados, mentoria e comunidade -- ideais se voce aprende melhor com responsabilidade e colaboracao.
+
+### Turbin3
+
+[https://turbin3.com/](https://turbin3.com/)
+
+Um programa intensivo de turma onde voce constroi projetos reais com mentoria de desenvolvedores Solana experientes. O Turbin3 oferece multiplas trilhas -- desenvolvimento de programas Rust, desenvolvimento de clientes TypeScript e infraestrutura de trading. O programa formou um numero significativo de desenvolvedores que passaram a contribuir para projetos do ecossistema. O formato de turma significa que voce esta construindo ao lado de colegas e recebendo feedback direto, o que acelera o aprendizado dramaticamente em comparacao com estudo solo.
+
+### Superteam Academy
+
+[https://github.com/SuperteamBrazil/superteam-academy](https://github.com/SuperteamBrazil/superteam-academy)
+
+O Sistema de Gestao de Aprendizado on-chain da Superteam Brasil. Nao e apenas um curso -- e uma plataforma totalmente on-chain que emite tokens de XP soulbound para modulos concluidos e certificados NFT para cursos finalizados. O conteudo educacional e focado em desenvolvimento Solana com um caminho de iniciante a avancado. Atualmente em desenvolvimento ativo. Mantido por @thomgabriel e @kauenet.
+
+---
+
+## Treinamento Focado em Seguranca
+
+Seguranca nao e opcional no desenvolvimento blockchain. Esses recursos te ensinam a pensar como um atacante.
+
+### Cyfrin Updraft
+
+[https://updraft.cyfrin.io/](https://updraft.cyfrin.io/)
+
+O curriculo abrangente de seguranca de smart contracts do Patrick Collins. Embora cubra multiplas chains, os principios de seguranca -- reentrancy, controle de acesso, overflow aritmetico, manipulacao de oracles -- se aplicam diretamente a programas Solana. O curso percorre estudos de caso de exploits reais e ensina tecnicas formais de auditoria. Essencial para qualquer desenvolvedor que ira implantar programas que lidam com fundos de usuarios.
+
+### Ackee Blockchain Security
+
+[https://ackee.xyz/](https://ackee.xyz/)
+
+Treinamento de seguranca especifico para Solana do time por tras do Trident, o principal framework de fuzz testing para programas Solana. A Ackee auditou dezenas de protocolos Solana em producao e canaliza essa expertise para seus materiais de treinamento. Seu curriculo cobre padroes de vulnerabilidade unicos da Solana -- verificacoes de signer ausentes, ataques de substituicao de PDA, type cosplay e abuso de CPI. Se voce quer conhecimento de seguranca especifico para Solana de auditores profissionais, esta e a fonte.
+
+---
+
+## Conteudo em Video
+
+Para desenvolvedores que preferem aprendizado baseado em video, esses canais e playlists cobrem tanto teoria fundacional quanto desenvolvimento pratico em Solana.
+
+### Blockchain Concepts
+
+[https://www.youtube.com/watch?v=s8Wbt0b8bwY&list=PLBHHzL31sSu2HMtlLCIbQg7YY8ElKDenI](https://www.youtube.com/watch?v=s8Wbt0b8bwY&list=PLBHHzL31sSu2HMtlLCIbQg7YY8ElKDenI)
+
+Playlist de teoria fundacional de blockchain. Cobre mecanismos de consenso, primitivas criptograficas, modelos de transacao e conceitos de sistemas distribuidos. Assista se voce e totalmente novo em blockchain e quer entender os principios subjacentes antes de mergulhar em conteudo especifico de Solana.
+
+### Solana Concepts
+
+[https://www.youtube.com/watch?v=pRYs49MqapI&list=PLilwLeBwGuK51Ji870apdb88dnBr1Xqhm](https://www.youtube.com/watch?v=pRYs49MqapI&list=PLilwLeBwGuK51Ji870apdb88dnBr1Xqhm)
+
+Explicacoes concisas focadas especificamente em conceitos Solana -- contas, rent, programas, PDAs, CPIs e o runtime. Cada video e curto e focado em um unico topico, tornando esta uma boa playlist de referencia para revisitar quando precisar relembrar um conceito especifico.
+
+### Solana Bootcamp 2023
+
+[https://www.youtube.com/watch?v=0P8JeL3TURU&list=PLilwLeBwGuK6NsYMPP_BlVkeQgff0NwvU](https://www.youtube.com/watch?v=0P8JeL3TURU&list=PLilwLeBwGuK6NsYMPP_BlVkeQgff0NwvU)
+
+Um bootcamp completo gravado que equilibra teoria com sessoes praticas de codigo. Esta playlist percorre todo o ciclo de desenvolvimento -- desde entender o modelo de contas ate implantar programas em producao. Bom para desenvolvedores que querem um curso em video abrangente e estruturado em vez de tutoriais fragmentados.
+
+### Solana Bootcamp 2024
+
+[https://www.youtube.com/watch?v=amAq-WHAFs8](https://www.youtube.com/watch?v=amAq-WHAFs8)
+
+O bootcamp atualizado com uma abordagem mais baseada em projetos. Cobre ferramentas e padroes mais recentes que surgiram em 2024, incluindo extensoes Token-2022 e fluxos de desenvolvimento modernos. Assista apos o bootcamp de 2023 se quiser ver as melhores praticas mais atuais.
+
+### Solandy
+
+[https://www.youtube.com/solandy](https://www.youtube.com/solandy)
+
+Conteudo semanal focado em desenvolvedores cobrindo novas funcionalidades Solana, tutoriais e atualizacoes do ecossistema. O Solandy produz consistentemente conteudo tecnico de alta qualidade e e um dos canais mais confiaveis para se manter atualizado com as tendencias de desenvolvimento Solana. Bom para desenvolvedores que ja tem o basico e querem continuar aprendendo.
+
+### Solana Bytes
+
+[https://www.youtube.com/watch?v=vrO6cjdPUOs&list=PLzUrW5H8-hDfyd0xu7gc8ZMmzBg8k_dz2](https://www.youtube.com/watch?v=vrO6cjdPUOs&list=PLzUrW5H8-hDfyd0xu7gc8ZMmzBg8k_dz2)
+
+Explicacoes curtas de conceitos -- cada video cobre um topico especifico em menos de 10 minutos. Perfeito para preencher lacunas de conhecimento ou entender rapidamente um novo conceito antes de mergulhar na documentacao. O formato respeita seu tempo enquanto permanece tecnicamente substancial.
