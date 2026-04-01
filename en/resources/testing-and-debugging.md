@@ -82,6 +82,18 @@ Solana security research and audit firm known for deep technical analysis. Neody
 
 ---
 
+## Verifiable Builds
+
+### solana-verify
+
+[https://github.com/Ellipsis-Labs/solana-verifiable-build](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+
+A tool for producing and verifying deterministic program builds. Verifiable builds ensure that the deployed on-chain bytecode matches a specific source code commit. This is critical for trust -- users and auditors can confirm that what is running on-chain is exactly what was audited. The tool uses Docker to create reproducible build environments, and the Solana Explorer can display verification status for programs that have been verified.
+
+Use `solana-verify` before any mainnet deployment. The command `solana-verify build` produces a deterministic binary, and `solana-verify get-program-hash` compares it against the deployed program. Anchor also supports verifiable builds via `anchor build --verifiable`.
+
+---
+
 ## Block Explorers
 
 When something goes wrong (or right) on-chain, explorers help you understand what happened.

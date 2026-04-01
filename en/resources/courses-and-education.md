@@ -109,3 +109,43 @@ Weekly developer-focused content covering new Solana features, tutorials, and ec
 [https://www.youtube.com/watch?v=vrO6cjdPUOs&list=PLzUrW5H8-hDfyd0xu7gc8ZMmzBg8k_dz2](https://www.youtube.com/watch?v=vrO6cjdPUOs&list=PLzUrW5H8-hDfyd0xu7gc8ZMmzBg8k_dz2)
 
 Short-form concept explainers -- each video covers one specific topic in under 10 minutes. Perfect for filling knowledge gaps or quickly understanding a new concept before diving into the documentation. The format respects your time while still being technically substantive.
+
+---
+
+## Structured University & Institutional Programs
+
+These programs are backed by academic institutions or professional organizations and offer more rigorous curricula with formal credentials.
+
+### School of Solana (Ackee Blockchain Security)
+
+[https://ackee.xyz/school-of-solana](https://ackee.xyz/school-of-solana)
+
+A free, cohort-based program run by Ackee Blockchain Security -- the same team behind the Trident fuzz testing framework and dozens of production protocol audits. The curriculum spans 5 weeks and covers Solana fundamentals, Anchor program development, security patterns, and testing. Students build a capstone project and receive a certificate upon completion. What distinguishes School of Solana from other cohort programs is the security-first perspective -- you learn to build correctly from the start rather than bolting on security after the fact. Multiple cohorts have been run since 2023, and alumni have gone on to work at ecosystem projects.
+
+### Helius Developer Learning Resources
+
+[https://www.helius.dev/blog](https://www.helius.dev/blog)
+
+Helius maintains one of the highest-quality developer blogs in the Solana ecosystem. Their technical articles cover topics that are rarely explained well elsewhere -- the Solana fee market, priority fees, transaction landing strategies, RPC optimization, DAS API patterns, and Geyser/Yellowstone streaming. While not a structured course, these articles function as graduate-level technical references that fill gaps left by official documentation. Bookmark and read as needed when building production infrastructure.
+
+### Blueshift Learning Platform
+
+[https://blueshift.gg/](https://blueshift.gg/)
+
+A gamified learning platform for blockchain development that includes Solana-specific content. Blueshift uses a challenge-based approach where you solve increasingly difficult programming puzzles. Each challenge teaches a specific concept -- account creation, PDA derivation, CPI execution -- in a hands-on format. Good for developers who are motivated by achievement systems and prefer learning through problem-solving rather than passive reading.
+
+---
+
+## Portuguese-Language Content
+
+Resources specifically created for Portuguese-speaking developers in the Brazilian Solana ecosystem.
+
+### Superteam Brazil Technical Bootcamps
+
+Presencial and online bootcamp sessions organized by Superteam Brazil's DevRel team. These have been held at universities (UFSC in Florianopolis, Inteli in Sao Paulo) and online, covering Solana fundamentals through to advanced program development. The bootcamps are structured as intensive multi-hour sessions with hands-on coding exercises. Check the [Superteam Brazil events page](https://lu.ma/superteambrasil) for upcoming sessions.
+
+### Superteam Brazil YouTube
+
+[https://www.youtube.com/@SuperteamBR](https://www.youtube.com/@SuperteamBR)
+
+Portuguese-language video content including recorded bootcamps, ecosystem updates, and developer tutorials. The Ideathon Road to Colosseum event (March 2026) was live-streamed here with 349+ viewers, making it one of the most-watched Portuguese Solana developer events. Subscribe for notifications of live events and new content.

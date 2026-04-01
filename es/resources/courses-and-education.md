@@ -109,3 +109,43 @@ Contenido semanal enfocado en desarrolladores que cubre nuevas funcionalidades d
 [https://www.youtube.com/watch?v=vrO6cjdPUOs&list=PLzUrW5H8-hDfyd0xu7gc8ZMmzBg8k_dz2](https://www.youtube.com/watch?v=vrO6cjdPUOs&list=PLzUrW5H8-hDfyd0xu7gc8ZMmzBg8k_dz2)
 
 Explicaciones de conceptos en formato corto — cada video cubre un tema específico en menos de 10 minutos. Perfecto para llenar vacíos de conocimiento o entender rápidamente un nuevo concepto antes de sumergirte en la documentación. El formato respeta tu tiempo mientras sigue siendo técnicamente sustancial.
+
+---
+
+## Programas Universitarios e Institucionales Estructurados
+
+Estos programas están respaldados por instituciones académicas u organizaciones profesionales y ofrecen currículos más rigurosos con credenciales formales.
+
+### School of Solana (Ackee Blockchain Security)
+
+[https://ackee.xyz/school-of-solana](https://ackee.xyz/school-of-solana)
+
+Un programa gratuito basado en cohortes dirigido por Ackee Blockchain Security — el mismo equipo detrás del framework de fuzz testing Trident y docenas de auditorías de protocolos en producción. El currículo abarca 5 semanas y cubre fundamentos de Solana, desarrollo de programas con Anchor, patrones de seguridad y testing. Los estudiantes construyen un proyecto final y reciben un certificado al completar. Lo que distingue a School of Solana de otros programas es la perspectiva security-first — aprendes a construir correctamente desde el inicio en lugar de agregar seguridad después. Se han realizado múltiples cohortes desde 2023, y los egresados han pasado a trabajar en proyectos del ecosistema.
+
+### Helius Developer Learning Resources
+
+[https://www.helius.dev/blog](https://www.helius.dev/blog)
+
+Helius mantiene uno de los blogs de desarrolladores de más alta calidad en el ecosistema Solana. Sus artículos técnicos cubren temas que rara vez se explican bien en otros lugares — el mercado de fees de Solana, priority fees, estrategias de landing de transacciones, optimización de RPC, patrones de la DAS API y streaming Geyser/Yellowstone. Aunque no es un curso estructurado, estos artículos funcionan como referencias técnicas de nivel avanzado que llenan vacíos dejados por la documentación oficial. Guárdalos en favoritos y léelos según sea necesario al construir infraestructura de producción.
+
+### Blueshift Learning Platform
+
+[https://blueshift.gg/](https://blueshift.gg/)
+
+Una plataforma de aprendizaje gamificada para desarrollo blockchain que incluye contenido específico de Solana. Blueshift usa un enfoque basado en desafíos donde resuelves puzzles de programación progresivamente más difíciles. Cada desafío enseña un concepto específico — creación de cuentas, derivación de PDA, ejecución de CPI — en formato práctico. Bueno para desarrolladores motivados por sistemas de logros que prefieren aprender resolviendo problemas en lugar de lectura pasiva.
+
+---
+
+## Contenido en Portugués
+
+Recursos creados específicamente para desarrolladores de habla portuguesa en el ecosistema Solana brasileño.
+
+### Bootcamps Técnicos de Superteam Brazil
+
+Sesiones de bootcamp presenciales y en línea organizadas por el equipo de DevRel de Superteam Brazil. Se han realizado en universidades (UFSC en Florianópolis, Inteli en São Paulo) y en línea, cubriendo desde fundamentos de Solana hasta desarrollo avanzado de programas. Los bootcamps están estructurados como sesiones intensivas de varias horas con ejercicios prácticos de código. Consulta la [página de eventos de Superteam Brazil](https://lu.ma/superteambrasil) para próximas sesiones.
+
+### Superteam Brazil YouTube
+
+[https://www.youtube.com/@SuperteamBR](https://www.youtube.com/@SuperteamBR)
+
+Contenido en video en portugués incluyendo bootcamps grabados, actualizaciones del ecosistema y tutoriales para desarrolladores. El evento Ideathon Road to Colosseum (Marzo 2026) se transmitió en vivo aquí con 349+ espectadores, convirtiéndolo en uno de los eventos de desarrolladores Solana en portugués más vistos. Suscríbete para notificaciones de eventos en vivo y nuevo contenido.

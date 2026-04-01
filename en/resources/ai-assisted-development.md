@@ -155,3 +155,24 @@ For Solana development, MCP servers enable your AI assistant to:
 - **Automate testing** -- Open browsers, interact with dApps, and verify frontend behavior
 
 solana-claude bundles all the major Solana MCP servers into a single install with pre-configured API keys and connections. If you install solana-claude, you do not need to configure MCP servers individually -- they are all included and wired up automatically.
+
+---
+
+## AI-Powered Development Tools
+
+### Cursor + Solana
+
+[https://www.cursor.com/](https://www.cursor.com/)
+
+An AI-native code editor built on VS Code that supports MCP servers and custom system prompts. While solana-claude is designed for Claude Code (terminal-based), Cursor provides a GUI-based alternative with similar AI-assisted development capabilities. You can configure Cursor with Solana-specific context rules and MCP servers for a visual development experience. The combination of Cursor's inline AI features with Solana MCP servers is increasingly popular among frontend-focused Solana developers.
+
+### Solana AI Hub
+
+The growing ecosystem of AI tools specifically built for Solana developers. Key patterns emerging include:
+
+- **AI-generated program scaffolding** -- Tools that generate Anchor program boilerplate from natural language descriptions of your program's functionality
+- **Automated CU optimization** -- AI analysis of compute unit usage with specific refactoring suggestions
+- **Transaction debugging** -- AI-powered transaction analysis that explains what happened, why it failed, and how to fix it
+- **Security analysis** -- AI-assisted code review that checks for common Solana vulnerabilities (missing signer checks, PDA substitution, arithmetic overflow)
+
+These capabilities are available through solana-claude's agent teams and slash commands, but the patterns are being adopted across the broader AI tooling ecosystem as well.

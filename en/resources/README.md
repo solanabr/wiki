@@ -1,6 +1,6 @@
 # Resource Hub
 
-A curated collection of 160+ Solana development resources across 11 categories, maintained by Superteam Brazil's DevRel team. This is not a generic link dump — every resource here has been evaluated for quality, relevance, and maintenance status. Whether you are writing your first program or optimizing compute units on a production DeFi protocol, this hub provides the tools, education, and references you need.
+A curated collection of 175+ Solana development resources across 11 categories, maintained by Superteam Brazil's DevRel team. This is not a generic link dump — every resource here has been evaluated for quality, relevance, and maintenance status. Whether you are writing your first program or optimizing compute units on a production DeFi protocol, this hub provides the tools, education, and references you need.
 
 Superteam Brazil's own open-source projects are integrated throughout where they fit naturally — you will find them in DeFi, Token Standards, Gaming, AI, and Education sections.
 

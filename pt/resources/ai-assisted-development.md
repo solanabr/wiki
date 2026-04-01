@@ -155,3 +155,24 @@ Para desenvolvimento Solana, servidores MCP permitem que seu assistente de IA:
 - **Automatize testes** -- Abrir navegadores, interagir com dApps e verificar comportamento do frontend
 
 solana-claude agrupa todos os principais servidores MCP Solana em uma unica instalacao com chaves de API e conexoes pre-configuradas. Se voce instalar o solana-claude, nao precisa configurar servidores MCP individualmente -- todos estao incluidos e conectados automaticamente.
+
+---
+
+## Ferramentas de Desenvolvimento com IA
+
+### Cursor + Solana
+
+[https://www.cursor.com/](https://www.cursor.com/)
+
+Um editor de codigo nativo de IA construido sobre o VS Code que suporta servidores MCP e system prompts customizados. Enquanto o solana-claude e projetado para Claude Code (baseado em terminal), o Cursor fornece uma alternativa baseada em GUI com capacidades similares de desenvolvimento assistido por IA. Voce pode configurar o Cursor com regras de contexto especificas para Solana e servidores MCP para uma experiencia de desenvolvimento visual. A combinacao dos recursos de IA inline do Cursor com servidores MCP Solana e cada vez mais popular entre desenvolvedores Solana focados em frontend.
+
+### Solana AI Hub
+
+O ecossistema crescente de ferramentas de IA construidas especificamente para desenvolvedores Solana. Padroes-chave emergentes incluem:
+
+- **Scaffolding de programas gerado por IA** -- Ferramentas que geram boilerplate de programas Anchor a partir de descricoes em linguagem natural da funcionalidade do programa
+- **Otimizacao automatica de CU** -- Analise de IA do uso de compute units com sugestoes especificas de refatoracao
+- **Debugging de transacoes** -- Analise de transacoes com IA que explica o que aconteceu, por que falhou e como corrigir
+- **Analise de seguranca** -- Revisao de codigo assistida por IA que verifica vulnerabilidades comuns da Solana (verificacoes de signer ausentes, substituicao de PDA, overflow aritmetico)
+
+Essas capacidades estao disponiveis por meio dos agent teams e slash commands do solana-claude, mas os padroes estao sendo adotados no ecossistema mais amplo de ferramentas de IA tambem.

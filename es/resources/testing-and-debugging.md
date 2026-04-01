@@ -82,6 +82,18 @@ Firma de investigación de seguridad y auditoría de Solana conocida por su aná
 
 ---
 
+## Builds Verificables
+
+### solana-verify
+
+[https://github.com/Ellipsis-Labs/solana-verifiable-build](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+
+Una herramienta para producir y verificar builds determinísticos de programas. Los builds verificables garantizan que el bytecode desplegado on-chain corresponde a un commit específico del código fuente. Esto es crítico para la confianza — usuarios y auditores pueden confirmar que lo que está corriendo on-chain es exactamente lo que fue auditado. La herramienta usa Docker para crear entornos de build reproducibles, y el Solana Explorer puede mostrar el estado de verificación para programas verificados.
+
+Usa `solana-verify` antes de cualquier deploy en mainnet. El comando `solana-verify build` produce un binario determinístico, y `solana-verify get-program-hash` lo compara contra el programa desplegado. Anchor también soporta builds verificables vía `anchor build --verifiable`.
+
+---
+
 ## Exploradores de Bloques
 
 Cuando algo sale mal (o bien) on-chain, los exploradores te ayudan a entender qué pasó.

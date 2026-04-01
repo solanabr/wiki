@@ -38,6 +38,10 @@ This covers installing the Solana CLI, Anchor framework, and Rust toolchain on y
 
 If you want to skip local setup entirely or just experiment with an idea, Solana Playground gives you a full development environment in your browser. It includes a built-in wallet, Rust compiler, program deployer, and even a test framework. You can write, build, deploy, and test Anchor programs without installing anything. It is excellent for learning and prototyping, though you will eventually want a local setup for production work.
 
+### RPC Provider Setup
+
+For anything beyond local development, you need an RPC provider. The default public RPC endpoints are rate-limited and not suitable for production use. [Helius](https://www.helius.dev/) offers a generous free tier that is sufficient for learning and early development -- sign up, get an API key, and use it in your Solana CLI config and application code. Other providers like [Triton](https://triton.one/) and [Ironforge](https://www.ironforge.cloud/) also offer free tiers. Having a reliable RPC connection from the start prevents frustrating timeout errors and rate limit issues that can stall your learning.
+
 ---
 
 ## Step 3: Build Something

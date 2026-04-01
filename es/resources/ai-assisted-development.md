@@ -155,3 +155,24 @@ Para desarrollo en Solana, los servidores MCP permiten que tu asistente de IA:
 - **Automatice testing** -- Abrir navegadores, interactuar con dApps y verificar el comportamiento del frontend
 
 solana-claude agrupa todos los principales servidores MCP de Solana en una sola instalación con API keys y conexiones preconfiguradas. Si instalas solana-claude, no necesitas configurar servidores MCP individualmente — todos están incluidos y conectados automáticamente.
+
+---
+
+## Herramientas de Desarrollo con IA
+
+### Cursor + Solana
+
+[https://www.cursor.com/](https://www.cursor.com/)
+
+Un editor de código nativo de IA construido sobre VS Code que soporta servidores MCP y system prompts personalizados. Mientras solana-claude está diseñado para Claude Code (basado en terminal), Cursor proporciona una alternativa basada en GUI con capacidades similares de desarrollo asistido por IA. Puedes configurar Cursor con reglas de contexto específicas para Solana y servidores MCP para una experiencia de desarrollo visual. La combinación de las funciones de IA inline de Cursor con servidores MCP de Solana es cada vez más popular entre desarrolladores Solana enfocados en frontend.
+
+### Solana AI Hub
+
+El ecosistema creciente de herramientas de IA construidas específicamente para desarrolladores Solana. Patrones clave emergentes incluyen:
+
+- **Scaffolding de programas generado por IA** — Herramientas que generan boilerplate de programas Anchor a partir de descripciones en lenguaje natural de la funcionalidad del programa
+- **Optimización automatizada de CU** — Análisis de IA del uso de compute units con sugerencias específicas de refactorización
+- **Debugging de transacciones** — Análisis de transacciones con IA que explica qué pasó, por qué falló y cómo corregirlo
+- **Análisis de seguridad** — Revisión de código asistida por IA que verifica vulnerabilidades comunes de Solana (verificaciones de firmante faltantes, sustitución de PDA, desbordamiento aritmético)
+
+Estas capacidades están disponibles a través de los agent teams y slash commands de solana-claude, pero los patrones están siendo adoptados en el ecosistema más amplio de herramientas de IA también.

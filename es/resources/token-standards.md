@@ -117,3 +117,39 @@ Te encontrarás con Token Metadata al trabajar con colecciones existentes, marke
 [https://developers.metaplex.com/](https://developers.metaplex.com/)
 
 La documentación completa de la plataforma de desarrollo de Metaplex que cubre todos sus programas y herramientas — Core, Bubblegum, Token Metadata, Candy Machine (minting), Sugar (CLI), Umi (framework cliente) y más. Este es tu punto de partida para cualquier desarrollo de NFTs o activos digitales en Solana. La documentación incluye guías, referencias de API y ejemplos de código para cada producto.
+
+### MPL-Hybrid (MPL-404)
+
+[https://developers.metaplex.com/mpl-hybrid](https://developers.metaplex.com/mpl-hybrid)
+
+Un protocolo para activos híbridos NFT-token fungible que pueden alternar entre ser un NFT y un token fungible. MPL-404 habilita mecánicas de "re-rolling" donde los holders pueden intercambiar entre formas NFT y token, creando dinámicas únicas de trading y gamificación. El protocolo gestiona escrow, intercambio y gestión de metadata para ambos estados. Úsalo para activos de juegos que necesitan liquidez, coleccionables con pares de trading fungibles, o cualquier activo que se beneficie de representación dual.
+
+---
+
+## Funcionalidades Avanzadas de Token-2022
+
+### Confidential Balances
+
+Confidential Balances es una evolución de la extensión Confidential Transfers que aplica encriptación homomórfica a todos los balances de tokens, no solo a las transferencias. Con Confidential Balances habilitado, el balance on-chain en sí está encriptado — solo el propietario de la cuenta (o auditores designados) pueden desencriptar y ver el monto real. Esto proporciona garantías de privacidad más fuertes que Confidential Transfers solo y está siendo desarrollado para casos de uso como gestión de tesorería institucional, sistemas de nómina privados y productos financieros regulados donde la privacidad del balance es un requisito de cumplimiento.
+
+### Token-2022 CLI Tools
+
+[https://spl.solana.com/token-2022/extensions](https://spl.solana.com/token-2022/extensions)
+
+El CLI `spl-token` incluye soporte completo para crear y gestionar mints de Token-2022 con extensiones. Puedes crear mints con transfer hooks, fees, metadata y otras extensiones directamente desde la línea de comandos — útil para testing, prototipado y operaciones administrativas puntuales. La documentación del CLI proporciona ejemplos de comandos para cada tipo de extensión, haciéndolo la forma más rápida de experimentar con funcionalidades de Token-2022 antes de escribir código de programa.
+
+---
+
+## Herramientas del Ecosistema de Tokens
+
+### Solana Token List
+
+[https://github.com/solana-labs/token-list](https://github.com/solana-labs/token-list)
+
+El registro de tokens legacy que mapea direcciones de mint a metadata (nombre, símbolo, logo). Aunque este registro está ahora deprecado en favor de metadata on-chain (extensión de metadata de Token-2022 o Metaplex Token Metadata), sigue siendo relevante porque muchos tokens existentes aún dependen de él, y algunas herramientas y wallets más antiguas lo referencian. Entender la transición de registros off-chain a metadata on-chain es contexto importante para el desarrollo de tokens.
+
+### DAS API (Digital Asset Standard)
+
+[https://docs.helius.dev/compression-and-das-api/digital-asset-standard-das-api](https://docs.helius.dev/compression-and-das-api/digital-asset-standard-das-api)
+
+La DAS API proporciona una interfaz unificada para consultar todos los tipos de activos digitales en Solana — NFTs regulares, compressed NFTs, tokens fungibles y activos Token-2022. Soportada por proveedores de RPC como Helius, la DAS API abstrae las diferencias entre tipos de activos, permitiéndote consultar por propietario, colección, creador o atributos con una única API. Esencial para cualquier aplicación que necesite mostrar o gestionar activos de usuarios en todo el espectro de estándares de tokens de Solana.

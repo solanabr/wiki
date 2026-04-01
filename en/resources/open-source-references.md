@@ -83,3 +83,33 @@ Study these if you are building Actions/Blinks. The examples demonstrate the ful
 Example programs from the Anchor framework repository itself. These examples are maintained by the Anchor team and demonstrate idiomatic usage of Anchor features -- account constraints, PDAs, CPIs, error handling, events, and testing patterns. They are updated alongside Anchor releases, so they always reflect current best practices.
 
 Study these to understand how the Anchor team intends their framework to be used. The examples range from simple (basic counter) to complex (multi-instruction programs with CPIs), and each includes both the Rust program and TypeScript tests.
+
+### Squads Protocol v4
+
+[https://github.com/Squads-Protocol/v4](https://github.com/Squads-Protocol/v4)
+
+Production multisig and smart account infrastructure used by major Solana protocols and teams. Squads v4 implements a flexible multisig with configurable thresholds, time-locks, spending limits, and batch execution. The codebase is one of the best examples of production-grade Anchor code -- it demonstrates complex account validation patterns, multi-instruction transactions, and how to build infrastructure that other protocols compose with. Study this for multisig patterns, access control architecture, and how to structure a program that needs to be both secure and composable.
+
+### Pinocchio Examples
+
+[https://github.com/solana-developers/program-examples/tree/main/basics](https://github.com/solana-developers/program-examples/tree/main/basics)
+
+While the official program-examples repository primarily showcases Anchor and native Rust, it also includes Pinocchio implementations for comparison. These are invaluable for understanding the performance trade-offs between frameworks -- the same program implemented in Anchor vs Pinocchio, letting you see exactly where compute units are saved and what zero-copy access looks like in practice.
+
+### Clockwork (Legacy Reference)
+
+[https://github.com/clockwork-xyz/clockwork](https://github.com/clockwork-xyz/clockwork)
+
+An automation engine for Solana that enables scheduled and conditional program execution. While Clockwork itself has been sunset, the codebase remains an excellent study resource for advanced Solana patterns -- thread-based execution, crank mechanisms, cross-program automation, and how to build infrastructure-level programs that interact with the Solana runtime. Study this for understanding automation patterns and how to design programs that execute on schedule.
+
+### Helius SDK
+
+[https://github.com/helius-labs/helius-sdk](https://github.com/helius-labs/helius-sdk)
+
+The official TypeScript and Rust SDKs for the Helius API. Study this for examples of well-structured SDK design -- type-safe API wrappers, webhook management, DAS API integration, transaction parsing, and priority fee estimation. The SDK code demonstrates how to build ergonomic developer tools that abstract away API complexity while maintaining full type safety.
+
+### Metaplex Program Library
+
+[https://github.com/metaplex-foundation/mpl-core](https://github.com/metaplex-foundation/mpl-core)
+
+The source code for Metaplex Core (the next-generation NFT standard), MPL Token Metadata, Bubblegum (compressed NFTs), and Candy Machine. This is some of the most widely-used Solana program code in existence. Study this for understanding plugin architectures, how to handle complex account relationships, and how to build programs that the entire ecosystem depends on. The codebase also demonstrates Kinobi/Codama for automated client generation.
