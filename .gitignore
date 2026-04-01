@@ -1,3 +1,22 @@
 # External Claude skill submodules
 .claude/skills/ext/
 CLAUDE.local.md
+
+# Environment variables (may contain secrets)
+.env
+.env.*
+
+# Playwright MCP logs
+.playwright-mcp/
+
+# Node
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+target/
+dist/
+out/
