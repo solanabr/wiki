@@ -5,18 +5,71 @@ CLAUDE.local.md
 # Environment variables (may contain secrets)
 .env
 .env.*
+!.env.example
 
 # Playwright MCP logs
 .playwright-mcp/
 
 # Node
 node_modules/
+.npm
+.yarn/
+.pnp.*
 
-# OS
+# OS — macOS
 .DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# OS — Windows
 Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# OS — Linux
+*~
+.directory
+.Trash-*
 
 # Build artifacts
 target/
 dist/
 out/
+build/
+
+# GitBook
+_book/
+.gitbook/
+
+# Documentation builds
+_site/
+.docusaurus/
+.vuepress/dist/
+.next/
+
+# Editor / IDE
+*.swp
+*.swo
+*.swn
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+logs/
+
+# Secrets / credentials (safety net)
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa*
