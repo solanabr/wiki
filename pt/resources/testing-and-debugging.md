@@ -80,6 +80,23 @@ Para desenvolvedores, a OtterSec publica relatorios de auditoria que servem como
 
 Firma de pesquisa de seguranca e auditoria para Solana conhecida por analise tecnica aprofundada. A Neodyme publica posts e writeups sobre padroes de vulnerabilidade especificos da Solana -- ataques de type cosplay, substituicao de PDA, verificacoes de signer ausentes e abuso de CPI. Sua pesquisa e leitura obrigatoria para qualquer pessoa implantando programas que lidam com fundos de usuarios.
 
+Recursos principais:
+- [Common Pitfalls](https://neodyme.io/en/blog/solana_common_pitfalls/) -- as 5 classes de vulnerabilidade mais comuns encontradas em auditorias reais
+- [Exploring Solana Core Part 1](https://neodyme.io/en/blog/solana_core_1/) -- como um recurso pouco conhecido da Solana tornou vaults de programas inseguros
+- [Security Workshop](https://workshop.neodyme.io/) -- exercicios praticos estilo CTF para encontrar e explorar vulnerabilidades Solana
+
+### Sealevel Attacks
+
+[https://github.com/coral-xyz/sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks)
+
+Dez programas Anchor numerados do time do Anchor (Coral XYZ), cada um demonstrando uma vulnerabilidade especifica com uma versao insegura e segura. Cobre: autorizacao de signer, correspondencia de dados de contas, verificacoes de owner, type cosplay, inicializacao, CPI arbitrario, contas mutaveis duplicadas, canonicalizacao de bump seed, compartilhamento de PDA e fechamento de contas. A forma mais eficiente de aprender o que auditar nos seus proprios programas.
+
+### Referencia de Exploits de Seguranca do Anchor
+
+[https://www.anchor-lang.com/docs/references/security-exploits](https://www.anchor-lang.com/docs/references/security-exploits)
+
+A documentacao oficial do Anchor tem uma secao dedicada espelhando o repo Sealevel Attacks, com explicacoes de como cada constraint do Anchor (`has_one`, `owner`, `signer`, etc.) previne classes de ataque especificas. Leia junto com o codigo do Sealevel Attacks para entender tanto a vulnerabilidade quanto a correcao idiomatica do Anchor.
+
 ---
 
 ## Builds Verificaveis

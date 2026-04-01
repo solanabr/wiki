@@ -122,11 +122,24 @@ Estos programas están respaldados por instituciones académicas u organizacione
 
 Un programa gratuito basado en cohortes dirigido por Ackee Blockchain Security — el mismo equipo detrás del framework de fuzz testing Trident y docenas de auditorías de protocolos en producción. El currículo abarca 5 semanas y cubre fundamentos de Solana, desarrollo de programas con Anchor, patrones de seguridad y testing. Los estudiantes construyen un proyecto final y reciben un certificado al completar. Lo que distingue a School of Solana de otros programas es la perspectiva security-first — aprendes a construir correctamente desde el inicio en lugar de agregar seguridad después. Se han realizado múltiples cohortes desde 2023, y los egresados han pasado a trabajar en proyectos del ecosistema.
 
-### Helius Developer Learning Resources
+### Helius Developer Deep Dives
 
 [https://www.helius.dev/blog](https://www.helius.dev/blog)
 
-Helius mantiene uno de los blogs de desarrolladores de más alta calidad en el ecosistema Solana. Sus artículos técnicos cubren temas que rara vez se explican bien en otros lugares — el mercado de fees de Solana, priority fees, estrategias de landing de transacciones, optimización de RPC, patrones de la DAS API y streaming Geyser/Yellowstone. Aunque no es un curso estructurado, estos artículos funcionan como referencias técnicas de nivel avanzado que llenan vacíos dejados por la documentación oficial. Guárdalos en favoritos y léelos según sea necesario al construir infraestructura de producción.
+Helius mantiene uno de los blogs de desarrolladores de más alta calidad en el ecosistema Solana. Sus artículos técnicos cubren temas que rara vez se explican bien en otros lugares. Aunque no es un curso estructurado, estos artículos funcionan como referencias técnicas de nivel avanzado que llenan vacíos dejados por la documentación oficial. Lectura esencial para infraestructura de producción:
+
+- [Solana Fees in Theory and Practice](https://www.helius.dev/blog/solana-fees-in-theory-and-practice) — la explicación pública más precisa sobre la mecánica de comisiones de Solana
+- [Priority Fees: Understanding Transaction Fee Mechanics](https://www.helius.dev/blog/priority-fees-understanding-solanas-transaction-fee-mechanics) — cómo configurar y estimar priority fees correctamente
+- [Solana Congestion: How to Best Send Transactions](https://www.helius.dev/blog/solana-congestion-how-to-best-send-solana-transactions) — estrategias de landing de transacciones durante congestión
+- [Solana Executive Overview](https://www.helius.dev/blog/solana-executive-overview) — la visión general más completa de la arquitectura de Solana en una sola página
+- [A Hitchhiker's Guide to Solana Program Security](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security) — patrones de seguridad y vulnerabilidades comunes
+- [All You Need to Know About Compression on Solana](https://www.helius.dev/blog/all-you-need-to-know-about-compression-on-solana) — deep dive sobre compresión de estado y cNFTs
+
+### Nick Frostbutter
+
+[https://nick.af](https://nick.af)
+
+Artículos escritos, tutoriales y newsletter de Nick Frostbutter, desarrollador en el equipo de Developer Relations de la Solana Foundation. El contenido cubre nuevas herramientas y patrones de Solana de alguien que contribuye a la documentación oficial — incluyendo deep dives sobre la biblioteca JavaScript `gill`, patrones web3.js 2.0 y generación de vanity addresses. También co-presenta el Solfate Podcast cubriendo builders del ecosistema Solana. YouTube: [@nickfrosty](https://www.youtube.com/@nickfrosty). Cobertura de primera mano de alta calidad que frecuentemente precede la documentación oficial.
 
 ### Blueshift Learning Platform
 

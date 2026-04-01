@@ -80,6 +80,23 @@ Para desarrolladores, OtterSec publica informes de auditoría que sirven como ex
 
 Firma de investigación de seguridad y auditoría de Solana conocida por su análisis técnico profundo. Neodyme publica blog posts y writeups sobre patrones de vulnerabilidad específicos de Solana — ataques de type cosplay, sustitución de PDA, falta de verificación de signers y abuso de CPI. Su investigación es lectura obligatoria para cualquiera que despliegue programas que manejen fondos de usuarios.
 
+Recursos clave:
+- [Common Pitfalls](https://neodyme.io/en/blog/solana_common_pitfalls/) — las 5 clases de vulnerabilidad más comunes encontradas en auditorías reales
+- [Exploring Solana Core Part 1](https://neodyme.io/en/blog/solana_core_1/) — cómo una función poco conocida de Solana hizo inseguros los vaults de programas
+- [Security Workshop](https://workshop.neodyme.io/) — ejercicios prácticos estilo CTF para encontrar y explotar vulnerabilidades de Solana
+
+### Sealevel Attacks
+
+[https://github.com/coral-xyz/sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks)
+
+Diez programas Anchor numerados del equipo de Anchor (Coral XYZ), cada uno demostrando una vulnerabilidad específica con una versión insegura y segura. Cubre: autorización de firmante, coincidencia de datos de cuentas, verificaciones de owner, type cosplay, inicialización, CPI arbitrario, cuentas mutables duplicadas, canonicalización de bump seed, compartición de PDA y cierre de cuentas. La forma más eficiente de aprender qué auditar en tus propios programas.
+
+### Referencia de Exploits de Seguridad de Anchor
+
+[https://www.anchor-lang.com/docs/references/security-exploits](https://www.anchor-lang.com/docs/references/security-exploits)
+
+La documentación oficial de Anchor tiene una sección dedicada que refleja el repo Sealevel Attacks, con explicaciones de cómo cada constraint de Anchor (`has_one`, `owner`, `signer`, etc.) previene clases de ataque específicas. Léelo junto con el código de Sealevel Attacks para entender tanto la vulnerabilidad como la corrección idiomática de Anchor.
+
 ---
 
 ## Builds Verificables

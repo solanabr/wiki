@@ -1,6 +1,6 @@
 # Hub de Recursos
 
-Uma colecao curada de mais de 175 recursos de desenvolvimento Solana em 11 categorias, mantida pelo time de DevRel da Superteam Brasil. Isto nao e uma lista generica de links -- cada recurso aqui foi avaliado por qualidade, relevancia e status de manutencao. Seja voce escrevendo seu primeiro programa ou otimizando compute units em um protocolo DeFi em producao, este hub oferece as ferramentas, educacao e referencias de que voce precisa.
+Uma colecao curada de mais de 200 recursos de desenvolvimento Solana em 11 categorias, mantida pelo time de DevRel da Superteam Brasil. Isto nao e uma lista generica de links -- cada recurso aqui foi avaliado por qualidade, relevancia e status de manutencao. Seja voce escrevendo seu primeiro programa ou otimizando compute units em um protocolo DeFi em producao, este hub oferece as ferramentas, educacao e referencias de que voce precisa.
 
 Os projetos open-source da propria Superteam Brasil estao integrados naturalmente nas categorias onde se encaixam -- voce os encontrara nas secoes de DeFi, Token Standards, Gaming, AI e Educacao.
 

@@ -30,11 +30,11 @@ Este estándar aborda una brecha real en el ecosistema. A medida que más stable
 
 ### Jupiter
 
-[https://station.jup.ag/docs](https://station.jup.ag/docs)
+[https://dev.jup.ag/docs/get-started](https://dev.jup.ag/docs/get-started)
 
 El agregador DEX líder en Solana y el punto de entrada predeterminado para swaps. Jupiter enruta operaciones a través de todos los DEXs principales de Solana para encontrar el mejor precio, dividiendo órdenes entre múltiples pools cuando es necesario. Más allá de swaps básicos, Jupiter proporciona órdenes límite, dollar-cost averaging (DCA) y trading perpetuo.
 
-Para desarrolladores, la API y SDK de Jupiter son la forma más fácil de agregar funcionalidad de swap a tu aplicación. En lugar de integrar protocolos DEX individuales, integras Jupiter una vez y obtienes acceso a todos ellos. Su API v6 está bien documentada y maneja rutas complejas incluyendo swaps multi-hop. Si tu aplicación necesita cualquier forma de intercambio de tokens, comienza con Jupiter.
+Para desarrolladores, la API y SDK de Jupiter son la forma más fácil de agregar funcionalidad de swap a tu aplicación. En lugar de integrar protocolos DEX individuales, integras Jupiter una vez y obtienes acceso a todos ellos. El portal de desarrolladores en `dev.jup.ag` es el hub canónico, reemplazando la documentación anterior de `station.jup.ag`. La Swap API maneja rutas complejas incluyendo swaps multi-hop, y la nueva Ultra API proporciona flujos de swap simplificados. Una versión auto-alojada de la swap API está disponible para casos de uso críticos en latencia como liquidaciones. SDK: `@jup-ag/api` en npm. GitHub: [jup-ag/jupiter-swap-api-client](https://github.com/jup-ag/jupiter-swap-api-client).
 
 ### Raydium
 
@@ -163,3 +163,63 @@ API de analíticas y datos de tokens para Solana. Birdeye proporciona feeds de p
 [https://defillama.com/docs/api](https://defillama.com/docs/api)
 
 Plataforma de analíticas DeFi open-source con datos completos de protocolos de Solana. DeFiLlama rastrea TVL, rendimientos, precios de tokens y métricas de protocolos en todos los protocolos DeFi de Solana. Su API es gratuita y proporciona datos históricos útiles para investigación, dashboards de analíticas y herramientas de comparación de rendimiento.
+
+---
+
+## Libros de Órdenes On-Chain
+
+### Phoenix DEX
+
+[https://github.com/Ellipsis-Labs/phoenix-v1](https://github.com/Ellipsis-Labs/phoenix-v1)
+
+Un libro de órdenes con límite central (CLOB) completamente on-chain construido por Ellipsis Labs. La innovación clave de Phoenix es su diseño sin crank — las operaciones se liquidan atómicamente dentro de la instrucción sin requerir una transacción de crank separada, eliminando la dependencia de keepers que afectaba a Serum. El programa es open source bajo Apache-2.0.
+
+Para desarrolladores, Phoenix proporciona un SDK limpio ([phoenix-sdk](https://github.com/Ellipsis-Labs/phoenix-sdk)) y CLI ([phoenix-cli](https://github.com/Ellipsis-Labs/phoenix-cli)) para creación de mercados, colocación/cancelación de órdenes límite, consultas del libro de órdenes y liquidación de operaciones. Estudia el codebase para normalización de tick-size/lot-size, lógica de matching de órdenes y el patrón de cuenta "trader state".
+
+### OpenBook v2
+
+[https://github.com/openbook-dex/openbook-v2](https://github.com/openbook-dex/openbook-v2)
+
+Una reescritura completa del libro de órdenes comunitario (no un fork de Serum), basada en el codebase de Mango v4. El monorepo contiene tanto el programa Solana como el cliente TypeScript (`@openbook-dex/openbook-v2`). Desarrollado como la respuesta descentralizada de la comunidad al colapso de Serum/FTX. Nota: algunos componentes están bajo licencia GPL detrás del feature flag `enable-gpl`.
+
+---
+
+## Infraestructura de Trading de NFTs
+
+### Tensor Trade
+
+[https://dev.tensor.trade/](https://dev.tensor.trade/)
+
+Acceso programático a la infraestructura líder de trading de NFTs en Solana. Tensor hizo open source sus cinco programas on-chain en Breakpoint 2024: marketplace (listados, órdenes límite, royalties), AMM (pools de curva de bonding), escrow (gestión de ofertas), fees (distribución del protocolo) y whitelist (verificación de colecciones). Todos los programas son permissionless — cualquier frontend puede acceder a la liquidez on-chain de Tensor, y los integradores ganan el 50% de las comisiones generadas.
+
+El enfoque por SDK es preferible a la API REST porque no requiere API key y no tiene límites de tasa. SDKs disponibles en TypeScript y Rust a través de la organización de GitHub [tensor-foundation](https://github.com/tensor-foundation). Cubre listado de NFTs, ofertas, compras, ofertas por colección y operaciones con NFTs comprimidos.
+
+---
+
+## Automatización y Programación
+
+### TukTuk
+
+[https://www.tuktuk.fun/docs](https://www.tuktuk.fun/docs)
+
+Motor de automatización on-chain permissionless construido por Noah Prince (Head of Protocol Engineering en Helium) — el sucesor directo de Clockwork, que cerró en 2023. TukTuk usa PDAs y bitmaps para programación de tareas: creas una cola de tareas, la fondeas con SOL, y cualquier operador de crank permissionless puede ejecutar tus tareas por un pago por crank. Soporta horarios basados en tiempo, triggers por eventos on-chain y tareas recursivas tipo cron.
+
+SDKs en TypeScript y Rust. GitHub: [helium/tuktuk](https://github.com/helium/tuktuk). Esencial para cualquier protocolo que requiera ejecución programada — liquidaciones, desbloqueos de vesting, actualizaciones de TWAP, transiciones de estado de juegos o cosecha automatizada de rendimiento.
+
+---
+
+## Estimación de Priority Fees
+
+Entender y configurar los priority fees correctamente es crítico para el aterrizaje de transacciones en Solana. Desde SIMD-0096, el 100% de los priority fees van al validador productor de bloques (anteriormente el 50% se quemaba), creando un incentivo más fuerte para que los validadores incluyan transacciones con fees altos.
+
+### API de Priority Fees de Helius
+
+[https://www.helius.dev/docs/priority-fee-api](https://www.helius.dev/docs/priority-fee-api)
+
+El servicio recomendado de estimación de priority fees. Devuelve 6 niveles de prioridad (Min, Low, Medium, High, VeryHigh, UnsafeMax) basados en datos recientes de fees para tus account keys específicas. Más preciso que el método RPC nativo porque considera las cuentas específicas que tu transacción toca, no solo promedios globales.
+
+### Guía de Priority Fees de Solana
+
+[https://solana.com/developers/guides/advanced/how-to-use-priority-fees](https://solana.com/developers/guides/advanced/how-to-use-priority-fees)
+
+La guía oficial que cubre el Compute Budget Program, cómo configurar priority fees vía `ComputeBudgetProgram.setComputeUnitPrice()`, y cómo estimar la cantidad correcta usando `getRecentPrioritizationFees`. También cubre la configuración de límites de unidades de cómputo basados en resultados de simulación — siempre establece un límite ajustado (uso real + 10-20% de buffer) para evitar pagar de más.

@@ -76,13 +76,21 @@ Use Luzid when you want a more visual development experience than the CLI provid
 
 ## Transaction Infrastructure
 
-### Jito
+### Jito Block Engine
 
-[https://docs.jito.network/](https://docs.jito.network/)
+[https://docs.jito.wtf/](https://docs.jito.wtf/)
 
-MEV infrastructure for Solana including bundle submission, block engine access, and tip routing. Jito's bundle endpoint lets you submit multiple transactions that execute atomically -- either all succeed or all fail. This is essential for arbitrage, liquidations, and any operation where partial execution is dangerous. The tip mechanism lets you prioritize your bundles by paying validators directly.
+MEV infrastructure for Solana including bundle submission, block engine access, and tip routing. Jito's bundle endpoint lets you submit up to 5 transactions that execute atomically and sequentially within the same block -- either all succeed or all fail. This is essential for arbitrage, liquidations, and any operation where partial execution is dangerous. Key API methods: `sendBundle`, `getBundleStatuses`, `getTipAccounts`. Minimum tip is 1,000 lamports. Language-specific clients available for TypeScript, Python, Rust, and Go.
 
-For application developers, Jito matters primarily for transaction landing -- using Jito tips alongside priority fees gives your transactions the best chance of inclusion during congested periods. Most serious Solana applications use Jito for critical transactions.
+For application developers, Jito matters primarily for transaction landing -- using Jito tips alongside priority fees gives your transactions the best chance of inclusion during congested periods. The low-latency transaction send endpoint ([docs.jito.wtf/lowlatencytxnsend](https://docs.jito.wtf/lowlatencytxnsend/)) also supports individual transactions with SWQoS (Stake-Weighted Quality of Service) benefits.
+
+### Helius LaserStream
+
+[https://www.helius.dev/docs/laserstream](https://www.helius.dev/docs/laserstream)
+
+High-performance managed data streaming for Solana via gRPC. LaserStream delivers blocks, transactions, account updates, and slots in real-time. It is built on top of a Yellowstone-compatible interface but adds features raw Yellowstone cannot provide: historical replay (up to 24 hours of missed slots on reconnect), auto-reconnect with slot tracking, multi-node failover across 9 regions, and 1.3 GB/s throughput (vs ~30 MB/s for standard JS Yellowstone clients). Supports up to 250,000 addresses per connection.
+
+SDKs ship in TypeScript, Rust, and Go. The interface is drop-in compatible with existing Yellowstone gRPC code -- only the endpoint URL and auth token change. Professional plan ($999/mo) required for mainnet. GitHub: [helius-labs/laserstream-sdk](https://github.com/helius-labs/laserstream-sdk).
 
 ### Light Protocol
 
@@ -123,3 +131,40 @@ The SDK for creating, testing, and deploying Actions and Blinks. Dialect provide
 A payment protocol built on Solana for merchants and applications. Solana Pay provides a JavaScript/TypeScript SDK for creating payment requests, generating QR codes, and verifying transaction completion. It supports both simple SOL transfers and complex SPL token payments, with built-in support for point-of-sale flows, e-commerce integration, and payment verification.
 
 The protocol is designed for real-world commerce -- sub-second finality and near-zero fees make it practical for everyday payments. The SDK handles the complexities of payment reference tracking, so you can verify that a specific payment was made without scanning every transaction on-chain.
+
+---
+
+## Security Infrastructure
+
+### solana-security-txt
+
+[https://github.com/neodyme-labs/solana-security-txt](https://github.com/neodyme-labs/solana-security-txt)
+
+A Rust macro that embeds structured security contact information into your Solana program binary, creating a `.security.txt` ELF section. This allows security researchers to find contact info directly from an on-chain program address -- essential for responsible disclosure. Supports Telegram, Discord, email, and other contact types. Implementation is a single macro call. Created by Neodyme, the Solana security research firm. Add this to every program you deploy to mainnet.
+
+---
+
+## Advanced CLI & Program Management
+
+### Program Upgrade Authority
+
+[https://solana.com/docs/core/programs/program-deployment](https://solana.com/docs/core/programs/program-deployment)
+
+Understanding program upgrade authority is critical for production deployments. Key commands:
+- `solana program show <PROGRAM_ID>` -- inspect upgrade authority and program metadata
+- `solana program set-upgrade-authority <PROGRAM_ID> --new-upgrade-authority <PUBKEY>` -- transfer to a multisig (Squads PDA)
+- `solana program set-upgrade-authority <PROGRAM_ID> --final` -- make program immutable (irreversible)
+
+Production best practice: transfer upgrade authority to a Squads multisig before mainnet launch. For fully trustless deployments, set `--final` to make the program immutable.
+
+### Versioned Transactions & Address Lookup Tables
+
+[https://solana.com/docs/core/transactions/versioned-transactions](https://solana.com/docs/core/transactions/versioned-transactions)
+
+Legacy transactions are capped at ~35 accounts. Address Lookup Tables (ALTs) store up to 256 public keys in an on-chain account, letting transactions reference them with 1-byte indices instead of 32-byte keys. V0 transactions are required to use ALTs and are essential for complex DeFi interactions (Jupiter swaps, multi-pool routes, bundle transactions). Guide: [solana.com/developers/guides/advanced/lookup-tables](https://solana.com/developers/guides/advanced/lookup-tables).
+
+### Durable Nonces
+
+[https://docs.solanalabs.com/cli/examples/durable-nonce](https://docs.solanalabs.com/cli/examples/durable-nonce)
+
+Standard Solana transactions expire after ~60 seconds if not included in a block. Durable nonces replace the recent blockhash with a stored nonce value that does not expire, enabling offline signing workflows, multi-party signing across time zones, and scheduled transaction submission. Essential for any application where transactions cannot be signed and submitted within the same session.

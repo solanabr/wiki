@@ -80,6 +80,23 @@ For developers, OtterSec publishes audit reports that serve as excellent case st
 
 Solana security research and audit firm known for deep technical analysis. Neodyme publishes blog posts and writeups on Solana-specific vulnerability patterns -- type cosplay attacks, PDA substitution, missing signer checks, and CPI abuse. Their research is required reading for anyone deploying programs that handle user funds.
 
+Key resources:
+- [Common Pitfalls](https://neodyme.io/en/blog/solana_common_pitfalls/) -- the 5 most common vulnerability classes found across real audits
+- [Exploring Solana Core Part 1](https://neodyme.io/en/blog/solana_core_1/) -- how a little-known Solana feature made program vaults unsafe
+- [Security Workshop](https://workshop.neodyme.io/) -- hands-on CTF-style exercises for finding and exploiting Solana vulnerabilities
+
+### Sealevel Attacks
+
+[https://github.com/coral-xyz/sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks)
+
+Ten numbered Anchor programs from the Anchor team (Coral XYZ), each demonstrating a specific vulnerability with an insecure and secure version. Covers: signer authorization, account data matching, owner checks, type cosplay, initialization, arbitrary CPI, duplicate mutable accounts, bump seed canonicalization, PDA sharing, and closing accounts. The most efficient way to learn what to audit for in your own programs.
+
+### Anchor Security Exploits Reference
+
+[https://www.anchor-lang.com/docs/references/security-exploits](https://www.anchor-lang.com/docs/references/security-exploits)
+
+The official Anchor docs have a dedicated section mirroring the Sealevel Attacks repo, with explanations of how each Anchor constraint (`has_one`, `owner`, `signer`, etc.) prevents specific attack classes. Read this alongside the Sealevel Attacks code to understand both the vulnerability and the Anchor-idiomatic fix.
+
 ---
 
 ## Verifiable Builds

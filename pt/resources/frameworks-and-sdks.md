@@ -96,13 +96,13 @@ Cliente Python para Solana. Fornece metodos RPC, construcao de transacoes e oper
 
 Um cliente Go para Solana mantido por gagliardetto. Fornece metodos RPC, construcao de transacoes, interacao com programas e subscricoes WebSocket. Ideal para infraestrutura baseada em Go -- indexadores, validadores, servicos de monitoramento e APIs backend.
 
-### Codama
+### Codama (anteriormente Kinobi)
 
 [https://github.com/codama-idl/codama](https://github.com/codama-idl/codama)
 
-Uma ferramenta de geracao de codigo que recebe um IDL (do Anchor ou de outras fontes) e gera clientes tipados em multiplas linguagens -- TypeScript, Rust, Python e mais. Codama e essencial quando seu programa precisa ser consumido por clientes em diferentes linguagens. Em vez de escrever manualmente serializacao e desserializacao em cada linguagem, voce define uma vez no IDL e gera tudo.
+A ferramenta padrao de geracao de codigo para clientes de programas Solana, renomeada de Kinobi e movida de `metaplex-foundation/kinobi` para `codama-idl/codama`. Codama recebe o IDL de um programa (formato Codama IDL, um superset do Anchor IDL) e gera clientes tipados em JavaScript (compativel com @solana/kit ou Umi), Rust, Go, Dart e Python. Visitors permitem customizacao pos-geracao dos formatos de instrucoes e contas.
 
-Use Codama quando esta construindo um protocolo que outros desenvolvedores vao integrar, ou quando precisa de clientes em linguagens alem de TypeScript.
+Codama e a forma padrao de gerar clientes type-safe para programas usando @solana/kit (web3.js 2.0). Sem ele, voce escreve builders de instrucoes crus manualmente. A Solana Foundation documenta oficialmente em [solana.com/docs/programs/codama/clients](https://solana.com/docs/programs/codama/clients). Use Codama quando esta construindo um protocolo que outros desenvolvedores vao integrar, quando precisa de clientes em multiplas linguagens, ou quando esta mirando @solana/kit.
 
 ### TipLink
 

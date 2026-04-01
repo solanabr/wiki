@@ -30,11 +30,11 @@ This standard addresses a real gap in the ecosystem. As more stablecoins launch 
 
 ### Jupiter
 
-[https://station.jup.ag/docs](https://station.jup.ag/docs)
+[https://dev.jup.ag/docs/get-started](https://dev.jup.ag/docs/get-started)
 
 The leading DEX aggregator on Solana and the default entry point for swaps. Jupiter routes trades across all major Solana DEXs to find the best price, splitting orders across multiple pools when necessary. Beyond basic swaps, Jupiter provides limit orders, dollar-cost averaging (DCA), and perpetual trading.
 
-For developers, Jupiter's API and SDK are the easiest way to add swap functionality to your application. Rather than integrating individual DEX protocols, you integrate Jupiter once and get access to all of them. Their v6 API is well-documented and handles complex routes including multi-hop swaps. If your application needs any form of token swapping, start with Jupiter.
+For developers, Jupiter's API and SDK are the easiest way to add swap functionality to your application. Rather than integrating individual DEX protocols, you integrate Jupiter once and get access to all of them. The developer portal at `dev.jup.ag` is the canonical hub, superseding the older `station.jup.ag` docs. The Swap API handles complex routes including multi-hop swaps, and the newer Ultra API provides simplified swap flows. A self-hosted version of the swap API is available for latency-critical use cases like liquidations. SDK: `@jup-ag/api` on npm. GitHub: [jup-ag/jupiter-swap-api-client](https://github.com/jup-ag/jupiter-swap-api-client).
 
 ### Raydium
 
@@ -163,3 +163,63 @@ Token analytics and data API for Solana. Birdeye provides real-time price feeds,
 [https://defillama.com/docs/api](https://defillama.com/docs/api)
 
 Open-source DeFi analytics platform with comprehensive Solana protocol data. DeFiLlama tracks TVL, yields, token prices, and protocol metrics across all Solana DeFi protocols. Their API is free to use and provides historical data useful for research, analytics dashboards, and yield comparison tools.
+
+---
+
+## On-Chain Order Books
+
+### Phoenix DEX
+
+[https://github.com/Ellipsis-Labs/phoenix-v1](https://github.com/Ellipsis-Labs/phoenix-v1)
+
+A fully on-chain central limit order book (CLOB) built by Ellipsis Labs. Phoenix's key innovation is its crankless design -- trades settle atomically within the instruction without requiring a separate crank transaction, eliminating the keeper dependency that plagued Serum. The program is open source under Apache-2.0.
+
+For developers, Phoenix provides a clean SDK ([phoenix-sdk](https://github.com/Ellipsis-Labs/phoenix-sdk)) and CLI ([phoenix-cli](https://github.com/Ellipsis-Labs/phoenix-cli)) for market creation, limit order placement/cancellation, order book queries, and trade settlement. Study the codebase for tick-size/lot-size normalization, order matching logic, and the "trader state" account pattern.
+
+### OpenBook v2
+
+[https://github.com/openbook-dex/openbook-v2](https://github.com/openbook-dex/openbook-v2)
+
+A full rewrite of the community order book (not a Serum fork), based on Mango v4's codebase. The monorepo contains both the Solana program and TypeScript client (`@openbook-dex/openbook-v2`). Developed as the community's decentralized response to the Serum/FTX collapse. Note: some components are GPL-licensed behind the `enable-gpl` feature flag.
+
+---
+
+## NFT Trading Infrastructure
+
+### Tensor Trade
+
+[https://dev.tensor.trade/](https://dev.tensor.trade/)
+
+Programmatic access to Solana's leading NFT trading infrastructure. Tensor open-sourced all five of its on-chain programs at Breakpoint 2024: marketplace (listings, limit orders, royalties), AMM (bonding curve pools), escrow (bid management), fees (protocol distribution), and whitelist (collection verification). All programs are permissionless -- any frontend can tap into Tensor's on-chain liquidity, and integrators earn 50% of generated fees.
+
+The SDK approach is preferred over the REST API because it requires no API key and has no rate limiting. SDKs available in TypeScript and Rust via the [tensor-foundation](https://github.com/tensor-foundation) GitHub org. Covers NFT listing, bidding, buying, collection bids, and compressed NFT operations.
+
+---
+
+## Automation & Scheduling
+
+### TukTuk
+
+[https://www.tuktuk.fun/docs](https://www.tuktuk.fun/docs)
+
+Permissionless on-chain automation engine built by Noah Prince (Head of Protocol Engineering at Helium) -- the direct successor to Clockwork, which shut down in 2023. TukTuk uses PDAs and bitmaps for task scheduling: you create a task queue, fund it with SOL, and any permissionless crank operator can execute your tasks for a per-crank payment. Supports time-based schedules, on-chain event triggers, and recursive cron-like tasks.
+
+SDKs in TypeScript and Rust. GitHub: [helium/tuktuk](https://github.com/helium/tuktuk). Essential for any protocol requiring scheduled execution -- liquidations, vesting unlocks, TWAP updates, game state transitions, or automated yield harvesting.
+
+---
+
+## Priority Fee Estimation
+
+Understanding and setting priority fees correctly is critical for transaction landing on Solana. Since SIMD-0096, 100% of priority fees go to the block-producing validator (previously 50% was burned), creating stronger incentive for validators to include high-fee transactions.
+
+### Helius Priority Fee API
+
+[https://www.helius.dev/docs/priority-fee-api](https://www.helius.dev/docs/priority-fee-api)
+
+The recommended priority fee estimation service. Returns 6 priority levels (Min, Low, Medium, High, VeryHigh, UnsafeMax) based on recent fee data for your specific account keys. More accurate than the native RPC method because it considers the specific accounts your transaction touches, not just global averages.
+
+### Solana Priority Fee Guide
+
+[https://solana.com/developers/guides/advanced/how-to-use-priority-fees](https://solana.com/developers/guides/advanced/how-to-use-priority-fees)
+
+The official guide covering the Compute Budget Program, how to set priority fees via `ComputeBudgetProgram.setComputeUnitPrice()`, and how to estimate the right amount using `getRecentPrioritizationFees`. Also covers setting compute unit limits based on simulation results -- always set a tight limit (actual usage + 10-20% buffer) to avoid overpaying.

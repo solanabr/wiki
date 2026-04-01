@@ -76,13 +76,21 @@ Use Luzid quando quiser uma experiencia de desenvolvimento mais visual do que o 
 
 ## Infraestrutura de Transacoes
 
-### Jito
+### Jito Block Engine
 
-[https://docs.jito.network/](https://docs.jito.network/)
+[https://docs.jito.wtf/](https://docs.jito.wtf/)
 
-Infraestrutura MEV para Solana incluindo submissao de bundles, acesso ao block engine e roteamento de tips. O endpoint de bundles do Jito permite submeter multiplas transacoes que executam atomicamente -- ou todas tem sucesso ou todas falham. Isso e essencial para arbitragem, liquidacoes e qualquer operacao onde execucao parcial e perigosa. O mecanismo de tips permite priorizar seus bundles pagando validadores diretamente.
+Infraestrutura MEV para Solana incluindo submissao de bundles, acesso ao block engine e roteamento de tips. O endpoint de bundles do Jito permite submeter ate 5 transacoes que executam atomicamente e sequencialmente dentro do mesmo bloco -- ou todas tem sucesso ou todas falham. Isso e essencial para arbitragem, liquidacoes e qualquer operacao onde execucao parcial e perigosa. Metodos de API principais: `sendBundle`, `getBundleStatuses`, `getTipAccounts`. Tip minimo de 1.000 lamports. Clientes disponiveis para TypeScript, Python, Rust e Go.
 
-Para desenvolvedores de aplicacoes, o Jito importa principalmente para o landing de transacoes -- usar tips do Jito junto com priority fees da a suas transacoes a melhor chance de inclusao durante periodos congestionados. A maioria das aplicacoes Solana serias usa Jito para transacoes criticas.
+Para desenvolvedores de aplicacoes, o Jito importa principalmente para o landing de transacoes -- usar tips do Jito junto com priority fees da a suas transacoes a melhor chance de inclusao durante periodos congestionados. O endpoint de envio de transacoes de baixa latencia ([docs.jito.wtf/lowlatencytxnsend](https://docs.jito.wtf/lowlatencytxnsend/)) tambem suporta transacoes individuais com beneficios de SWQoS (Stake-Weighted Quality of Service).
+
+### Helius LaserStream
+
+[https://www.helius.dev/docs/laserstream](https://www.helius.dev/docs/laserstream)
+
+Streaming de dados gerenciado de alta performance para Solana via gRPC. O LaserStream entrega blocos, transacoes, atualizacoes de contas e slots em tempo real. E construido sobre uma interface compativel com Yellowstone mas adiciona funcionalidades que o Yellowstone bruto nao pode fornecer: replay historico (ate 24 horas de slots perdidos ao reconectar), auto-reconexao com rastreamento de slots, failover multi-node em 9 regioes e throughput de 1.3 GB/s (vs ~30 MB/s para clientes JS Yellowstone padrao). Suporta ate 250.000 enderecos por conexao.
+
+SDKs em TypeScript, Rust e Go. A interface e compativel com codigo Yellowstone gRPC existente -- apenas a URL do endpoint e o token de autenticacao mudam. Plano Professional ($999/mes) necessario para mainnet. GitHub: [helius-labs/laserstream-sdk](https://github.com/helius-labs/laserstream-sdk).
 
 ### Light Protocol
 
@@ -123,3 +131,40 @@ O SDK para criar, testar e implantar Actions e Blinks. O Dialect fornece a camad
 Um protocolo de pagamento construido na Solana para comerciantes e aplicacoes. O Solana Pay fornece um SDK JavaScript/TypeScript para criar solicitacoes de pagamento, gerar QR codes e verificar a conclusao de transacoes. Suporta tanto transferencias simples de SOL quanto pagamentos complexos com tokens SPL, com suporte integrado para fluxos de ponto de venda, integracao com e-commerce e verificacao de pagamentos.
 
 O protocolo e projetado para comercio do mundo real -- finalidade em menos de um segundo e taxas proximas de zero o tornam pratico para pagamentos do dia a dia. O SDK lida com as complexidades do rastreamento de referencia de pagamento, entao voce pode verificar que um pagamento especifico foi feito sem escanear cada transacao on-chain.
+
+---
+
+## Infraestrutura de Seguranca
+
+### solana-security-txt
+
+[https://github.com/neodyme-labs/solana-security-txt](https://github.com/neodyme-labs/solana-security-txt)
+
+Uma macro Rust que incorpora informacoes de contato de seguranca estruturadas no binario do seu programa Solana, criando uma secao ELF `.security.txt`. Isso permite que pesquisadores de seguranca encontrem informacoes de contato diretamente a partir de um endereco de programa on-chain -- essencial para divulgacao responsavel. Suporta Telegram, Discord, email e outros tipos de contato. A implementacao e uma unica chamada de macro. Criado pela Neodyme, a firma de pesquisa de seguranca Solana. Adicione isso a todo programa que voce implantar em mainnet.
+
+---
+
+## CLI Avancado e Gestao de Programas
+
+### Autoridade de Upgrade de Programas
+
+[https://solana.com/docs/core/programs/program-deployment](https://solana.com/docs/core/programs/program-deployment)
+
+Entender a autoridade de upgrade de programas e critico para deploys em producao. Comandos principais:
+- `solana program show <PROGRAM_ID>` -- inspecionar autoridade de upgrade e metadados do programa
+- `solana program set-upgrade-authority <PROGRAM_ID> --new-upgrade-authority <PUBKEY>` -- transferir para um multisig (PDA do Squads)
+- `solana program set-upgrade-authority <PROGRAM_ID> --final` -- tornar o programa imutavel (irreversivel)
+
+Melhor pratica para producao: transfira a autoridade de upgrade para um multisig do Squads antes do lancamento em mainnet. Para deploys totalmente trustless, use `--final` para tornar o programa imutavel.
+
+### Versioned Transactions e Address Lookup Tables
+
+[https://solana.com/docs/core/transactions/versioned-transactions](https://solana.com/docs/core/transactions/versioned-transactions)
+
+Transacoes legadas sao limitadas a ~35 contas. Address Lookup Tables (ALTs) armazenam ate 256 chaves publicas em uma conta on-chain, permitindo que transacoes as referenciem com indices de 1 byte em vez de chaves de 32 bytes. Transacoes V0 sao necessarias para usar ALTs e sao essenciais para interacoes DeFi complexas (swaps Jupiter, rotas multi-pool, transacoes em bundle). Guia: [solana.com/developers/guides/advanced/lookup-tables](https://solana.com/developers/guides/advanced/lookup-tables).
+
+### Durable Nonces
+
+[https://docs.solanalabs.com/cli/examples/durable-nonce](https://docs.solanalabs.com/cli/examples/durable-nonce)
+
+Transacoes Solana padrao expiram apos ~60 segundos se nao forem incluidas em um bloco. Durable nonces substituem o blockhash recente por um valor de nonce armazenado que nao expira, habilitando fluxos de assinatura offline, assinatura multi-party em fusos horarios diferentes e submissao agendada de transacoes. Essencial para qualquer aplicacao onde transacoes nao podem ser assinadas e submetidas na mesma sessao.

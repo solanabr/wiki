@@ -113,3 +113,51 @@ Los SDKs oficiales en TypeScript y Rust para la API de Helius. Estúdialo para e
 [https://github.com/metaplex-foundation/mpl-core](https://github.com/metaplex-foundation/mpl-core)
 
 El código fuente de Metaplex Core (el estándar NFT de nueva generación), MPL Token Metadata, Bubblegum (compressed NFTs) y Candy Machine. Este es uno de los códigos de programa Solana más ampliamente usados en existencia. Estúdialo para entender arquitecturas de plugins, cómo manejar relaciones complejas entre cuentas y cómo construir programas de los que todo el ecosistema depende. El codebase también demuestra Kinobi/Codama para generación automatizada de clientes.
+
+---
+
+## Codebases DeFi en Producción
+
+Estos son protocolos open-source en producción donde estudiar el código enseña patrones que no puedes aprender de tutoriales.
+
+### Marinade Finance
+
+[https://github.com/marinade-finance/liquid-staking-program](https://github.com/marinade-finance/liquid-staking-program)
+
+El primer protocolo de liquid staking en la mainnet de Solana. Programa open-source basado en Anchor que demuestra: gestión de stake accounts y estrategias de delegación, mecánica de mint/burn de mSOL vinculada a tasa de cambio, pool LP de swap para unstake instantáneo (evitando el cooldown), y un patrón de wrapper de referidos para compartir comisiones con partners. El `/Docs/Backend-Design.md` en el repo vale la lectura para arquitectura del sistema. TypeScript SDK: [marinade-finance/marinade-ts-sdk](https://github.com/marinade-finance/marinade-ts-sdk).
+
+### Drift v2
+
+[https://github.com/drift-labs/protocol-v2](https://github.com/drift-labs/protocol-v2)
+
+La DEX de perpetuos open-source más grande en Solana. Drift combina tres mecanismos de liquidez — un vAMM, un libro de órdenes límite descentralizado (DLOB) operado por keeper bots, y un mecanismo de liquidez Just-In-Time (JIT). Este diseño multi-mecanismo es el principal valor de estudio arquitectural. Soporta 40+ mercados con hasta 101x de apalancamiento en perps. El monorepo incluye el programa Rust y SDK TypeScript. Implementación de referencia de keeper bot en [drift-labs/keeper-bots-v2](https://github.com/drift-labs/keeper-bots-v2).
+
+### Raydium CLMM
+
+[https://github.com/raydium-io/raydium-clmm](https://github.com/raydium-io/raydium-clmm)
+
+La implementación de liquidez concentrada de Raydium (AMM v3). Estúdialo para gestión de liquidez basada en ticks, ruteo de swaps a través de posiciones concentradas, configuración de tiers de comisiones y el patrón de position NFT donde cada posición LP se representa como un NFT. Licenciado bajo Apache-2.0, lo que lo hace limpio para hacer fork o adaptar.
+
+### Sealevel Attacks
+
+[https://github.com/coral-xyz/sealevel-attacks](https://github.com/coral-xyz/sealevel-attacks)
+
+Diez programas Anchor numerados, cada uno demostrando una vulnerabilidad específica de Solana con una versión insegura y una corrección segura. Mantenido por el equipo de Anchor (Coral XYZ). Cubre: autorización de firmante, coincidencia de datos de cuentas, verificaciones de owner, type cosplay, inicialización, CPI arbitrario, cuentas mutables duplicadas, canonicalización de bump seed, compartición de PDA y cierre de cuentas. Lectura esencial para cualquier desarrollador desplegando programas que manejan fondos de usuarios. Úsalo junto con el entrenamiento de seguridad de Ackee para comprensión integral de vulnerabilidades.
+
+---
+
+## Gobernanza y Estándares
+
+### Solana Improvement Documents (SIMDs)
+
+[https://github.com/solana-foundation/solana-improvement-documents](https://github.com/solana-foundation/solana-improvement-documents)
+
+El proceso formal de propuestas para cambios en el protocolo Solana. Los SIMDs definen nuevas funcionalidades, cambios de protocolo y estándares. Navegador de la comunidad en [simd.wtf](https://simd.wtf/). La discusión ocurre en los [Foros de Desarrolladores Solana categoría SIMD](https://forum.solana.com/c/simd/5).
+
+SIMDs críticos para desarrolladores incluyen: SIMD-0096 (100% de priority fees para validadores — ya activado, cambia el modelado de comisiones), SIMD-0083 (scheduling de transacciones mejorado), SIMD-0296 (transacciones más grandes — en progreso), SIMD-0286 (bloques de 100M CU — en progreso) y SIMD-0326 (consenso Alpenglow — propuesto). Entender los SIMDs activos te mantiene adelante de cambios de protocolo que afectan tus programas.
+
+### Solana Program Library (SPL)
+
+[https://spl.solana.com/](https://spl.solana.com/)
+
+La colección oficial de programas on-chain en producción. Más allá de Token y Token-2022, SPL incluye: Governance (votación/tesorería de DAO), Stake Pool (staking multi-validador — base para mSOL, jitoSOL), Name Service (dominios on-chain, base para .sol), Account Compression (árboles Merkle concurrentes para cNFTs), Memo (adjuntar strings UTF-8 a transacciones) y más. Nota: el monorepo original (`solana-labs/solana-program-library`) fue archivado en Marzo 2025 y dividido en repositorios individuales bajo la organización GitHub [solana-program](https://github.com/solana-program) mantenida por Anza.

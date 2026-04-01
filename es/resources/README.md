@@ -1,6 +1,6 @@
 # Centro de Recursos
 
-Una coleccion curada de mas de 175 recursos de desarrollo en Solana distribuidos en 11 categorias, mantenida por el equipo de DevRel de Superteam Brazil. Esto no es una lista genérica de enlaces — cada recurso ha sido evaluado por calidad, relevancia y estado de mantenimiento. Ya sea que estés escribiendo tu primer programa u optimizando unidades de cómputo en un protocolo DeFi en producción, este centro proporciona las herramientas, educación y referencias que necesitas.
+Una coleccion curada de mas de 200 recursos de desarrollo en Solana distribuidos en 11 categorias, mantenida por el equipo de DevRel de Superteam Brazil. Esto no es una lista genérica de enlaces — cada recurso ha sido evaluado por calidad, relevancia y estado de mantenimiento. Ya sea que estés escribiendo tu primer programa u optimizando unidades de cómputo en un protocolo DeFi en producción, este centro proporciona las herramientas, educación y referencias que necesitas.
 
 Los proyectos open-source propios de Superteam Brazil están integrados de forma natural donde corresponde — los encontrarás en las secciones de DeFi, Token Standards, Gaming, IA y Educación.
 
