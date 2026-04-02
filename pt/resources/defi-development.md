@@ -10,7 +10,7 @@ A Superteam Brasil esta ativamente construindo padroes abertos que tornam o DeFi
 
 ### Solana Vault Standard (sRFC 40)
 
-[https://github.com/SuperteamBrazil/solana-vault-standard](https://github.com/SuperteamBrazil/solana-vault-standard)
+[https://github.com/solanabr/solana-vault-standard](https://github.com/solanabr/solana-vault-standard)
 
 O equivalente do ERC-4626 para Solana -- uma interface de vault padronizada que define como vaults aceitam depositos, processam saques e reportam valores de shares. O padrao inclui 8 variantes de vault cobrindo vaults de emprestimo, vaults de staking, agregadores de yield e mais. Qualquer wallet, agregador ou protocolo que implemente o padrao pode interagir com qualquer vault compativel sem codigo de integracao customizado.
 
@@ -18,7 +18,7 @@ Isso importa porque a composabilidade DeFi depende de interfaces padronizadas. S
 
 ### Solana Stablecoin Standard
 
-[https://github.com/SuperteamBrazil/solana-stablecoin-standard](https://github.com/SuperteamBrazil/solana-stablecoin-standard)
+[https://github.com/solanabr/solana-stablecoin-standard](https://github.com/solanabr/solana-stablecoin-standard)
 
 Especificacoes SSS-1 e SSS-2 para emissao padronizada de stablecoins na Solana. SSS-1 cobre operacoes basicas de mint/burn com controle de acesso baseado em funcoes. SSS-2 adiciona recursos avancados -- hooks de compliance, blacklisting, oracles atualizaveis e gestao de reservas. Ambas as especificacoes sao nativas de Token-2022, aproveitando transfer hooks para aplicacao de compliance e confidential transfers para privacidade.
 

@@ -8,7 +8,7 @@ Projetos menores e de apoio mantidos pela Superteam Brasil.
 
 ## solana-glossary
 
-**GitHub**: [SuperteamBrazil/solana-glossary](https://github.com/SuperteamBrazil/solana-glossary)
+**GitHub**: [solanabr/solana-glossary](https://github.com/solanabr/solana-glossary)
 
 Um glossario completo de terminologia Solana. Cobre conceitos fundamentais (accounts, programs, PDAs), mecanismos de consenso (Tower BFT, Gulf Stream) e termos especificos do ecossistema (compressed NFTs, token extensions, priority fees).
 
@@ -18,7 +18,7 @@ Util para onboarding de novos desenvolvedores e como referencia para redatores d
 
 ## solana-skills
 
-**GitHub**: [SuperteamBrazil/solana-skills](https://github.com/SuperteamBrazil/solana-skills)
+**GitHub**: [solanabr/solana-skills](https://github.com/solanabr/solana-skills)
 
 Uma colecao de pacotes de skill do Claude Code para desenvolvimento Solana. Cada skill e voltada para um aspecto especifico do ecossistema -- desde desenvolvimento de programas ate integracao de frontend e workflows de deploy.
 
@@ -28,7 +28,7 @@ As skills sao modulares e podem ser compostas juntas ou usadas de forma independ
 
 ## solana-dev-skill
 
-**GitHub**: [SuperteamBrazil/solana-dev-skill](https://github.com/SuperteamBrazil/solana-dev-skill)
+**GitHub**: [solanabr/solana-dev-skill](https://github.com/solanabr/solana-dev-skill)
 
 A skill base do Claude Code para desenvolvimento Solana em geral. Fornece regras, comandos e configuracoes de agentes que servem de fundacao para o [solana-claude](solana-claude.md).
 

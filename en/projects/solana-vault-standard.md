@@ -1,6 +1,6 @@
 # Solana Vault Standard
 
-**GitHub**: [SuperteamBrazil/solana-vault-standard](https://github.com/SuperteamBrazil/solana-vault-standard)
+**GitHub**: [solanabr/solana-vault-standard](https://github.com/solanabr/solana-vault-standard)
 **Status**: sRFC submitted, active development
 **Maintained by**: @kauenet, @thomgabriel, @vcnzo_ct and others
 

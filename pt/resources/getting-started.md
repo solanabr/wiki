@@ -80,7 +80,7 @@ Depois de dominar os fundamentos, ferramentas de IA podem acelerar dramaticament
 
 ### solana-claude
 
-[https://github.com/SuperteamBrazil/solana-claude](https://github.com/SuperteamBrazil/solana-claude)
+[https://github.com/solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
 
 Esta e a ferramenta de maior alavancagem que voce pode adicionar ao seu fluxo de desenvolvimento Solana. Uma unica instalacao te da 15 agentes de IA especializados (architect, anchor-engineer, pinocchio-engineer, frontend-engineer, security auditor e mais), 24+ comandos slash para tarefas comuns (build, audit, deploy, scaffold, test) e 6 servidores MCP pre-configurados que dao ao seu assistente de IA acesso em tempo real a documentacao Solana, dados on-chain e referencias de bibliotecas. Ele transforma o Claude Code de um assistente de proposito geral em um parceiro de desenvolvimento Solana que entende o ecossistema profundamente. Veja a pagina de [Desenvolvimento Assistido por IA](ai-assisted-development.md) para a analise completa.
 

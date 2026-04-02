@@ -5,11 +5,11 @@ Todos os canais e plataformas verificados da Superteam Brazil.
 | Plataforma | Link | Descricao |
 |---|---|---|
 | Website | [superteam.com.br](https://superteam.com.br) | Site principal da Superteam Brazil |
-| GitHub | [github.com/Superteam-Brasil](https://github.com/Superteam-Brasil) | Repositorios e projetos open-source |
+| GitHub | [github.com/solanabr](https://github.com/solanabr) | Repositorios e projetos open-source |
 | Discord | [discord.gg/superteambrasil](https://discord.gg/superteambrasil) | Hub da comunidade para discussoes e coordenacao |
 | Twitter / X | [@SuperteamBR](https://x.com/SuperteamBR) | Noticias, atualizacoes e anuncios |
 | Superteam Earn | [superteam.fun/earn](https://superteam.fun/earn/s/superteambr) | Bounties, grants e listings |
-| Telegram | [t.me/superteambr](https://t.me/superteambr) | Chat da comunidade |
+| Telegram | [t.me/superteambrbot](https://t.me/superteambrbot) | Chat da comunidade |
 | Instagram | [@superteambr](https://instagram.com/superteambr) | Conteudo visual e destaques de eventos |
 | LinkedIn | [Superteam Brasil](https://www.linkedin.com/company/superteambrasil/) | Rede profissional e atualizacoes |
 | Eventos | [lu.ma/superteambrasil](https://lu.ma/superteambrasil) | Proximos eventos e meetups |

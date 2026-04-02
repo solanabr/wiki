@@ -16,7 +16,7 @@ The main coordination hub. This is where most substantive discussions happen -- 
 
 ### Telegram
 
-[https://t.me/superteambr](https://t.me/superteambr)
+[https://t.me/superteambrbot](https://t.me/superteambrbot)
 
 Community chat for quick conversations, ecosystem news, and informal discussions. Telegram is more casual than Discord -- good for staying in the loop on what is happening in the Brazilian Solana ecosystem without following every Discord channel.
 

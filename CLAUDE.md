@@ -98,7 +98,20 @@ If program change:
 
 ### Project Conventions
 
+- Trilingual editing: ALWAYS edit en/, es/, pt/ simultaneously
+- Brazilian Portuguese (use "voce"), Latin American Spanish
+- Keep technical terms in English where local dev communities use them (deploy, build, frontend, wallet, token)
+- Gitbook compliance: preserve frontmatter, keep SUMMARY.md in sync, use `{% content-ref %}` syntax
+- Content quality: no AI slop, every resource explains WHY not just WHAT, specific numbers and real context
+- Statistics: keep "By the Numbers" and project/resource counts current across all languages
+- Cross-reference consistency: grep all languages when updating URLs or attributions
+- Entry format: projects use GitHub link → Status → Maintainer → Overview (narrative) → Features → Tech Stack
+
 ### Recurring Patterns
+
+- When adding a new page: create in all 3 languages + add to all 3 SUMMARY.md files
+- When updating a URL: grep across all languages to catch every occurrence
+- When updating metrics: check en/, es/, pt/ README.md "By the Numbers" tables
 
 ## Monorepo Support
 <!-- Claude Code auto-walks up dir tree loading ancestor CLAUDE.md files,

@@ -10,7 +10,7 @@ Estos son proyectos open-source construidos y mantenidos por la comunidad de Sup
 
 ### solana-claude
 
-[https://github.com/SuperteamBrazil/solana-claude](https://github.com/SuperteamBrazil/solana-claude)
+[https://github.com/solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
 
 El entorno de desarrollo IA completo para Solana. Este repositorio contiene 15 agentes especializados, 24+ comandos slash, 6 integraciones de servidores MCP preconfiguradas, reglas específicas de lenguaje para Rust/Anchor/Pinocchio/TypeScript/C# y patrones de equipos de agentes para flujos de trabajo de desarrollo comunes. Es la configuración de Claude Code más completa para cualquier ecosistema blockchain.
 
@@ -18,7 +18,7 @@ Estúdialo para entender cómo estructurar herramientas de desarrollo IA — las
 
 ### solana-vault-standard
 
-[https://github.com/SuperteamBrazil/solana-vault-standard](https://github.com/SuperteamBrazil/solana-vault-standard)
+[https://github.com/solanabr/solana-vault-standard](https://github.com/solanabr/solana-vault-standard)
 
 El equivalente de ERC-4626 para Solana (sRFC 40). Este repositorio contiene la especificación e implementaciones de referencia para 8 variantes de vault que cubren préstamos, staking y estrategias de rendimiento. El código demuestra cómo diseñar primitivas DeFi componibles en Solana — interfaces estandarizadas, esquemas de PDA para estado de vault y patrones de CPI para interacciones con vaults.
 
@@ -26,7 +26,7 @@ Estúdialo para ejemplos de cómo diseñar estándares de protocolo, implementar
 
 ### solana-stablecoin-standard
 
-[https://github.com/SuperteamBrazil/solana-stablecoin-standard](https://github.com/SuperteamBrazil/solana-stablecoin-standard)
+[https://github.com/solanabr/solana-stablecoin-standard](https://github.com/solanabr/solana-stablecoin-standard)
 
 Especificaciones SSS-1 y SSS-2 para emisión estandarizada de stablecoins. El codebase demuestra uso avanzado de Token-2022 — transfer hooks para aplicación de cumplimiento, control de acceso basado en roles, integración de oráculos y gestión de listas negras. Este es uno de los mejores ejemplos de construcción de infraestructura financiera de grado producción en Solana con extensiones de Token-2022.
 
@@ -34,7 +34,7 @@ Estúdialo para patrones de implementación de transfer hooks en Token-2022, arq
 
 ### superteam-academy
 
-[https://github.com/SuperteamBrazil/superteam-academy](https://github.com/SuperteamBrazil/superteam-academy)
+[https://github.com/solanabr/superteam-academy](https://github.com/solanabr/superteam-academy)
 
 Un Sistema de Gestión de Aprendizaje on-chain que emite tokens de XP soulbound por finalización de módulos y certificados NFT por graduación de cursos. El codebase muestra cómo construir una plataforma educativa en Solana — emisión de credenciales, seguimiento de progreso y patrones de tokens no transferibles.
 
@@ -42,7 +42,7 @@ Estúdialo para ejemplos de implementación de tokens soulbound, sistemas de cre
 
 ### solana-game-skill
 
-[https://github.com/SuperteamBrazil/solana-game-skill](https://github.com/SuperteamBrazil/solana-game-skill)
+[https://github.com/solanabr/solana-game-skill](https://github.com/solanabr/solana-game-skill)
 
 Un paquete de skill para Claude Code para desarrollo de juegos en Unity y móvil con Solana. Contiene definiciones de agentes especializados, comandos específicos para juegos y reglas de C#/.NET para desarrollo de juegos en Solana. Estúdialo para entender cómo crear herramientas de IA específicas para contextos de desarrollo especializados. Mantenido por @kauenet.
 

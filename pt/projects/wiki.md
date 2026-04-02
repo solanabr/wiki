@@ -1,6 +1,6 @@
 # Wiki
 
-**GitHub**: [SuperteamBrazil/wiki](https://github.com/SuperteamBrazil/wiki)
+**GitHub**: [solanabr/wiki](https://github.com/solanabr/wiki)
 **Status**: Ativo
 **Mantido por**: Comunidade Superteam Brasil
 
@@ -32,7 +32,7 @@ Plataforma profissional de documentacao com busca full-text, navegacao por sideb
 
 ## Como Contribuir
 
-1. Faca um fork do [repositorio](https://github.com/SuperteamBrazil/wiki)
+1. Faca um fork do [repositorio](https://github.com/solanabr/wiki)
 2. Crie uma branch seguindo a convencao: `docs/descricao-DD-MM-YYYY`
 3. Faca suas alteracoes
 4. Envie um pull request

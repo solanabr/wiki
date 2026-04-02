@@ -53,9 +53,9 @@ Quarterly reports on treasury, spending, deliverables, and community growth. Ful
 
 ## Quick Links
 
-* [GitHub](https://github.com/Superteam-Brasil)
+* [GitHub](https://github.com/solanabr)
 * [Discord](https://discord.gg/superteambrasil)
 * [Twitter / X](https://x.com/SuperteamBR)
 * [Superteam Earn](https://superteam.fun/earn/s/superteambr)
-* [Telegram](https://t.me/superteambr)
+* [Telegram](https://t.me/superteambrbot)
 * [LinkedIn](https://www.linkedin.com/company/superteambrasil/)

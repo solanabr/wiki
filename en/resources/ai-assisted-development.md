@@ -8,7 +8,7 @@ The key insight is that AI coding assistants are only as good as the context the
 
 ## solana-claude -- The Complete AI Development Environment
 
-[https://github.com/SuperteamBrazil/solana-claude](https://github.com/SuperteamBrazil/solana-claude)
+[https://github.com/solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
 
 solana-claude is the single most impactful tool you can add to your Solana development workflow. It is a comprehensive Claude Code configuration that transforms your development environment into a specialized Solana workspace with a single install. Everything is pre-configured -- agents, commands, MCP servers, language rules, and workflow patterns.
 
@@ -59,7 +59,7 @@ All configured automatically during install, with API keys managed through `.env
 
 - **Context7** -- Real-time library documentation lookup. When you are using a library (Anchor, web3.js, SPL Token), Context7 gives the AI access to the current API documentation for that specific version, eliminating the problem of stale or hallucinated API references.
 
-- **Puppeteer** -- Browser automation for dApp testing. The AI can open your frontend, connect wallets, click through flows, and verify that your dApp works end-to-end in a real browser.
+- **Playwright** -- Browser automation for dApp testing. The AI can open your frontend, connect wallets, click through flows, and verify that your dApp works end-to-end in a real browser.
 
 - **context-mode** -- Compresses large RPC responses and build logs to save context window space. When you are debugging a failed transaction or a build error, the raw output can be thousands of lines. context-mode extracts the relevant information so the AI can process it without running out of context.
 

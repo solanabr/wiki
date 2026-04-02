@@ -36,11 +36,11 @@ Integración de Solana para Unreal Engine, desarrollado originalmente para Star 
 
 ### Solana Game Skill
 
-[https://github.com/SuperteamBrazil/solana-game-skill](https://github.com/SuperteamBrazil/solana-game-skill)
+[https://github.com/solanabr/solana-game-skill](https://github.com/solanabr/solana-game-skill)
 
 Un paquete de skill para Claude Code diseñado específicamente para desarrollo de juegos en Unity y móvil con Solana, creado por Superteam Brazil. Proporciona agentes de IA especializados — game-architect para diseño de sistemas, unity-engineer para implementación en C# y Unity, y mobile-engineer para asuntos específicos de móvil — junto con comandos y reglas adaptadas al flujo de trabajo de desarrollo de juegos.
 
-Este skill entiende los desafíos únicos de la integración juego-blockchain: manejar conexiones de wallet dentro de game loops, gestionar activos NFT en el scene graph de Unity, serializar/deserializar cuentas de programa en C# y optimizar builds para móvil. Instálalo junto con [solana-claude](https://github.com/SuperteamBrazil/solana-claude) para un entorno de desarrollo de juegos completo. Mantenido por @kauenet.
+Este skill entiende los desafíos únicos de la integración juego-blockchain: manejar conexiones de wallet dentro de game loops, gestionar activos NFT en el scene graph de Unity, serializar/deserializar cuentas de programa en C# y optimizar builds para móvil. Instálalo junto con [solana-claude](https://github.com/solanabr/solana-claude-config) para un entorno de desarrollo de juegos completo. Mantenido por @kauenet.
 
 ---
 

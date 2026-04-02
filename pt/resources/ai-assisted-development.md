@@ -8,7 +8,7 @@ O ponto chave e que assistentes de IA de codificacao sao tao bons quanto o conte
 
 ## solana-claude -- O Ambiente Completo de Desenvolvimento com IA
 
-[https://github.com/SuperteamBrazil/solana-claude](https://github.com/SuperteamBrazil/solana-claude)
+[https://github.com/solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
 
 solana-claude e a ferramenta de maior impacto que voce pode adicionar ao seu fluxo de desenvolvimento Solana. E uma configuracao abrangente do Claude Code que transforma seu ambiente de desenvolvimento em um workspace especializado em Solana com uma unica instalacao. Tudo vem pre-configurado -- agentes, comandos, servidores MCP, regras de linguagem e padroes de fluxo de trabalho.
 
@@ -59,7 +59,7 @@ Todos configurados automaticamente durante a instalacao, com chaves de API geren
 
 - **Context7** -- Consulta de documentacao de bibliotecas em tempo real. Quando voce esta usando uma biblioteca (Anchor, web3.js, SPL Token), o Context7 da a IA acesso a documentacao atual da API para aquela versao especifica, eliminando o problema de referencias de API obsoletas ou inventadas.
 
-- **Puppeteer** -- Automacao de navegador para testes de dApps. A IA pode abrir seu frontend, conectar wallets, navegar por fluxos e verificar que seu dApp funciona de ponta a ponta em um navegador real.
+- **Playwright** -- Automacao de navegador para testes de dApps. A IA pode abrir seu frontend, conectar wallets, navegar por fluxos e verificar que seu dApp funciona de ponta a ponta em um navegador real.
 
 - **context-mode** -- Comprime respostas RPC grandes e logs de build para economizar espaco na janela de contexto. Quando voce esta debugando uma transacao com falha ou um erro de build, a saida bruta pode ter milhares de linhas. context-mode extrai as informacoes relevantes para que a IA possa processa-las sem esgotar o contexto.
 

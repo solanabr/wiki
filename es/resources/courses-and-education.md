@@ -46,7 +46,7 @@ Un programa intensivo por cohorte donde construyes proyectos reales con mentorí
 
 ### Superteam Academy
 
-[https://github.com/SuperteamBrazil/superteam-academy](https://github.com/SuperteamBrazil/superteam-academy)
+[https://github.com/solanabr/superteam-academy](https://github.com/solanabr/superteam-academy)
 
 El Sistema de Gestión de Aprendizaje on-chain de Superteam Brazil. No es solo un curso — es una plataforma completamente on-chain que emite tokens de XP soulbound por módulos completados y certificados NFT por cursos finalizados. El contenido educativo está enfocado en desarrollo de Solana con una ruta de principiante a avanzado. Actualmente en desarrollo activo. Mantenido por @thomgabriel y @kauenet.
 

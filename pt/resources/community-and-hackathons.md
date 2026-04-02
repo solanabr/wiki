@@ -16,7 +16,7 @@ O principal hub de coordenacao. E aqui que a maioria das discussoes substantivas
 
 ### Telegram
 
-[https://t.me/superteambr](https://t.me/superteambr)
+[https://t.me/superteambrbot](https://t.me/superteambrbot)
 
 Chat da comunidade para conversas rapidas, noticias do ecossistema e discussoes informais. O Telegram e mais casual que o Discord -- bom para ficar por dentro do que esta acontecendo no ecossistema Solana brasileiro sem acompanhar cada canal do Discord.
 

@@ -80,7 +80,7 @@ Una vez que domines los fundamentos, las herramientas de IA pueden acelerar dram
 
 ### solana-claude
 
-[https://github.com/SuperteamBrazil/solana-claude](https://github.com/SuperteamBrazil/solana-claude)
+[https://github.com/solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
 
 Esta es la herramienta de mayor impacto que puedes agregar a tu flujo de trabajo de desarrollo en Solana. Una sola instalación te da 15 agentes de IA especializados (arquitecto, anchor-engineer, pinocchio-engineer, frontend-engineer, auditor de seguridad y más), 24+ comandos slash para tareas comunes (build, audit, deploy, scaffold, test) y 6 servidores MCP preconfigurados que le dan a tu asistente de IA acceso en tiempo real a documentación de Solana, datos on-chain y referencias de bibliotecas. Transforma Claude Code de un asistente de propósito general a un compañero de desarrollo Solana que entiende el ecosistema en profundidad. Consulta la página de [Desarrollo Asistido por IA](ai-assisted-development.md) para el desglose completo.
 

@@ -78,7 +78,7 @@ Token grouping and hierarchies. A mint can be designated as a group, and other m
 
 ### Solana Stablecoin Standard
 
-[https://github.com/SuperteamBrazil/solana-stablecoin-standard](https://github.com/SuperteamBrazil/solana-stablecoin-standard)
+[https://github.com/solanabr/solana-stablecoin-standard](https://github.com/solanabr/solana-stablecoin-standard)
 
 SSS-1 and SSS-2 specifications for standardized stablecoin issuance on Solana. SSS-1 defines the basic interface -- mint, burn, pause, role management -- that any stablecoin should implement. SSS-2 extends this with advanced features including compliance hooks (transfer hooks that enforce KYC/AML rules), blacklist management, upgradeable oracle integration for price feeds, and reserve transparency mechanisms.
 

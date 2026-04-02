@@ -1,6 +1,6 @@
 # Solana Game Skill
 
-**GitHub**: [SuperteamBrazil/solana-game-skill](https://github.com/SuperteamBrazil/solana-game-skill)
+**GitHub**: [solanabr/solana-game-skill](https://github.com/solanabr/solana-game-skill)
 **Estado**: En desarrollo activo
 **Mantenido por**: @kauenet
 

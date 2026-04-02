@@ -80,7 +80,7 @@ Once you have the fundamentals down, AI tooling can dramatically accelerate your
 
 ### solana-claude
 
-[https://github.com/SuperteamBrazil/solana-claude](https://github.com/SuperteamBrazil/solana-claude)
+[https://github.com/solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
 
 This is the single highest-leverage tool you can add to your Solana development workflow. A single install gives you 15 specialized AI agents (architect, anchor-engineer, pinocchio-engineer, frontend-engineer, security auditor, and more), 24+ slash commands for common tasks (build, audit, deploy, scaffold, test), and 6 pre-configured MCP servers that give your AI assistant real-time access to Solana documentation, on-chain data, and library references. It transforms Claude Code from a general-purpose assistant into a Solana development partner that understands the ecosystem deeply. See the [AI-Assisted Development](ai-assisted-development.md) page for the full breakdown.
 

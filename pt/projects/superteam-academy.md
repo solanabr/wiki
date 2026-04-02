@@ -1,6 +1,6 @@
 # Superteam Academy
 
-**GitHub**: [SuperteamBrazil/superteam-academy](https://github.com/SuperteamBrazil/superteam-academy)
+**GitHub**: [solanabr/superteam-academy](https://github.com/solanabr/superteam-academy)
 **Status**: Em desenvolvimento
 **Mantido por**: @thomgabriel e @kauenet
 

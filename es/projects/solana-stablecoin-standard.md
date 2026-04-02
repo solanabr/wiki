@@ -1,6 +1,6 @@
 # Solana Stablecoin Standard
 
-**GitHub**: [SuperteamBrazil/solana-stablecoin-standard](https://github.com/SuperteamBrazil/solana-stablecoin-standard)
+**GitHub**: [solanabr/solana-stablecoin-standard](https://github.com/solanabr/solana-stablecoin-standard)
 **Estado**: En desarrollo activo
 **Mantenido por**: @lvj_luiz y @kauenet
 

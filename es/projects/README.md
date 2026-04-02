@@ -23,4 +23,4 @@ A través de 9 repositorios en GitHub, mantenemos 6 proyectos principales — ca
 | [solana-skills](other-projects.md#solana-skills) | Colección de paquetes de skills para Claude Code |
 | [solana-dev-skill](other-projects.md#solana-dev-skill) | Skill base de Claude Code para desarrollo en Solana |
 
-Todos los repositorios están disponibles en la [organización de GitHub de SuperteamBrazil](https://github.com/SuperteamBrazil).
+Todos los repositorios están disponibles en la [organización de GitHub solanabr](https://github.com/solanabr).
