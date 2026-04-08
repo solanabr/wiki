@@ -78,6 +78,8 @@ Aqui tambem e onde propostas de sRFC como o Vault Standard (sRFC 40) sao discuti
 
 ## Hackathons e Competicoes
 
+> **Frontier 2026**: Para o guia completo do hackathon Solana Frontier (abril-maio 2026), incluindo inscricao, premios, recursos, dicas e historico, consulte a [secao Hackathon](../hackathon/README.md).
+
 Hackathons sao a principal porta de entrada para novos builders Solana. Eles fornecem estrutura, prazos, mentoria e frequentemente premiacoes significativas.
 
 ### Colosseum

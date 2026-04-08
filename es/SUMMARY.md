@@ -24,6 +24,19 @@
 * [Comunidad y Hackathons](resources/community-and-hackathons.md)
 * [Referencias Open Source](resources/open-source-references.md)
 
+## Hackathon
+
+* [Vision General](hackathon/README.md)
+* [Como Participar](hackathon/how-to-participate.md)
+* [Informacion Esencial](hackathon/essential-info.md)
+* [Recursos y Referencias](hackathon/resources.md)
+* [Consejos para Generar Ideas](hackathon/tips-and-ideas.md)
+* [Errores Comunes a Evitar](hackathon/common-mistakes.md)
+* [FAQ](hackathon/faq.md)
+* [Nuestra Mision](hackathon/our-mission.md)
+* [Historial de Hackathons](hackathon/hackathon-history.md)
+* [Hall de la Fama Brasil](hackathon/hall-of-fame.md)
+
 ## Proyectos
 
 * [Vision General de Proyectos](projects/README.md)

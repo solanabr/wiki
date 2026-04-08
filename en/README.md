@@ -35,6 +35,14 @@ A curated collection of development resources for building on Solana — from be
 [resources/README.md](resources/README.md)
 {% endcontent-ref %}
 
+### Hackathon
+
+Complete guide to the Solana Frontier 2026 global hackathon — registration, prizes, resources, tips, and history of past hackathons.
+
+{% content-ref url="hackathon/README.md" %}
+[hackathon/README.md](hackathon/README.md)
+{% endcontent-ref %}
+
 ### Projects
 
 Active projects built and maintained by Superteam Brazil members, including solana-claude, Superteam Academy, the Solana Vault Standard, and more.
