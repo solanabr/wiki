@@ -4,35 +4,35 @@
 **Status**: Em desenvolvimento
 **Mantido por**: @thomgabriel e @kauenet
 
-## Visao Geral
+## Visão Geral
 
-Um sistema de gestao de aprendizado (LMS) on-chain construido na Solana. A Superteam Academy oferece credenciais educacionais verificaveis e registradas em blockchain -- substituindo certificados baseados em confianca por provas criptograficas de conclusao.
+Um sistema de gestão de aprendizado (LMS) on-chain construído na Solana. A Superteam Academy oferece credenciais educacionais verificáveis e registradas em blockchain -- substituindo certificados baseados em confiança por provas criptográficas de conclusão.
 
 ## Funcionalidades
 
 ### Tokens de XP Soulbound
 
-Pontos de experiencia nao-transferiveis obtidos ao concluir cursos. Construidos com Token-2022 usando a extensao non-transferable, garantindo que o XP esteja vinculado ao aluno e nao possa ser comprado ou negociado.
+Pontos de experiência não-transferíveis obtidos ao concluir cursos. Construídos com Token-2022 usando a extensão non-transferable, garantindo que o XP esteja vinculado ao aluno e não possa ser comprado ou negociado.
 
 ### Certificados NFT
 
-Certificados de conclusao on-chain emitidos como compressed NFTs via Metaplex Bubblegum. Cada certificado e verificavel on-chain e custa uma fracao de centavo para mintar gracas a state compression.
+Certificados de conclusão on-chain emitidos como compressed NFTs via Metaplex Bubblegum. Cada certificado é verificável on-chain e custa uma fração de centavo para mintar graças a state compression.
 
 ### Acompanhamento de Progresso On-Chain
 
-Todo o progresso dos alunos e registrado na Solana. Conclusoes de cursos, notas de quizzes e conquistas de marcos sao armazenados como estado on-chain, criando um registro permanente e auditavel de aprendizagem.
+Todo o progresso dos alunos é registrado na Solana. Conclusões de cursos, notas de quizzes e conquistas de marcos são armazenados como estado on-chain, criando um registro permanente e auditável de aprendizagem.
 
-### Gestao de Cursos
+### Gestão de Cursos
 
-Ferramentas para instrutores criarem e gerenciarem o curriculo. Os cursos podem ser estruturados com modulos, aulas, quizzes e atividades -- cada um com recompensas de XP e criterios de conclusao configuraveis.
+Ferramentas para instrutores criarem e gerenciarem o currículo. Os cursos podem ser estruturados com módulos, aulas, quizzes e atividades -- cada um com recompensas de XP e critérios de conclusão configuráveis.
 
 ### Sistema de Turmas
 
-Aprendizagem em grupo com prazos e marcos. As turmas permitem programas estruturados onde os alunos progridem juntos, com acesso temporario aos materiais e responsabilidade coletiva.
+Aprendizagem em grupo com prazos e marcos. As turmas permitem programas estruturados onde os alunos progridem juntos, com acesso temporário aos materiais e responsabilidade coletiva.
 
-## Stack Tecnologica
+## Stack Tecnológica
 
 - **Programas**: Anchor
-- **Padrao de token**: Token-2022 (extensao non-transferable)
+- **Padrão de token**: Token-2022 (extensão non-transferable)
 - **NFTs**: Metaplex Bubblegum (compressed NFTs)
 - **Frontend**: Next.js

@@ -4,41 +4,41 @@
 **Status**: Ativo
 **Mantido por**: Comunidade Superteam Brasil
 
-## Visao Geral
+## Visão Geral
 
-O hub central de conhecimento da Superteam Brasil. Esta wiki -- a que voce esta lendo -- e um recurso trilingue distribuido via GitBook, cobrindo desde recursos para desenvolvedores e documentacao de projetos ate relatorios de transparencia da comunidade.
+O hub central de conhecimento da Superteam Brasil. Esta wiki -- a que você está lendo -- é um recurso trilíngue distribuído via GitBook, cobrindo desde recursos para desenvolvedores e documentação de projetos até relatórios de transparência da comunidade.
 
 ## Funcionalidades
 
-### Conteudo Trilingue
+### Conteúdo Trilíngue
 
-Todo o conteudo esta disponivel em ingles, portugues e espanhol, atendendo a comunidade Solana da America Latina como um todo.
+Todo o conteúdo está disponível em inglês, português e espanhol, atendendo à comunidade Solana da América Latina como um todo.
 
 ### 130+ Recursos Curados
 
-Uma colecao mantida de ferramentas para desenvolvedores, cursos, frameworks, protocolos e referencias para construir na Solana.
+Uma coleção mantida de ferramentas para desenvolvedores, cursos, frameworks, protocolos e referências para construir na Solana.
 
-### Documentacao de Projetos
+### Documentação de Projetos
 
-Todo projeto da Superteam Brasil esta documentado aqui com visoes gerais, detalhes tecnicos e guias de contribuicao.
+Todo projeto da Superteam Brasil está documentado aqui com visões gerais, detalhes técnicos e guias de contribuição.
 
-### Relatorios de Transparencia
+### Relatórios de Transparência
 
-Relatorios trimestrais sobre atividades da comunidade, resultados de eventos e alocacao de recursos financeiros. Referencias publicadas on-chain quando aplicavel.
+Relatórios trimestrais sobre atividades da comunidade, resultados de eventos e alocação de recursos financeiros. Referências publicadas on-chain quando aplicável.
 
-### Integracao com GitBook
+### Integração com GitBook
 
-Plataforma profissional de documentacao com busca full-text, navegacao por sidebar e historico de versoes.
+Plataforma profissional de documentação com busca full-text, navegação por sidebar e histórico de versões.
 
 ## Como Contribuir
 
-1. Faca um fork do [repositorio](https://github.com/solanabr/wiki)
-2. Crie uma branch seguindo a convencao: `docs/descricao-DD-MM-YYYY`
-3. Faca suas alteracoes
+1. Faça um fork do [repositório](https://github.com/solanabr/wiki)
+2. Crie uma branch seguindo a convenção: `docs/descrição-DD-MM-YYYY`
+3. Faça suas alterações
 4. Envie um pull request
-5. A equipe de conteudo revisa e faz o merge
+5. A equipe de conteúdo revisa e faz o merge
 
-## Stack Tecnologica
+## Stack Tecnológica
 
 - GitBook
 - Markdown

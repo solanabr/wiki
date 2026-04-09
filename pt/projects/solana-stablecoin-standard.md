@@ -4,53 +4,53 @@
 **Status**: Em desenvolvimento ativo
 **Mantido por**: @lvj_luiz e @kauenet
 
-## Visao Geral
+## Visão Geral
 
-Uma interface padronizada para emissao e gestao de stablecoins na Solana. Define duas especificacoes -- SSS-1 para funcionalidades core de stablecoin e SSS-2 para recursos avancados de compliance e operacoes.
+Uma interface padronizada para emissão e gestão de stablecoins na Solana. Define duas especificações -- SSS-1 para funcionalidades core de stablecoin e SSS-2 para recursos avançados de compliance e operações.
 
 ## Por Que Isso Importa
 
-Stablecoins sao a espinha dorsal do DeFi. Sem um padrao compartilhado, cada emissor implementa mint, burn, freeze e controles de compliance de forma diferente. Isso fragmenta o ecossistema: exchanges precisam de integracoes customizadas por stablecoin, protocolos DeFi nao conseguem generalizar o tratamento de stablecoins e o compliance se torna algo improvisado.
+Stablecoins são a espinha dorsal do DeFi. Sem um padrão compartilhado, cada emissor implementa mint, burn, freeze e controles de compliance de forma diferente. Isso fragmenta o ecossistema: exchanges precisam de integrações customizadas por stablecoin, protocolos DeFi não conseguem generalizar o tratamento de stablecoins e o compliance se torna algo improvisado.
 
-O Solana Stablecoin Standard oferece uma interface comum para que emissores, exchanges e protocolos DeFi possam interoperar por meio de uma unica especificacao.
+O Solana Stablecoin Standard oferece uma interface comum para que emissores, exchanges e protocolos DeFi possam interoperar por meio de uma única especificação.
 
 ## Funcionalidades
 
-### Especificacao SSS-1
+### Especificação SSS-1
 
-A interface core de stablecoin cobrindo operacoes fundamentais:
+A interface core de stablecoin cobrindo operações fundamentais:
 
 - Controles de mint e burn
 - Freeze e thaw de contas
-- Restricoes de transferencia
+- Restrições de transferência
 - Gerenciamento de autoridades
 
-### Especificacao SSS-2
+### Especificação SSS-2
 
-Recursos avancados para deployments institucionais e focados em compliance:
+Recursos avançados para deployments institucionais e focados em compliance:
 
-- Hooks de compliance para aplicacao de KYC/AML
+- Hooks de compliance para aplicação de KYC/AML
 - Blacklisting e whitelisting
-- Integracao com oracles atualizaveis
-- Restricoes de transferencia configuraveis
+- Integração com oracles atualizáveis
+- Restrições de transferência configuráveis
 
-### Colaboracao com a OpenZeppelin
+### Colaboração com a OpenZeppelin
 
-O principal contribuidor @lvj_luiz da OpenZeppelin traz expertise em seguranca testada em batalha vinda do ecossistema Ethereum. O padrao se beneficia do mesmo rigor aplicado aos contratos Solidity amplamente utilizados da OpenZeppelin.
+O principal contribuidor @lvj_luiz da OpenZeppelin traz expertise em segurança testada em batalha vinda do ecossistema Ethereum. O padrão se beneficia do mesmo rigor aplicado aos contratos Solidity amplamente utilizados da OpenZeppelin.
 
 ### Pronto para Compliance
 
-Construido com requisitos regulatorios em mente. Transfer hooks permitem que emissores apliquem verificacoes de KYC, restricoes geograficas e outras politicas de compliance no nivel do protocolo.
+Construído com requisitos regulatórios em mente. Transfer hooks permitem que emissores apliquem verificações de KYC, restrições geográficas e outras políticas de compliance no nível do protocolo.
 
 ### Nativo em Token-2022
 
-Aproveita o programa Token Extensions da Solana para funcionalidades avancadas:
+Aproveita o programa Token Extensions da Solana para funcionalidades avançadas:
 
-- **Transfer hooks** para aplicacao de compliance
-- **Confidential transfers** para pagamentos com preservacao de privacidade
-- **Non-transferable metadata** para atestacoes de emissores
+- **Transfer hooks** para aplicação de compliance
+- **Confidential transfers** para pagamentos com preservação de privacidade
+- **Non-transferable metadata** para atestações de emissores
 
-## Stack Tecnologica
+## Stack Tecnológica
 
 - Anchor
 - Token-2022

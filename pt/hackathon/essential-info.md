@@ -1,117 +1,117 @@
-# Informacoes Essenciais
+# Informações Essenciais
 
 ## Datas Importantes
 
-- **6 de abril**: Abertura das inscricoes
-- **11 de maio**: Prazo de submissao
-- **1 semana antes do prazo**: Formulario de submissao fica disponivel na plataforma
-- Anuncios dos vencedores e demo day para investidores: a confirmar
+- **6 de abril**: Abertura das inscrições.
+- **11 de maio**: Prazo de submissão.
+- **1 semana antes do prazo**: Formulário de submissão fica disponível na plataforma.
+- Anúncios dos vencedores e demo day para investidores: a confirmar.
 
-## Categorias de Competicao (Tracks)
+## Categorias de Competição (Tracks)
 
-| Track | Descricao | Exemplos |
+| Track | Descrição | Exemplos |
 |-------|-----------|----------|
-| **DePIN** | Infraestrutura fisica descentralizada | [Helium](https://solana.com/news/case-study-helium), [Hivemapper](https://solana.com/news/case-study-hivemapper) |
-| **DAOs & Comunidades** | Governanca e organizacao descentralizada | [Squads](https://squads.so/protocol), [Superteam](https://superteam.fun/), [MangoDAO](https://dao.mango.markets/dao/MNGO) |
-| **DeFi & Pagamentos** | Financas descentralizadas e pagamentos | [Orca](https://www.orca.so/), [Decaf](https://www.decaf.so/) |
-| **Consumer Apps** | Aplicativos para usuarios finais | [Phantom](https://phantom.app/), [ASICS](https://solana.com/news/case-study-asics-solana-pay), [Dialect](https://www.dialect.to/) |
+| **DePIN** | Infraestrutura física descentralizada | [Helium](https://solana.com/news/case-study-helium), [Hivemapper](https://solana.com/news/case-study-hivemapper) |
+| **DAOs & Comunidades** | Governança e organização descentralizada | [Squads](https://squads.so/protocol), [Superteam](https://superteam.fun/), [MangoDAO](https://dao.mango.markets/dao/MNGO) |
+| **DeFi & Pagamentos** | Finanças descentralizadas e pagamentos | [Orca](https://www.orca.so/), [Decaf](https://www.decaf.so/) |
+| **Consumer Apps** | Aplicativos para usuários finais | [Phantom](https://phantom.app/), [ASICS](https://solana.com/news/case-study-asics-solana-pay), [Dialect](https://www.dialect.to/) |
 | **Infraestrutura** | Ferramentas e protocolos base | [Wormhole](https://solana.com/ecosystem/wormhole), [Pyth](https://pyth.network/) |
 | **Gaming** | Jogos on-chain | [Star Atlas](https://staratlas.com/), [Aurory](https://aurory.io/) |
 
-## Premios (Detalhado)
+## Prêmios (Detalhado)
 
 ### Hackathon Global
 
-| Premio | Valor | Qtd |
+| Prêmio | Valor | Qtd |
 |--------|-------|-----|
 | **Grand Champion** | $50,000 | 1 |
 | **Track Winners** | $10,000 | 20 |
 | **University Award** (estudantes) | $5,000 | 1 |
 | **Open Source Award** | $5,000 | 1 |
 
-**Total premios hackathon global: $260,000**
+**Total prêmios hackathon global: $260,000.**
 
 ### Acelerador Colosseum
 
-Ate 10 equipes selecionadas recebem:
-- **$250,000 em capital pre-seed** cada
-- Acesso exclusivo a networking e investidores
-- Mentoria direta 1:1
-- Residencia de 2 semanas em San Francisco
-- Suporte juridico e infraestrutura
+Até 10 equipes selecionadas recebem:
+- **$250,000 em capital pre-seed** cada.
+- Acesso exclusivo a networking e investidores.
+- Mentoria direta 1:1.
+- Residência de 2 semanas em San Francisco.
+- Suporte jurídico e infraestrutura.
 
-Todos os vencedores do hackathon recebem entrevistas para possivel inclusao no acelerador.
+Todos os vencedores do hackathon recebem entrevistas para possível inclusão no acelerador.
 
 ### Trilha Brasil
 
-- **$10,000 distribuidos entre as 10 melhores equipes brasileiras**
-- Convites para integrar a Superteam Brasil
+- **$10,000 distribuídos entre as 10 melhores equipes brasileiras.**
+- Convites para integrar a Superteam Brasil.
 
-## Requisitos de Submissao
+## Requisitos de Submissão
 
-O formulario de submissao fica disponivel na plataforma **1 semana antes do prazo final**. A submissao deve incluir:
+O formulário de submissão fica disponível na plataforma **1 semana antes do prazo final**. A submissão deve incluir:
 
 **1. Pitch Video (max 3 minutos)**
 
-O elemento mais importante — e geralmente a primeira coisa que os jurados revisam. Deve incluir:
-- Background da equipe
-- Descricao do produto
-- Problema que esta resolvendo e para quem
-- Oportunidade de mercado
-- Estrategia inicial de uso ou tracao existente
-- Demo do produto
+O elemento mais importante — é geralmente a primeira coisa que os jurados revisam. Deve incluir:
+- Background da equipe.
+- Descrição do produto.
+- Problema que está resolvendo e para quem.
+- Oportunidade de mercado.
+- Estratégia inicial de uso ou tração existente.
+- Demo do produto.
 
-> Formato recomendado: Loom. Evite videos com efeitos visuais exagerados e pouca substancia. Nao ultrapasse 3 minutos.
+> Formato recomendado: Loom. Evite vídeos com efeitos visuais exagerados e pouca substância. Não ultrapasse 3 minutos.
 
-**2. Video de Demo Tecnico (2-3 minutos)**
+**2. Vídeo de Demo Técnico (2-3 minutos)**
 
-Distinto do pitch — deve ser tecnico, direto e especifico sobre a implementacao:
-- Demonstrar funcionalidades principais
-- Explicar decisoes de tech stack
-- Mostrar integracao com Solana e raciocinio por tras das escolhas
-- Gameplay footage ou diagramas de arquitetura sao aceitos
+Distinto do pitch — deve ser técnico, direto e específico sobre a implementação:
+- Demonstrar funcionalidades principais.
+- Explicar decisões de tech stack.
+- Mostrar integração com Solana e raciocínio por trás das escolhas.
+- Gameplay footage ou diagramas de arquitetura são aceitos.
 
-**3. Repositorio GitHub**
-- Codigo fonte com documentacao
-- Acesso garantido para os jurados (nao deixe privado sem dar acesso)
-- Jurados avaliam qualidade do codigo, decisoes de design, integracao com Solana e arquitetura geral
+**3. Repositório GitHub**
+- Código fonte com documentação.
+- Acesso garantido para os jurados (não deixe privado sem dar acesso).
+- Jurados avaliam qualidade do código, decisões de design, integração com Solana e arquitetura geral.
 
-**4. Documentacao**
-- Documentacao tecnica explicando a abordagem
-- Preencha todos os campos opcionais do formulario — eles fornecem contexto importante
+**4. Documentação**
+- Documentação técnica explicando a abordagem.
+- Preencha todos os campos opcionais do formulário — eles fornecem contexto importante.
 
-> **Dica**: Continue construindo apos o deadline — jurados avaliam progresso pos-hackathon tambem.
+> **Dica**: Continue construindo após o deadline — jurados avaliam progresso pós-hackathon também.
 
-## Criterios de Avaliacao
+## Critérios de Avaliação
 
 Os jurados — fundadores, desenvolvedores e investidores de destaque no ecossistema — avaliam com base em:
 
-| Criterio | O que buscam |
+| Critério | O que buscam |
 |----------|--------------|
-| **Inovacao** | Originalidade e abordagem criativa de resolucao de problemas |
-| **Implementacao Tecnica** | Qualidade do codigo, funcionalidade e completude |
-| **Impacto Pratico** | Aplicabilidade no mundo real e utilidade potencial |
-| **Qualidade da Apresentacao** | Clareza da explicacao e eficacia da demo |
-| **Experiencia do Usuario** | Design de interface e usabilidade |
-| **Validacao de Mercado** | Evidencia de que resolve um problema real para usuarios reais |
-| **Integracao Solana** | Uso efetivo das capacidades unicas da Solana |
-| **Modelo de Negocio** | Viabilidade de construir um negocio sustentavel |
+| **Inovação** | Originalidade e abordagem criativa de resolução de problemas |
+| **Implementação Técnica** | Qualidade do código, funcionalidade e completude |
+| **Impacto Prático** | Aplicabilidade no mundo real e utilidade potencial |
+| **Qualidade da Apresentação** | Clareza da explicação e eficácia da demo |
+| **Experiência do Usuário** | Design de interface e usabilidade |
+| **Validação de Mercado** | Evidência de que resolve um problema real para usuários reais |
+| **Integração Solana** | Uso efetivo das capacidades únicas da Solana |
+| **Modelo de Negócio** | Viabilidade de construir um negócio sustentável |
 
-> Projetos que se destacam demonstram tracao inicial e conversas com usuarios potenciais (feedback no Twitter/X, Telegram, etc.)
+> Projetos que se destacam demonstram tração inicial e conversas com usuários potenciais (feedback no Twitter/X, Telegram, etc.).
 
-## Composicao de Equipe
+## Composição de Equipe
 
-- Participacao individual e permitida, mas equipes de **2-3 pessoas** sao tipicas entre os vencedores
-- Equipes com membros tecnicos **e** nao-tecnicos tendem a ter mais sucesso
-- Media das equipes vencedoras: **mais de 3 membros**
-- Solo founders devem explicar experiencia relevante
-- Use o [Cofounder Directory do Colosseum](https://arena.colosseum.org) para encontrar cofundadores
+- Participação individual é permitida, mas equipes de **2-3 pessoas** são típicas entre os vencedores.
+- Equipes com membros técnicos **e** não-técnicos tendem a ter mais sucesso.
+- Média das equipes vencedoras: **mais de 3 membros**.
+- Solo founders devem explicar experiência relevante.
+- Use o [Cofounder Directory do Colosseum](https://arena.colosseum.org) para encontrar cofundadores.
 
 ## Timeline Recomendado (5 semanas)
 
 | Semana | Foco |
 |--------|------|
-| Semanas 1-4 | Sprint de engenharia — alcancar demo funcional no devnet da Solana |
-| Semana 5 | Testes e criacao da apresentacao |
+| Semanas 1-4 | Sprint de engenharia — alcançar demo funcional no devnet da Solana |
+| Semana 5 | Testes e criação da apresentação |
 
-> Comece a construir em publico desde a inscricao: crie conta no X/Twitter para o produto, compartilhe sua visao, recrute beta testers cedo.
+> Comece a construir em público desde a inscrição: crie conta no X/Twitter para o produto, compartilhe sua visão, recrute beta testers cedo.

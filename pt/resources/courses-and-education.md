@@ -1,164 +1,164 @@
-# Cursos e Educacao
+# Cursos e Educação
 
-Solana tem um ecossistema rico de recursos de aprendizado, desde cursos interativos no seu ritmo ate programas intensivos de turmas e treinamentos focados em seguranca. Esta pagina os organiza por estilo de aprendizado e nivel para que voce encontre o mais adequado.
+Solana tem um ecossistema rico de recursos de aprendizado, desde cursos interativos no seu ritmo até programas intensivos de turmas e treinamentos focados em segurança. Esta página os organiza por estilo de aprendizado e nível para que você encontre o mais adequado.
 
 ---
 
 ## Cursos Interativos no Seu Ritmo
 
-Esses cursos permitem que voce aprenda na sua velocidade com curriculos estruturados e exercicios praticos.
+Esses cursos permitem que você aprenda na sua velocidade com currículos estruturados e exercícios práticos.
 
 ### Cursos da Solana Foundation
 
 [https://solana.com/developers/courses](https://solana.com/developers/courses)
 
-O curriculo oficial mantido pela Solana Foundation. Este e o recurso gratuito mais abrangente para aprender desenvolvimento Solana do zero. Cobre desenvolvimento client-side, desenvolvimento de programas on-chain com Anchor e topicos avancados como compressed NFTs e Solana Mobile. Cada modulo inclui explicacoes, exemplos de codigo e exercicios de laboratorio. Se voce for seguir apenas um curso, faca este.
+O currículo oficial mantido pela Solana Foundation. Este é o recurso gratuito mais abrangente para aprender desenvolvimento Solana do zero. Cobre desenvolvimento client-side, desenvolvimento de programas on-chain com Anchor e tópicos avançados como compressed NFTs e Solana Mobile. Cada módulo inclui explicações, exemplos de código e exercícios de laboratório. Se você for seguir apenas um curso, faça este.
 
 ### RareSkills Solana Tutorial
 
 [https://rareskills.io/solana-tutorial](https://rareskills.io/solana-tutorial)
 
-Um curso estruturado de 60 dias amplamente considerado como o melhor recurso para desenvolvedores EVM em transicao para Solana. O RareSkills mapeia explicitamente conceitos Solana para seus equivalentes em Ethereum -- explicando como contas se relacionam com armazenamento de contratos, como PDAs substituem mappings e como CPIs diferem de delegate calls. A profundidade da explicacao tecnica e excepcional, cobrindo topicos como rent, compute units e o BPF loader que muitos cursos ignoram. Melhor para desenvolvedores que ja entendem smart contracts e querem aprender Solana especificamente.
+Um curso estruturado de 60 dias amplamente considerado como o melhor recurso para desenvolvedores EVM em transição para Solana. O RareSkills mapeia explicitamente conceitos Solana para seus equivalentes em Ethereum -- explicando como contas se relacionam com armazenamento de contratos, como PDAs substituem mappings e como CPIs diferem de delegate calls. A profundidade da explicação técnica é excepcional, cobrindo tópicos como rent, compute units e o BPF loader que muitos cursos ignoram. Melhor para desenvolvedores que já entendem smart contracts e querem aprender Solana especificamente.
 
 ### freeCodeCamp Solana
 
 [https://web3.freecodecamp.org/solana](https://web3.freecodecamp.org/solana)
 
-Aprendizado interativo baseado em IDE que segue a filosofia do freeCodeCamp de aprender fazendo. Voce escreve codigo real no navegador e recebe feedback imediato. E uma boa opcao para desenvolvedores que aprendem melhor digitando codigo do que lendo documentacao. O curriculo cobre os fundamentos e progride gradualmente para programas mais complexos.
+Aprendizado interativo baseado em IDE que segue a filosofia do freeCodeCamp de aprender fazendo. Você escreve código real no navegador e recebe feedback imediato. É uma boa opção para desenvolvedores que aprendem melhor digitando código do que lendo documentação. O currículo cobre os fundamentos e progride gradualmente para programas mais complexos.
 
 ### RiseIn Build on Solana
 
 [https://www.risein.com/courses/build-on-solana](https://www.risein.com/courses/build-on-solana)
 
-Um curso amigavel para iniciantes disponivel em formatos de texto e video. O RiseIn estrutura o aprendizado em torno da construcao de projetos, entao voce sempre tem contexto de por que esta aprendendo cada conceito. Bom para desenvolvedores que preferem uma abordagem guiada e baseada em projetos com multiplos formatos de midia.
+Um curso amigável para iniciantes disponível em formatos de texto e vídeo. O RiseIn estrutura o aprendizado em torno da construção de projetos, então você sempre tem contexto de por que está aprendendo cada conceito. Bom para desenvolvedores que preferem uma abordagem guiada e baseada em projetos com múltiplos formatos de mídia.
 
 ---
 
 ## Programas de Turmas
 
-Esses programas oferecem cronogramas estruturados, mentoria e comunidade -- ideais se voce aprende melhor com responsabilidade e colaboracao.
+Esses programas oferecem cronogramas estruturados, mentoria e comunidade -- ideais se você aprende melhor com responsabilidade e colaboração.
 
 ### Turbin3
 
 [https://turbin3.com/](https://turbin3.com/)
 
-Um programa intensivo de turma onde voce constroi projetos reais com mentoria de desenvolvedores Solana experientes. O Turbin3 oferece multiplas trilhas -- desenvolvimento de programas Rust, desenvolvimento de clientes TypeScript e infraestrutura de trading. O programa formou um numero significativo de desenvolvedores que passaram a contribuir para projetos do ecossistema. O formato de turma significa que voce esta construindo ao lado de colegas e recebendo feedback direto, o que acelera o aprendizado dramaticamente em comparacao com estudo solo.
+Um programa intensivo de turma onde você constrói projetos reais com mentoria de desenvolvedores Solana experientes. O Turbin3 oferece múltiplas trilhas -- desenvolvimento de programas Rust, desenvolvimento de clientes TypeScript e infraestrutura de trading. O programa formou um número significativo de desenvolvedores que passaram a contribuir para projetos do ecossistema. O formato de turma significa que você está construindo ao lado de colegas e recebendo feedback direto, o que acelera o aprendizado dramaticamente em comparação com estudo solo.
 
 ### Superteam Academy
 
 [https://github.com/solanabr/superteam-academy](https://github.com/solanabr/superteam-academy)
 
-O Sistema de Gestao de Aprendizado on-chain da Superteam Brasil. Nao e apenas um curso -- e uma plataforma totalmente on-chain que emite tokens de XP soulbound para modulos concluidos e certificados NFT para cursos finalizados. O conteudo educacional e focado em desenvolvimento Solana com um caminho de iniciante a avancado. Atualmente em desenvolvimento ativo. Mantido por @thomgabriel e @kauenet.
+O Sistema de Gestão de Aprendizado on-chain da Superteam Brasil. Não é apenas um curso -- é uma plataforma totalmente on-chain que emite tokens de XP soulbound para módulos concluídos e certificados NFT para cursos finalizados. O conteúdo educacional é focado em desenvolvimento Solana com um caminho de iniciante a avançado. Atualmente em desenvolvimento ativo. Mantido por @thomgabriel e @kauenet.
 
 ---
 
-## Treinamento Focado em Seguranca
+## Treinamento Focado em Segurança
 
-Seguranca nao e opcional no desenvolvimento blockchain. Esses recursos te ensinam a pensar como um atacante.
+Segurança não é opcional no desenvolvimento blockchain. Esses recursos te ensinam a pensar como um atacante.
 
 ### Cyfrin Updraft
 
 [https://updraft.cyfrin.io/](https://updraft.cyfrin.io/)
 
-O curriculo abrangente de seguranca de smart contracts do Patrick Collins. Embora cubra multiplas chains, os principios de seguranca -- reentrancy, controle de acesso, overflow aritmetico, manipulacao de oracles -- se aplicam diretamente a programas Solana. O curso percorre estudos de caso de exploits reais e ensina tecnicas formais de auditoria. Essencial para qualquer desenvolvedor que ira implantar programas que lidam com fundos de usuarios.
+O currículo abrangente de segurança de smart contracts do Patrick Collins. Embora cubra múltiplas chains, os princípios de segurança -- reentrancy, controle de acesso, overflow aritmético, manipulação de oracles -- se aplicam diretamente a programas Solana. O curso percorre estudos de caso de exploits reais e ensina técnicas formais de auditoria. Essencial para qualquer desenvolvedor que irá implantar programas que lidam com fundos de usuários.
 
 ### Ackee Blockchain Security
 
 [https://ackee.xyz/](https://ackee.xyz/)
 
-Treinamento de seguranca especifico para Solana do time por tras do Trident, o principal framework de fuzz testing para programas Solana. A Ackee auditou dezenas de protocolos Solana em producao e canaliza essa expertise para seus materiais de treinamento. Seu curriculo cobre padroes de vulnerabilidade unicos da Solana -- verificacoes de signer ausentes, ataques de substituicao de PDA, type cosplay e abuso de CPI. Se voce quer conhecimento de seguranca especifico para Solana de auditores profissionais, esta e a fonte.
+Treinamento de segurança específico para Solana do time por trás do Trident, o principal framework de fuzz testing para programas Solana. A Ackee auditou dezenas de protocolos Solana em produção e canaliza essa expertise para seus materiais de treinamento. Seu currículo cobre padrões de vulnerabilidade únicos da Solana -- verificações de signer ausentes, ataques de substituição de PDA, type cosplay e abuso de CPI. Se você quer conhecimento de segurança específico para Solana de auditores profissionais, esta é a fonte.
 
 ---
 
-## Conteudo em Video
+## Conteúdo em Vídeo
 
-Para desenvolvedores que preferem aprendizado baseado em video, esses canais e playlists cobrem tanto teoria fundacional quanto desenvolvimento pratico em Solana.
+Para desenvolvedores que preferem aprendizado baseado em vídeo, esses canais e playlists cobrem tanto teoria fundacional quanto desenvolvimento prático em Solana.
 
 ### Blockchain Concepts
 
 [https://www.youtube.com/watch?v=s8Wbt0b8bwY&list=PLBHHzL31sSu2HMtlLCIbQg7YY8ElKDenI](https://www.youtube.com/watch?v=s8Wbt0b8bwY&list=PLBHHzL31sSu2HMtlLCIbQg7YY8ElKDenI)
 
-Playlist de teoria fundacional de blockchain. Cobre mecanismos de consenso, primitivas criptograficas, modelos de transacao e conceitos de sistemas distribuidos. Assista se voce e totalmente novo em blockchain e quer entender os principios subjacentes antes de mergulhar em conteudo especifico de Solana.
+Playlist de teoria fundacional de blockchain. Cobre mecanismos de consenso, primitivas criptográficas, modelos de transação e conceitos de sistemas distribuídos. Assista se você é totalmente novo em blockchain e quer entender os princípios subjacentes antes de mergulhar em conteúdo específico de Solana.
 
 ### Solana Concepts
 
 [https://www.youtube.com/watch?v=pRYs49MqapI&list=PLilwLeBwGuK51Ji870apdb88dnBr1Xqhm](https://www.youtube.com/watch?v=pRYs49MqapI&list=PLilwLeBwGuK51Ji870apdb88dnBr1Xqhm)
 
-Explicacoes concisas focadas especificamente em conceitos Solana -- contas, rent, programas, PDAs, CPIs e o runtime. Cada video e curto e focado em um unico topico, tornando esta uma boa playlist de referencia para revisitar quando precisar relembrar um conceito especifico.
+Explicações concisas focadas especificamente em conceitos Solana -- contas, rent, programas, PDAs, CPIs e o runtime. Cada vídeo é curto e focado em um único tópico, tornando esta uma boa playlist de referência para revisitar quando precisar relembrar um conceito específico.
 
 ### Solana Bootcamp 2023
 
 [https://www.youtube.com/watch?v=0P8JeL3TURU&list=PLilwLeBwGuK6NsYMPP_BlVkeQgff0NwvU](https://www.youtube.com/watch?v=0P8JeL3TURU&list=PLilwLeBwGuK6NsYMPP_BlVkeQgff0NwvU)
 
-Um bootcamp completo gravado que equilibra teoria com sessoes praticas de codigo. Esta playlist percorre todo o ciclo de desenvolvimento -- desde entender o modelo de contas ate implantar programas em producao. Bom para desenvolvedores que querem um curso em video abrangente e estruturado em vez de tutoriais fragmentados.
+Um bootcamp completo gravado que equilibra teoria com sessões práticas de código. Esta playlist percorre todo o ciclo de desenvolvimento -- desde entender o modelo de contas até implantar programas em produção. Bom para desenvolvedores que querem um curso em vídeo abrangente e estruturado em vez de tutoriais fragmentados.
 
 ### Solana Bootcamp 2024
 
 [https://www.youtube.com/watch?v=amAq-WHAFs8](https://www.youtube.com/watch?v=amAq-WHAFs8)
 
-O bootcamp atualizado com uma abordagem mais baseada em projetos. Cobre ferramentas e padroes mais recentes que surgiram em 2024, incluindo extensoes Token-2022 e fluxos de desenvolvimento modernos. Assista apos o bootcamp de 2023 se quiser ver as melhores praticas mais atuais.
+O bootcamp atualizado com uma abordagem mais baseada em projetos. Cobre ferramentas e padrões mais recentes que surgiram em 2024, incluindo extensões Token-2022 e fluxos de desenvolvimento modernos. Assista após o bootcamp de 2023 se quiser ver as melhores práticas mais atuais.
 
 ### Solandy
 
 [https://www.youtube.com/solandy](https://www.youtube.com/solandy)
 
-Conteudo semanal focado em desenvolvedores cobrindo novas funcionalidades Solana, tutoriais e atualizacoes do ecossistema. O Solandy produz consistentemente conteudo tecnico de alta qualidade e e um dos canais mais confiaveis para se manter atualizado com as tendencias de desenvolvimento Solana. Bom para desenvolvedores que ja tem o basico e querem continuar aprendendo.
+Conteúdo semanal focado em desenvolvedores cobrindo novas funcionalidades Solana, tutoriais e atualizações do ecossistema. O Solandy produz consistentemente conteúdo técnico de alta qualidade e é um dos canais mais confiáveis para se manter atualizado com as tendências de desenvolvimento Solana. Bom para desenvolvedores que já tem o básico e querem continuar aprendendo.
 
 ### Solana Bytes
 
 [https://www.youtube.com/watch?v=vrO6cjdPUOs&list=PLzUrW5H8-hDfyd0xu7gc8ZMmzBg8k_dz2](https://www.youtube.com/watch?v=vrO6cjdPUOs&list=PLzUrW5H8-hDfyd0xu7gc8ZMmzBg8k_dz2)
 
-Explicacoes curtas de conceitos -- cada video cobre um topico especifico em menos de 10 minutos. Perfeito para preencher lacunas de conhecimento ou entender rapidamente um novo conceito antes de mergulhar na documentacao. O formato respeita seu tempo enquanto permanece tecnicamente substancial.
+Explicações curtas de conceitos -- cada vídeo cobre um tópico específico em menos de 10 minutos. Perfeito para preencher lacunas de conhecimento ou entender rapidamente um novo conceito antes de mergulhar na documentação. O formato respeita seu tempo enquanto permanece tecnicamente substancial.
 
 ---
 
-## Programas Universitarios e Institucionais Estruturados
+## Programas Universitários e Institucionais Estruturados
 
-Esses programas sao apoiados por instituicoes academicas ou organizacoes profissionais e oferecem curriculos mais rigorosos com credenciais formais.
+Esses programas são apoiados por instituições acadêmicas ou organizações profissionais e oferecem currículos mais rigorosos com credenciais formais.
 
 ### School of Solana (Ackee Blockchain Security)
 
 [https://ackee.xyz/school-of-solana](https://ackee.xyz/school-of-solana)
 
-Um programa gratuito baseado em turmas conduzido pela Ackee Blockchain Security -- o mesmo time por tras do framework de fuzz testing Trident e dezenas de auditorias de protocolos em producao. O curriculo abrange 5 semanas e cobre fundamentos Solana, desenvolvimento de programas com Anchor, padroes de seguranca e testes. Os alunos constroem um projeto final e recebem certificado ao concluir. O que distingue a School of Solana de outros programas de turma e a perspectiva security-first -- voce aprende a construir corretamente desde o inicio em vez de adicionar seguranca depois. Multiplas turmas foram realizadas desde 2023, e ex-alunos passaram a trabalhar em projetos do ecossistema.
+Um programa gratuito baseado em turmas conduzido pela Ackee Blockchain Security -- o mesmo time por trás do framework de fuzz testing Trident e dezenas de auditorias de protocolos em produção. O currículo abrange 5 semanas e cobre fundamentos Solana, desenvolvimento de programas com Anchor, padrões de segurança e testes. Os alunos constroem um projeto final e recebem certificado ao concluir. O que distingue a School of Solana de outros programas de turma é a perspectiva security-first -- você aprende a construir corretamente desde o início em vez de adicionar segurança depois. Múltiplas turmas foram realizadas desde 2023, e ex-alunos passaram a trabalhar em projetos do ecossistema.
 
 ### Helius Developer Deep Dives
 
 [https://www.helius.dev/blog](https://www.helius.dev/blog)
 
-A Helius mantem um dos blogs de desenvolvedores de mais alta qualidade no ecossistema Solana. Seus artigos tecnicos cobrem topicos que raramente sao bem explicados em outros lugares. Embora nao seja um curso estruturado, esses artigos funcionam como referencias tecnicas de nivel avancado que preenchem lacunas deixadas pela documentacao oficial. Leitura essencial para infraestrutura de producao:
+A Helius mantém um dos blogs de desenvolvedores de mais alta qualidade no ecossistema Solana. Seus artigos técnicos cobrem tópicos que raramente são bem explicados em outros lugares. Embora não seja um curso estruturado, esses artigos funcionam como referências técnicas de nível avançado que preenchem lacunas deixadas pela documentação oficial. Leitura essencial para infraestrutura de produção:
 
-- [Solana Fees in Theory and Practice](https://www.helius.dev/blog/solana-fees-in-theory-and-practice) -- a explicacao publica mais precisa sobre mecanica de taxas da Solana
+- [Solana Fees in Theory and Practice](https://www.helius.dev/blog/solana-fees-in-theory-and-practice) -- a explicação pública mais precisa sobre mecânica de taxas da Solana
 - [Priority Fees: Understanding Transaction Fee Mechanics](https://www.helius.dev/blog/priority-fees-understanding-solanas-transaction-fee-mechanics) -- como definir e estimar priority fees corretamente
-- [Solana Congestion: How to Best Send Transactions](https://www.helius.dev/blog/solana-congestion-how-to-best-send-solana-transactions) -- estrategias de landing de transacoes durante congestionamento
-- [Solana Executive Overview](https://www.helius.dev/blog/solana-executive-overview) -- a visao geral mais abrangente da arquitetura Solana em uma unica pagina
-- [A Hitchhiker's Guide to Solana Program Security](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security) -- padroes de seguranca e vulnerabilidades comuns
-- [All You Need to Know About Compression on Solana](https://www.helius.dev/blog/all-you-need-to-know-about-compression-on-solana) -- deep dive sobre compressao de estado e cNFTs
+- [Solana Congestion: How to Best Send Transactions](https://www.helius.dev/blog/solana-congestion-how-to-best-send-solana-transactions) -- estratégias de landing de transações durante congestionamento
+- [Solana Executive Overview](https://www.helius.dev/blog/solana-executive-overview) -- a visão geral mais abrangente da arquitetura Solana em uma única página
+- [A Hitchhiker's Guide to Solana Program Security](https://www.helius.dev/blog/a-hitchhikers-guide-to-solana-program-security) -- padrões de segurança e vulnerabilidades comuns
+- [All You Need to Know About Compression on Solana](https://www.helius.dev/blog/all-you-need-to-know-about-compression-on-solana) -- deep dive sobre compressão de estado e cNFTs
 
 ### Nick Frostbutter
 
 [https://nick.af](https://nick.af)
 
-Artigos escritos, tutoriais e newsletter de Nick Frostbutter, desenvolvedor no time de Developer Relations da Solana Foundation. O conteudo cobre novas ferramentas e padroes Solana de alguem que contribui para a documentacao oficial -- incluindo deep dives sobre a biblioteca JavaScript `gill`, padroes web3.js 2.0 e geracao de vanity addresses. Tambem co-apresenta o Solfate Podcast cobrindo builders do ecossistema Solana. YouTube: [@nickfrosty](https://www.youtube.com/@nickfrosty). Cobertura de primeira mao de alta qualidade que frequentemente precede a documentacao oficial.
+Artigos escritos, tutoriais e newsletter de Nick Frostbutter, desenvolvedor no time de Developer Relations da Solana Foundation. O conteúdo cobre novas ferramentas e padrões Solana de alguém que contribui para a documentação oficial -- incluindo deep dives sobre a biblioteca JavaScript `gill`, padrões web3.js 2.0 e geração de vanity addresses. Também co-apresenta o Solfate Podcast cobrindo builders do ecossistema Solana. YouTube: [@nickfrosty](https://www.youtube.com/@nickfrosty). Cobertura de primeira mão de alta qualidade que frequentemente precede a documentação oficial.
 
 ### Blueshift Learning Platform
 
 [https://blueshift.gg/](https://blueshift.gg/)
 
-Uma plataforma de aprendizado gamificada para desenvolvimento blockchain que inclui conteudo especifico de Solana. O Blueshift usa uma abordagem baseada em desafios onde voce resolve puzzles de programacao progressivamente mais dificeis. Cada desafio ensina um conceito especifico -- criacao de contas, derivacao de PDA, execucao de CPI -- em formato hands-on. Bom para desenvolvedores motivados por sistemas de conquistas que preferem aprender resolvendo problemas em vez de leitura passiva.
+Uma plataforma de aprendizado gamificada para desenvolvimento blockchain que inclui conteúdo específico de Solana. O Blueshift usa uma abordagem baseada em desafios onde você resolve puzzles de programação progressivamente mais difíceis. Cada desafio ensina um conceito específico -- criação de contas, derivação de PDA, execução de CPI -- em formato hands-on. Bom para desenvolvedores motivados por sistemas de conquistas que preferem aprender resolvendo problemas em vez de leitura passiva.
 
 ---
 
-## Conteudo em Portugues
+## Conteúdo em Português
 
-Recursos criados especificamente para desenvolvedores de lingua portuguesa no ecossistema Solana brasileiro.
+Recursos criados especificamente para desenvolvedores de língua portuguesa no ecossistema Solana brasileiro.
 
-### Bootcamps Tecnicos da Superteam Brasil
+### Bootcamps Técnicos da Superteam Brasil
 
-Sessoes de bootcamp presenciais e online organizadas pelo time de DevRel da Superteam Brasil. Foram realizados em universidades (UFSC em Florianopolis, Inteli em Sao Paulo) e online, cobrindo fundamentos Solana ate desenvolvimento avancado de programas. Os bootcamps sao estruturados como sessoes intensivas de varias horas com exercicios praticos de codigo. Confira a [pagina de eventos da Superteam Brasil](https://lu.ma/superteambrasil) para proximas sessoes.
+Sessões de bootcamp presenciais e online organizadas pelo time de DevRel da Superteam Brasil. Foram realizados em universidades (UFSC em Florianópolis, Inteli em São Paulo) e online, cobrindo fundamentos Solana até desenvolvimento avançado de programas. Os bootcamps são estruturados como sessões intensivas de várias horas com exercícios práticos de código. Confira a [página de eventos da Superteam Brasil](https://lu.ma/superteambrasil) para próximas sessões.
 
 ### Superteam Brasil YouTube
 
 [https://www.youtube.com/@SuperteamBR](https://www.youtube.com/@SuperteamBR)
 
-Conteudo em video em portugues incluindo bootcamps gravados, atualizacoes do ecossistema e tutoriais para desenvolvedores. O evento Ideathon Road to Colosseum (Marco 2026) foi transmitido ao vivo aqui com 349+ espectadores, tornando-se um dos eventos de desenvolvedores Solana em portugues mais assistidos. Inscreva-se para notificacoes de eventos ao vivo e novos conteudos.
+Conteúdo em vídeo em português incluindo bootcamps gravados, atualizações do ecossistema e tutoriais para desenvolvedores. O evento Ideathon Road to Colosseum (Março 2026) foi transmitido ao vivo aqui com 349+ espectadores, tornando-se um dos eventos de desenvolvedores Solana em português mais assistidos. Inscreva-se para notificações de eventos ao vivo e novos conteúdos.

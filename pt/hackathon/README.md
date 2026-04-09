@@ -1,21 +1,21 @@
 # Hackathon
 
-Bem-vindo ao guia do participante do hackathon global da Solana, apresentado pela Colosseum! Este guia fornece todas as informacoes necessarias para participacao, competicao e sucesso no maior hackathon web3 do mundo.
+Bem-vindo ao guia do participante do hackathon global da Solana, apresentado pela Colosseum! Este guia fornece todas as informações necessárias para participação, competição e sucesso no maior hackathon web3 do mundo.
 
 ## Frontier — Hackathon Global Solana 2026
 
-- **Periodo**: 6 de abril a 11 de maio de 2026
-- **Formato**: Online + eventos presenciais em 20+ paises
-- **Inscricao**: [arena.colosseum.org](https://arena.colosseum.org?ref=brasil)
-- **Informacoes oficiais**: [colosseum.com/frontier](https://colosseum.com/frontier)
-- **Site Brasil**: [hackathonsolana.com](https://hackathonsolana.com/)
-- **Trilha Brasil**: [superteam.fun/earn/listing/hackathon-superteambrasil](https://superteam.fun/earn/listing/hackathon-superteambrasil)
+- **Período**: 6 de abril a 11 de maio de 2026.
+- **Formato**: Online + eventos presenciais em 20+ países.
+- **Inscrição**: [arena.colosseum.org](https://arena.colosseum.org?ref=brasil).
+- **Informações oficiais**: [colosseum.com/frontier](https://colosseum.com/frontier).
+- **Site Brasil**: [hackathonsolana.com](https://hackathonsolana.com/).
+- **Trilha Brasil**: [superteam.fun/earn/listing/hackathon-superteambrasil](https://superteam.fun/earn/listing/hackathon-superteambrasil).
 
-## Premios (resumo)
+## Prêmios (resumo)
 
-- **Hackathon Global**: $260,000 (1x $50k Grand Champion, 20x $10k Track Winners, 1x $5k University, 1x $5k Open Source)
-- **Acelerador Colosseum**: ate 10 equipes recebem $250,000 cada em capital pre-seed
-- **Trilha Brasil**: $10,000 distribuidos entre as 10 melhores equipes brasileiras
+- **Hackathon Global**: $260,000 (1x $50k Grand Champion, 20x $10k Track Winners, 1x $5k University, 1x $5k Open Source).
+- **Acelerador Colosseum**: até 10 equipes recebem $250,000 cada em capital pre-seed.
+- **Trilha Brasil**: $10,000 distribuídos entre as 10 melhores equipes brasileiras.
 
 ## Canais da Superteam Brasil
 

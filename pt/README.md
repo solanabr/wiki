@@ -4,13 +4,13 @@ description: A principal comunidade de builders Solana do Brasil — desenvolven
 
 # Superteam Brazil
 
-Somos um coletivo de builders, desenvolvedores e operadores acelerando a adoção de Solana no Brasil. De ferramentas open-source a educacao e infraestrutura DeFi, a Superteam Brazil conecta talentos com oportunidades no maior mercado de tecnologia da America Latina.
+Somos um coletivo de builders, desenvolvedores e operadores acelerando a adoção de Solana no Brasil. De ferramentas open-source a educação e infraestrutura DeFi, a Superteam Brazil conecta talentos com oportunidades no maior mercado de tecnologia da América Latina.
 
-## Em Numeros
+## Em Números
 
-| Metrica | Valor |
+| Métrica | Valor |
 | :--- | :--- |
-| Recompensas Distribuidas | **$408K+** |
+| Recompensas Distribuídas | **$408K+** |
 | Listings no Superteam Earn | **161** |
 | Builders no Ecossistema | **1.000+** |
 | Membros Ativos | **60+** |
@@ -21,7 +21,7 @@ Somos um coletivo de builders, desenvolvedores e operadores acelerando a adoçã
 
 ### Sobre
 
-Saiba quem somos, como operamos e como participar. Abrange nossa missao, estrutura de lideranca, niveis de membresia, operacoes do validator e links oficiais.
+Saiba quem somos, como operamos e como participar. Abrange nossa missão, estrutura de liderança, níveis de membresia, operações do validator e links oficiais.
 
 {% content-ref url="about/mission.md" %}
 [about/mission.md](about/mission.md)
@@ -29,7 +29,7 @@ Saiba quem somos, como operamos e como participar. Abrange nossa missao, estrutu
 
 ### Recursos
 
-Uma colecao curada de recursos de desenvolvimento para construir na Solana — desde guias para iniciantes e cursos ate frameworks avancados, padroes DeFi e ferramentas assistidas por IA.
+Uma coleção curada de recursos de desenvolvimento para construir na Solana — desde guias para iniciantes e cursos até frameworks avançados, padrões DeFi e ferramentas assistidas por IA.
 
 {% content-ref url="resources/README.md" %}
 [resources/README.md](resources/README.md)
@@ -37,7 +37,7 @@ Uma colecao curada de recursos de desenvolvimento para construir na Solana — d
 
 ### Hackathon
 
-Guia completo para o hackathon global Solana Frontier 2026 — inscricao, premios, recursos, dicas e historico de hackathons anteriores.
+Guia completo para o hackathon global Solana Frontier 2026 — inscrição, prêmios, recursos, dicas e histórico de hackathons anteriores.
 
 {% content-ref url="hackathon/README.md" %}
 [hackathon/README.md](hackathon/README.md)
@@ -45,21 +45,21 @@ Guia completo para o hackathon global Solana Frontier 2026 — inscricao, premio
 
 ### Projetos
 
-Projetos ativos construidos e mantidos por membros da Superteam Brazil, incluindo solana-claude, Superteam Academy, o Solana Vault Standard e muito mais.
+Projetos ativos construídos e mantidos por membros da Superteam Brazil, incluindo solana-claude, Superteam Academy, o Solana Vault Standard e muito mais.
 
 {% content-ref url="projects/README.md" %}
 [projects/README.md](projects/README.md)
 {% endcontent-ref %}
 
-### Transparencia
+### Transparência
 
-Relatorios trimestrais sobre tesouraria, gastos, entregas e crescimento da comunidade. Prestacao de contas completa sobre como os recursos sao alocados.
+Relatórios trimestrais sobre tesouraria, gastos, entregas e crescimento da comunidade. Prestação de contas completa sobre como os recursos são alocados.
 
 {% content-ref url="transparency/README.md" %}
 [transparency/README.md](transparency/README.md)
 {% endcontent-ref %}
 
-## Links Rapidos
+## Links Rápidos
 
 * [GitHub](https://github.com/solanabr)
 * [Discord](https://discord.gg/superteambrasil)

@@ -1,53 +1,53 @@
 # Erros Comuns para Evitar
 
-Voce estudou todo esse guia e esta se preparando para entrar com tudo no hackathon Frontier da Solana. Voce montou seu time de builders com programadores, designers e marketeiros. Voce estocou sua cozinha com miojo e energeticos.
+Você estudou todo esse guia e está se preparando para entrar com tudo no hackathon Frontier da Solana. Você montou seu time de builders com programadores, designers e marketeiros. Você estocou sua cozinha com miojo e energéticos.
 
-Mas antes de comecar, vamos falar sobre como evitar algumas armadilhas muito comuns. Atraves de dolorosas tentativas e erros, a comunidade da Solana extraiu principios-chave sobre como **NAO** desperdicar seu tempo limitado de construcao.
+Mas antes de começar, vamos falar sobre como evitar algumas armadilhas muito comuns. Através de dolorosas tentativas e erros, a comunidade da Solana extraiu princípios-chave sobre como **NÃO** desperdiçar seu tempo limitado de construção.
 
 ## Armadilha 1: Resolvendo um problema "falso"
 
-Os projetos mais bem-sucedidos resolvem problemas reais que pessoas ou empresas reais enfrentam hoje. Concentre-se em atender necessidades que ja existem em vez de evocar necessidades falsas.
+Os projetos mais bem-sucedidos resolvem problemas reais que pessoas ou empresas reais enfrentam hoje. Concentre-se em atender necessidades que já existem em vez de evocar necessidades falsas.
 
 **Como evitar:**
-- Baseie seu projeto em problemas praticos reais. Uma excelente declaracao de problema pode levar seu projeto ao final mesmo com solucao imperfeita.
-- Converse com usuarios reais para identificar pontos problematicos. Nao confie em suposicoes.
-- Considere areas como onboarding de usuarios, UX de varejo, privacidade, identidade e infraestrutura.
-- Evite ideias que parecam interessantes mas nao tenham problema claro e urgente por tras.
+- Baseie seu projeto em problemas práticos reais. Uma excelente declaração de problema pode levar seu projeto ao final mesmo com solução imperfeita.
+- Converse com usuários reais para identificar pontos problemáticos. Não confie em suposições.
+- Considere áreas como onboarding de usuários, UX de varejo, privacidade, identidade e infraestrutura.
+- Evite ideias que pareçam interessantes, mas não tenham problema claro e urgente por trás.
 
 ## Armadilha 2: Ignorar os pontos fortes de Solana
 
-Os jurados procuram projetos que destaquem os pontos fortes de Solana. Aproveite ao maximo as transacoes baratas e rapidas. Mostre conectividade com carteiras moveis. Demonstre como Solana desbloqueia experiencias que nao funcionariam em outras blockchains.
+Os jurados procuram projetos que destaquem os pontos fortes de Solana. Aproveite ao máximo as transações baratas e rápidas. Mostre conectividade com carteiras móveis. Demonstre como Solana desbloqueia experiências que não funcionariam em outras blockchains.
 
 **Como evitar:**
 - Aproveite especificamente velocidade, taxas baixas e outros pontos fortes da Solana.
-- Estude o que faz a Solana ser unica e construa em torno desses recursos.
-- Nao envie ideias genericas que possam funcionar em qualquer blockchain.
+- Estude o que faz a Solana ser única e construa em torno desses recursos.
+- Não envie ideias genéricas que possam funcionar em qualquer blockchain.
 
-## Armadilha 3: Nao demonstrar seu progresso
+## Armadilha 3: Não demonstrar seu progresso
 
-Mesmo que seu demo nao esteja perfeito, mostre algo funcional. Um app ao vivo, mesmo limitado, prova progresso muito mais do que slides.
+Mesmo que seu demo não esteja perfeito, mostre algo funcional. Um app ao vivo, mesmo limitado, prova progresso muito mais do que slides.
 
 **Como evitar:**
-- Construa em publico. Compartilhe progresso nas redes sociais e comunidades Solana.
+- Construa em público. Compartilhe progresso nas redes sociais e comunidades Solana.
 - Documente sua jornada no Twitter ou blog. Busque feedback da comunidade.
 - Participe de eventos Solana para networking e visibilidade.
 
-## Armadilha 4: Improvisar a apresentacao
+## Armadilha 4: Improvisar a apresentação
 
-Grandes apresentacoes nao acontecem espontaneamente. Exigem pratica. Faca perguntas dificeis a si mesmo, cronometre sua apresentacao e obtenha feedback dos colegas.
+Grandes apresentações não acontecem espontaneamente. Exigem prática. Faça perguntas difíceis a si mesmo, cronometre sua apresentação e obtenha feedback dos colegas.
 
 **Como evitar:**
-- Priorize um demo funcional com bom UI. Juizes querem funcionalidades tangiveis.
+- Priorize um demo funcional com bom UI. Juízes querem funcionalidades tangíveis.
 - Construa um MVP que funcione de ponta a ponta, mesmo incompleto.
-- Demo ao vivo > video chamativo.
-- Nao gaste todo o tempo em design — construa e teste a solucao real.
+- Demo ao vivo > vídeo chamativo.
+- Não gaste todo o tempo em design — construa e teste a solução real.
 
-## Armadilha 5: Ausencia de um plano de negocios
+## Armadilha 5: Ausência de um plano de negócios
 
-Os jurados sabem que mesmo ideias incriveis nao levam a lugar nenhum sem modelo de negocios viavel. Pense em como gerar receita, reter usuarios e expandir.
+Os jurados sabem que mesmo ideias incríveis não levam a lugar nenhum sem modelo de negócios viável. Pense em como gerar receita, reter usuários e expandir.
 
 **Como evitar:**
-- Estruture apresentacoes em torno de funcionalidades detalhadas, nao apenas videos promocionais.
-- Evite chavoes e exageros. Mostre aplicacao pratica e utilidade.
-- Esteja preparado para responder perguntas detalhadas sobre como funciona por baixo do capo.
-- Impressione com substancia, nao estilo — demos reais em vez de afirmacoes ousadas.
+- Estruture apresentações em torno de funcionalidades detalhadas, não apenas vídeos promocionais.
+- Evite chavões e exageros. Mostre aplicação prática e utilidade.
+- Esteja preparado para responder perguntas detalhadas sobre como funciona por baixo do capô.
+- Impressione com substância, não estilo — demos reais em vez de afirmações ousadas.
