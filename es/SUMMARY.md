@@ -3,6 +3,7 @@
 ## Acerca de
 
 * [Inicio](README.md)
+* [Acerca de Superteam Brazil](about/README.md)
 * [Mision y Vision](about/mission.md)
 * [Liderazgo](about/leadership.md)
 * [Membresia](about/membership.md)
@@ -19,9 +20,15 @@
 * [Testing y Debugging](resources/testing-and-debugging.md)
 * [Desarrollo DeFi](resources/defi-development.md)
 * [Estandares de Tokens](resources/token-standards.md)
+* [Pagos y Stablecoins](resources/payments-and-stablecoins.md)
+* [RWA y Tokenizacion](resources/rwa-and-tokenization.md)
 * [Gaming y Mobile](resources/gaming-and-mobile.md)
 * [Desarrollo Asistido por IA](resources/ai-assisted-development.md)
+* [DePIN](resources/depin.md)
+* [Wallets y Onboarding](resources/wallets-and-onboarding.md)
+* [Estado de la Red y Roadmap](resources/network-and-roadmap.md)
 * [Comunidad y Hackathons](resources/community-and-hackathons.md)
+* [Contribuidores No Desarrolladores](resources/non-developer-contributors.md)
 * [Referencias Open Source](resources/open-source-references.md)
 
 ## Hackathon
@@ -35,12 +42,13 @@
 * [FAQ](hackathon/faq.md)
 * [Nuestra Mision](hackathon/our-mission.md)
 * [Historial de Hackathons](hackathon/hackathon-history.md)
+* [Resultados de Frontier 2026](hackathon/frontier-2026-results.md)
 * [Hall de la Fama Brasil](hackathon/hall-of-fame.md)
 
 ## Proyectos
 
 * [Vision General de Proyectos](projects/README.md)
-* [solana-claude](projects/solana-claude.md)
+* [Solana AI Kit](projects/solana-claude.md)
 * [Superteam Academy](projects/superteam-academy.md)
 * [Wiki](projects/wiki.md)
 * [Solana Vault Standard](projects/solana-vault-standard.md)

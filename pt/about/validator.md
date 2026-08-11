@@ -4,7 +4,9 @@ A Superteam Brazil opera um validator Solana como parte do seu compromisso com a
 
 ## Visão Geral
 
-- **Stake:** ~17.000 SOL em stake
+- **Stake:** ~112.000 SOL em stake (dados de agosto de 2026)
+- **Comissão:** 5% (10% MEV)
+- **Desempenho:** 99%+ de uptime e de votos bem-sucedidos, segundo o [StakeWiz](https://stakewiz.com/validator/STBRgoYTmMwukhcBVjGpg3A4R9HBsrWo82wJgiBukaW)
 - **Modelo de Recompensa:** 100% das recompensas do validator são reinvestidas na comunidade
 - **Propósito:** Financiar o crescimento do ecossistema por meio de bounties, educação e ferramentas
 

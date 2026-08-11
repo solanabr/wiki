@@ -8,11 +8,11 @@ Estudar código de produção é a forma mais rápida de evoluir como desenvolve
 
 Estes são projetos open-source construídos e mantidos pela comunidade Superteam Brasil. Vão desde ferramentas de desenvolvimento até padrões de protocolo e plataformas de educação.
 
-### solana-claude
+### Solana AI Kit (solana-ai-kit)
 
-[https://github.com/solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
+[https://github.com/solanabr/solana-ai-kit](https://github.com/solanabr/solana-ai-kit)
 
-O ambiente completo de desenvolvimento com IA para Solana. Este repositório contém 15 agentes especializados, 24+ comandos slash, 6 integrações pré-configuradas com servidores MCP, regras específicas por linguagem para Rust/Anchor/Pinocchio/TypeScript/C# e padrões de equipe de agentes para fluxos de desenvolvimento comuns. É a configuração de Claude Code mais abrangente para qualquer ecossistema blockchain.
+O ambiente completo de desenvolvimento com IA para Solana, antigo solana-claude-config. Este repositório contém 15 agentes especializados, 30 comandos de workflow, 7 integrações pré-configuradas com servidores MCP, 18 submódulos de skills externas, regras específicas por linguagem para Rust/Anchor/Pinocchio/TypeScript/C# e padrões de equipe de agentes para fluxos de desenvolvimento comuns. É a configuração de codificação com IA mais abrangente -- compatível com Claude Code e Codex -- para qualquer ecossistema blockchain.
 
 Estude para entender como estruturar ferramentas de desenvolvimento com IA -- as definições de agentes, padrões de comandos e integração MCP são bem organizados e documentados. Mantido por @kauenet.
 
@@ -31,6 +31,8 @@ Estude para exemplos de como projetar padrões de protocolo, implementar contabi
 Especificações SSS-1 e SSS-2 para emissão padronizada de stablecoins. O codebase demonstra uso avançado de Token-2022 -- transfer hooks para aplicação de compliance, controle de acesso baseado em funções, integração com oracles e gestão de blacklist. Este é um dos melhores exemplos de construção de infraestrutura financeira de produção na Solana com extensões Token-2022.
 
 Estude para padrões de implementação de transfer hooks Token-2022, arquitetura de compliance e como estruturar uma especificação multi-nível (SSS-1 básico, SSS-2 avançado). Mantido por @lvj_luiz e @kauenet.
+
+Nota: o repositório foi arquivado em junho de 2026 e agora é somente leitura -- continua sendo uma ótima referência de estudo para transfer hooks Token-2022 e arquitetura de compliance, mas não recebe mais atualizações.
 
 ### superteam-academy
 
@@ -56,7 +58,7 @@ Estes repositórios do ecossistema Solana mais amplo fornecem exemplos bem manti
 
 [https://github.com/solana-developers/program-examples](https://github.com/solana-developers/program-examples)
 
-O repositório oficial de exemplos mantido pela Solana Foundation. Contém implementações de padrões comuns em múltiplos frameworks -- Anchor, Rust native e Python (via Seahorse). Os exemplos cobrem transferências de tokens, PDAs, CPIs, compressão de contas, staking e mais. Cada exemplo é autocontido com testes.
+O repositório oficial de exemplos mantido pela Solana Foundation. Contém implementações de padrões comuns em múltiplos frameworks -- Anchor, Pinocchio e Rust nativo. Os exemplos cobrem transferências de tokens, PDAs, CPIs, compressão de contas, staking e mais. Cada exemplo é autocontido com testes.
 
 Este é o primeiro lugar para procurar quando precisa de uma implementação de referência para um padrão comum. O código é revisado pelo time da Solana Foundation e mantido atualizado com as versões mais recentes do SDK. Novos desenvolvedores devem começar com o diretório basics e progredir pelos exemplos gradualmente.
 
@@ -78,9 +80,9 @@ Estude se você está construindo Actions/Blinks. Os exemplos demonstram o fluxo
 
 ### Anchor examples
 
-[https://github.com/coral-xyz/anchor/tree/master/examples](https://github.com/coral-xyz/anchor/tree/master/examples)
+[https://github.com/otter-sec/anchor/tree/master/examples](https://github.com/otter-sec/anchor/tree/master/examples)
 
-Programas de exemplo do próprio repositório do framework Anchor. Esses exemplos são mantidos pelo time do Anchor e demonstram uso idiomático de funcionalidades do Anchor -- constraints de contas, PDAs, CPIs, tratamento de erros, eventos e padrões de teste. São atualizados junto com releases do Anchor, então sempre refletem melhores práticas atuais.
+Programas de exemplo do próprio repositório do framework Anchor, que foi transferido da coral-xyz (os links antigos redirecionam) e agora vive sob a otter-sec. Esses exemplos são mantidos pelo time do Anchor e demonstram uso idiomático de funcionalidades do Anchor -- constraints de contas, PDAs, CPIs, tratamento de erros, eventos e padrões de teste. São atualizados junto com releases do Anchor, então sempre refletem melhores práticas atuais. Os programas de exemplo mais ricos vivem no diretório tests/ do repositório.
 
 Estude para entender como o time do Anchor pretende que seu framework seja usado. Os exemplos vão de simples (contador básico) a complexos (programas com múltiplas instruções e CPIs), e cada um inclui tanto o programa Rust quanto testes TypeScript.
 
@@ -94,7 +96,7 @@ Infraestrutura de multisig e smart accounts em produção usada por grandes prot
 
 [https://github.com/solana-developers/program-examples/tree/main/basics](https://github.com/solana-developers/program-examples/tree/main/basics)
 
-Embora o repositório oficial de exemplos de programas seja principalmente focado em Anchor e Rust nativo, também inclui implementações em Pinocchio para comparação. São inestimáveis para entender os trade-offs de performance entre frameworks -- o mesmo programa implementado em Anchor vs Pinocchio, permitindo ver exatamente onde compute units são economizadas e como o acesso zero-copy funciona na prática.
+O Pinocchio é um framework de primeira classe no repositório oficial program-examples, com implementações ao lado das versões Anchor e Rust nativo. São inestimáveis para entender os trade-offs de performance entre frameworks -- o mesmo programa implementado em Anchor vs Pinocchio, permitindo ver exatamente onde compute units são economizadas e como o acesso zero-copy funciona na prática.
 
 ### Clockwork (Referência Legacy)
 
@@ -154,10 +156,10 @@ Dez programas Anchor numerados, cada um demonstrando uma vulnerabilidade especí
 
 O processo formal de propostas para mudanças no protocolo Solana. SIMDs definem novos recursos, mudanças de protocolo e padrões. Navegador da comunidade em [simd.wtf](https://simd.wtf/). Discussão acontece nos [Fóruns de Desenvolvedores Solana categoria SIMD](https://forum.solana.com/c/simd/5).
 
-SIMDs críticos para desenvolvedores incluem: SIMD-0096 (100% das priority fees para validadores -- já ativado, muda modelagem de taxas), SIMD-0083 (agendamento de transações aprimorado), SIMD-0296 (transações maiores -- em progresso), SIMD-0286 (blocos de 100M CU -- em progresso) e SIMD-0326 (consenso Alpenglow -- proposto). Entender SIMDs ativos te mantém à frente de mudanças de protocolo que afetam seus programas.
+SIMDs críticos para desenvolvedores incluem: SIMD-0096 (100% das priority fees para validadores -- já ativado, muda modelagem de taxas), SIMD-0083 (agendamento de transações aprimorado), SIMD-0296 (transações maiores -- em progresso), SIMD-0286 (limite de bloco de 100M CU -- ativado na mainnet em 29 de julho de 2026 na epoch 1009, elevando blocos de 60M para 100M CUs, +66% de capacidade) e SIMD-0326 (consenso Alpenglow -- aprovado pela governança de validadores em setembro de 2025 com 98,27% de votos a favor; rodando em um cluster de teste dedicado desde maio de 2026, com mainnet prevista para o segundo semestre de 2026 via Agave 4.1; reduz a finalidade de ~12,8s para ~150ms). Entender SIMDs ativos te mantém à frente de mudanças de protocolo que afetam seus programas.
 
 ### Solana Program Library (SPL)
 
-[https://spl.solana.com/](https://spl.solana.com/)
+[https://www.solana-program.com/docs](https://www.solana-program.com/docs)
 
 A coleção oficial de programas on-chain em produção. Além de Token e Token-2022, SPL inclui: Governance (votação/tesouraria de DAO), Stake Pool (staking multi-validador -- base para mSOL, jitoSOL), Name Service (domínios on-chain, base para .sol), Account Compression (árvores Merkle concorrentes para cNFTs), Memo (anexar strings UTF-8 a transações) e mais. Nota: o monorepo original (`solana-labs/solana-program-library`) foi arquivado em Março 2025 e dividido em repositórios individuais sob a organização GitHub [solana-program](https://github.com/solana-program) mantida pela Anza.

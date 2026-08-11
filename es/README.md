@@ -10,12 +10,14 @@ Somos un colectivo de builders, desarrolladores y operadores que aceleran la ado
 
 | Metrica | Valor |
 | :--- | :--- |
-| Recompensas Distribuidas | **$408K+** |
+| Recompensas Distribuidas | **$697K+** |
 | Listings en Superteam Earn | **161** |
-| Builders en el Ecosistema | **1,000+** |
+| Builders Acelerados | **1,000+** |
 | Miembros Activos | **60+** |
 | Startups Apoyadas | **30+** |
-| SOL en Staking (Validator) | **~17K** |
+| SOL en Staking (Validator) | **~112K** |
+
+_Cifras a agosto de 2026. Consulta los [Reportes de Transparencia](transparency/README.md) para los numeros trimestrales._
 
 ## Explora la Wiki
 
@@ -37,7 +39,7 @@ Una coleccion curada de recursos de desarrollo para construir en Solana -- desde
 
 ### Hackathon
 
-Guia completa para el hackathon global Solana Frontier 2026 — inscripcion, premios, recursos, consejos e historial de hackathons anteriores.
+Guias para competir en hackathons globales de Solana — como participar, consejos, errores comunes, resultados de ciclos recientes y el Hall de la Fama de ganadores brasilenos.
 
 {% content-ref url="hackathon/README.md" %}
 [hackathon/README.md](hackathon/README.md)
@@ -45,7 +47,7 @@ Guia completa para el hackathon global Solana Frontier 2026 — inscripcion, pre
 
 ### Proyectos
 
-Proyectos activos construidos y mantenidos por miembros de Superteam Brazil, incluyendo solana-claude, Superteam Academy, el Solana Vault Standard y mas.
+Proyectos activos construidos y mantenidos por miembros de Superteam Brazil, incluyendo Solana AI Kit, Superteam Academy, el Solana Vault Standard y mas.
 
 {% content-ref url="projects/README.md" %}
 [projects/README.md](projects/README.md)

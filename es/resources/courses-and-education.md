@@ -8,11 +8,11 @@ Solana tiene un ecosistema rico de recursos de aprendizaje, desde cursos interac
 
 Estos cursos te permiten aprender a tu propia velocidad con currículos estructurados y ejercicios prácticos.
 
-### Cursos de la Solana Foundation
+### Solana Developer Bootcamp
 
-[https://solana.com/developers/courses](https://solana.com/developers/courses)
+[https://solana.com/developers/bootcamp](https://solana.com/developers/bootcamp)
 
-El currículo oficial mantenido por la Solana Foundation. Este es el recurso gratuito más completo para aprender desarrollo en Solana desde cero. Cubre desarrollo del lado del cliente, desarrollo de programas on-chain con Anchor y temas avanzados como compressed NFTs y Solana Mobile. Cada módulo incluye explicaciones, ejemplos de código y ejercicios de laboratorio. Si solo vas a seguir un curso, que sea este.
+El recurso de aprendizaje insignia actual de la Solana Foundation — una biblioteca de aprendizaje centrada en video (edición 2026) construida alrededor de proyectos prácticos, estructurada en cuatro módulos: Foundations, Program Patterns, Fullstack Applications y Shipping & Production. También se ofrecen tracks especializados más cortos (Solana Crashcourse, DePIN). La biblioteca anterior de cursos escritos que estaba en solana.com/developers/courses fue archivada en enero de 2025 y ahora es de solo lectura en [github.com/solana-foundation/developer-content](https://github.com/solana-foundation/developer-content/tree/main/content/courses) — sigue siendo útil como referencia, pero ya no se mantiene.
 
 ### Tutorial de Solana de RareSkills
 
@@ -40,9 +40,9 @@ Estos programas ofrecen cronogramas estructurados, mentoría y comunidad — ide
 
 ### Turbin3
 
-[https://turbin3.com/](https://turbin3.com/)
+[https://turbin3.org/](https://turbin3.org/)
 
-Un programa intensivo por cohorte donde construyes proyectos reales con mentoría de desarrolladores experimentados de Solana. Turbin3 ofrece múltiples tracks — desarrollo de programas en Rust, desarrollo de clientes en TypeScript e infraestructura de trading. El programa ha producido un número significativo de desarrolladores que pasaron a contribuir en proyectos del ecosistema. El formato de cohorte significa que construyes junto a compañeros y recibes retroalimentación directa, lo que acelera el aprendizaje dramáticamente comparado con el estudio individual.
+Un programa intensivo por cohorte donde construyes proyectos reales con mentoría de desarrolladores experimentados de Solana. Turbin3 ahora presenta tres ofertas — Enterprise Training, Developer Hiring y el Institute (su programa gratuito de formación de desarrolladores en [turbin3.org/institute](https://turbin3.org/institute)) — y cita 2,000+ desarrolladores formados, muchos de los cuales pasaron a contribuir en proyectos del ecosistema. La cohorte insignia enseña a llevar programas de Solana a producción con Rust y Anchor, y las cohortes del Q1 2026 confirman que el programa sigue activo. El formato de cohorte significa que construyes junto a compañeros y recibes retroalimentación directa, lo que acelera el aprendizaje dramáticamente comparado con el estudio individual.
 
 ### Superteam Academy
 
@@ -145,7 +145,7 @@ Artículos escritos, tutoriales y newsletter de Nick Frostbutter, desarrollador 
 
 [https://blueshift.gg/](https://blueshift.gg/)
 
-Una plataforma de aprendizaje gamificada para desarrollo blockchain que incluye contenido específico de Solana. Blueshift usa un enfoque basado en desafíos donde resuelves puzzles de programación progresivamente más difíciles. Cada desafío enseña un concepto específico — creación de cuentas, derivación de PDA, ejecución de CPI — en formato práctico. Bueno para desarrolladores motivados por sistemas de logros que prefieren aprender resolviendo problemas en lugar de lectura pasiva.
+Una plataforma de aprendizaje gratuita y open-source construida exclusivamente para el desarrollo en Solana. Blueshift ofrece cursos estructurados (Anchor, Rust, TypeScript, Tokens e incluso Solana Assembly) acompañados de desafíos interactivos que ejecutan tu código contra logs reales de programas, y emite credenciales NFT on-chain por cursos y calificaciones completados. Todo el contenido tiene licencia MIT, y la plataforma colabora con proyectos del ecosistema como Jupiter, Metaplex y Orca. La aplicación de cursos vive en [learn.blueshift.gg](https://learn.blueshift.gg).
 
 ---
 
@@ -155,7 +155,7 @@ Recursos creados específicamente para desarrolladores de habla portuguesa en el
 
 ### Bootcamps Técnicos de Superteam Brazil
 
-Sesiones de bootcamp presenciales y en línea organizadas por el equipo de DevRel de Superteam Brazil. Se han realizado en universidades (UFSC en Florianópolis, Inteli en São Paulo) y en línea, cubriendo desde fundamentos de Solana hasta desarrollo avanzado de programas. Los bootcamps están estructurados como sesiones intensivas de varias horas con ejercicios prácticos de código. Consulta la [página de eventos de Superteam Brazil](https://lu.ma/superteambrasil) para próximas sesiones.
+Sesiones de bootcamp presenciales y en línea organizadas por el equipo de DevRel de Superteam Brazil. Se han realizado en universidades (UFSC en Florianópolis, Inteli en São Paulo) y en línea, cubriendo desde fundamentos de Solana hasta desarrollo avanzado de programas. Los bootcamps están estructurados como sesiones intensivas de varias horas con ejercicios prácticos de código. Consulta la [página de eventos de Superteam Brazil](https://luma.com/superteambrasil) para próximas sesiones.
 
 ### Superteam Brazil YouTube
 

@@ -28,7 +28,7 @@ Conversaciones rápidas y actualizaciones para la comunidad brasileña. Como Wha
 
 ### Eventos
 
-[https://lu.ma/superteambrasil](https://lu.ma/superteambrasil)
+[https://luma.com/superteambrasil](https://luma.com/superteambrasil)
 
 Proximos meetups, workshops, hackathons y eventos comunitarios organizados por Superteam Brazil. Estos incluyen eventos presenciales en ciudades brasilenas, eventos internacionales (Buenos Aires, Abu Dhabi) y workshops virtuales. Los eventos se publican con detalles, enlaces de RSVP y grabaciones cuando estan disponibles. Revisa esto regularmente para mantenerte al dia con los eventos locales de Solana.
 
@@ -78,7 +78,7 @@ Aquí también es donde se discuten y refinan propuestas de sRFC como el Vault S
 
 ## Hackathons y Competencias
 
-> **Frontier 2026**: Para la guia completa del hackathon Solana Frontier (abril-mayo 2026), incluyendo inscripcion, premios, recursos, consejos e historial, consulta la [seccion Hackathon](../hackathon/README.md).
+> **Frontier 2026**: El hackathon Solana Frontier se llevó a cabo del 6 de abril al 11 de mayo de 2026. Para la guía completa, incluyendo resultados, premios, recursos, consejos e historial, consulta la [sección Hackathon](../hackathon/README.md).
 
 Los hackathons son la principal rampa de entrada para nuevos builders de Solana. Proporcionan estructura, plazos, mentoría y frecuentemente pozos de premios significativos.
 
@@ -90,9 +90,15 @@ La plataforma de hackathons de Solana. Colosseum organiza hackathons importantes
 
 Los hackathons de Colosseum típicamente duran varias semanas, dando a los equipos tiempo para construir proyectos sustanciales en lugar de prototipos apresurados. Las categorías usualmente incluyen DeFi, infraestructura, consumidor, gaming y DAOs.
 
-### Cypherpunk Hackathon
+Entre hackathons, Colosseum Eternal permite a los equipos iniciar un sprint de 4 semanas bajo demanda en cualquier momento, compitiendo por $250K en financiamiento pre-seed, la admisión al siguiente batch de la aceleradora y el Eternal Award semestral de $25K. El próximo hackathon de Solana se llevará a cabo del 28 de septiembre al 2 de noviembre de 2026.
 
-El hackathon más reciente de gran escala de Solana con un pozo de premios total de $2.5M. Los builders brasileños tuvieron un desempeño destacado en 2025: MCPay ganó el 1er lugar en el track de Stablecoins, Cloak obtuvo el 3er lugar general y VitalFi recibió una Mención Honorífica en RWA. Estos resultados demuestran la creciente fortaleza de la comunidad de desarrolladores brasileños de Solana en el escenario global.
+### Frontier Hackathon (2026)
+
+El Solana Frontier Hackathon de Colosseum se llevó a cabo del 6 de abril al 11 de mayo de 2026 y se convirtió en el hackathon crypto más grande hasta la fecha: más de 10,000 participantes de más de 150 países y 2,857 proyectos finales enviados. Los ganadores se anunciaron el 26 de junio de 2026, con el proyecto de DePIN de robótica CrowdBrain nombrado Gran Campeón. La 5ª cohorte de la aceleradora de Colosseum — la más grande, con 21 startups — se formó a partir de los ganadores de Frontier y del sprint Eternal. Consulta la [sección Hackathon](../hackathon/README.md) para la guía completa.
+
+### Cypherpunk Hackathon (2025)
+
+El hackathon de otoño 2025 de Colosseum (del 25 de septiembre al 30 de octubre de 2025), con más de $2.5M distribuidos entre los ganadores. Los builders brasileños tuvieron un desempeño destacado: MCPay ganó el 1er lugar en el track de Stablecoins, Cloak obtuvo el 3er lugar en el track de Stablecoins y VitalFi recibió una Mención Honorífica en RWA. Estos resultados demuestran la creciente fortaleza de la comunidad de desarrolladores brasileños de Solana en el escenario global.
 
 ### Shipathon Brasil
 
@@ -100,7 +106,13 @@ Una competencia de construcción específica para Brasil diseñada para desarrol
 
 ### Breakpoint
 
-La conferencia anual de Solana que reúne a desarrolladores, fundadores, inversionistas y el ecosistema más amplio. Breakpoint 2025 está programado para Abu Dhabi. La conferencia incluye charlas técnicas, workshops, eventos de networking y finales de hackathons. Es la reunión más grande de builders de Solana cada año.
+La conferencia anual de Solana que reúne a desarrolladores, fundadores, inversionistas y el ecosistema más amplio. Breakpoint 2025 se celebró del 11 al 13 de diciembre de 2025 en el Etihad Arena de Abu Dhabi, con más de 7,000 asistentes de más de 100 países — el Breakpoint más grande hasta la fecha. La conferencia incluye charlas técnicas, workshops, eventos de networking y finales de hackathons. Es la reunión más grande de builders de Solana cada año. Superteam Brazil envió una delegación y documentó más de 50 fotos de los eventos.
+
+### the/Garage
+
+[https://luma.com/superteambrasil](https://luma.com/superteambrasil)
+
+El programa acelerador de builders de Superteam Brazil para proyectos de Solana en etapa temprana. La primera cohorte arrancó en abril de 2026 en Sao Paulo, proporcionando mentoría de builders experimentados de Solana, recursos técnicos, soporte de infraestructura y orientación sobre financiamiento y estrategia de go-to-market. the/Garage llena el vacío entre los prototipos de hackathon y los productos en producción — si construiste algo prometedor pero necesitas apoyo sostenido para lanzarlo, este es el programa.
 
 ---
 
@@ -112,7 +124,7 @@ Construir en Solana puede ser financieramente gratificante más allá de los pre
 
 [https://superteam.fun/earn/s/superteambr](https://superteam.fun/earn/s/superteambr)
 
-Bounties, proyectos y grants de equipos del ecosistema. Superteam Earn agrega oportunidades pagadas para builders de Solana — bounties de desarrollo, tareas de diseño, creación de contenido y proyectos completos. La plataforma ha distribuido más de $408K, con 161 listados y una tasa de finalización del 95%. Esta es la fuente más confiable de trabajo pagado en Solana para builders brasileños.
+Bounties, proyectos y grants de equipos del ecosistema. Superteam Earn agrega oportunidades pagadas para builders de Solana — bounties de desarrollo, tareas de diseño, creación de contenido y proyectos completos. La plataforma ha distribuido más de $697K en recompensas con una tasa de finalización del 97%. Esta es la fuente más confiable de trabajo pagado en Solana para builders brasileños.
 
 Las oportunidades van desde bounties pequeños (corregir un bug, escribir documentación) hasta proyectos sustanciales (construir una integración completa, diseñar un protocolo). La plataforma maneja pagos, escrow y resolución de disputas.
 

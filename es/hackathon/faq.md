@@ -2,14 +2,14 @@
 
 ## Vision General
 
-El Solana Frontier Hackathon es una competencia global online del **6 de abril al 11 de mayo de 2026**. Los premios totalizan $260,000 en el hackathon global, hasta 10 equipos en el acelerador Colosseum con $250,000 cada uno, y $10,000 para los 10 mejores equipos brasileños.
+Los hackathons globales de Solana son organizados por Colosseum (dos por año). La edicion Frontier (6 de abril – 11 de mayo de 2026) ha concluido — consulta los [Resultados de Frontier 2026](frontier-2026-results.md) para ver los numeros, ganadores y premios. El proximo hackathon se realiza del **28 de septiembre al 2 de noviembre de 2026**; el Eternal Challenge de Colosseum tambien funciona todo el año para equipos que no quieren esperar. Las estructuras de premios estan detalladas en [Informacion Esencial](essential-info.md).
 
 ## Inscripcion
 
-- Registrarse en [arena.colosseum.org](https://arena.colosseum.org?ref=brasil)
+- Registrarse en [colosseum.com/arena](https://colosseum.com/arena?ref=brasil) (arena.colosseum.org ahora redirige permanentemente alli — manten el parametro `?ref=brasil`)
 - Cada miembro del equipo necesita una cuenta individual
-- El formulario de presentacion abre 1 semana antes de la fecha limite (11 de mayo)
-- Info sobre el hackathon: [colosseum.com/frontier](https://colosseum.com/frontier)
+- Historicamente, el formulario de presentacion abre alrededor de 1 semana antes de la fecha limite (2 de noviembre para la edicion de otoño)
+- Info sobre el hackathon: [colosseum.com/hackathon](https://colosseum.com/hackathon)
 
 ## Elegibilidad
 
@@ -26,14 +26,14 @@ Presentaciones individuales estan permitidas, pero equipos diversos (devs + mark
 
 - Inscripcion obligatoria en el hackathon global
 - **Mismo proyecto** en ambos tracks (global + Brasil)
-- Inscripcion: [hackathon SuperteamBrasil](https://superteam.fun/earn/listing/hackathon-superteambrasil)
+- El [listing de Earn](https://superteam.fun/earn/listing/hackathon-superteambrasil) de la edicion Frontier esta completado (ganadores anunciados el 1 de junio de 2026 — 10,000 USDG distribuidos entre 10 equipos); el listing del track local de la edicion de otoño esta por confirmar — sigue [superteam.fun/earn](https://superteam.fun/earn) y el [Discord de Superteam Brasil](https://discord.gg/superteambrasil)
 - Seleccionar Brasil como pais base en la presentacion
 
 ## Soporte
 
 - Recursos: [Guia para Participantes](resources.md) y [solana.com/developers](https://solana.com/developers)
 - Preguntas tecnicas: [Discord SuperteamBR](https://discord.gg/superteambrasil)
-- Eventos: [lu.ma/superteambrasil](https://luma.com/superteambrasil) y [solana.com/events](http://solana.com/events)
+- Eventos: [luma.com/superteambrasil](https://luma.com/superteambrasil) y [solana.com/events](http://solana.com/events)
 
 ## Codigo de Conducta
 

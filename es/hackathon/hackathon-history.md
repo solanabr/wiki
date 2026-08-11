@@ -16,6 +16,9 @@ Estas competencias funcionan como competencias de ideas de startups, donde los p
 | Radar | Septiembre-Octubre 2024 | 10,000+ | 1,300+ | [Ver](https://solana.com/news/solana-radar-winners) |
 | Breakout | Abril-Mayo 2025 | 10,000+ | 1,400+ | [Ver](https://blog.colosseum.com/announcing-the-winners-of-the-solana-breakout-hackathon/) |
 | Cypherpunk | Septiembre-Octubre 2025 | 9,000+ | 1,500+ | [Ver](https://blog.colosseum.com/cypherpunk-winners-stamp-light-token-firedancer/) |
-| **Frontier** | **Abril-Mayo 2026** | **En curso** | **-** | **-** |
+| Frontier | Abril-Mayo 2026 | 10,000+ | 2,857 | [Ver](https://blog.colosseum.com/announcing-the-winners-of-the-solana-frontier-hackathon/) |
+| **Otoño 2026 (por anunciar)** | **28 de septiembre – 2 de noviembre de 2026** | **Proximamente** | **-** | **-** |
+
+Frontier fue el hackathon crypto mas grande hasta la fecha, con builders de 150+ paises; Grand Champion: CrowdBrain (DePIN de robotica).
 
 Proyectos notables nacidos en hackathons Colosseum: Stepn, Tensor, Jito Labs, Marinade, Kamino, TipLink, Drift, Squads, Switchboard, Crossmint, Light Protocol, entre otros.

@@ -16,13 +16,13 @@ Los tests unitarios verifican instrucciones individuales y operaciones de cuenta
 
 Una Solana Virtual Machine liviana y en proceso, diseñada específicamente para testing. LiteSVM inicia una instancia SVM mínima en tu proceso de test — sin validador, sin red, sin RPC. Los tests se ejecutan en tiempos menores a un segundo, haciendo práctico el desarrollo guiado por tests. Creas cuentas, despliegas programas y procesas instrucciones todo dentro de una sola función de test en Rust.
 
-LiteSVM es la opción recomendada por defecto para tests unitarios de programas Solana. Soporta tanto programas Anchor como nativos, maneja operaciones del system program (creación de cuentas, transferencias) y te da control total sobre el entorno de test (clock, rent, slot). Úsalo cuando necesites retroalimentación rápida sobre lógica de instrucciones.
+LiteSVM es la opción recomendada por defecto para tests unitarios de programas Solana. Soporta tanto programas Anchor como nativos, maneja operaciones del system program (creación de cuentas, transferencias) y te da control total sobre el entorno de test (clock, rent, slot). Úsalo cuando necesites retroalimentación rápida sobre lógica de instrucciones. Desde Anchor v1.0.0 (abril de 2026), `anchor init` genera por defecto una plantilla de tests LiteSVM en Rust (con `--test-template mollusk` o `--test-template mocha` como alternativas), convirtiendo a LiteSVM en el punto de partida oficial para testing con Anchor.
 
 ### Mollusk
 
-[https://github.com/buffalojoec/mollusk](https://github.com/buffalojoec/mollusk)
+[https://github.com/anza-xyz/mollusk](https://github.com/anza-xyz/mollusk)
 
-Un arnés de testing SVM enfocado en programas nativos (no Anchor) de Solana. Mollusk proporciona una API limpia para testear instrucciones individuales con control preciso sobre entradas de cuentas y salidas esperadas. Su característica destacada es la medición integrada de unidades de cómputo — cada resultado de test incluye las CU exactas consumidas, convirtiéndolo en la herramienta de elección para perfilado y optimización de CU.
+Un arnés de testing SVM enfocado en programas nativos (no Anchor) de Solana. Mollusk proporciona una API limpia para testear instrucciones individuales con control preciso sobre entradas de cuentas y salidas esperadas. Su característica destacada es la medición integrada de unidades de cómputo — cada resultado de test incluye las CU exactas consumidas, convirtiéndolo en la herramienta de elección para perfilado y optimización de CU. Creado originalmente por Joe Caulfield (buffalojoec), Mollusk ahora se mantiene bajo la organización Anza — el equipo central del cliente de Solana — y está disponible como plantilla de tests de Anchor 1.0 vía `anchor init --test-template mollusk`.
 
 Usa Mollusk cuando estés escribiendo programas nativos (especialmente Pinocchio), cuando necesites perfilado de CU como parte de tu suite de tests, o cuando quieras la API de testing más simple posible sin dependencias de Anchor.
 
@@ -38,15 +38,13 @@ Los tests de integración verifican que tu programa funciona correctamente al in
 
 Surfpool te permite reproducir estado de mainnet o devnet localmente sin desplegar nada. Obtiene datos de cuentas reales y estado de programas, luego ejecuta tus transacciones contra esa instantánea. Esto significa que puedes testear las interacciones de tu programa con Jupiter, Pyth, SPL Token y cualquier otro programa desplegado usando su estado on-chain real.
 
-Usa Surfpool cuando necesites testear CPIs contra programas reales, cuando quieras verificar que tu programa funciona con layouts de cuentas en producción, o cuando necesites reproducir un problema de mainnet localmente. Cierra la brecha entre tests unitarios (aislados) y despliegue en devnet (lento y costoso).
+Usa Surfpool cuando necesites testear CPIs contra programas reales, cuando quieras verificar que tu programa funciona con layouts de cuentas en producción, o cuando necesites reproducir un problema de mainnet localmente. Cierra la brecha entre tests unitarios (aislados) y despliegue en devnet (lento y costoso). Anchor v1.0.0 también hizo de Surfpool el backend predeterminado para `anchor test` y `anchor localnet`, reemplazando a `solana-test-validator` (pasa `--validator legacy` para obtener el comportamiento anterior).
 
-### Bankrun
+### LiteSVM (TypeScript)
 
-[https://github.com/kevinheavey/solana-bankrun](https://github.com/kevinheavey/solana-bankrun)
+[https://github.com/LiteSVM/litesvm/tree/master/crates/node-litesvm](https://github.com/LiteSVM/litesvm/tree/master/crates/node-litesvm)
 
-BanksServer ejecutándose dentro de Node.js para ejecución rápida de tests TypeScript con Anchor. Bankrun te da un entorno de test que se comporta como un cluster real de Solana pero se ejecuta completamente en proceso. Está diseñado específicamente para proyectos Anchor donde tus tests están escritos en TypeScript — reemplaza el flujo de `anchor test` con algo mucho más rápido.
-
-Usa Bankrun cuando tengas un proyecto Anchor con tests de integración en TypeScript y quieras ejecución más rápida que `solana-test-validator`. Soporta viajes en el tiempo (avanzar slots y timestamps), manipulación de cuentas y todos los métodos RPC estándar.
+Bankrun, la opción preferida anterior para tests rápidos en TypeScript, está deprecado — su README ahora dirige a los usuarios a LiteSVM. LiteSVM incluye bindings oficiales de Node.js (`litesvm` en npm) que le dan a proyectos TypeScript/Anchor la misma velocidad en proceso que el crate de Rust, incluyendo viajes en el tiempo (avanzar slots y timestamps) y manipulación directa de cuentas. Úsalo cuando tus tests de integración estén escritos en TypeScript y quieras ejecución en menos de un segundo sin validador. Una suite de tests de Bankrun existente seguirá funcionando, pero los proyectos nuevos no deberían empezar con él.
 
 ---
 
@@ -66,13 +64,13 @@ Usa Trident antes de cualquier despliegue en mainnet que maneje fondos de usuari
 
 ## Testing de Seguridad y Auditoría
 
-### OtterSec (anteriormente Sec3)
+### OtterSec
 
 [https://osec.io/](https://osec.io/)
 
 Auditores profesionales de seguridad de Solana y el equipo detrás de varias herramientas de auditoría automatizadas. OtterSec ha auditado muchos de los protocolos más grandes de Solana incluyendo Jupiter, Marinade y Tensor. Sus contribuciones open-source incluyen herramientas de seguridad e investigación de vulnerabilidades que benefician a todo el ecosistema.
 
-Para desarrolladores, OtterSec publica informes de auditoría que sirven como excelentes casos de estudio para entender vulnerabilidades reales de Solana. Leer sus auditorías publicadas es una de las mejores formas de aprender qué problemas de seguridad buscar en tus propios programas.
+Para desarrolladores, OtterSec publica informes de auditoría que sirven como excelentes casos de estudio para entender vulnerabilidades reales de Solana. Leer sus auditorías publicadas es una de las mejores formas de aprender qué problemas de seguridad buscar en tus propios programas. No debe confundirse con Sec3 (sec3.dev), una firma de seguridad de Solana independiente — anteriormente conocida como Soteria — que ofrece auditorías y herramientas automatizadas de análisis estático.
 
 ### Neodyme
 

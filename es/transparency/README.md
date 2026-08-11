@@ -20,20 +20,20 @@ El validador esta alojado en **Sao Paulo, Brasil**, contribuyendo a la descentra
 
 ## Impacto Acumulado
 
-Desde su inicio, Superteam Brazil ha facilitado un crecimiento significativo en el ecosistema Solana brasileno. Los numeros a continuacion reflejan totales acumulados hasta el Q1 2026:
+Desde su inicio, Superteam Brazil ha facilitado un crecimiento significativo en el ecosistema Solana brasileno. Los numeros a continuacion reflejan totales acumulados a agosto de 2026 (recompensas y tasa de completitud segun la pagina de sponsor en vivo de [Superteam Earn](https://earn.superteam.fun/); conteos de listados y envios segun el reporte del Q1 2026):
 
 | Metrica | Valor |
 |---------|-------|
-| Total de recompensas distribuidas | $408,000+ |
-| Total de listados publicados | 161 |
-| Total de envios recibidos | 1,832 |
-| Tasa de completitud | 95% |
+| Total de recompensas distribuidas | $697,000+ |
+| Total de listados publicados | 161+ |
+| Total de envios recibidos | 1,832+ |
+| Tasa de completitud | 97% |
 | Miembros activos de la comunidad | 62 |
 | Builders en el ecosistema | 247+ |
 | Socios del ecosistema | 40+ |
 | Capital facilitado | $3,000,000+ |
 
-La tasa de completitud del 95% en 1,832 envios refleja una comunidad que cumple con lo que empieza. Los listados abarcan bounties, tracks de hackathons, desafios educativos y oportunidades de contribucion — todos disenados para llevar a los builders del aprendizaje a la produccion.
+La tasa de completitud del 97% refleja una comunidad que cumple con lo que empieza. Los listados abarcan bounties, tracks de hackathons, desafios educativos y oportunidades de contribucion — todos disenados para llevar a los builders del aprendizaje a la produccion.
 
 ---
 
@@ -45,10 +45,12 @@ La tasa de completitud del 95% en 1,832 envios refleja una comunidad que cumple 
 | Comision | 5% |
 | Comision MEV | 10% |
 | Modelo de ingresos | 100% reinvertido en el ecosistema |
-| Stake actual | ~17,000 SOL |
-| Tasa de votacion | 99.4% |
-| Uptime (30 dias) | 100% |
+| Stake actual | ~112,000 SOL |
+| Tasa de votacion | 99.6% |
+| Uptime (30 dias) | 99%+ |
 | Skip rate | 0% |
+
+_Metricas del validador a agosto de 2026 — datos en vivo en [StakeWiz](https://stakewiz.com/validator/STBRgoYTmMwukhcBVjGpg3A4R9HBsrWo82wJgiBukaW)_
 
 Nuestro validador no es un centro de ganancias. Es un mecanismo de financiamiento para builders brasilenos. Cada punto base de comision generado vuelve al ecosistema a traves de bounties, grants, patrocinios de eventos y desarrollo open-source.
 

@@ -1,6 +1,6 @@
 # Hub de Recursos
 
-Uma coleção curada de mais de 200 recursos de desenvolvimento Solana em 11 categorias, mantida pelo time de DevRel da Superteam Brasil. Isto não é uma lista genérica de links -- cada recurso aqui foi avaliado por qualidade, relevância e status de manutenção. Seja você escrevendo seu primeiro programa ou otimizando compute units em um protocolo DeFi em produção, este hub oferece as ferramentas, educação e referências de que você precisa.
+Uma coleção curada de mais de 200 recursos de desenvolvimento Solana em 17 categorias, mantida pelo time de DevRel da Superteam Brasil. Isto não é uma lista genérica de links -- cada recurso aqui foi avaliado por qualidade, relevância e status de manutenção. Seja você escrevendo seu primeiro programa ou otimizando compute units em um protocolo DeFi em produção, este hub oferece as ferramentas, educação e referências de que você precisa.
 
 Os projetos open-source da própria Superteam Brasil estão integrados naturalmente nas categorias onde se encaixam -- você os encontrará nas seções de DeFi, Token Standards, Gaming, AI e Educação.
 
@@ -13,9 +13,15 @@ Os projetos open-source da própria Superteam Brasil estão integrados naturalme
 * [Testes e Debugging](testing-and-debugging.md) -- Testes unitários, testes de integração, fuzz testing e exploradores de blocos
 * [Desenvolvimento DeFi](defi-development.md) -- Roteamento de DEX, empréstimos, oracles, liquid staking e padrões de vault/stablecoin
 * [Token Standards](token-standards.md) -- SPL Token, extensões Token-2022, especificações de stablecoin e padrões de NFT
+* [Pagamentos e Stablecoins](payments-and-stablecoins.md) -- Trilhos de stablecoin, BRZ, on/off-ramps via Pix e regulação brasileira para builders
+* [RWA e Tokenização](rwa-and-tokenization.md) -- Ações tokenizadas e ativos do mundo real, emissores, infraestrutura e o ângulo da B3
 * [Gaming e Mobile](gaming-and-mobile.md) -- Unity SDK, engines de jogos on-chain, mobile wallet adapter e ferramentas de IA para jogos
-* [Desenvolvimento Assistido por IA](ai-assisted-development.md) -- solana-claude, servidores MCP, frameworks de agentes de IA e automação de desenvolvimento
+* [Desenvolvimento Assistido por IA](ai-assisted-development.md) -- Solana AI Kit, servidores MCP, frameworks de agentes de IA e automação de desenvolvimento
+* [DePIN](depin.md) -- Redes de infraestrutura física descentralizada: os principais protocolos e como construir uma
+* [Wallets e Onboarding](wallets-and-onboarding.md) -- Wallet adapter vs wallets embutidas, passkeys e padrões de onboarding de consumidores
+* [Estado da Rede e Roadmap](network-and-roadmap.md) -- Alpenglow, Firedancer, diversidade de clientes e onde acompanhar mudanças de protocolo
 * [Comunidade e Hackathons](community-and-hackathons.md) -- Superteam Brasil, hackathons, grants e comunidades do ecossistema
+* [Contribuidores Não Desenvolvedores](non-developer-contributors.md) -- Trabalho remunerado, assets de design, conteúdo e funções de comunidade além do código
 * [Referências Open Source](open-source-references.md) -- Codebases de produção, programas de exemplo e implementações de referência
 
 ---

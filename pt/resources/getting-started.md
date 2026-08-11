@@ -30,7 +30,7 @@ Você tem duas opções: configuração local para desenvolvimento sério, ou ba
 
 [https://solana.com/docs/intro/installation](https://solana.com/docs/intro/installation)
 
-Isso cobre a instalação do Solana CLI, framework Anchor e toolchain Rust na sua máquina. O desenvolvimento local te dá controle total -- debugging, configurações de teste personalizadas e a capacidade de usar ferramentas de IA como solana-claude. Se você planeja construir algo além de um projeto de brinquedo, configure localmente.
+Isso cobre a instalação do Solana CLI, framework Anchor e toolchain Rust na sua máquina. Nota: desde o Anchor 1.0 (abril de 2026), o CLI `anchor` empacota sua própria toolchain e não requer mais o CLI `solana` externo para a maioria dos comandos -- você pode começar apenas com Rust e Anchor, embora o Solana CLI ainda seja útil para gestão de keypairs e clusters. O desenvolvimento local te dá controle total -- debugging, configurações de teste personalizadas e a capacidade de usar ferramentas de IA como o Solana AI Kit. Se você planeja construir algo além de um projeto de brinquedo, configure localmente.
 
 ### Solana Playground (IDE no Navegador)
 
@@ -40,7 +40,7 @@ Se quiser pular a configuração local ou apenas experimentar uma ideia, o Solan
 
 ### Configuração de Provedor RPC
 
-Para qualquer coisa além do desenvolvimento local, você precisa de um provedor RPC. Os endpoints RPC públicos padrão são rate-limited e não são adequados para uso em produção. [Helius](https://www.helius.dev/) oferece um tier gratuito generoso que é suficiente para aprender e desenvolvimento inicial -- cadastre-se, obtenha uma API key e use na configuração do seu Solana CLI e código da aplicação. Outros provedores como [Triton](https://triton.one/) e [Ironforge](https://www.ironforge.cloud/) também oferecem tiers gratuitos. Ter uma conexão RPC confiável desde o início previne erros frustrantes de timeout e limites de taxa que podem travar seu aprendizado.
+Para qualquer coisa além do desenvolvimento local, você precisa de um provedor RPC. Os endpoints RPC públicos padrão são rate-limited e não são adequados para uso em produção. [Helius](https://www.helius.dev/) oferece um tier gratuito generoso que é suficiente para aprender e desenvolvimento inicial -- cadastre-se, obtenha uma API key e use na configuração do seu Solana CLI e código da aplicação. Outros provedores como [Triton](https://triton.one/) e [Ironforge](https://www.ironforge.sanctum.so/) também oferecem tiers gratuitos. Ter uma conexão RPC confiável desde o início previne erros frustrantes de timeout e limites de taxa que podem travar seu aprendizado.
 
 ---
 
@@ -78,11 +78,11 @@ A coleção completa de guias oficiais da Solana Foundation para desenvolvedores
 
 Depois de dominar os fundamentos, ferramentas de IA podem acelerar dramaticamente seu ciclo de desenvolvimento -- desde geração de código e auditorias de segurança até consulta de documentação em tempo real e queries de dados on-chain.
 
-### solana-claude
+### Solana AI Kit
 
-[https://github.com/solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
+[https://github.com/solanabr/solana-ai-kit](https://github.com/solanabr/solana-ai-kit)
 
-Esta é a ferramenta de maior alavancagem que você pode adicionar ao seu fluxo de desenvolvimento Solana. Uma única instalação te dá 15 agentes de IA especializados (architect, anchor-engineer, pinocchio-engineer, frontend-engineer, security auditor e mais), 24+ comandos slash para tarefas comuns (build, audit, deploy, scaffold, test) e 6 servidores MCP pré-configurados que dão ao seu assistente de IA acesso em tempo real a documentação Solana, dados on-chain e referências de bibliotecas. Ele transforma o Claude Code de um assistente de propósito geral em um parceiro de desenvolvimento Solana que entende o ecossistema profundamente. Veja a página de [Desenvolvimento Assistido por IA](ai-assisted-development.md) para a análise completa.
+Esta é a ferramenta de maior alavancagem que você pode adicionar ao seu fluxo de desenvolvimento Solana. Uma única instalação do Solana AI Kit (anteriormente solana-claude-config) te dá 15 agentes de IA especializados (architect, anchor-engineer, pinocchio-engineer, frontend-engineer, security auditor e mais), 30 comandos de workflow para tarefas comuns (build, audit, deploy, scaffold, test) e 7 servidores MCP pré-configurados que dão ao seu assistente de IA acesso em tempo real a documentação Solana, dados on-chain e referências de bibliotecas. Ele transforma o Claude Code de um assistente de propósito geral em um parceiro de desenvolvimento Solana que entende o ecossistema profundamente. Veja a página de [Desenvolvimento Assistido por IA](ai-assisted-development.md) para a análise completa.
 
 ---
 
@@ -90,9 +90,9 @@ Esta é a ferramenta de maior alavancagem que você pode adicionar ao seu fluxo 
 
 Para desenvolvedores vindo de outros ecossistemas, aqui está o caminho condensado:
 
-1. Leia os docs de Quick Start e Core Concepts (2-3 horas)
+1. Leia os docs de Quick Start e Core Concepts (2-3 horas) -- ou siga o Solana Developer Bootcamp, focado em vídeo, em [solana.com/developers/bootcamp](https://solana.com/developers/bootcamp)
 2. Instale o Solana CLI e Anchor localmente, ou use o Solana Playground
 3. Construa o tutorial do dApp CRUD de ponta a ponta
-4. Instale o solana-claude e comece a usar desenvolvimento assistido por IA
+4. Instale o [Solana AI Kit](https://github.com/solanabr/solana-ai-kit) e comece a usar desenvolvimento assistido por IA
 5. Escolha um projeto real e use o Cookbook + Developer Guides como referências
 6. Explore [Cursos e Educação](courses-and-education.md) para aprendizado aprofundado e estruturado

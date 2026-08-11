@@ -10,7 +10,7 @@ As ferramentas que você usa diariamente -- CLIs, IDEs, provedores de RPC e plat
 
 [https://solana.com/docs/intro/installation](https://solana.com/docs/intro/installation)
 
-A interface de linha de comando essencial para desenvolvimento Solana. Você vai usá-la constantemente -- gerenciando keypairs, verificando saldos, implantando programas, configurando endpoints de cluster, fazendo airdrop de SOL em devnet e inspecionando transações. É a base sobre a qual tudo mais é construído. O CLI também inclui o `solana-test-validator` para executar um cluster local, embora para testes você deva preferir LiteSVM ou Mollusk (veja [Testes e Debugging](testing-and-debugging.md)).
+A interface de linha de comando essencial para desenvolvimento Solana. Você vai usá-la constantemente -- gerenciando keypairs, verificando saldos, implantando programas, configurando endpoints de cluster, fazendo airdrop de SOL em devnet e inspecionando transações. É a base sobre a qual tudo mais é construído. O CLI também inclui o `solana-test-validator` para executar um cluster local, embora para testes você deva preferir LiteSVM ou Mollusk, e note que a partir do Anchor 1.0 `anchor test`/`anchor localnet` executam Surfpool em vez do `solana-test-validator` (veja [Testes e Debugging](testing-and-debugging.md)).
 
 Comandos principais que você usará diariamente: `solana config set`, `solana balance`, `solana program deploy`, `solana logs`, `solana airdrop`.
 
@@ -54,23 +54,15 @@ Escolha Triton quando precisar de streaming de dados com baixa latência (gRPC),
 
 ### Ironforge
 
-[https://www.ironforge.cloud/](https://www.ironforge.cloud/)
+[https://www.ironforge.sanctum.so/](https://www.ironforge.sanctum.so/)
 
-Infraestrutura RPC com simulação de transações e ferramentas de debugging integradas. O Ironforge fornece RPC padrão junto com recursos focados em desenvolvedores como simulação aprimorada de transações, profiling de compute units e ferramentas de inspeção de contas diretamente no dashboard. Útil para desenvolvedores que querem mais visibilidade sobre o que suas transações estão fazendo durante o desenvolvimento.
+Gateway de RPC e plataforma de DevOps, agora parte da Sanctum. O Ironforge fica na frente dos seus provedores de RPC e adiciona recursos focados em desenvolvedores -- roteamento de requisições e failover, simulação de transações, profiling de compute units e observabilidade sobre o que suas transações estão fazendo -- em um único dashboard. Útil para equipes que querem gestão de infraestrutura RPC sem construí-la por conta própria.
 
 ### Shyft
 
 [https://shyft.to/](https://shyft.to/)
 
 Plataforma de APIs que fornece abstrações de nível mais alto sobre dados da Solana. Além do RPC bruto, o Shyft oferece APIs REST para dados de tokens, operações com NFTs, histórico de transações e analytics DeFi. Suas APIs retornam dados estruturados sem exigir que você faça parse de dados brutos de contas ou decodifique logs de instruções. Útil para desenvolvedores frontend que precisam de dados da Solana sem a complexidade da integração RPC bruta.
-
-### Luzid
-
-[https://luzid.app/](https://luzid.app/)
-
-Um debugger visual e ambiente de desenvolvimento local para programas Solana. O Luzid fornece uma interface gráfica para inspecionar contas, transações e estado de programas durante o desenvolvimento local, substituindo o fluxo exclusivamente via CLI do `solana-test-validator` por uma interface visual. Os recursos incluem inspeção de estado de contas, replay de transações, debugging no estilo breakpoint e profiling de CU com saída visual.
-
-Use Luzid quando quiser uma experiência de desenvolvimento mais visual do que o CLI oferece, ou ao debugar transações complexas com múltiplas instruções onde visualizar as mudanças de estado é mais eficaz do que ler saída de logs.
 
 ---
 
@@ -165,6 +157,6 @@ Transações legadas são limitadas a ~35 contas. Address Lookup Tables (ALTs) a
 
 ### Durable Nonces
 
-[https://docs.solanalabs.com/cli/examples/durable-nonce](https://docs.solanalabs.com/cli/examples/durable-nonce)
+[https://docs.anza.xyz/cli/examples/durable-nonce](https://docs.anza.xyz/cli/examples/durable-nonce)
 
 Transações Solana padrão expiram após ~60 segundos se não forem incluídas em um bloco. Durable nonces substituem o blockhash recente por um valor de nonce armazenado que não expira, habilitando fluxos de assinatura offline, assinatura multi-party em fusos horários diferentes e submissão agendada de transações. Essencial para qualquer aplicação onde transações não podem ser assinadas e submetidas na mesma sessão.

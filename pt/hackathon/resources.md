@@ -4,7 +4,7 @@
 
 - [Como Vencer um Hackathon Colosseum](https://blog.colosseum.com/how-to-win-a-colosseum-hackathon/) — guia completo de estratégia.
 - [Aperfeiçoando sua Submissão](https://blog.colosseum.com/perfecting-your-hackathon-submission/) — requisitos de pitch, demo e GitHub.
-- [Recursos Oficiais do Hackathon (Colosseum)](https://colosseum.com/cypherpunk/resources) — recursos e patrocinadores.
+- [Página Oficial do Hackathon (Colosseum)](https://colosseum.com/hackathon) — hackathon atual, recursos e patrocinadores.
 
 ## Começando a Desenvolver na Solana
 
@@ -27,17 +27,15 @@
 
 | Ferramenta | Link | Descrição |
 |------------|------|-----------|
-| Web3.js | [solana-labs.github.io](https://solana-labs.github.io/solana-web3.js/) | SDK JavaScript para Solana |
-| Soldev | [soldev.app](https://www.soldev.app/) | Portal de recursos para devs |
-| Solana Cookbook | [solanacookbook.com](https://solanacookbook.com/#contributing) | Receitas e exemplos práticos |
+| @solana/kit | [github.com/anza-xyz/kit](https://github.com/anza-xyz/kit) | SDK TypeScript moderno para Solana (a linha 2.x renomeada do @solana/web3.js) |
+| Solana Cookbook | [solana.com/developers/cookbook](https://solana.com/developers/cookbook) | Receitas e exemplos práticos |
 | Helius | [helius.dev](https://www.helius.dev/) | RPC, APIs e ferramentas |
-| Ironforge | [ironforge.cloud](https://www.ironforge.cloud/) | RPC e explorer (código SUPERTEAM = 2 meses grátis) |
+| Ironforge | [ironforge.sanctum.so](https://www.ironforge.sanctum.so/) | Gateway RPC e plataforma de DevOps, agora parte da Sanctum |
 | Triton One | [triton.one](https://triton.one/) | RPC alta performance, devnet/testnet grátis |
 | Surfpool | [surfpool.run](https://surfpool.run/) | Simulação Solana conectada a Mainnet |
 | SHYFT | [shyft.to](https://shyft.to/) | APIs para Solana |
 | Hello Moon | [hellomoon.io](https://www.hellomoon.io/developers) | Analytics e dados on-chain |
 | ThirdWeb | [thirdweb.com](https://thirdweb.com/) | SDK multi-chain |
-| Seahorse | [seahorse-lang.org](https://seahorse-lang.org/) | Escreva programas Solana em Python |
 | OSS Superteam | [oss.superteam.fun](http://oss.superteam.fun/) | Projetos open-source do ecossistema |
 
 ## Ferramentas de IA

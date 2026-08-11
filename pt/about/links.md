@@ -12,7 +12,7 @@ Todos os canais e plataformas verificados da Superteam Brazil.
 | Telegram | [t.me/superteambrbot](https://t.me/superteambrbot) | Chat da comunidade |
 | Instagram | [@superteambr](https://instagram.com/superteambr) | Conteúdo visual e destaques de eventos |
 | LinkedIn | [Superteam Brasil](https://www.linkedin.com/company/superteambrasil/) | Rede profissional e atualizações |
-| Eventos | [lu.ma/superteambrasil](https://lu.ma/superteambrasil) | Próximos eventos e meetups |
+| Eventos | [luma.com/superteambrasil](https://luma.com/superteambrasil) | Calendário de eventos |
 | Linktree | [linktr.ee/superteamBR](https://linktr.ee/superteamBR) | Todos os links em um só lugar |
 | Grants | [Solana Foundation Brazil Grants](https://superteam.fun/earn/grants/solana-foundation-brazil-grants) | Candidate-se a grants do ecossistema |
 | Validator | [StakeWiz](https://stakewiz.com/validator/STBRgoYTmMwukhcBVjGpg3A4R9HBsrWo82wJgiBukaW) | Delegue SOL para apoiar a comunidade |

@@ -23,14 +23,14 @@ A Superteam Brasil é o hub oficial da comunidade Solana no Brasil, conectando d
 | Métrica | Valor |
 |---|---|
 | Capital Facilitado | **US$ 3M+** |
-| Recompensas Distribuídas | **US$ 408K+** |
+| Recompensas Distribuídas | **US$ 697K+** |
 | Listings e Grants | **161** |
 | Total de Submissões | **1.832** |
 | Builders Acelerados | **1.000+** |
 | Membros Ativos | **60+** |
 | Startups Apoiadas | **30+** |
-| SOL em Stake via Validador | **~17K** |
-| Taxa de Conclusão | **95%** |
+| SOL em Stake via Validador | **~112K** |
+| Taxa de Conclusão | **97%** |
 
 ## Parceiros do Ecossistema
 

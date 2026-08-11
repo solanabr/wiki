@@ -2,10 +2,10 @@
 
 ## Datas Importantes
 
-- **6 de abril**: Abertura das inscrições.
-- **11 de maio**: Prazo de submissão.
-- **1 semana antes do prazo**: Formulário de submissão fica disponível na plataforma.
-- Anúncios dos vencedores e demo day para investidores: a confirmar.
+- **28 de setembro de 2026**: Início do hackathon de outono.
+- **2 de novembro de 2026**: Prazo de submissão.
+- **~1 semana antes do prazo**: Formulário de submissão fica disponível na plataforma.
+- **Anúncio dos vencedores**: normalmente ~6-7 semanas após o prazo (Frontier: prazo em 11 de maio, vencedores anunciados em 26 de junho de 2026).
 
 ## Categorias de Competição (Tracks)
 
@@ -20,27 +20,31 @@
 
 ## Prêmios (Detalhado)
 
-### Hackathon Global
+### Hackathon Global — estrutura do Frontier (primavera de 2026)
+
+A estrutura de prêmios do outono de 2026 ainda não foi anunciada; a tabela abaixo mostra a edição Frontier, já concluída, como referência:
 
 | Prêmio | Valor | Qtd |
 |--------|-------|-----|
-| **Grand Champion** | $50,000 | 1 |
-| **Track Winners** | $10,000 | 20 |
-| **University Award** (estudantes) | $5,000 | 1 |
-| **Open Source Award** | $5,000 | 1 |
+| **Grand Champion** | $30,000 | 1 |
+| **Top Winners** | $10,000 | 20 (depois 25)* |
+| **University Award** (estudantes) | $10,000 | 1 |
+| **Public Goods Award** | $10,000 | 1 |
 
-**Total prêmios hackathon global: $260,000.**
+\* Foram anunciadas 20 vagas de Top Winner; a avaliação ampliou a lista para 25 runner-ups, totalizando 26 equipes vencedoras.
+
+**Total anunciado para o hackathon global: $250,000.**
 
 ### Acelerador Colosseum
 
-Até 10 equipes selecionadas recebem:
+As equipes vencedoras são convidadas para o acelerador (o Cohort 5 admitiu 21), cada uma recebendo:
 - **$250,000 em capital pre-seed** cada.
 - Acesso exclusivo a networking e investidores.
 - Mentoria direta 1:1.
 - Residência de 2 semanas em San Francisco.
 - Suporte jurídico e infraestrutura.
 
-Todos os vencedores do hackathon recebem entrevistas para possível inclusão no acelerador.
+Todos os vencedores do hackathon recebem entrevistas para possível inclusão no acelerador. O Cohort 5 (junho de 2026) admitiu 21 startups vindas dos vencedores do Frontier e do sprint Eternal — o maior cohort da Colosseum até hoje.
 
 ### Trilha Brasil
 
@@ -108,6 +112,8 @@ Os jurados — fundadores, desenvolvedores e investidores de destaque no ecossis
 - Use o [Cofounder Directory do Colosseum](https://arena.colosseum.org) para encontrar cofundadores.
 
 ## Timeline Recomendado (5 semanas)
+
+A janela de 28 de setembro a 2 de novembro de 2026 tem exatamente 5 semanas:
 
 | Semana | Foco |
 |--------|------|

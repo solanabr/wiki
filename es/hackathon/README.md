@@ -2,20 +2,23 @@
 
 Bienvenido a la guia del participante del hackathon global de Solana, presentado por Colosseum! Esta guia proporciona toda la informacion necesaria para participar, competir y tener exito en el hackathon web3 mas grande del mundo.
 
-## Frontier — Hackathon Global Solana 2026
+## Hackathons Globales de Solana 2026
 
-- **Periodo**: 6 de abril a 11 de mayo de 2026
-- **Formato**: Online + eventos presenciales en 20+ paises
-- **Inscripcion**: [arena.colosseum.org](https://arena.colosseum.org?ref=brasil)
-- **Informacion oficial**: [colosseum.com/frontier](https://colosseum.com/frontier)
-- **Sitio Brasil**: [hackathonsolana.com](https://hackathonsolana.com/)
-- **Track Brasil**: [superteam.fun/earn/listing/hackathon-superteambrasil](https://superteam.fun/earn/listing/hackathon-superteambrasil)
+El hackathon **Frontier** (6 de abril – 11 de mayo de 2026) ha concluido — el hackathon crypto mas grande hasta la fecha. Consulta los [Resultados de Frontier 2026](frontier-2026-results.md) para ver los numeros completos, los ganadores y lo que sigue.
+
+### Proximo: Hackathon de Otoño 2026
+
+- **Periodo**: 28 de septiembre – 2 de noviembre de 2026
+- **Inscripcion**: [colosseum.com/arena](https://colosseum.com/arena?ref=brasil)
+- **Informacion oficial**: [colosseum.com/hackathon](https://colosseum.com/hackathon)
+- **Todo el año**: el Eternal Challenge ([colosseum.com/eternal](https://colosseum.com/eternal)) — lanza un producto en 4 semanas, en cualquier momento; los ganadores avanzan al acelerador con $250k en financiamiento pre-seed.
+- **Sitio/track Brasil para el ciclo de otoño**: por confirmar (hackathonsolana.com y el listing de Earn todavia muestran el ciclo de primavera concluido — los links actualizados se publicaran aqui cuando Superteam Brasil los anuncie).
 
 ## Premios (resumen)
 
-- **Hackathon Global**: $260,000 (1x $50k Grand Champion, 20x $10k Track Winners, 1x $5k University, 1x $5k Open Source)
-- **Acelerador Colosseum**: hasta 10 equipos reciben $250,000 cada uno en capital pre-seed
-- **Track Brasil**: $10,000 distribuidos entre los 10 mejores equipos brasileños
+- **Hackathon Global (edicion Frontier)**: $250,000 ($30k Grand Champion, 20x $10k winners, $10k University Award, $10k Public Goods Award)
+- **Acelerador Colosseum**: $250,000 pre-seed para cada equipo aceptado
+- **Track Brasil**: $10,000 (edicion Frontier concluida — ver [resultados](frontier-2026-results.md))
 
 ## Canales de Superteam Brasil
 

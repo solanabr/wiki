@@ -12,15 +12,15 @@ Esses frameworks definem como você escreve programas on-chain na Solana. Cada u
 
 [https://www.anchor-lang.com/](https://www.anchor-lang.com/)
 
-O framework padrão para desenvolvimento de programas Solana. O Anchor fornece validação declarativa de contas por meio de macros Rust (`#[derive(Accounts)]`), geração automática de IDL (Interface Description Language) e geração de clientes TypeScript a partir desse IDL. Ele lida com boilerplate como desserialização de contas, verificações de discriminator e validação de constraints, permitindo que você foque na lógica de negócio. O ecossistema é construído em torno do Anchor -- a maioria dos tutoriais, ferramentas e código de exemplo assume seu uso. Escolha Anchor para a maioria dos projetos, codebases de equipe e sempre que precisar de um IDL para geração de clientes. Versão atual: 0.31+, que introduziu discriminators customizados e `LazyAccount`.
+O framework padrão para desenvolvimento de programas Solana. O Anchor fornece validação declarativa de contas por meio de macros Rust (`#[derive(Accounts)]`), geração automática de IDL (Interface Description Language) e geração de clientes TypeScript a partir desse IDL. Ele lida com boilerplate como desserialização de contas, verificações de discriminator e validação de constraints, permitindo que você foque na lógica de negócio. O ecossistema é construído em torno do Anchor -- a maioria dos tutoriais, ferramentas e código de exemplo assume seu uso. Escolha Anchor para a maioria dos projetos, codebases de equipe e sempre que precisar de um IDL para geração de clientes. Versão atual: 1.x -- o Anchor 1.0.0, o primeiro major release estável, saiu em abril de 2026, com a linha 1.1 chegando em junho de 2026. O Anchor 1.0 tem como alvo o Solana 3.x, empacota sua própria toolchain (o CLI `anchor` não requer mais o CLI `solana` externo e traz comandos nativos `balance`, `airdrop`, `address` e `deploy`), renomeia o pacote TypeScript de `@coral-xyz/anchor` para `@anchor-lang/core`, adota por padrão testes LiteSVM (Rust) em novos projetos com `anchor test`/`anchor localnet` rodando sobre Surfpool em vez do `solana-test-validator`, e adiciona `Migration<From, To>` para upgrades de schema de contas. Se você está no 0.31, siga as [notas de lançamento oficiais do 1.0.0](https://www.anchor-lang.com/docs/updates/release-notes/1-0-0) para migrar.
 
 O trade-off é tamanho do binário e consumo de compute units (CU). As abstrações do Anchor adicionam overhead que pode importar para programas críticos em performance ou programas se aproximando do limite de tamanho do binário BPF.
 
 ### Pinocchio
 
-[https://github.com/febo/pinocchio](https://github.com/febo/pinocchio)
+[https://github.com/anza-xyz/pinocchio](https://github.com/anza-xyz/pinocchio)
 
-Um framework zero-copy que alcança redução de 80-95% em CU comparado ao Anchor por meio de acesso direto à memória, zero alocações no heap e tamanho mínimo de binário. Pinocchio usa discriminators de byte único (vs 8 bytes do Anchor), structs `#[repr(C)]` para layout de memória consistente e pointer casting para acesso zero-copy a contas. O resultado são programas dramaticamente mais baratos de executar e menores para implantar.
+Um framework zero-copy que alcança redução de 80-95% em CU comparado ao Anchor por meio de acesso direto à memória, zero alocações no heap e tamanho mínimo de binário -- agora mantido sob a Anza (o time do validador Agave). Pinocchio usa discriminators de byte único (vs 8 bytes do Anchor), structs `#[repr(C)]` para layout de memória consistente e pointer casting para acesso zero-copy a contas. O resultado são programas dramaticamente mais baratos de executar e menores para implantar.
 
 O trade-off é a experiência do desenvolvedor. Você escreve validação manual de contas, lida com sua própria serialização e gerencia blocos de código unsafe. Não há geração de IDL -- você constrói clientes manualmente. Escolha Pinocchio quando compute units ou tamanho do binário são restrições, quando está construindo infraestrutura crítica em performance, ou quando quer controle máximo sobre cada byte.
 
@@ -64,9 +64,9 @@ Essas bibliotecas permitem que você interaja com a Solana a partir de TypeScrip
 
 ### @solana/kit (web3.js 2.0)
 
-[https://github.com/solana-labs/solana-web3.js](https://github.com/solana-labs/solana-web3.js)
+[https://github.com/anza-xyz/kit](https://github.com/anza-xyz/kit)
 
-O SDK TypeScript moderno da Solana, completamente reescrito do zero. É tree-shakable (importe apenas o que usa), tem um design de API funcional (sem classes) e fornece tipos TypeScript fortes em toda parte. A arquitetura é modular -- RPC, construção de transações, gerenciamento de chaves e codecs são pacotes separados que você compõe.
+O SDK TypeScript moderno da Solana, completamente reescrito do zero. É tree-shakable (importe apenas o que usa), tem um design de API funcional (sem classes) e fornece tipos TypeScript fortes em toda parte. A arquitetura é modular -- RPC, construção de transações, gerenciamento de chaves e codecs são pacotes separados que você compõe. A linha 2.x do `@solana/web3.js` foi renomeada para `@solana/kit` e agora vive no repositório anza-xyz/kit; o antigo repo da solana-labs hospeda apenas o branch de manutenção da 1.x.
 
 Use `@solana/kit` para novos projetos, especialmente frontends onde o tamanho do bundle importa. O tree-shaking sozinho pode reduzir seu bundle relacionado a Solana em 80%+ comparado ao SDK legado. A API funcional também facilita testes já que não há estado escondido.
 
@@ -74,9 +74,9 @@ Use `@solana/kit` para novos projetos, especialmente frontends onde o tamanho do
 
 [https://www.npmjs.com/package/@solana/web3.js](https://www.npmjs.com/package/@solana/web3.js)
 
-O SDK TypeScript legado que a maioria do código Solana existente usa. API baseada em classes com `Connection`, `PublicKey`, `Transaction` e `Keypair` como tipos principais. O cliente TypeScript do Anchor (`@coral-xyz/anchor`) é construído sobre a versão 1.x, então se você está trabalhando com clientes gerados pelo Anchor, vai usar este.
+O SDK TypeScript legado que a maioria do código Solana existente usa. API baseada em classes com `Connection`, `PublicKey`, `Transaction` e `Keypair` como tipos principais. O cliente TypeScript legado do Anchor era o `@coral-xyz/anchor`; no Anchor 1.0 o pacote foi renomeado para `@anchor-lang/core`, e ele ainda é construído sobre os tipos do web3.js 1.x. Para novos programas Anchor, o padrão recomendado é, em vez disso, gerar um cliente tipado nativo do kit a partir do IDL do programa com Codama (veja a entrada do Codama abaixo) para que seu frontend permaneça no `@solana/kit`.
 
-Use a versão 1.x ao trabalhar com codebases existentes, projetos Anchor ou qualquer biblioteca que dependa dele. É estável e bem documentado, apenas maior e menos moderno que a reescrita 2.0.
+Use a versão 1.x apenas para codebases existentes ou bibliotecas que ainda dependam dele. É estável e bem documentado, apenas maior e menos moderno que a reescrita 2.0.
 
 ### Solana Rust SDK (Cliente)
 

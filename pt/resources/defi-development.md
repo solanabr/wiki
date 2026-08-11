@@ -30,11 +30,11 @@ Este padrão aborda uma lacuna real no ecossistema. À medida que mais stablecoi
 
 ### Jupiter
 
-[https://dev.jup.ag/docs/get-started](https://dev.jup.ag/docs/get-started)
+[https://developers.jup.ag/docs/get-started](https://developers.jup.ag/docs/get-started)
 
 O principal agregador DEX da Solana e o ponto de entrada padrão para swaps. O Jupiter roteia trades por todas as principais DEXs da Solana para encontrar o melhor preço, dividindo ordens em múltiplas pools quando necessário. Além de swaps básicos, Jupiter fornece ordens limitadas, dollar-cost averaging (DCA) e trading de perpétuos.
 
-Para desenvolvedores, a API e SDK do Jupiter são a forma mais fácil de adicionar funcionalidade de swap à sua aplicação. Em vez de integrar protocolos DEX individuais, você integra Jupiter uma vez e ganha acesso a todos eles. O portal de desenvolvedores em `dev.jup.ag` é o hub canônico, substituindo a documentação antiga em `station.jup.ag`. A Swap API lida com rotas complexas incluindo swaps multi-hop, e a mais recente Ultra API oferece fluxos de swap simplificados. Uma versão self-hosted da swap API está disponível para casos de uso críticos em latência, como liquidações. SDK: `@jup-ag/api` no npm. GitHub: [jup-ag/jupiter-swap-api-client](https://github.com/jup-ag/jupiter-swap-api-client).
+Para desenvolvedores, a API e SDK do Jupiter são a forma mais fácil de adicionar funcionalidade de swap à sua aplicação. Em vez de integrar protocolos DEX individuais, você integra Jupiter uma vez e ganha acesso a todos eles. O portal de desenvolvedores em `developers.jup.ag` é o hub canônico, substituindo a documentação antiga em `dev.jup.ag` e `station.jup.ag`. A Swap API lida com rotas complexas incluindo swaps multi-hop, e a mais recente Ultra API oferece fluxos de swap simplificados. Uma versão self-hosted da swap API está disponível para casos de uso críticos em latência, como liquidações. SDK: `@jup-ag/api` no npm. GitHub: [jup-ag/jupiter-swap-api-client](https://github.com/jup-ag/jupiter-swap-api-client).
 
 ### Raydium
 
@@ -58,7 +58,7 @@ Escolha Orca quando precisar de interação direta com pools (não roteamento ag
 
 Liquidez dinâmica com o modelo DLMM (Dynamic Liquidity Market Maker). A inovação do Meteora está em como ele lida com bins de liquidez -- o preço é dividido em bins discretos, e swaps dentro de um bin tem zero slippage. Seu modelo de taxa se ajusta dinamicamente com base na volatilidade do mercado, significando que LPs ganham mais durante períodos voláteis.
 
-Para desenvolvedores, Meteora é interessante se você está construindo sobre mecânicas de AMM inovadoras ou precisa das propriedades específicas de liquidez baseada em bins. O DLMM também alimenta muitos lançamentos de tokens por meio de sua funcionalidade de launch pool.
+Para desenvolvedores, Meteora é interessante se você está construindo sobre mecânicas de AMM inovadoras ou precisa das propriedades específicas de liquidez baseada em bins. Para lançamentos de tokens, a Dynamic Bonding Curve (DBC) do Meteora é um protocolo de lançamento permissionless usado por muitos launchpads da Solana: uma bonding curve configurável cuida da descoberta de preço inicial e então gradua automaticamente o token para uma pool de liquidez DAMM v2 (ou v1), com roteamento pelo Jupiter desde o primeiro dia. O Meteora também lançou seu token MET em outubro de 2025.
 
 ---
 
@@ -84,9 +84,15 @@ Integre o Marginfi quando sua aplicação precisar de funcionalidade de emprést
 
 [https://docs.kamino.finance/](https://docs.kamino.finance/)
 
-Estratégias automatizadas de liquidez e empréstimo. O Kamino começou como uma ferramenta de gestão automatizada de liquidez (rebalanceamento automático de posições LP na Orca e Raydium) e expandiu para lending. Seu produto de lending é integrado com seus vaults de liquidez, significando que tokens LP podem ser usados como colateral.
+Estratégias automatizadas de liquidez e empréstimo. O Kamino começou como uma ferramenta de gestão automatizada de liquidez (rebalanceamento automático de posições LP na Orca e Raydium) e expandiu para lending. Seu produto de lending é integrado com seus vaults de liquidez, significando que tokens LP podem ser usados como colateral. O Kamino é atualmente o maior money market da Solana em TVL.
 
 Kamino é útil quando você está construindo aplicações que precisam de otimização de yield ou gestão automatizada de posições. Suas estratégias de vault abstraem a complexidade da gestão ativa de liquidez.
+
+### Jupiter Lend
+
+[https://developers.jup.ag/docs/lend](https://developers.jup.ag/docs/lend)
+
+O protocolo de empréstimos do Jupiter, lançado em agosto de 2025 sobre a infraestrutura battle-tested do Fluid. Cresceu para mais de $1,5 bilhão em depósitos em poucos meses e ultrapassou $2 bilhões em depósitos totais em maio de 2026, tornando-se um dos maiores mercados de lending da Solana ao lado do Kamino. Dois produtos: Earn (deposite em vaults de yield) e Borrow (tome emprestado contra colateral com LTVs altos e penalidades de liquidação baixas). Integração para desenvolvedores via SDK TypeScript e API REST, com suporte a flashloans e integração via CPI.
 
 ---
 

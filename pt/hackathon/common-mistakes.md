@@ -1,6 +1,6 @@
 # Erros Comuns para Evitar
 
-Você estudou todo esse guia e está se preparando para entrar com tudo no hackathon Frontier da Solana. Você montou seu time de builders com programadores, designers e marketeiros. Você estocou sua cozinha com miojo e energéticos.
+Você estudou todo esse guia e está se preparando para entrar com tudo no próximo hackathon global da Solana. Você montou seu time de builders com programadores, designers e marketeiros. Você estocou sua cozinha com miojo e energéticos.
 
 Mas antes de começar, vamos falar sobre como evitar algumas armadilhas muito comuns. Através de dolorosas tentativas e erros, a comunidade da Solana extraiu princípios-chave sobre como **NÃO** desperdiçar seu tempo limitado de construção.
 

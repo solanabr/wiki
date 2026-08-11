@@ -1,12 +1,12 @@
 # Solana Vault Standard
 
 **GitHub**: [solanabr/solana-vault-standard](https://github.com/solanabr/solana-vault-standard)
-**Status**: sRFC submetido, em desenvolvimento ativo
+**Status**: Em desenvolvimento ativo -- 12 variantes rodando na devnet
 **Mantido por**: @kauenet, @thomgabriel, @vcnzo_ct e outros
 
 ## Visão Geral
 
-Uma interface padronizada de vaults para Solana -- o equivalente do ERC-4626 para o ecossistema Solana. Submetido como sRFC 40 para a Solana Foundation visando adoção em todo o ecossistema.
+Uma interface padronizada de vaults para Solana -- o equivalente do ERC-4626 para o ecossistema Solana. Referenciada na discussão do sRFC 40 (padrão de vaults) do ecossistema como uma implementação desenvolvida de forma independente.
 
 ## Por Que Isso Importa
 
@@ -18,16 +18,21 @@ O Solana Vault Standard define uma interface comum para que qualquer protocolo p
 
 ### sRFC 40
 
-Um Solana Request for Comments formal, atualmente em revisão pela Solana Foundation. A proposta define a interface, estruturas de conta e comportamentos esperados para vaults compatíveis.
+O SVS é referenciado na [discussão sRFC 40: Vault Standard Program](https://github.com/solana-foundation/SRFCs/discussions/10) em solana-foundation/SRFCs como uma implementação desenvolvida de forma independente que informa o padrão de vaults emergente do ecossistema (que atualmente prioriza vaults assíncronos para emissores de RWA).
 
-### 8 Variantes de Vault
+### 12 Variantes de Vault
 
-Implementações de referência cobrindo diferentes casos de uso em DeFi:
+Implementações de referência cobrindo diferentes casos de uso em DeFi, todas rodando na devnet:
 
-- Vaults de empréstimo
-- Vaults de staking
-- Vaults de agregação de yield
-- Variantes adicionais para estratégias especializadas
+- **SVS-1/2** -- Vaults públicos (saldo live e saldo armazenado)
+- **SVS-3/4** -- Vaults privados com confidential transfers do Token-2022
+- **SVS-5/6** -- Vaults de streaming de yield
+- **SVS-7** -- Vault de SOL nativo
+- **SVS-8** -- Cesta multiativos
+- **SVS-9** -- Vault de vaults alocador
+- **SVS-10** -- Vault assíncrono no estilo ERC-7540
+- **SVS-11** -- Vault de credit markets com KYC e NAV via oracle
+- **SVS-12** -- Vault em tranches
 
 ### Interface Padronizada
 
@@ -39,9 +44,10 @@ Permite que wallets, agregadores e protocolos interajam com qualquer vault compa
 
 ### Implementações de Referência
 
-Programas Anchor funcionais para cada variante de vault. Servem tanto como documentação quanto como pontos de partida prontos para produção para equipes de protocolo.
+Programas Anchor funcionais para cada variante de vault. Servem tanto como documentação quanto como pontos de partida prontos para produção para equipes de protocolo. O repositório também inclui um SDK TypeScript e uma CLI.
 
 ## Stack Tecnológica
 
 - Anchor
 - Rust
+- SDK TypeScript e CLI

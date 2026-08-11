@@ -1,6 +1,6 @@
-# solana-claude-config
+# Solana AI Kit
 
-**GitHub**: [solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
+**GitHub**: [solanabr/solana-ai-kit](https://github.com/solanabr/solana-ai-kit)
 **Status**: Em desenvolvimento ativo, lançamento público
 **Mantido por**: @kauenet
 
@@ -10,7 +10,7 @@ Assistentes de código com IA têm um problema com Solana. Seus dados de treinam
 
 O segundo problema é o desperdício de contexto. Um assistente de propósito geral carrega tudo e não filtra nada. Perguntar sobre um padrão de CPI em Pinocchio traz conhecimento irrelevante de React. Perguntar sobre metadados de tokens carrega regras de desenvolvimento de jogos. Cada token gasto em contexto que não se aplica à tarefa atual é um token que não pode ser usado para resolver o problema real.
 
-solana-claude-config resolve ambos os problemas. É uma configuração do Claude Code que codifica conhecimento profundo do domínio Solana -- APIs atuais, padrões de segurança corretos, regras específicas por linguagem -- e entrega esse conhecimento de forma eficiente por meio de uma arquitetura consciente do uso de tokens. O contexto certo carrega para a tarefa certa, e nada mais.
+O Solana AI Kit (antes solana-claude-config) resolve ambos os problemas. É uma configuração de AI coding -- compatível com Claude Code e Codex -- que codifica conhecimento profundo do domínio Solana (APIs atuais, padrões de segurança corretos, regras específicas por linguagem) e entrega esse conhecimento de forma eficiente por meio de uma arquitetura consciente do uso de tokens. O contexto certo carrega para a tarefa certa, e nada mais.
 
 ## Filosofia de Design
 
@@ -50,7 +50,7 @@ A configuração é construída em torno de um único princípio: carregar apena
 | tech-docs-writer | READMEs, docs de API, guias de integração, documentação de arquitetura |
 | solana-guide | Educação para desenvolvedores, tutoriais, trilhas de aprendizado |
 
-### 24 Slash Commands
+### 30 Comandos de Workflow
 
 **Building**
 - `/build-program` -- Build e verificação de programas Solana
@@ -67,6 +67,9 @@ A configuração é construída em torno de um único princípio: carregar apena
 - `/profile-cu` -- Profiling e otimização de compute units
 - `/benchmark` -- Benchmarking de performance
 - `/diff-review` -- Code review e detecção de AI slop
+- `/audit-infra` -- Auditoria de segurança com foco em infraestrutura: secrets, supply chain, CI/CD, segurança de LLM/skills, OWASP, STRIDE
+- `/product-review` -- Revisão de qualidade de produto com um scorecard de 8 dimensões
+- `/debug-user-tx` -- Reproduzir a transação com falha de um usuário contra o estado de um cluster forkado e mapear o erro até o código fonte
 
 **Deployment**
 - `/deploy` -- Deploy em devnet e mainnet com gates de confirmação
@@ -83,24 +86,36 @@ A configuração é construída em torno de um único princípio: carregar apena
 - `/update` -- Atualizar configuração e skills para a versão mais recente
 - `/resync` -- Ressincronizar definições de agentes e regras
 - `/cleanup` -- Remover contexto obsoleto e arquivos temporários
+- `/commit-claude-config` -- Versionar a configuração do kit no git
+- `/doctor` -- Checagem de saúde somente leitura do ambiente de desenvolvimento e da configuração, com um comando de correção por falha
+- `/dream` -- Consolidação de memória: deduplicar, podar e reordenar aprendizados de sessão
 
-### 9 Submódulos Externos de Skills
+### 18 Submódulos Externos de Skills
 
 Cada submódulo é um git submodule obtido de um provedor autorizado, mantendo o conhecimento do domínio atualizado sem incorporá-lo diretamente na configuração.
 
 | Submódulo | Fonte | Propósito |
 |---|---|---|
-| solana-dev-skill | Solana Foundation | Padrões oficiais de desenvolvimento Solana |
-| sendai-skill | SendAI | Framework de agentes de IA para Solana |
-| solana-security-skill | Trail of Bits (baseado em) | Padrões de auditoria de segurança e detecção de vulnerabilidades |
-| cloudflare-skill | Cloudflare | Deploy em edge e padrões de Workers |
-| colosseum-skill | Colosseum | Integração com hackathons e aceleradoras |
-| qedgen-skill | QEDGen | Padrões de verificação formal |
-| solana-mobile-skill | Solana Mobile | Padrões de desenvolvimento específicos para mobile |
-| safe-solana-builder-skill | Comunidade | Padrões de código seguro e melhores práticas |
-| solana-game-skill | Superteam Brazil | Desenvolvimento de jogos Unity para Solana |
+| solana-dev | Solana Foundation | Padrões oficiais de desenvolvimento Solana -- programas, frontend, testing, segurança |
+| sendai | SendAI | Integrações de protocolos DeFi -- Jupiter, Raydium, Kamino, perps, cross-chain, oráculos |
+| solana-game | Superteam Brazil | Desenvolvimento de jogos Unity para Solana -- PlaySolana, PSG1 |
+| cloudflare | Cloudflare | Infraestrutura de edge -- Workers, Agents SDK, servidores MCP |
+| trailofbits | Trail of Bits | Auditoria de segurança e varredura de vulnerabilidades |
+| qedgen | QEDGen | Verificação formal com provas de teoremas em Lean 4 |
+| solana-mobile | Solana Mobile | Mobile Wallet Adapter, Genesis Token, resolução de endereços SKR |
+| colosseum | Colosseum | Pesquisa de startups, validação de ideias, projetos de hackathon |
+| safe-solana-builder | Comunidade | Geração de código com segurança em primeiro lugar, com 70+ regras derivadas de auditorias |
+| vercel | Vercel | Deploy na Vercel, Next.js, AI SDK, v0, edge functions |
+| solana-new | SendAI | Skills da jornada da ideia ao lançamento, além de datasets de ideias e base de conhecimento |
+| ghostsecurity | Ghost Security | Skills de AppSec -- critérios de SAST, SCA, secrets, validação |
+| defending-code | Anthropic | Harness de referência para descoberta de vulnerabilidades e skills de segurança defensiva |
+| jupiter | Jupiter | Skills oficiais da Jupiter -- Ultra swap, Lend, migração de swap |
+| metaplex | Metaplex | Skills oficiais da Metaplex -- Core, Token Metadata, Bubblegum, Candy Machine |
+| helius | Helius | Skill oficial de infraestrutura da Helius, além de internals da SVM |
+| quicknode-anchor | QuickNode | Arquivos de referência de Anchor e matemática financeira (em quarentena -- apenas referências) |
+| eth-to-sol | Solana Foundation | Porte em duas passadas de EVM/Solidity para Anchor |
 
-### 6 Integrações com Servidores MCP
+### 7 Integrações com Servidores MCP
 
 | Servidor | Por Que Importa |
 |---|---|
@@ -110,6 +125,7 @@ Cada submódulo é um git submodule obtido de um provedor autorizado, mantendo o
 | Playwright | Automação de navegador para testing de dApps -- abre seu frontend, conecta wallets e verifica fluxos em um navegador real |
 | context-mode | Comprime respostas RPC grandes e logs de build -- economiza janela de contexto para o trabalho real |
 | memsearch | Memória persistente com busca semântica -- lembra o contexto do projeto entre sessões |
+| Surfpool | Validator local controlado por agentes e controle de fork da mainnet -- suba o estado de um cluster forkado para testes de integração sem sair do editor |
 
 ### Regras Específicas por Linguagem
 
@@ -137,13 +153,28 @@ Workflows multi-agente que coordenam agentes especializados ao longo de um ciclo
 
 ## Instalação
 
-**Fork do template** -- a abordagem recomendada para projetos novos. Faça fork de [solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config) no GitHub, personalize o `CLAUDE.md` para seu projeto e inicialize os submódulos de skills.
+**Fork do template** -- a abordagem recomendada para projetos novos. Faça fork de [solanabr/solana-ai-kit](https://github.com/solanabr/solana-ai-kit) no GitHub, personalize o `CLAUDE.md` para seu projeto e inicialize os submódulos de skills.
 
 **Instalação em uma linha** -- para adicionar a configuração a um projeto existente:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/solanabr/solana-claude-config/main/install.sh | bash
+curl -fsSL https://aikit.superteam.codes | bash
 ```
+
+Se o domínio `aikit.superteam.codes` não estiver acessível, o fallback documentado é:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/solanabr/solana-ai-kit/main/install.sh | bash
+```
+
+**Plugin do Claude Code** -- instala o núcleo do kit (agentes, comandos, servidores MCP) pelo marketplace de plugins:
+
+```
+/plugin marketplace add solanabr/solana-ai-kit
+/plugin install solana-ai-kit@stbr
+```
+
+O plugin traz apenas o núcleo do kit; a rota completa via `install.sh` também inclui as regras de linguagem com carregamento lazy, a allowlist curada de permissões com a política de sandbox e os 18 submódulos de skills em `ext/`.
 
 **Setup manual** -- clone o repositório e copie o diretório `.claude/` e o `CLAUDE.md` para a raiz do seu projeto.
 
@@ -153,14 +184,14 @@ curl -fsSL https://raw.githubusercontent.com/solanabr/solana-claude-config/main/
 
 | Camada | Tecnologia |
 |---|---|
-| Programs | Anchor 0.31+ / Pinocchio |
+| Programs | Anchor 1.0+ / Pinocchio / Rust 1.82+ |
 | Frontend | Next.js 15 / React 19 / @solana/kit |
 | Testing | Mollusk / LiteSVM / Surfpool / Trident |
 | Mobile | React Native / Expo / Solana Mobile SDK |
 | Games | Unity 6+ / Solana.Unity-SDK / PlaySolana |
-| Backend | Rust (Axum/Tokio) / Helius API |
+| Backend | Rust (Axum 0.8+ / Tokio 1.40+ / sqlx) / Helius API |
 | Edge | Cloudflare Workers |
 
 ## Créditos
 
-Este projeto não seria possível sem as organizações que publicam e mantêm os submódulos de skills dos quais ele depende. Agradecimentos à **Solana Foundation** pelos padrões oficiais de desenvolvimento e o servidor MCP solana-dev, **SendAI** pelo framework de agentes de IA, **Trail of Bits** pela pesquisa de segurança da qual este projeto se baseia, **Cloudflare** pelos padrões de deploy em edge, **Colosseum** pelas ferramentas de hackathon, **QEDGen** pelo trabalho de verificação formal, **Solana Mobile** pelos padrões do SDK mobile, a **comunidade safe-solana-builder** pelas convenções de código seguro, e **Superteam Brazil** pela integração de desenvolvimento de jogos que deu início a este projeto.
+Este projeto não seria possível sem as organizações que publicam e mantêm os submódulos de skills dos quais ele depende. Agradecimentos à **Solana Foundation** pelos padrões oficiais de desenvolvimento e o servidor MCP solana-dev, **SendAI** pelo framework de agentes de IA, **Trail of Bits** pela pesquisa de segurança da qual este projeto se baseia, **Cloudflare** pelos padrões de deploy em edge, **Colosseum** pelas ferramentas de hackathon, **QEDGen** pelo trabalho de verificação formal, **Solana Mobile** pelos padrões do SDK mobile, a **comunidade safe-solana-builder** pelas convenções de código seguro, **Vercel** pelos padrões de deploy, **Jupiter**, **Metaplex** e **Helius** pelas suas skills oficiais de ecossistema, **Ghost Security** pelas skills de AppSec, **Anthropic** pelo harness de referência defending-code, **QuickNode** pelo material de referência de Anchor, e **Superteam Brazil** pela integração de desenvolvimento de jogos que deu início a este projeto.

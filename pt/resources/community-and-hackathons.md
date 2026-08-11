@@ -28,7 +28,7 @@ Conversas rápidas e atualizações para a comunidade brasileira. Como o WhatsAp
 
 ### Eventos
 
-[https://lu.ma/superteambrasil](https://lu.ma/superteambrasil)
+[https://luma.com/superteambrasil](https://luma.com/superteambrasil)
 
 Meetups, workshops, hackathons e eventos comunitários organizados pela Superteam Brasil. Incluem eventos presenciais em cidades brasileiras, eventos internacionais (Buenos Aires, Abu Dhabi) e workshops virtuais. Os eventos são publicados com detalhes, links de RSVP e gravações quando disponíveis. Confira regularmente para se manter atualizado sobre eventos Solana locais.
 
@@ -78,7 +78,7 @@ Aqui também é onde propostas de sRFC como o Vault Standard (sRFC 40) são disc
 
 ## Hackathons e Competições
 
-> **Frontier 2026**: Para o guia completo do hackathon Solana Frontier (abril-maio 2026), incluindo inscrição, prêmios, recursos, dicas e histórico, consulte a [seção Hackathon](../hackathon/README.md).
+> **Frontier 2026**: O hackathon Solana Frontier aconteceu de 6 de abril a 11 de maio de 2026. Para o guia completo, incluindo resultados, prêmios, recursos, dicas e histórico, consulte a [seção Hackathon](../hackathon/README.md).
 
 Hackathons são a principal porta de entrada para novos builders Solana. Eles fornecem estrutura, prazos, mentoria e frequentemente premiações significativas.
 
@@ -90,9 +90,15 @@ A plataforma de hackathons Solana. O Colosseum hospeda grandes hackathons com pr
 
 Hackathons do Colosseum tipicamente duram várias semanas, dando às equipes tempo para construir projetos substanciais em vez de protótipos apressados. As categorias geralmente incluem DeFi, infraestrutura, consumidor, gaming e DAOs.
 
-### Cypherpunk Hackathon
+Entre hackathons, o Colosseum Eternal permite que equipes iniciem um sprint sob demanda de 4 semanas a qualquer momento, competindo por US$ 250K em financiamento pre-seed, admissão na próxima turma da aceleradora e o Eternal Award semestral de US$ 25K. O próximo hackathon Solana acontece de 28 de setembro a 2 de novembro de 2026.
 
-O hackathon Solana mais recente de grande porte com premiação total de US$ 2,5M. Builders brasileiros tiveram resultados expressivos em 2025: MCPay ganhou o 1o lugar na track de Stablecoins, Cloak ficou em 3o lugar geral e VitalFi recebeu Menção Honrosa em RWA. Esses resultados demonstram a força crescente da comunidade brasileira de desenvolvedores Solana no cenário global.
+### Frontier Hackathon (2026)
+
+O Solana Frontier Hackathon do Colosseum aconteceu de 6 de abril a 11 de maio de 2026 e se tornou o maior hackathon de crypto até hoje: mais de 10.000 participantes de mais de 150 países e 2.857 submissões finais. Os vencedores foram anunciados em 26 de junho de 2026, com o projeto de DePIN de robótica CrowdBrain nomeado Grand Champion. A 5a coorte da aceleradora do Colosseum -- a maior, com 21 startups -- foi formada a partir dos vencedores do Frontier e do sprint Eternal. Consulte a [seção Hackathon](../hackathon/README.md) para o guia completo.
+
+### Cypherpunk Hackathon (2025)
+
+O hackathon do Colosseum do segundo semestre de 2025 (25 de setembro a 30 de outubro de 2025), com mais de US$ 2,5M distribuídos aos vencedores. Builders brasileiros tiveram resultados expressivos: MCPay ganhou o 1o lugar na track de Stablecoins, Cloak ficou em 3o lugar na track de Stablecoins e VitalFi recebeu Menção Honrosa em RWA. Esses resultados demonstram a força crescente da comunidade brasileira de desenvolvedores Solana no cenário global.
 
 ### Shipathon Brasil
 
@@ -100,7 +106,13 @@ Uma competição de building específica para o Brasil projetada para desenvolve
 
 ### Breakpoint
 
-A conferência anual da Solana que reúne desenvolvedores, fundadores, investidores e o ecossistema mais amplo. O Breakpoint 2025 está programado para Abu Dhabi. A conferência inclui palestras técnicas, workshops, eventos de networking e finais de hackathons. É o maior encontro de builders Solana do ano.
+A conferência anual da Solana que reúne desenvolvedores, fundadores, investidores e o ecossistema mais amplo. O Breakpoint 2025 aconteceu de 11 a 13 de dezembro de 2025 na Etihad Arena, em Abu Dhabi, reunindo mais de 7.000 participantes de mais de 100 países -- o maior Breakpoint até hoje. A conferência inclui palestras técnicas, workshops, eventos de networking e finais de hackathons. É o maior encontro de builders Solana do ano. A Superteam Brasil enviou uma delegação e documentou mais de 50 fotos dos eventos.
+
+### the/Garage
+
+[https://luma.com/superteambrasil](https://luma.com/superteambrasil)
+
+O programa de aceleração de builders da Superteam Brasil para projetos Solana em estágio inicial. A primeira coorte começou em abril de 2026 em São Paulo, oferecendo mentoria de builders Solana experientes, recursos técnicos, suporte de infraestrutura e orientação sobre captação e estratégia de go-to-market. O the/Garage preenche a lacuna entre protótipos de hackathon e produtos em produção -- se você construiu algo promissor mas precisa de suporte contínuo para lançar, este é o programa.
 
 ---
 
@@ -112,7 +124,7 @@ Construir na Solana pode ser financeiramente recompensador além de prêmios de 
 
 [https://superteam.fun/earn/s/superteambr](https://superteam.fun/earn/s/superteambr)
 
-Bounties, projetos e grants de equipes do ecossistema. O Superteam Earn agrega oportunidades pagas para builders Solana -- bounties de desenvolvimento, tarefas de design, criação de conteúdo e engajamentos completos de projeto. A plataforma distribuiu mais de US$ 408K, com 161 listings e taxa de conclusão de 95%. Esta é a fonte mais confiável de trabalho Solana remunerado para builders brasileiros.
+Bounties, projetos e grants de equipes do ecossistema. O Superteam Earn agrega oportunidades pagas para builders Solana -- bounties de desenvolvimento, tarefas de design, criação de conteúdo e engajamentos completos de projeto. A plataforma distribuiu mais de US$ 697K em recompensas, com taxa de conclusão de 97%. Esta é a fonte mais confiável de trabalho Solana remunerado para builders brasileiros.
 
 As oportunidades variam de pequenas bounties (corrigir um bug, escrever documentação) a projetos substanciais (construir uma integração completa, projetar um protocolo). A plataforma lida com pagamento, escrow e resolução de disputas.
 

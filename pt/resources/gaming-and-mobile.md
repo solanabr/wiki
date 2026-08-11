@@ -28,11 +28,11 @@ MagicBlock importa porque a maioria dos "jogos blockchain" mantém o gameplay of
 
 Um ecossistema de gaming e plataforma de ferramentas para desenvolvimento de jogos na Solana. O PlaySolana fornece recursos, SDKs e infraestrutura para estúdios de jogos construindo na Solana. Eles focam em reduzir as barreiras de entrada para desenvolvedores de jogos que são novos em blockchain -- fornecendo templates, documentação e ferramentas de integração que simplificam interações comuns jogo-blockchain como minting de itens, integração com marketplace e autenticação de jogadores.
 
-### Unreal Engine SDK
+### Unreal Engine SDK (Star Atlas Foundation Kit)
 
-[https://github.com/staratlas/unreal-sdk-plugin](https://github.com/staratlas/unreal-sdk-plugin)
+[https://github.com/staratlasmeta/FoundationKit](https://github.com/staratlasmeta/FoundationKit)
 
-Integração Solana para Unreal Engine, originalmente desenvolvida para Star Atlas. O SDK fornece conexão de wallet, assinatura de transações e acesso a dados de contas dentro dos ambientes C++ e Blueprint da Unreal Engine. Embora menos maduro que o SDK Unity, ele abre a integração Solana para a comunidade de desenvolvedores Unreal Engine -- importante para desenvolvimento de jogos com qualidade AAA.
+O Foundation Kit (F-Kit) é o plugin de Unreal Engine totalmente open-source do Star Atlas (UE4 e UE5) para conectar clientes de jogos à Solana. Ele tem duas camadas: um Core SDK (geração de key pairs e mnemônicos, importação de chaves privadas, leitura de dados de contas, envio de transações, interação com programas on-chain) e uma interface de Wallet + Blueprint construída sobre ele. Embora menos maduro que o SDK Unity, ele abre a integração Solana para a comunidade de desenvolvedores Unreal Engine -- importante para desenvolvimento de jogos com qualidade AAA.
 
 ### Solana Game Skill
 
@@ -40,7 +40,7 @@ Integração Solana para Unreal Engine, originalmente desenvolvida para Star Atl
 
 Um pacote de skill do Claude Code projetado especificamente para desenvolvimento de jogos Solana em Unity e mobile, criado pela Superteam Brasil. Ele fornece agentes de IA especializados -- game-architect para design de sistemas, unity-engineer para implementação C# e Unity, e mobile-engineer para questões específicas de mobile -- junto com comandos e regras adaptados ao fluxo de desenvolvimento de jogos.
 
-Este skill entende os desafios únicos da integração jogo-blockchain: lidar com conexões de wallet dentro de game loops, gerenciar ativos NFT no scene graph do Unity, serializar/desserializar contas de programas em C# e otimizar builds mobile. Instale junto com [solana-claude](https://github.com/solanabr/solana-claude-config) para um ambiente completo de desenvolvimento de jogos. Mantido por @kauenet.
+Este skill entende os desafios únicos da integração jogo-blockchain: lidar com conexões de wallet dentro de game loops, gerenciar ativos NFT no scene graph do Unity, serializar/desserializar contas de programas em C# e otimizar builds mobile. Instale junto com o [Solana AI Kit](https://github.com/solanabr/solana-ai-kit) para um ambiente completo de desenvolvimento de jogos. Mantido por @kauenet.
 
 ---
 
@@ -56,16 +56,18 @@ Desenvolvimento mobile na Solana tem restrições únicas -- você não pode inc
 
 ### Mobile Wallet Adapter
 
-[https://docs.solanamobile.com/react-native/overview](https://docs.solanamobile.com/react-native/overview)
+[https://docs.solanamobile.com/get-started/mobile-wallet-adapter](https://docs.solanamobile.com/get-started/mobile-wallet-adapter)
 
 O protocolo padrão para conectar wallets mobile a dApps Solana. O Mobile Wallet Adapter (MWA) define como seu app descobre, conecta e se comunica com aplicativos de wallet instalados no dispositivo do usuário. Funciona de forma similar ao WalletConnect mas é projetado especificamente para o modelo de transação da Solana.
 
-O SDK React Native fornece hooks e providers que espelham a experiência do web wallet adapter -- `useWallet()`, `useConnection()` e assinatura de transações todos funcionam com padrões familiares. Se você já construiu um web app Solana com wallet-adapter-react, os padrões mobile vão parecer naturais. MWA suporta Phantom e Solflare no mobile, com mais wallets adotando o padrão.
+O SDK React Native fornece hooks e providers que espelham a experiência do web wallet adapter -- `useWallet()`, `useConnection()` e assinatura de transações todos funcionam com padrões familiares. Se você já construiu um web app Solana com wallet-adapter-react, os padrões mobile vão parecer naturais. O MWA é suportado por wallets incluindo Phantom, Solflare e a Seed Vault Wallet integrada do Seeker, com mais wallets adotando o padrão.
 
-### Saga / Seeker
+### Seeker (e Saga)
 
 [https://solanamobile.com/](https://solanamobile.com/)
 
-Hardware mobile nativo Solana construído pela Solana Mobile. Os dispositivos Saga e Seeker incluem um elemento seguro para gestão de chaves, uma dApp Store nativa (contornando restrições de app stores da Apple/Google para apps crypto) e integração profunda no nível do SO com Solana. A dApp Store significa que seu app pode ser distribuído sem a comissão de 30% da app store e sem as restrições que app stores tradicionais impõem sobre funcionalidades crypto.
+Hardware mobile nativo Solana construído pela Solana Mobile. O Seeker, de segunda geração, começou a ser entregue em 4 de agosto de 2025 -- um lote inicial de mais de 150.000 unidades pré-vendidas entregues em mais de 50 países, superando de longe o Saga original (2023, ~20.000 unidades), que agora é um dispositivo legado. O Seeker inclui o Seed Vault (gestão de chaves em elemento seguro com a Seed Vault Wallet integrada), a dApp Store nativa da Solana e integração profunda com a Solana no nível do SO.
 
-Mesmo que você não esteja mirando Saga/Seeker especificamente, entender a dApp Store é valioso -- ela representa um canal de distribuição para apps mobile Solana que não existe em outras chains. Apps submetidos à dApp Store podem usar funcionalidades crypto nativas (token gating, recompensas NFT, pagamentos diretos com tokens) sem as limitações impostas pela Apple e Google.
+Antes do lançamento do Seeker, em maio de 2025, a Solana Mobile anunciou dois pilares do ecossistema: o SKR, token nativo do ecossistema Solana Mobile, e o TEEPIN (Trusted Execution Environment Platform Infrastructure Network), uma arquitetura de três camadas que permite que múltiplos fabricantes de hardware construam dispositivos nativos Solana com atestação criptográfica. O SKR entrou no ar em 21 de janeiro de 2026, com um airdrop para detentores do Seeker, e também financia incentivos para desenvolvedores -- a Season 1 distribuiu 141M de SKR para 188 equipes que lançaram apps de qualidade na dApp Store.
+
+Para desenvolvedores, a dApp Store continua sendo o ponto-chave: distribuição sem comissão, sem o corte de 30% ou as restrições a crypto da Apple/Google, além de um público de hardware cripto-nativo alcançável por meio de incentivos alinhados ao SKR.

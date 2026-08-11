@@ -23,14 +23,14 @@ Superteam Brazil es el hub oficial de la comunidad Solana en Brasil, conectando 
 | Métrica | Valor |
 |---|---|
 | Capital Facilitado | **$3M+** |
-| Recompensas Distribuidas | **$408K+** |
+| Recompensas Distribuidas | **$697K+** |
 | Listados y Grants | **161** |
 | Entregas Totales | **1,832** |
 | Builders Acelerados | **1,000+** |
 | Miembros Activos | **60+** |
 | Startups Apoyadas | **30+** |
-| SOL en Stake vía Validador | **~17K** |
-| Tasa de Finalización | **95%** |
+| SOL en Stake vía Validador | **~112K** |
+| Tasa de Finalización | **97%** |
 
 ## Socios del Ecosistema
 
