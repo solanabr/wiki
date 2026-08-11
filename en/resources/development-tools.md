@@ -10,7 +10,7 @@ The tools you use daily -- CLIs, IDEs, RPC providers, and integration platforms.
 
 [https://solana.com/docs/intro/installation](https://solana.com/docs/intro/installation)
 
-The essential command-line interface for Solana development. You will use this constantly -- managing keypairs, checking balances, deploying programs, configuring cluster endpoints, airdropping devnet SOL, and inspecting transactions. It is the foundation that everything else builds on. The CLI also includes `solana-test-validator` for running a local cluster, though for testing you should prefer LiteSVM or Mollusk (see [Testing & Debugging](testing-and-debugging.md)).
+The essential command-line interface for Solana development. You will use this constantly -- managing keypairs, checking balances, deploying programs, configuring cluster endpoints, airdropping devnet SOL, and inspecting transactions. It is the foundation that everything else builds on. The CLI also includes `solana-test-validator` for running a local cluster, though for testing you should prefer LiteSVM or Mollusk, and note that as of Anchor 1.0 `anchor test`/`anchor localnet` run Surfpool rather than `solana-test-validator` (see [Testing & Debugging](testing-and-debugging.md)).
 
 Key commands you will use daily: `solana config set`, `solana balance`, `solana program deploy`, `solana logs`, `solana airdrop`.
 
@@ -54,23 +54,15 @@ Choose Triton when you need low-latency data streaming (gRPC), when building ind
 
 ### Ironforge
 
-[https://www.ironforge.cloud/](https://www.ironforge.cloud/)
+[https://www.ironforge.sanctum.so/](https://www.ironforge.sanctum.so/)
 
-RPC infrastructure with built-in transaction simulation and debugging tools. Ironforge provides standard RPC alongside developer-focused features like enhanced transaction simulation, compute unit profiling, and account inspection tools directly in their dashboard. Useful for developers who want more visibility into what their transactions are doing during development.
+RPC gateway and DevOps platform, now part of Sanctum. Ironforge sits in front of your RPC providers and adds developer-focused features -- request routing and failover, transaction simulation, compute unit profiling, and observability into what your transactions are doing -- through a single dashboard. Useful for teams that want RPC infrastructure management without building it themselves.
 
 ### Shyft
 
 [https://shyft.to/](https://shyft.to/)
 
 API platform providing higher-level abstractions over Solana data. Beyond raw RPC, Shyft offers REST APIs for token data, NFT operations, transaction history, and DeFi analytics. Their APIs return structured data without requiring you to parse raw account data or decode instruction logs yourself. Useful for frontend developers who need Solana data without the complexity of raw RPC integration.
-
-### Luzid
-
-[https://luzid.app/](https://luzid.app/)
-
-A visual debugger and local development environment for Solana programs. Luzid provides a GUI for inspecting accounts, transactions, and program state during local development, replacing the CLI-only workflow of `solana-test-validator` with a visual interface. Features include account state inspection, transaction replay, breakpoint-style debugging, and CU profiling with visual output.
-
-Use Luzid when you want a more visual development experience than the CLI provides, or when debugging complex multi-instruction transactions where seeing the state changes visually is more effective than reading log output.
 
 ---
 
@@ -165,6 +157,6 @@ Legacy transactions are capped at ~35 accounts. Address Lookup Tables (ALTs) sto
 
 ### Durable Nonces
 
-[https://docs.solanalabs.com/cli/examples/durable-nonce](https://docs.solanalabs.com/cli/examples/durable-nonce)
+[https://docs.anza.xyz/cli/examples/durable-nonce](https://docs.anza.xyz/cli/examples/durable-nonce)
 
 Standard Solana transactions expire after ~60 seconds if not included in a block. Durable nonces replace the recent blockhash with a stored nonce value that does not expire, enabling offline signing workflows, multi-party signing across time zones, and scheduled transaction submission. Essential for any application where transactions cannot be signed and submitted within the same session.

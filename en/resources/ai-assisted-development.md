@@ -6,11 +6,11 @@ The key insight is that AI coding assistants are only as good as the context the
 
 ---
 
-## solana-claude -- The Complete AI Development Environment
+## Solana AI Kit (solana-ai-kit) -- The Complete AI Development Environment
 
-[https://github.com/solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
+[https://github.com/solanabr/solana-ai-kit](https://github.com/solanabr/solana-ai-kit)
 
-solana-claude is the single most impactful tool you can add to your Solana development workflow. It is a comprehensive Claude Code configuration that transforms your development environment into a specialized Solana workspace with a single install. Everything is pre-configured -- agents, commands, MCP servers, language rules, and workflow patterns.
+Solana AI Kit (formerly solana-claude-config) is a comprehensive AI-coding configuration -- Claude Code and Codex compatible -- that turns your environment into a specialized Solana workspace with a single install. It is the single most impactful tool you can add to your Solana development workflow. Everything is pre-configured -- agents, commands, MCP servers, language rules, and workflow patterns.
 
 ### What You Get
 
@@ -34,7 +34,7 @@ Each agent is an AI persona with deep knowledge of its domain, pre-loaded with t
 - **tech-docs-writer** -- API docs, architecture docs, READMEs, developer guides
 - **solana-guide** -- Learning path recommendations, concept explanations, onboarding
 
-**24+ Slash Commands**
+**30 Workflow Commands**
 
 Commands for every stage of the development lifecycle:
 
@@ -49,11 +49,11 @@ Commands for every stage of the development lifecycle:
 - `/diff-review` -- Review changes for AI slop, excessive comments, and code quality
 - And more for formatting, linting, documentation, and workflow automation
 
-**6 Integrated MCP Servers**
+**7 Integrated MCP Servers**
 
 All configured automatically during install, with API keys managed through `.env`:
 
-- **Helius MCP** -- 60+ tools for RPC calls, DAS API queries, webhook management, priority fee estimation, token metadata lookup, and transaction parsing. This gives your AI assistant direct access to live Solana data -- it can check balances, look up token metadata, query NFT collections, and estimate transaction fees without you switching to a terminal.
+- **Helius MCP** -- Tools for RPC calls, DAS API queries, webhook management, priority fee estimation, token metadata lookup, and transaction parsing. This gives your AI assistant direct access to live Solana data -- it can check balances, look up token metadata, query NFT collections, and estimate transaction fees without you switching to a terminal.
 
 - **solana-dev MCP** -- Official Solana Foundation MCP server providing access to current documentation, developer guides, API references, and Anchor guidance. When your AI assistant answers a Solana question, it pulls from the latest docs rather than potentially outdated training data.
 
@@ -64,6 +64,8 @@ All configured automatically during install, with API keys managed through `.env
 - **context-mode** -- Compresses large RPC responses and build logs to save context window space. When you are debugging a failed transaction or a build error, the raw output can be thousands of lines. context-mode extracts the relevant information so the AI can process it without running out of context.
 
 - **memsearch** -- Persistent memory with semantic search across sessions. The AI remembers decisions you made, bugs you fixed, and patterns you established in previous sessions. This means you do not have to re-explain your project architecture every time you start a new conversation.
+
+- **Surfpool** -- Agent-driven local validator and mainnet-fork control (keyless; requires the `surfpool` CLI). The AI can spin up a local surfnet, fork mainnet state, and run your program against real cluster data -- integration testing against production state without touching mainnet.
 
 **Language-Specific Rules**
 
@@ -87,7 +89,7 @@ Maintained by @kauenet.
 
 ## MCP Servers
 
-For developers using AI tools other than Claude Code, or who want to configure MCP servers individually rather than through solana-claude, these servers can be set up standalone.
+For developers using AI tools other than Claude Code, or who want to configure MCP servers individually rather than through Solana AI Kit, these servers can be set up standalone.
 
 ### Solana MCP Server
 
@@ -99,9 +101,9 @@ Use this server to ensure your AI assistant always has access to current Solana 
 
 ### Helius MCP Server
 
-[https://github.com/helius-labs/helius-mcp-server](https://github.com/helius-labs/helius-mcp-server)
+[https://github.com/helius-labs/core-ai](https://github.com/helius-labs/core-ai)
 
-60+ tools that give AI assistants direct access to Solana blockchain data through Helius's infrastructure. Capabilities include standard RPC calls (getBalance, getTransaction, getAccountInfo), DAS API for NFT and compressed NFT queries, webhook creation and management, priority fee estimation, enhanced transaction parsing, and token metadata lookup.
+Helius's official AI tooling repository, documented at [helius.dev/docs/agents/mcp](https://www.helius.dev/docs/agents/mcp). The current server gives AI assistants direct access to Solana blockchain data through a compact routed interface -- 9 domain tools (account, wallet, asset, transaction, chain, streaming, knowledge, write, compression) plus a result expander -- that together cover the full Helius surface: RPC, DAS API, webhooks, priority fees, transaction parsing, and token metadata.
 
 This server is what makes AI assistants genuinely useful for blockchain development. Instead of copying transaction signatures and pasting them into a block explorer, you can ask the AI to look up a transaction, decode its instructions, and explain what happened -- all within your editor.
 
@@ -125,19 +127,17 @@ A framework for building autonomous AI agents that interact with Solana. The Age
 
 Use cases include AI trading bots, automated portfolio management, AI-powered customer service that can process refunds in tokens, and any application where an AI agent needs to execute Solana transactions based on natural language instructions or programmatic triggers.
 
-### GOAT SDK
+### GOAT SDK (Archived)
 
-[https://github.com/ArcadeLabsInc/goat](https://github.com/ArcadeLabsInc/goat)
+[https://github.com/goat-sdk/goat](https://github.com/goat-sdk/goat)
 
-Great Onchain Agent Toolkit -- a framework for giving AI agents crypto capabilities across multiple chains including Solana. GOAT provides a plugin architecture where each plugin exposes on-chain tools (swap, transfer, stake, lend) that AI agents can invoke. It supports multiple LLM backends and integrates with popular agent frameworks like LangChain and CrewAI.
+GOAT SDK (Great Onchain Agent Toolkit) was a popular multi-chain agent toolkit -- a plugin architecture where each plugin exposed on-chain tools (swap, transfer, stake, lend) that AI agents could invoke across multiple chains including Solana. Its maintainers have declared the repository an archived read-only snapshot -- no issues, PRs, or updates -- so do not start new projects on it. For Solana AI agents, use Solana Agent Kit (above), which remains actively maintained.
 
-Use GOAT when building multi-chain AI agents or when you want a plugin-based architecture for composing blockchain capabilities.
+### Eliza (elizaOS)
 
-### Eliza (ai16z)
+[https://github.com/elizaOS/eliza](https://github.com/elizaOS/eliza)
 
-[https://github.com/ai16z/eliza](https://github.com/ai16z/eliza)
-
-A framework for building AI agents with social media presence and on-chain capabilities, created by the ai16z community. Eliza agents can interact on Twitter, Discord, and Telegram while executing Solana transactions. The framework includes character configuration, memory systems, and action definitions that combine social interaction with blockchain operations.
+A framework for building AI agents with social media presence and on-chain capabilities, maintained by elizaOS (formerly ai16z). The project currently describes itself as an "open source agentic operating system." Eliza agents can interact on Twitter, Discord, and Telegram while executing Solana transactions. The framework includes character configuration, memory systems, and action definitions that combine social interaction with blockchain operations.
 
 Use Eliza when building AI agents that need both social presence and on-chain capabilities -- community bots that can tip tokens, AI personalities that trade based on social signals, or autonomous agents with public-facing identities.
 
@@ -154,7 +154,7 @@ For Solana development, MCP servers enable your AI assistant to:
 - **Manage infrastructure** -- Create webhooks, estimate priority fees, and interact with RPC services directly
 - **Automate testing** -- Open browsers, interact with dApps, and verify frontend behavior
 
-solana-claude bundles all the major Solana MCP servers into a single install with pre-configured API keys and connections. If you install solana-claude, you do not need to configure MCP servers individually -- they are all included and wired up automatically.
+Solana AI Kit bundles all the major Solana MCP servers into a single install with pre-configured API keys and connections. If you install Solana AI Kit, you do not need to configure MCP servers individually -- they are all included and wired up automatically.
 
 ---
 
@@ -164,7 +164,7 @@ solana-claude bundles all the major Solana MCP servers into a single install wit
 
 [https://www.cursor.com/](https://www.cursor.com/)
 
-An AI-native code editor built on VS Code that supports MCP servers and custom system prompts. While solana-claude is designed for Claude Code (terminal-based), Cursor provides a GUI-based alternative with similar AI-assisted development capabilities. You can configure Cursor with Solana-specific context rules and MCP servers for a visual development experience. The combination of Cursor's inline AI features with Solana MCP servers is increasingly popular among frontend-focused Solana developers.
+An AI-native code editor built on VS Code that supports MCP servers and custom system prompts. While Solana AI Kit is designed for Claude Code and Codex (terminal-based), Cursor provides a GUI-based alternative with similar AI-assisted development capabilities. You can configure Cursor with Solana-specific context rules and MCP servers for a visual development experience. The combination of Cursor's inline AI features with Solana MCP servers is increasingly popular among frontend-focused Solana developers.
 
 ### Solana AI Hub
 
@@ -175,4 +175,4 @@ The growing ecosystem of AI tools specifically built for Solana developers. Key 
 - **Transaction debugging** -- AI-powered transaction analysis that explains what happened, why it failed, and how to fix it
 - **Security analysis** -- AI-assisted code review that checks for common Solana vulnerabilities (missing signer checks, PDA substitution, arithmetic overflow)
 
-These capabilities are available through solana-claude's agent teams and slash commands, but the patterns are being adopted across the broader AI tooling ecosystem as well.
+These capabilities are available through Solana AI Kit's agent teams and workflow commands, but the patterns are being adopted across the broader AI tooling ecosystem as well.

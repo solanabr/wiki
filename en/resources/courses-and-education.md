@@ -8,11 +8,11 @@ Solana has a rich ecosystem of learning resources, from interactive self-paced c
 
 These courses let you learn at your own speed with structured curricula and hands-on exercises.
 
-### Solana Foundation Courses
+### Solana Developer Bootcamp
 
-[https://solana.com/developers/courses](https://solana.com/developers/courses)
+[https://solana.com/developers/bootcamp](https://solana.com/developers/bootcamp)
 
-The official curriculum maintained by the Solana Foundation. This is the most comprehensive free resource for learning Solana development from scratch. It covers client-side development, on-chain program development with Anchor, and advanced topics like compressed NFTs and Solana Mobile. Each module includes explanations, code examples, and lab exercises. If you only follow one course, make it this one.
+The Solana Foundation's current flagship learning resource -- a video-first learning library (2026 edition) built around practical projects, structured in four modules: Foundations, Program Patterns, Fullstack Applications, and Shipping & Production. Shorter specialized tracks (Solana Crashcourse, DePIN) are also offered. The older written course library previously at solana.com/developers/courses was archived in January 2025 and is now read-only at [github.com/solana-foundation/developer-content](https://github.com/solana-foundation/developer-content/tree/main/content/courses) -- still useful as reference, but no longer maintained.
 
 ### RareSkills Solana Tutorial
 
@@ -40,9 +40,9 @@ These programs offer structured timelines, mentorship, and community -- ideal if
 
 ### Turbin3
 
-[https://turbin3.com/](https://turbin3.com/)
+[https://turbin3.org/](https://turbin3.org/)
 
-An intensive cohort program where you build real projects with mentorship from experienced Solana developers. Turbin3 offers multiple tracks -- Rust program development, TypeScript client development, and trading infrastructure. The program has produced a significant number of developers who went on to contribute to ecosystem projects. The cohort format means you are building alongside peers and getting direct feedback, which accelerates learning dramatically compared to solo study.
+An intensive cohort program where you build real projects with mentorship from experienced Solana developers. Turbin3 now presents three offerings -- Enterprise Training, Developer Hiring, and the Institute (its free developer training program at [turbin3.org/institute](https://turbin3.org/institute)) -- and cites 2,000+ developers trained, many of whom went on to contribute to ecosystem projects. The flagship cohort teaches shipping production Solana programs with Rust and Anchor, and Q1 2026 cohorts confirm the program remains active. The cohort format means you are building alongside peers and getting direct feedback, which accelerates learning dramatically compared to solo study.
 
 ### Superteam Academy
 
@@ -145,7 +145,7 @@ Written articles, tutorials, and newsletter from Nick Frostbutter, a developer o
 
 [https://blueshift.gg/](https://blueshift.gg/)
 
-A gamified learning platform for blockchain development that includes Solana-specific content. Blueshift uses a challenge-based approach where you solve increasingly difficult programming puzzles. Each challenge teaches a specific concept -- account creation, PDA derivation, CPI execution -- in a hands-on format. Good for developers who are motivated by achievement systems and prefer learning through problem-solving rather than passive reading.
+A free, open-source learning platform built exclusively for Solana development. Blueshift offers structured courses (Anchor, Rust, TypeScript, Tokens, and even Solana Assembly) paired with interactive challenges that execute your code against real program logs, and it issues on-chain NFT credentials for completed courses and qualifications. All content is MIT-licensed, and the platform partners with ecosystem projects like Jupiter, Metaplex, and Orca. The course app lives at [learn.blueshift.gg](https://learn.blueshift.gg).
 
 ---
 
@@ -155,7 +155,7 @@ Resources specifically created for Portuguese-speaking developers in the Brazili
 
 ### Superteam Brazil Technical Bootcamps
 
-Presencial and online bootcamp sessions organized by Superteam Brazil's DevRel team. These have been held at universities (UFSC in Florianopolis, Inteli in Sao Paulo) and online, covering Solana fundamentals through to advanced program development. The bootcamps are structured as intensive multi-hour sessions with hands-on coding exercises. Check the [Superteam Brazil events page](https://lu.ma/superteambrasil) for upcoming sessions.
+Presencial and online bootcamp sessions organized by Superteam Brazil's DevRel team. These have been held at universities (UFSC in Florianopolis, Inteli in Sao Paulo) and online, covering Solana fundamentals through to advanced program development. The bootcamps are structured as intensive multi-hour sessions with hands-on coding exercises. Check the [Superteam Brazil events page](https://luma.com/superteambrasil) for upcoming sessions.
 
 ### Superteam Brazil YouTube
 

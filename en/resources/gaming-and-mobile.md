@@ -28,11 +28,11 @@ MagicBlock matters because most "blockchain games" keep gameplay off-chain and o
 
 A gaming ecosystem and tooling platform for Solana game development. PlaySolana provides resources, SDKs, and infrastructure for game studios building on Solana. They focus on reducing the barriers to entry for game developers who are new to blockchain -- providing templates, documentation, and integration tools that simplify common game-blockchain interactions like item minting, marketplace integration, and player authentication.
 
-### Unreal Engine SDK
+### Unreal Engine SDK (Star Atlas Foundation Kit)
 
-[https://github.com/staratlas/unreal-sdk-plugin](https://github.com/staratlas/unreal-sdk-plugin)
+[https://github.com/staratlasmeta/FoundationKit](https://github.com/staratlasmeta/FoundationKit)
 
-Solana integration for Unreal Engine, originally developed for Star Atlas. The SDK provides wallet connection, transaction signing, and account data access within Unreal Engine's C++ and Blueprint environments. While less mature than the Unity SDK, it opens Solana integration to the Unreal Engine developer community -- important for AAA-quality game development.
+Foundation Kit (F-Kit) is Star Atlas's fully open-source Unreal Engine plugin (UE4 and UE5) for connecting game clients to Solana. It has two layers: a Core SDK (key pair and mnemonic generation, private key import, account data reads, sending transactions, interacting with on-chain programs) and a Wallet + Blueprint interface built on top of it. While less mature than the Unity SDK, it opens Solana integration to the Unreal Engine developer community -- important for AAA-quality game development.
 
 ### Solana Game Skill
 
@@ -40,7 +40,7 @@ Solana integration for Unreal Engine, originally developed for Star Atlas. The S
 
 A Claude Code skill package specifically designed for Unity and mobile Solana game development, created by Superteam Brazil. It provides specialized AI agents -- game-architect for system design, unity-engineer for C# and Unity implementation, and mobile-engineer for mobile-specific concerns -- along with commands and rules tailored to the game development workflow.
 
-This skill understands the unique challenges of game-blockchain integration: handling wallet connections within game loops, managing NFT assets in Unity's scene graph, serializing/deserializing program accounts in C#, and optimizing mobile builds. Install it alongside [solana-claude](https://github.com/solanabr/solana-claude-config) for a complete game development environment. Maintained by @kauenet.
+This skill understands the unique challenges of game-blockchain integration: handling wallet connections within game loops, managing NFT assets in Unity's scene graph, serializing/deserializing program accounts in C#, and optimizing mobile builds. Install it alongside [Solana AI Kit](https://github.com/solanabr/solana-ai-kit) for a complete game development environment. Maintained by @kauenet.
 
 ---
 
@@ -56,16 +56,18 @@ Mobile development on Solana has unique constraints -- you cannot bundle a walle
 
 ### Mobile Wallet Adapter
 
-[https://docs.solanamobile.com/react-native/overview](https://docs.solanamobile.com/react-native/overview)
+[https://docs.solanamobile.com/get-started/mobile-wallet-adapter](https://docs.solanamobile.com/get-started/mobile-wallet-adapter)
 
 The standard protocol for connecting mobile wallets to Solana dApps. Mobile Wallet Adapter (MWA) defines how your app discovers, connects to, and communicates with wallet applications installed on the user's device. It works similarly to WalletConnect but is designed specifically for Solana's transaction model.
 
-The React Native SDK provides hooks and providers that mirror the web wallet adapter experience -- `useWallet()`, `useConnection()`, and transaction signing all work with familiar patterns. If you have built a Solana web app with wallet-adapter-react, the mobile patterns will feel natural. MWA supports both Phantom and Solflare on mobile, with more wallets adopting the standard.
+The React Native SDK provides hooks and providers that mirror the web wallet adapter experience -- `useWallet()`, `useConnection()`, and transaction signing all work with familiar patterns. If you have built a Solana web app with wallet-adapter-react, the mobile patterns will feel natural. MWA is supported by wallets including Phantom, Solflare, and the Seeker's built-in Seed Vault Wallet, with more wallets adopting the standard.
 
-### Saga / Seeker
+### Seeker (and Saga)
 
 [https://solanamobile.com/](https://solanamobile.com/)
 
-Solana-native mobile hardware built by Solana Mobile. The Saga and Seeker devices include a secure element for key management, a native dApp Store (bypassing Apple/Google app store restrictions on crypto apps), and deep OS-level integration with Solana. The dApp Store means your app can be distributed without the 30% app store commission and without the restrictions that traditional app stores place on crypto functionality.
+Solana-native mobile hardware built by Solana Mobile. The second-generation Seeker began shipping on August 4, 2025 -- an initial batch of over 150,000 pre-ordered units delivered to more than 50 countries, far surpassing the original Saga (2023, ~20,000 units), which is now a legacy device. Seeker includes the Seed Vault (secure-element key management with a built-in Seed Vault Wallet), the native Solana dApp Store, and deep OS-level Solana integration.
 
-Even if you are not targeting Saga/Seeker specifically, understanding the dApp Store is valuable -- it represents a distribution channel for Solana mobile apps that does not exist on other chains. Apps submitted to the dApp Store can use native crypto features (token gating, NFT rewards, direct token payments) without the limitations imposed by Apple and Google.
+Ahead of the Seeker launch, in May 2025, Solana Mobile announced two ecosystem pillars: SKR, the native token of the Solana Mobile ecosystem, and TEEPIN (Trusted Execution Environment Platform Infrastructure Network), a three-layer architecture that lets multiple hardware manufacturers build cryptographically attested Solana-native devices. SKR went live on January 21, 2026, with an airdrop to Seeker holders, and it also funds developer incentives -- Season 1 distributed 141M SKR to 188 teams that shipped quality apps to the dApp Store.
+
+For developers, the dApp Store remains the key point: zero-commission distribution without the 30% cut or crypto restrictions of Apple/Google, plus a crypto-native hardware audience reachable through SKR-aligned incentives.

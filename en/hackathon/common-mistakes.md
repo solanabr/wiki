@@ -1,6 +1,6 @@
 # Common Mistakes to Avoid
 
-You've studied this entire guide and are getting ready to go all in on the Solana Frontier hackathon. You've assembled your builder team with programmers, designers, and marketers. You've stocked your kitchen with instant noodles and energy drinks.
+You've studied this entire guide and are getting ready to go all in on the next Solana global hackathon. You've assembled your builder team with programmers, designers, and marketers. You've stocked your kitchen with instant noodles and energy drinks.
 
 But before you start, let's talk about how to avoid some very common pitfalls. Through painful trial and error, the Solana community has distilled key principles about how **NOT** to waste your limited build time.
 

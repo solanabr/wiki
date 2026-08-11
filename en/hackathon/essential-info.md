@@ -2,10 +2,10 @@
 
 ## Important Dates
 
-- **April 6**: Registration opens
-- **May 11**: Submission deadline
-- **1 week before the deadline**: Submission form becomes available on the platform
-- Winner announcements and investor demo day: TBD
+- **September 28, 2026**: Fall hackathon begins
+- **November 2, 2026**: Submission deadline
+- **~1 week before the deadline**: Submission form becomes available on the platform
+- **Winner announcement**: typically ~6-7 weeks after the deadline (Frontier: May 11 deadline, winners announced June 26, 2026)
 
 ## Competition Categories (Tracks)
 
@@ -20,27 +20,31 @@
 
 ## Prizes (Detailed)
 
-### Global Hackathon
+### Global Hackathon — Frontier (Spring 2026) structure
+
+The fall 2026 prize structure has not been announced yet; the table below shows the concluded Frontier edition for reference:
 
 | Prize | Value | Qty |
 |-------|-------|-----|
-| **Grand Champion** | $50,000 | 1 |
-| **Track Winners** | $10,000 | 20 |
-| **University Award** (students) | $5,000 | 1 |
-| **Open Source Award** | $5,000 | 1 |
+| **Grand Champion** | $30,000 | 1 |
+| **Top Winners** | $10,000 | 20 (later 25)* |
+| **University Award** (students) | $10,000 | 1 |
+| **Public Goods Award** | $10,000 | 1 |
 
-**Total global hackathon prizes: $260,000**
+\* 20 Top Winner slots were announced; judging expanded the list to 25 runner-ups, for 26 winning teams total.
+
+**Announced total for the global hackathon: $250,000**
 
 ### Colosseum Accelerator
 
-Up to 10 selected teams receive:
+Winning teams are invited to the accelerator (Cohort 5 admitted 21), each receiving:
 - **$250,000 in pre-seed capital** each
 - Exclusive access to networking and investors
 - Direct 1:1 mentorship
 - 2-week residency in San Francisco
 - Legal support and infrastructure
 
-All hackathon winners receive interviews for possible inclusion in the accelerator.
+All hackathon winners receive interviews for possible inclusion in the accelerator. Cohort 5 (June 2026) admitted 21 startups drawn from Frontier winners and the Eternal sprint — Colosseum's largest cohort to date.
 
 ### Brazil Track
 
@@ -108,6 +112,8 @@ The judges — prominent founders, developers, and investors in the ecosystem �
 - Use the [Colosseum Cofounder Directory](https://arena.colosseum.org) to find co-founders
 
 ## Recommended Timeline (5 weeks)
+
+The September 28 – November 2, 2026 window is exactly 5 weeks:
 
 | Week | Focus |
 |------|-------|

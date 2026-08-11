@@ -8,7 +8,7 @@ Tokens on Solana are managed by on-chain programs -- primarily SPL Token and its
 
 ### SPL Token
 
-[https://spl.solana.com/token](https://spl.solana.com/token)
+[https://www.solana-program.com/docs/token](https://www.solana-program.com/docs/token)
 
 The original token program that powers the majority of tokens on Solana today. SPL Token handles minting, transferring, burning, freezing, and delegating tokens. Every SOL-based fungible token you have interacted with -- USDC, BONK, JUP -- uses this program.
 
@@ -16,7 +16,7 @@ The core concepts are straightforward: a **Mint** account defines the token (dec
 
 ### Token-2022 / Token Extensions
 
-[https://spl.solana.com/token-2022](https://spl.solana.com/token-2022)
+[https://www.solana-program.com/docs/token-2022](https://www.solana-program.com/docs/token-2022)
 
 The next-generation token program that includes everything SPL Token does plus a modular extension system. Token-2022 is fully backward-compatible -- any operation you can do with SPL Token works with Token-2022 -- but adds powerful new capabilities through extensions that you enable at mint creation time.
 
@@ -61,6 +61,14 @@ Tokens that cannot be transferred after minting. The token is permanently bound 
 Tokens with a display balance that accrues interest over time. The actual on-chain balance does not change -- instead, the token program calculates a display amount based on the interest rate and elapsed time. The interest rate is set by the rate authority and can be updated.
 
 Use this for yield-bearing stablecoins, savings tokens, or any fungible token that should appear to grow in balance over time. The actual yield distribution (if any) must be handled separately -- this extension only affects how the balance is displayed.
+
+### Pausable
+
+Lets a pause authority temporarily halt minting, burning, and transferring for the mint. Added in 2025, this is an operational control that regulated stablecoin issuers expect -- pause activity during an incident or compliance event without freezing individual accounts one by one.
+
+### Scaled UI Amount
+
+Lets the issuer set a display multiplier: the raw on-chain amount never changes, but wallets and UIs show amount × multiplier. Designed for rebasing assets, tokenized funds doing splits, and reward tokens that periodically scale -- the issuer updates one multiplier instead of minting/burning against every holder, which would break composability.
 
 ### Metadata
 
@@ -130,11 +138,11 @@ A protocol for hybrid NFT-fungible token assets that can switch between being an
 
 ### Confidential Balances
 
-Confidential Balances is an evolution of the Confidential Transfers extension that applies homomorphic encryption to all token balances, not just transfers. With Confidential Balances enabled, the on-chain balance itself is encrypted -- only the account owner (or designated auditors) can decrypt and view the actual amount. This provides stronger privacy guarantees than Confidential Transfers alone and is being developed for use cases like institutional treasury management, private payroll systems, and regulated financial products where balance privacy is a compliance requirement.
+Confidential Balances launched on Solana mainnet in April 2025. It is a set of three Token-2022 extensions that encrypt token balances and transfer amounts (including minted, burned, and fee amounts) using homomorphic encryption and zero-knowledge proofs -- accounts and transactions remain visible, but amounts are hidden except to the owner and any designated auditor. Rust/server-side tooling shipped first, with JavaScript ZK-proof libraries following to enable browser and mobile wallet integrations. Target use cases: institutional treasury management, private payroll, and regulated financial products where balance privacy is a compliance requirement.
 
 ### Token-2022 CLI Tools
 
-[https://spl.solana.com/token-2022/extensions](https://spl.solana.com/token-2022/extensions)
+[https://www.solana-program.com/docs/token-2022/extensions](https://www.solana-program.com/docs/token-2022/extensions)
 
 The `spl-token` CLI includes full support for creating and managing Token-2022 mints with extensions. You can create mints with transfer hooks, fees, metadata, and other extensions directly from the command line -- useful for testing, prototyping, and one-off administrative operations. The CLI documentation provides command examples for each extension type, making it the fastest way to experiment with Token-2022 features before writing program code.
 

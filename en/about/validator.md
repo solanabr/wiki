@@ -4,7 +4,9 @@ Superteam Brazil operates a Solana validator as part of its commitment to networ
 
 ## Overview
 
-- **Stake:** ~17,000 SOL staked
+- **Stake:** ~112,000 SOL staked (as of August 2026)
+- **Commission:** 5% (10% MEV)
+- **Performance:** 99%+ uptime and vote success, per [StakeWiz](https://stakewiz.com/validator/STBRgoYTmMwukhcBVjGpg3A4R9HBsrWo82wJgiBukaW)
 - **Reward Model:** 100% of validator rewards are reinvested into the community
 - **Purpose:** Fund ecosystem growth through bounties, education, and tooling
 

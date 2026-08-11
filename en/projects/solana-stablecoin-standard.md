@@ -1,12 +1,14 @@
 # Solana Stablecoin Standard
 
 **GitHub**: [solanabr/solana-stablecoin-standard](https://github.com/solanabr/solana-stablecoin-standard)
-**Status**: Active development
+**Status**: Complete — v1 shipped March 2026; repository archived (read-only), available as a reference implementation
 **Maintained by**: @lvj_luiz and @kauenet
 
 ## Overview
 
-A standardized interface for stablecoin issuance and management on Solana. Defines two specifications — SSS-1 for core stablecoin functionality and SSS-2 for advanced compliance and operational features.
+A standardized interface for stablecoin issuance and management on Solana. Defines two specifications — SSS-1 (minimal) for core stablecoin functionality and SSS-2 (compliant), which adds blacklist enforcement via transfer hook and KYC-gated accounts.
+
+The v1 release shipped a complete toolkit: the SSS-Core Anchor program, a blacklist transfer-hook program, a CLI, a TypeScript SDK, a REST backend, and a React demo.
 
 ## Why It Matters
 
@@ -16,7 +18,7 @@ The Solana Stablecoin Standard provides a common interface so that issuers, exch
 
 ## Features
 
-### SSS-1 Specification
+### SSS-1 (Minimal)
 
 The core stablecoin interface covering fundamental operations:
 
@@ -25,9 +27,9 @@ The core stablecoin interface covering fundamental operations:
 - Transfer restrictions
 - Authority management
 
-### SSS-2 Specification
+### SSS-2 (Compliant)
 
-Advanced features for institutional and compliance-focused deployments:
+Builds on SSS-1 with blacklist enforcement via transfer hook and KYC-gated accounts, for institutional and compliance-focused deployments:
 
 - Compliance hooks for KYC/AML enforcement
 - Blacklisting and whitelisting
@@ -49,6 +51,14 @@ Leverages Solana's Token Extensions program for advanced functionality:
 - **Transfer hooks** for compliance enforcement
 - **Confidential transfers** for privacy-preserving payments
 - **Non-transferable metadata** for issuer attestations
+
+## Live References
+
+- **Video demo**: [Solana Stablecoin Standard demo](https://youtu.be/3y86hHGvMO4)
+- **SSS-Core program (devnet)**: `4ZFzYcNVDSew79hSAVRdtDuMqe9g4vYh7CFvitPSy5DD`
+- **Blacklist Transfer Hook program (devnet)**: `84rPjkmmoP3oYZVxjtL2rdcT6hC5Rts6N5XzJTFcJEk6`
+
+Both program IDs are as listed in the repository README.
 
 ## Tech Stack
 

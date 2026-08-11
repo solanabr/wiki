@@ -4,7 +4,7 @@
 
 - [How to Win a Colosseum Hackathon](https://blog.colosseum.com/how-to-win-a-colosseum-hackathon/) — complete strategy guide
 - [Perfecting Your Submission](https://blog.colosseum.com/perfecting-your-hackathon-submission/) — pitch, demo, and GitHub requirements
-- [Official Hackathon Resources (Colosseum)](https://colosseum.com/cypherpunk/resources) — resources and sponsors
+- [Official Hackathon Page (Colosseum)](https://colosseum.com/hackathon) — current hackathon, resources and sponsors
 
 ## Getting Started with Solana Development
 
@@ -27,17 +27,15 @@
 
 | Tool | Link | Description |
 |------|------|-------------|
-| Web3.js | [solana-labs.github.io](https://solana-labs.github.io/solana-web3.js/) | JavaScript SDK for Solana |
-| Soldev | [soldev.app](https://www.soldev.app/) | Developer resource portal |
-| Solana Cookbook | [solanacookbook.com](https://solanacookbook.com/#contributing) | Practical recipes and examples |
+| @solana/kit | [github.com/anza-xyz/kit](https://github.com/anza-xyz/kit) | Modern TypeScript SDK for Solana (the renamed 2.x line of @solana/web3.js) |
+| Solana Cookbook | [solana.com/developers/cookbook](https://solana.com/developers/cookbook) | Practical recipes and examples |
 | Helius | [helius.dev](https://www.helius.dev/) | RPC, APIs, and tools |
-| Ironforge | [ironforge.cloud](https://www.ironforge.cloud/) | RPC and explorer (code SUPERTEAM = 2 months free) |
+| Ironforge | [ironforge.sanctum.so](https://www.ironforge.sanctum.so/) | RPC gateway and DevOps platform, now part of Sanctum |
 | Triton One | [triton.one](https://triton.one/) | High-performance RPC, free devnet/testnet |
 | Surfpool | [surfpool.run](https://surfpool.run/) | Solana simulation connected to Mainnet |
 | SHYFT | [shyft.to](https://shyft.to/) | APIs for Solana |
 | Hello Moon | [hellomoon.io](https://www.hellomoon.io/developers) | On-chain analytics and data |
 | ThirdWeb | [thirdweb.com](https://thirdweb.com/) | Multi-chain SDK |
-| Seahorse | [seahorse-lang.org](https://seahorse-lang.org/) | Write Solana programs in Python |
 | OSS Superteam | [oss.superteam.fun](http://oss.superteam.fun/) | Ecosystem open-source projects |
 
 ## AI Tools

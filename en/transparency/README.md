@@ -20,20 +20,20 @@ The validator is hosted in **Sao Paulo, Brazil**, contributing to geographic dec
 
 ## Cumulative Impact
 
-Since inception, Superteam Brazil has facilitated meaningful growth across the Brazilian Solana ecosystem. The numbers below reflect cumulative totals through Q1 2026:
+Since inception, Superteam Brazil has facilitated meaningful growth across the Brazilian Solana ecosystem. The numbers below reflect cumulative totals as of August 2026 (rewards and completion rate from the live [Superteam Earn](https://earn.superteam.fun/) sponsor page; listing and submission counts as of the Q1 2026 report):
 
 | Metric | Value |
 |--------|-------|
-| Total rewards distributed | $408,000+ |
-| Total listings published | 161 |
-| Total submissions received | 1,832 |
-| Completion rate | 95% |
+| Total rewards distributed | $697,000+ |
+| Total listings published | 161+ |
+| Total submissions received | 1,832+ |
+| Completion rate | 97% |
 | Active community members | 62 |
 | Builders in the ecosystem | 247+ |
 | Ecosystem partners | 40+ |
 | Capital facilitated | $3,000,000+ |
 
-The 95% completion rate across 1,832 submissions reflects a community that follows through. Listings span bounties, hackathon tracks, educational challenges, and contribution opportunities — all designed to move builders from learning to shipping.
+The 97% completion rate reflects a community that follows through. Listings span bounties, hackathon tracks, educational challenges, and contribution opportunities — all designed to move builders from learning to shipping.
 
 ---
 
@@ -45,10 +45,12 @@ The 95% completion rate across 1,832 submissions reflects a community that follo
 | Commission | 5% |
 | MEV Commission | 10% |
 | Revenue model | 100% reinvested into ecosystem |
-| Current stake | ~17,000 SOL |
-| Voting rate | 99.4% |
-| Uptime (30-day) | 100% |
+| Current stake | ~112,000 SOL |
+| Voting rate | 99.6% |
+| Uptime (30-day) | 99%+ |
 | Skip rate | 0% |
+
+_Validator metrics as of August 2026 — live data at [StakeWiz](https://stakewiz.com/validator/STBRgoYTmMwukhcBVjGpg3A4R9HBsrWo82wJgiBukaW)_
 
 Our validator is not a profit center. It is a funding mechanism for Brazilian builders. Every basis point of commission earned goes back into the ecosystem through bounties, grants, event sponsorships, and open-source development.
 

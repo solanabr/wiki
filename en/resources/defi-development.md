@@ -30,11 +30,11 @@ This standard addresses a real gap in the ecosystem. As more stablecoins launch 
 
 ### Jupiter
 
-[https://dev.jup.ag/docs/get-started](https://dev.jup.ag/docs/get-started)
+[https://developers.jup.ag/docs/get-started](https://developers.jup.ag/docs/get-started)
 
 The leading DEX aggregator on Solana and the default entry point for swaps. Jupiter routes trades across all major Solana DEXs to find the best price, splitting orders across multiple pools when necessary. Beyond basic swaps, Jupiter provides limit orders, dollar-cost averaging (DCA), and perpetual trading.
 
-For developers, Jupiter's API and SDK are the easiest way to add swap functionality to your application. Rather than integrating individual DEX protocols, you integrate Jupiter once and get access to all of them. The developer portal at `dev.jup.ag` is the canonical hub, superseding the older `station.jup.ag` docs. The Swap API handles complex routes including multi-hop swaps, and the newer Ultra API provides simplified swap flows. A self-hosted version of the swap API is available for latency-critical use cases like liquidations. SDK: `@jup-ag/api` on npm. GitHub: [jup-ag/jupiter-swap-api-client](https://github.com/jup-ag/jupiter-swap-api-client).
+For developers, Jupiter's API and SDK are the easiest way to add swap functionality to your application. Rather than integrating individual DEX protocols, you integrate Jupiter once and get access to all of them. The developer portal at `developers.jup.ag` is the canonical hub, superseding the older `dev.jup.ag` and `station.jup.ag` docs. The Swap API handles complex routes including multi-hop swaps, and the newer Ultra API provides simplified swap flows. A self-hosted version of the swap API is available for latency-critical use cases like liquidations. SDK: `@jup-ag/api` on npm. GitHub: [jup-ag/jupiter-swap-api-client](https://github.com/jup-ag/jupiter-swap-api-client).
 
 ### Raydium
 
@@ -58,7 +58,7 @@ Choose Orca when you need direct pool interaction (not aggregated routing), when
 
 Dynamic liquidity with the DLMM (Dynamic Liquidity Market Maker) model. Meteora's innovation is in how it handles liquidity bins -- price is divided into discrete bins, and swaps within a bin have zero slippage. Their fee model dynamically adjusts based on market volatility, meaning LPs earn more during volatile periods.
 
-For developers, Meteora is interesting if you are building on top of novel AMM mechanics or need the specific properties of bin-based liquidity. Their DLMM also powers many token launches through their launch pool feature.
+For developers, Meteora is interesting if you are building on top of novel AMM mechanics or need the specific properties of bin-based liquidity. For token launches, Meteora's Dynamic Bonding Curve (DBC) is a permissionless launch protocol used by many Solana launchpads: a configurable bonding curve handles initial price discovery, then automatically graduates the token into a DAMM v2 (or v1) liquidity pool, with Jupiter routing from day one. Meteora also launched its MET token in October 2025.
 
 ---
 
@@ -84,9 +84,15 @@ Integrate Marginfi when your application needs lending/borrowing functionality. 
 
 [https://docs.kamino.finance/](https://docs.kamino.finance/)
 
-Automated liquidity and lending strategies. Kamino started as an automated liquidity management tool (auto-rebalancing LP positions on Orca and Raydium) and expanded into lending. Their lending product is integrated with their liquidity vaults, meaning LP tokens can be used as collateral.
+Automated liquidity and lending strategies. Kamino started as an automated liquidity management tool (auto-rebalancing LP positions on Orca and Raydium) and expanded into lending. Their lending product is integrated with their liquidity vaults, meaning LP tokens can be used as collateral. Kamino is currently the largest money market on Solana by TVL.
 
 Kamino is useful when you are building applications that need yield optimization or automated position management. Their vault strategies abstract the complexity of active liquidity management.
+
+### Jupiter Lend
+
+[https://developers.jup.ag/docs/lend](https://developers.jup.ag/docs/lend)
+
+Jupiter's lending protocol, launched in August 2025 on Fluid's battle-tested infrastructure. It grew to over $1.5B in deposits within months and crossed $2B in total deposits by May 2026, making it one of the largest lending venues on Solana alongside Kamino. Two products: Earn (deposit into yield vaults) and Borrow (borrow against collateral with high LTVs and low liquidation penalties). Developer integration via a TypeScript SDK and REST API, with flashloans and CPI integration supported.
 
 ---
 

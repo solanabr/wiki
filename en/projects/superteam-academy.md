@@ -16,7 +16,7 @@ Non-transferable experience points earned by completing courses. Built on Token-
 
 ### NFT Certificates
 
-On-chain completion certificates issued as compressed NFTs via Metaplex Bubblegum. Each certificate is verifiable on-chain and costs a fraction of a cent to mint thanks to state compression.
+On-chain completion certificates issued via Metaplex Core, auto-minted on course completion. Each certificate is verifiable on-chain.
 
 ### On-Chain Progress Tracking
 
@@ -30,9 +30,22 @@ Instructor tools for creating and managing curriculum. Courses can be structured
 
 Group-based learning with deadlines and milestones. Cohorts enable structured programs where students progress together, with time-bound access to materials and group accountability.
 
+### Interactive Coding Challenges
+
+In-browser coding challenges built on the Monaco editor, with automated tests checking each submission. Students write and validate real code without leaving the platform.
+
+### Gamification
+
+XP, levels, daily streaks, and achievements keep learners engaged and make progress visible across the platform.
+
+### Trilingual Interface
+
+The UI ships in English, Portuguese (pt-BR), and Spanish — matching the languages of the communities the Academy serves.
+
 ## Tech Stack
 
-- **Programs**: Anchor
-- **Token standard**: Token-2022 (non-transferable extension)
-- **NFTs**: Metaplex Bubblegum (compressed NFTs)
-- **Frontend**: Next.js
+- **Programs**: Anchor / Pinocchio (Rust), deployed on Solana devnet
+- **Credentials**: Token-2022 soulbound XP + Metaplex Core NFT certificates
+- **Frontend**: Next.js 14, React 18, Tailwind CSS, shadcn/ui
+- **Backend**: Supabase (PostgreSQL + Auth)
+- **Monorepo**: Turborepo + pnpm

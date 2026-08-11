@@ -23,14 +23,14 @@ Superteam Brazil is the official Solana community hub in Brazil, connecting deve
 | Metric | Value |
 |---|---|
 | Capital Facilitated | **$3M+** |
-| Rewards Distributed | **$408K+** |
+| Rewards Distributed | **$697K+** |
 | Listings & Grants | **161** |
 | Total Submissions | **1,832** |
 | Builders Accelerated | **1,000+** |
 | Active Members | **60+** |
 | Startups Supported | **30+** |
-| SOL Staked via Validator | **~17K** |
-| Completion Rate | **95%** |
+| SOL Staked via Validator | **~112K** |
+| Completion Rate | **97%** |
 
 ## Ecosystem Partners
 

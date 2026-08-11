@@ -1,6 +1,6 @@
-# solana-claude-config
+# Solana AI Kit
 
-**GitHub**: [solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config)
+**GitHub**: [solanabr/solana-ai-kit](https://github.com/solanabr/solana-ai-kit)
 **Status**: Active development, public release
 **Maintained by**: @kauenet
 
@@ -10,7 +10,7 @@ AI coding assistants have a Solana problem. Their training data is months or yea
 
 The second problem is context waste. A general-purpose assistant loads everything and filters nothing. Asking about a Pinocchio CPI pattern pulls in irrelevant React knowledge. Asking about token metadata loads game development rules. Every token spent on context that does not apply to the current task is a token that cannot go toward solving the actual problem.
 
-solana-claude-config solves both. It is a Claude Code configuration that encodes deep Solana domain knowledge — current APIs, correct security patterns, language-specific rules — and delivers that knowledge efficiently through a token-aware architecture. The right context loads for the right task, and nothing else does.
+Solana AI Kit (formerly solana-claude-config) solves both. It is an AI-coding configuration — Claude Code and Codex compatible — that encodes deep Solana domain knowledge (current APIs, correct security patterns, language-specific rules) and delivers that knowledge efficiently through a token-aware architecture. The right context loads for the right task, and nothing else does.
 
 ## Design Philosophy
 
@@ -50,7 +50,7 @@ The configuration is built around a single principle: load only what the current
 | tech-docs-writer | READMEs, API docs, integration guides, architecture documentation |
 | solana-guide | Developer education, tutorials, learning paths |
 
-### 24 Slash Commands
+### 30 Workflow Commands
 
 **Building**
 - `/build-program` — Build and verify Solana programs
@@ -67,6 +67,9 @@ The configuration is built around a single principle: load only what the current
 - `/profile-cu` — Compute unit profiling and optimization
 - `/benchmark` — Performance benchmarking
 - `/diff-review` — Code review and AI slop detection
+- `/audit-infra` — Infrastructure-first security audit: secrets, supply chain, CI/CD, LLM/skill security, OWASP, STRIDE
+- `/product-review` — Product quality review with an 8-dimension scorecard
+- `/debug-user-tx` — Replay a user's failing transaction against forked cluster state and map the error to source
 
 **Deployment**
 - `/deploy` — Devnet and mainnet deployment with confirmation gates
@@ -83,24 +86,36 @@ The configuration is built around a single principle: load only what the current
 - `/update` — Update configuration and skills to latest
 - `/resync` — Resync agent and rule definitions
 - `/cleanup` — Remove stale context and temporary files
+- `/commit-claude-config` — Version the kit configuration in git
+- `/doctor` — Read-only health check for the dev environment and config, with one fix-it command per failure
+- `/dream` — Memory consolidation: dedupe, prune, and re-rank session learnings
 
-### 9 External Skill Submodules
+### 18 External Skill Submodules
 
 Each submodule is a git submodule sourced from an authoritative provider, keeping domain knowledge current without embedding it directly into the configuration.
 
 | Submodule | Source | Purpose |
 |---|---|---|
-| solana-dev-skill | Solana Foundation | Official Solana development patterns |
-| sendai-skill | SendAI | AI agent framework for Solana |
-| solana-security-skill | Trail of Bits (based on) | Security audit patterns and vulnerability detection |
-| cloudflare-skill | Cloudflare | Edge deployment and Workers patterns |
-| colosseum-skill | Colosseum | Hackathon and accelerator integration |
-| qedgen-skill | QEDGen | Formal verification patterns |
-| solana-mobile-skill | Solana Mobile | Mobile-specific development patterns |
-| safe-solana-builder-skill | Community | Safe coding patterns and best practices |
-| solana-game-skill | Superteam Brazil | Unity game development for Solana |
+| solana-dev | Solana Foundation | Official Solana development patterns — programs, frontend, testing, security |
+| sendai | SendAI | DeFi protocol integrations — Jupiter, Raydium, Kamino, perps, cross-chain, oracles |
+| solana-game | Superteam Brazil | Unity game development for Solana — PlaySolana, PSG1 |
+| cloudflare | Cloudflare | Edge infrastructure — Workers, Agents SDK, MCP servers |
+| trailofbits | Trail of Bits | Security auditing and vulnerability scanning |
+| qedgen | QEDGen | Formal verification with Lean 4 theorem proving |
+| solana-mobile | Solana Mobile | Mobile Wallet Adapter, Genesis Token, SKR address resolution |
+| colosseum | Colosseum | Startup research, idea validation, hackathon projects |
+| safe-solana-builder | Community | Security-first code generation with 70+ audit-derived rules |
+| vercel | Vercel | Vercel deployment, Next.js, AI SDK, v0, edge functions |
+| solana-new | SendAI | Idea-to-launch journey skills plus idea datasets and knowledge base |
+| ghostsecurity | Ghost Security | AppSec skills — SAST criteria, SCA, secrets, validation |
+| defending-code | Anthropic | Vulnerability-discovery reference harness and defensive-security skills |
+| jupiter | Jupiter | Official Jupiter skills — Ultra swap, Lend, swap migration |
+| metaplex | Metaplex | Official Metaplex skills — Core, Token Metadata, Bubblegum, Candy Machine |
+| helius | Helius | Official Helius infrastructure skill plus SVM internals |
+| quicknode-anchor | QuickNode | Anchor and financial-math reference files (quarantined — references only) |
+| eth-to-sol | Solana Foundation | EVM/Solidity to Anchor two-pass porting |
 
-### 6 MCP Server Integrations
+### 7 MCP Server Integrations
 
 | Server | Why It Matters |
 |---|---|
@@ -110,6 +125,7 @@ Each submodule is a git submodule sourced from an authoritative provider, keepin
 | Playwright | Browser automation for dApp testing — opens your frontend, connects wallets, and verifies flows in a real browser |
 | context-mode | Compresses large RPC responses and build logs — saves context window for actual work |
 | memsearch | Persistent memory with semantic search — remembers project context across sessions |
+| Surfpool | Agent-driven local validator and mainnet-fork control — spin up forked cluster state for integration testing without leaving the editor |
 
 ### Language-Specific Rules
 
@@ -137,13 +153,28 @@ Multi-agent workflows that coordinate specialized agents through a complete deve
 
 ## Installation
 
-**Fork the template** — the recommended approach for new projects. Fork [solanabr/solana-claude-config](https://github.com/solanabr/solana-claude-config) on GitHub, customize the `CLAUDE.md` for your project, and initialize the skill submodules.
+**Fork the template** — the recommended approach for new projects. Fork [solanabr/solana-ai-kit](https://github.com/solanabr/solana-ai-kit) on GitHub, customize the `CLAUDE.md` for your project, and initialize the skill submodules.
 
 **One-liner install** — for adding the configuration to an existing project:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/solanabr/solana-claude-config/main/install.sh | bash
+curl -fsSL https://aikit.superteam.codes | bash
 ```
+
+If the `aikit.superteam.codes` domain is not reachable, the documented fallback is:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/solanabr/solana-ai-kit/main/install.sh | bash
+```
+
+**Claude Code plugin** — installs the core kit (agents, commands, MCP servers) through the plugin marketplace:
+
+```
+/plugin marketplace add solanabr/solana-ai-kit
+/plugin install solana-ai-kit@stbr
+```
+
+The plugin carries the core kit only; the full `install.sh` route also brings the lazy-loaded language rules, the curated permissions allowlist and sandbox policy, and the 18 `ext/` skill submodules.
 
 **Manual setup** — clone the repository and copy the `.claude/` directory and `CLAUDE.md` to your project root.
 
@@ -153,14 +184,14 @@ curl -fsSL https://raw.githubusercontent.com/solanabr/solana-claude-config/main/
 
 | Layer | Technology |
 |---|---|
-| Programs | Anchor 0.31+ / Pinocchio |
+| Programs | Anchor 1.0+ / Pinocchio / Rust 1.82+ |
 | Frontend | Next.js 15 / React 19 / @solana/kit |
 | Testing | Mollusk / LiteSVM / Surfpool / Trident |
 | Mobile | React Native / Expo / Solana Mobile SDK |
 | Games | Unity 6+ / Solana.Unity-SDK / PlaySolana |
-| Backend | Rust (Axum/Tokio) / Helius API |
+| Backend | Rust (Axum 0.8+ / Tokio 1.40+ / sqlx) / Helius API |
 | Edge | Cloudflare Workers |
 
 ## Credits
 
-This project would not be possible without the organizations that publish and maintain the skill submodules it depends on. Thanks to the **Solana Foundation** for official development patterns and the solana-dev MCP server, **SendAI** for the AI agent framework, **Trail of Bits** for the security research this project draws from, **Cloudflare** for edge deployment patterns, **Colosseum** for hackathon tooling, **QEDGen** for formal verification work, **Solana Mobile** for mobile SDK patterns, the **safe-solana-builder community** for safe coding conventions, and **Superteam Brazil** for the game development integration that started this project.
+This project would not be possible without the organizations that publish and maintain the skill submodules it depends on. Thanks to the **Solana Foundation** for official development patterns and the solana-dev MCP server, **SendAI** for the AI agent framework, **Trail of Bits** for the security research this project draws from, **Cloudflare** for edge deployment patterns, **Colosseum** for hackathon tooling, **QEDGen** for formal verification work, **Solana Mobile** for mobile SDK patterns, the **safe-solana-builder community** for safe coding conventions, **Vercel** for deployment patterns, **Jupiter**, **Metaplex**, and **Helius** for their official ecosystem skills, **Ghost Security** for AppSec skills, **Anthropic** for the defending-code reference harness, **QuickNode** for Anchor reference material, and **Superteam Brazil** for the game development integration that started this project.
