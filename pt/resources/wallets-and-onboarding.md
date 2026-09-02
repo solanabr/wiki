@@ -72,6 +72,12 @@ Embedded wallets passkey-first: usuários se cadastram com e-mail, telefone, log
 
 Uma stack completa de wallets que cobre os dois lados do padrão híbrido em um único SDK: conexão de wallets externas (via `SolanaWalletConnectors`) e embedded wallets MPC, com políticas, abstração de gas e componentes de UI prontos. As embedded wallets Solana usam MPC EdDSA (protocolo FROST), e os SDKs abrangem React, React Native, Flutter, Swift e mais. A Dynamic é uma escolha forte quando você quer um único fornecedor para conectar-ou-criar em vez de costurar o wallet-adapter com um SDK embedded separado.
 
+### Cavos
+
+[https://docs.cavos.xyz](https://docs.cavos.xyz)
+
+SDK de wallet embarcada, self-custodial e nativa do dispositivo (`@cavos/kit` e `@cavos/kit/react-native`). O usuário entra com Google, Apple ou a identidade do app. A chave é criada e usada no dispositivo. A Cavos não a vê e não pode mover fundos. Sem seed, sem extensão, sem MPC. Se a Cavos desaparecer, a wallet continua no controle do usuário. No Solana usa uma PDA de device-account com o precompile secp256r1 nativo. Passkeys enrolam dispositivos; não assinam transações. Relayer opcional pode pagar o gas. O mesmo kit cobre Stellar e Starknet.
+
 ---
 
 ## Passkeys
