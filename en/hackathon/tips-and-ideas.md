@@ -9,10 +9,10 @@
 
 ## Where to Look for Ideas
 
-- [Superteam Build](https://build.superteam.fun/) — Curated repository with promising ideas
-- [Previous Solana Hackathon Winners](https://build.superteam.fun/past-hackathon-winners) — Proven formulas to iterate on
+- [Superteam Build](https://superteam.fun/build) — Curated repository with promising ideas
+- [Previous Solana Hackathon Winners](https://superteam.fun/build/past-hackathon-winners) — Proven formulas to iterate on
 - Hackathon winners on other blockchains — Perspectives from ecosystems like Ethereum and Polygon
-- [Solana ecosystem projects](https://solana.com/ecosystem) — Including [payment solutions](https://solanapayments.fun/)
+- [Solana ecosystem projects](https://solana.com/ecosystem)
 
 ## Recognizing Ideas with Potential
 

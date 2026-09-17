@@ -86,7 +86,7 @@ SDKs ship in TypeScript, Rust, and Go. The interface is drop-in compatible with 
 
 ### Light Protocol
 
-[https://docs.lightprotocol.com/](https://docs.lightprotocol.com/)
+[https://www.zkcompression.com/](https://www.zkcompression.com/)
 
 ZK compression infrastructure for Solana. Light Protocol enables applications to store state in compressed form using zero-knowledge proofs, dramatically reducing on-chain storage costs. A compressed account costs a fraction of a standard account while maintaining the same security guarantees through Merkle proofs.
 
@@ -100,7 +100,7 @@ Actions and Blinks are a Solana-specific innovation that turns any transaction i
 
 ### Solana Actions Specification
 
-[https://solana.com/developers/guides/advanced/actions](https://solana.com/developers/guides/advanced/actions)
+[https://solana.com/docs/tools/actions](https://solana.com/docs/tools/actions)
 
 The official specification for Solana Actions -- standardized APIs that return signable transactions from a URL. Any application, website, or social media platform can embed an Action that lets users execute Solana transactions without leaving their current context. For example, a tweet containing a Blink (blockchain link) can include a "Buy" or "Donate" button that triggers a wallet popup directly in the Twitter feed.
 
@@ -153,7 +153,7 @@ Production best practice: transfer upgrade authority to a Squads multisig before
 
 [https://solana.com/docs/core/transactions/versioned-transactions](https://solana.com/docs/core/transactions/versioned-transactions)
 
-Legacy transactions are capped at ~35 accounts. Address Lookup Tables (ALTs) store up to 256 public keys in an on-chain account, letting transactions reference them with 1-byte indices instead of 32-byte keys. V0 transactions are required to use ALTs and are essential for complex DeFi interactions (Jupiter swaps, multi-pool routes, bundle transactions). Guide: [solana.com/developers/guides/advanced/lookup-tables](https://solana.com/developers/guides/advanced/lookup-tables).
+Legacy transactions are capped at ~35 accounts. Address Lookup Tables (ALTs) store up to 256 public keys in an on-chain account, letting transactions reference them with 1-byte indices instead of 32-byte keys. V0 transactions are required to use ALTs and are essential for complex DeFi interactions (Jupiter swaps, multi-pool routes, bundle transactions). Guide: [solana.com/developers/cookbook/transactions/lookup-tables](https://solana.com/developers/cookbook/transactions/lookup-tables).
 
 ### Durable Nonces
 

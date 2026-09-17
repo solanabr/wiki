@@ -20,7 +20,7 @@ The validator is hosted in **Sao Paulo, Brazil**, contributing to geographic dec
 
 ## Cumulative Impact
 
-Since inception, Superteam Brazil has facilitated meaningful growth across the Brazilian Solana ecosystem. The numbers below reflect cumulative totals as of August 2026 (rewards and completion rate from the live [Superteam Earn](https://earn.superteam.fun/) sponsor page; listing and submission counts as of the Q1 2026 report):
+Since inception, Superteam Brazil has facilitated meaningful growth across the Brazilian Solana ecosystem. The numbers below reflect cumulative totals as of August 2026 (rewards and completion rate from the live [Superteam Earn](https://superteam.fun/earn) sponsor page; listing and submission counts as of the Q1 2026 report):
 
 | Metric | Value |
 |--------|-------|

@@ -34,7 +34,7 @@ Integration tests verify that your program works correctly when interacting with
 
 ### Surfpool
 
-[https://github.com/txtx/surfpool](https://github.com/txtx/surfpool)
+[https://github.com/solana-foundation/surfpool](https://github.com/solana-foundation/surfpool)
 
 Surfpool lets you replay mainnet or devnet state locally without deploying anything. It fetches real account data and program state, then runs your transactions against that snapshot. This means you can test your program's interactions with Jupiter, Pyth, SPL Token, and any other deployed program using their actual on-chain state.
 
@@ -101,7 +101,7 @@ The official Anchor docs have a dedicated section mirroring the Sealevel Attacks
 
 ### solana-verify
 
-[https://github.com/Ellipsis-Labs/solana-verifiable-build](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+[https://github.com/solana-foundation/solana-verifiable-build](https://github.com/solana-foundation/solana-verifiable-build)
 
 A tool for producing and verifying deterministic program builds. Verifiable builds ensure that the deployed on-chain bytecode matches a specific source code commit. This is critical for trust -- users and auditors can confirm that what is running on-chain is exactly what was audited. The tool uses Docker to create reproducible build environments, and the Solana Explorer can display verification status for programs that have been verified.
 
@@ -133,6 +133,6 @@ A developer-focused explorer that automatically decodes transaction data using k
 
 ### XRAY
 
-[https://xray.helius.xyz/](https://xray.helius.xyz/)
+[https://xray.helius.dev/](https://xray.helius.dev/)
 
 A minimal, human-readable explorer built by Helius. XRAY focuses on making transaction data understandable to non-technical users -- it translates raw Solana transactions into plain-language descriptions like "Swapped 1.5 SOL for 200 USDC on Jupiter." Use it when you need to quickly understand what a transaction did without parsing instruction data, or when you want to share transaction details with non-developers.

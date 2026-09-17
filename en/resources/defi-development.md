@@ -22,7 +22,7 @@ This matters because DeFi composability depends on standardized interfaces. With
 
 SSS-1 and SSS-2 specifications for standardized stablecoin issuance on Solana. SSS-1 covers basic mint/burn operations with role-based access control. SSS-2 adds advanced features -- compliance hooks, blacklisting, upgradeable oracles, and reserve management. Both specifications are Token-2022 native, leveraging transfer hooks for compliance enforcement and confidential transfers for privacy.
 
-This standard addresses a real gap in the ecosystem. As more stablecoins launch on Solana (especially for Latin American markets), having a common specification means wallets, exchanges, and DeFi protocols can support new stablecoins without custom integrations. Maintained by @lvj_luiz and @kauenet.
+This standard addresses a real gap in the ecosystem. As more stablecoins launch on Solana (especially for Latin American markets), having a common specification means wallets, exchanges, and DeFi protocols can support new stablecoins without custom integrations. Maintained by @lvj_luiz and @kauenet. The repository was archived in June 2026 and is read-only; the specifications remain available as a reference.
 
 ---
 
@@ -66,11 +66,11 @@ For developers, Meteora is interesting if you are building on top of novel AMM m
 
 ### Drift
 
-[https://docs.drift.trade/](https://docs.drift.trade/)
+[https://docs.velocity.exchange/](https://docs.velocity.exchange/)
 
 A full-featured trading platform offering perpetual futures, spot trading, lending, and borrowing in a single protocol. Drift's architecture uses a keeper network for order matching and liquidations. Their SDK allows programmatic access to all features -- opening perp positions, managing margin, earning lending yield, and building trading bots.
 
-Use Drift when you need more than basic lending -- the combination of perps, spot, and lending in one protocol makes it useful for building complex DeFi applications that need multiple primitives.
+Use Drift when you need more than basic lending -- the combination of perps, spot, and lending in one protocol makes it useful for building complex DeFi applications that need multiple primitives. Drift relaunched as Velocity DEX in July 2026, following the April 2026 exploit -- the documentation now lives at docs.velocity.exchange.
 
 ### Marginfi
 
@@ -82,7 +82,7 @@ Integrate Marginfi when your application needs lending/borrowing functionality. 
 
 ### Kamino
 
-[https://docs.kamino.finance/](https://docs.kamino.finance/)
+[https://kamino.com/docs](https://kamino.com/docs)
 
 Automated liquidity and lending strategies. Kamino started as an automated liquidity management tool (auto-rebalancing LP positions on Orca and Raydium) and expanded into lending. Their lending product is integrated with their liquidity vaults, meaning LP tokens can be used as collateral. Kamino is currently the largest money market on Solana by TVL.
 
@@ -122,7 +122,7 @@ Use Switchboard when you need data that Pyth does not provide, when you want ver
 
 ### Sanctum
 
-[https://docs.sanctum.so/](https://docs.sanctum.so/)
+[https://learn.sanctum.so/docs](https://learn.sanctum.so/docs)
 
 Liquid staking infrastructure that powers LST (Liquid Staking Token) creation, trading, and instant unstaking on Solana. Sanctum's unique value is the LST router -- it enables instant swaps between any LSTs and SOL with minimal slippage, solving the liquidity fragmentation problem that plagues liquid staking across chains.
 
@@ -130,7 +130,7 @@ For developers, Sanctum is relevant if you are building staking products, LST-ba
 
 ### Jito
 
-[https://docs.jito.network/](https://docs.jito.network/)
+[https://www.jito.network/docs/hub/overview/](https://www.jito.network/docs/hub/overview/)
 
 MEV-powered liquid staking. JitoSOL earns standard staking yield plus additional MEV rewards from Jito's block engine, making it one of the highest-yielding LSTs on Solana. Jito's infrastructure also includes tip distribution for validators and a block engine that searchers use for MEV extraction.
 
@@ -142,7 +142,7 @@ For developers, Jito's relevance extends beyond staking. If you are building MEV
 
 ### Wormhole
 
-[https://docs.wormhole.com/](https://docs.wormhole.com/)
+[https://wormhole.com/docs/](https://wormhole.com/docs/)
 
 A cross-chain messaging protocol that enables asset transfers and arbitrary message passing between Solana and 30+ other chains. Wormhole uses a guardian network to verify cross-chain messages, and its Solana integration supports bridging SOL, SPL tokens, and NFTs to EVM chains, Cosmos, and more.
 
@@ -150,7 +150,7 @@ For developers, Wormhole's SDK lets you build applications that interact with as
 
 ### deBridge
 
-[https://docs.debridge.finance/](https://docs.debridge.finance/)
+[https://docs.debridge.com/](https://docs.debridge.com/)
 
 A high-performance cross-chain bridge with Solana support. deBridge focuses on fast, capital-efficient cross-chain transfers with competitive pricing. Their SDK provides swap and bridge functionality that can be integrated into dApps for users who need to move assets between Solana and other chains.
 
@@ -160,7 +160,7 @@ A high-performance cross-chain bridge with Solana support. deBridge focuses on f
 
 ### Birdeye
 
-[https://docs.birdeye.so/](https://docs.birdeye.so/)
+[https://data.birdeye.so/docs/getting-started](https://data.birdeye.so/docs/getting-started)
 
 Token analytics and data API for Solana. Birdeye provides real-time price feeds, token security scores, wallet portfolio data, OHLCV charts, and trading pair analytics via API. Their data covers tokens across all major Solana DEXs. Useful for building trading interfaces, portfolio trackers, or any application that needs comprehensive token market data.
 
@@ -226,6 +226,6 @@ The recommended priority fee estimation service. Returns 6 priority levels (Min,
 
 ### Solana Priority Fee Guide
 
-[https://solana.com/developers/guides/advanced/how-to-use-priority-fees](https://solana.com/developers/guides/advanced/how-to-use-priority-fees)
+[https://solana.com/docs/core/fees](https://solana.com/docs/core/fees)
 
 The official guide covering the Compute Budget Program, how to set priority fees via `ComputeBudgetProgram.setComputeUnitPrice()`, and how to estimate the right amount using `getRecentPrioritizationFees`. Also covers setting compute unit limits based on simulation results -- always set a tight limit (actual usage + 10-20% buffer) to avoid overpaying.

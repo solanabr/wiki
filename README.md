@@ -60,15 +60,15 @@ All contributions should maintain parity across the three languages.
 
 ## Powered By
 
-This repository uses [solana-claude-config](https://github.com/solanabr/solana-claude-config) for AI-assisted development workflows.
+This repository uses [solana-ai-kit](https://github.com/solanabr/solana-ai-kit) for AI-assisted development workflows.
 
 ## Quick Links
 
 - **GitHub**: https://github.com/solanabr
-- **Discord**: https://discord.gg/superteambr
+- **Discord**: https://discord.gg/superteambrasil
 - **Twitter**: https://x.com/superteambr
 - **Telegram**: https://t.me/superteambrbot
-- **Earn**: https://earn.superteam.fun
+- **Earn**: https://superteam.fun/earn
 
 ## License
 

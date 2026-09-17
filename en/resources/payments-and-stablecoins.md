@@ -86,7 +86,7 @@ This is the single most important regulatory fact for anyone building cross-bord
 
 [https://github.com/solanabr/solana-stablecoin-standard](https://github.com/solanabr/solana-stablecoin-standard)
 
-The builder-facing spec for issuing stablecoins on Solana, from Superteam Brazil. SSS-1 covers the basic mint/burn/pause interface with role-based access control; SSS-2 adds the features Brazilian regulation now effectively demands -- compliance hooks, blacklist management, upgradeable oracles, and reserve transparency -- built natively on Token-2022. If you are issuing a stablecoin that must survive the BCB framework above, start here. Maintained by @lvj_luiz and @kauenet.
+The builder-facing spec for issuing stablecoins on Solana, from Superteam Brazil. SSS-1 covers the basic mint/burn/pause interface with role-based access control; SSS-2 adds the features Brazilian regulation now effectively demands -- compliance hooks, blacklist management, upgradeable oracles, and reserve transparency -- built natively on Token-2022. If you are issuing a stablecoin that must survive the BCB framework above, start here. Maintained by @lvj_luiz and @kauenet. The repository was archived in June 2026 and is read-only; the specifications remain available as a reference.
 
 The full breakdown lives in [Token Standards](token-standards.md) and [DeFi Development](defi-development.md).
 

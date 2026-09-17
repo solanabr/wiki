@@ -56,7 +56,7 @@ Estos repositorios del ecosistema más amplio de Solana proporcionan ejemplos bi
 
 ### program-examples
 
-[https://github.com/solana-developers/program-examples](https://github.com/solana-developers/program-examples)
+[https://github.com/solana-foundation/program-examples](https://github.com/solana-foundation/program-examples)
 
 El repositorio de ejemplos oficial mantenido por la Solana Foundation. Contiene implementaciones de patrones comunes en múltiples frameworks — Anchor, Pinocchio y Rust nativo. Los ejemplos cubren transferencias de tokens, PDAs, CPIs, compresión de cuentas, staking y más. Cada ejemplo es autocontenido con tests.
 
@@ -94,7 +94,7 @@ Infraestructura de multisig y smart accounts en producción usada por los princi
 
 ### Ejemplos de Pinocchio
 
-[https://github.com/solana-developers/program-examples/tree/main/basics](https://github.com/solana-developers/program-examples/tree/main/basics)
+[https://github.com/solana-foundation/program-examples/tree/main/basics](https://github.com/solana-foundation/program-examples/tree/main/basics)
 
 Pinocchio es un framework de primera clase en el repositorio oficial program-examples, con implementaciones junto a las versiones en Anchor y Rust nativo. Son invaluables para entender las compensaciones de rendimiento entre frameworks — el mismo programa implementado en Anchor vs Pinocchio, permitiéndote ver exactamente dónde se ahorran compute units y cómo funciona el acceso zero-copy en la práctica.
 
@@ -130,9 +130,9 @@ El primer protocolo de liquid staking en la mainnet de Solana. Programa open-sou
 
 ### Drift v2
 
-[https://github.com/drift-labs/protocol-v2](https://github.com/drift-labs/protocol-v2)
+[https://github.com/velocity-exchange/protocol-v2](https://github.com/velocity-exchange/protocol-v2)
 
-La DEX de perpetuos open-source más grande en Solana. Drift combina tres mecanismos de liquidez — un vAMM, un libro de órdenes límite descentralizado (DLOB) operado por keeper bots, y un mecanismo de liquidez Just-In-Time (JIT). Este diseño multi-mecanismo es el principal valor de estudio arquitectural. Soporta 40+ mercados con hasta 101x de apalancamiento en perps. El monorepo incluye el programa Rust y SDK TypeScript. Implementación de referencia de keeper bot en [drift-labs/keeper-bots-v2](https://github.com/drift-labs/keeper-bots-v2).
+La DEX de perpetuos open-source más grande en Solana. Drift combina tres mecanismos de liquidez — un vAMM, un libro de órdenes límite descentralizado (DLOB) operado por keeper bots, y un mecanismo de liquidez Just-In-Time (JIT). Este diseño multi-mecanismo es el principal valor de estudio arquitectural. Soporta 40+ mercados con hasta 101x de apalancamiento en perps. El monorepo incluye el programa Rust y SDK TypeScript. Implementación de referencia de keeper bot en [velocity-exchange/keeper-bots-v2](https://github.com/velocity-exchange/keeper-bots-v2). Drift relanzó como Velocity DEX en julio de 2026, tras el exploit de abril de 2026; los repositorios ahora viven bajo la organización velocity-exchange.
 
 ### Raydium CLMM
 

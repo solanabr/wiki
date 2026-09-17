@@ -58,7 +58,7 @@ Segurança não é opcional no desenvolvimento blockchain. Esses recursos te ens
 
 ### Cyfrin Updraft
 
-[https://updraft.cyfrin.io/](https://updraft.cyfrin.io/)
+[https://www.cyfrin.io/products/education](https://www.cyfrin.io/products/education)
 
 O currículo abrangente de segurança de smart contracts do Patrick Collins. Embora cubra múltiplas chains, os princípios de segurança -- reentrancy, controle de acesso, overflow aritmético, manipulação de oracles -- se aplicam diretamente a programas Solana. O curso percorre estudos de caso de exploits reais e ensina técnicas formais de auditoria. Essencial para qualquer desenvolvedor que irá implantar programas que lidam com fundos de usuários.
 
