@@ -56,7 +56,7 @@ Una colección de referencia con fragmentos de código y patrones para tareas co
 
 ### Construye una dApp CRUD
 
-[https://solana.com/developers/guides/dapps/journal](https://solana.com/developers/guides/dapps/journal)
+[https://solana.com/developers/cookbook/development/crud-dapp](https://solana.com/developers/cookbook/development/crud-dapp)
 
 Un tutorial completo de principio a fin que te guía en la construcción de una aplicación de diario con un programa Anchor on-chain y un frontend en React. Aprenderás cómo definir estructuras de cuentas, escribir manejadores de instrucciones, generar clientes TypeScript y conectar una wallet. Este es el mejor primer proyecto para entender el stack completo.
 
@@ -68,7 +68,7 @@ Toda dApp necesita integración de wallet. Esta guía cubre el wallet adapter de
 
 ### Colección de Guías para Desarrolladores
 
-[https://solana.com/developers/guides](https://solana.com/developers/guides)
+[https://solana.com/docs](https://solana.com/docs)
 
 La colección completa de guías oficiales para desarrolladores de la Solana Foundation. Cubre desde la creación básica de tokens hasta temas avanzados como compressed NFTs, staking y Actions/Blinks. Explora por tema cuando estés listo para ir más allá de lo básico. Cada guía es autocontenida e incluye código funcional.
 

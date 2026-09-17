@@ -14,19 +14,19 @@ Plataforma descentralizada de abastecimento de veículos elétricos que visa "fa
 
 Solução de pagamento oferecendo "pagamentos locais e internacionais para empresas web3."
 
-- [Apresentação](https://www.youtube.com/watch?v=txcGFy6Yl2c) | [Website](https://www.blindpay.com/)
+- [Website](https://www.blindpay.com/)
 
-### Triad
+### Triadmarkets
 
 "A maneira mais fácil de investir no ecossistema Solana," com capacidades de descoberta, análise e investimento.
 
-- [GitHub](https://github.com/triadxyz) | [Website](https://triadfi.co/)
+- [GitHub](https://github.com/triadxyz) | [Website](https://triadmarkets.app/)
 
 ### Facto
 
 Plataforma de crédito on-chain que "conecta diretamente tomadores de empréstimo institucionais e investidores através de crowdfunding e tokenização, eliminando intermediários."
 
-- [GitHub](https://github.com/notuslabs/facto)
+- [GitHub](https://github.com/notuslabs/facto) (arquivado)
 
 ## Cypherpunk (Setembro-Outubro 2025)
 
@@ -34,7 +34,7 @@ Plataforma de crédito on-chain que "conecta diretamente tomadores de empréstim
 
 Protocolo de mixing para privacidade na Solana. Permite que usuários "depositem de uma carteira, saquem para diferentes carteiras, e o vínculo entre elas fica oculto." Nativo da Solana, open-source, com funcionalidade mobile.
 
-- [Website](https://www.cloaklabz.xyz/)
+- [X (@cloaklabz)](https://x.com/cloaklabz)
 
 ### VitalFi
 

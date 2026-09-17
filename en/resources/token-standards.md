@@ -90,7 +90,7 @@ Token grouping and hierarchies. A mint can be designated as a group, and other m
 
 SSS-1 and SSS-2 specifications for standardized stablecoin issuance on Solana. SSS-1 defines the basic interface -- mint, burn, pause, role management -- that any stablecoin should implement. SSS-2 extends this with advanced features including compliance hooks (transfer hooks that enforce KYC/AML rules), blacklist management, upgradeable oracle integration for price feeds, and reserve transparency mechanisms.
 
-Both specifications are built natively on Token-2022, leveraging transfer hooks for compliance enforcement and confidential transfers for privacy-preserving transactions. The standard is designed with Latin American markets in mind, where stablecoin adoption is growing rapidly and regulatory requirements vary by jurisdiction. Having a common specification means wallets, exchanges, and DeFi protocols can support new compliant stablecoins without custom integration work. Maintained by @lvj_luiz and @kauenet.
+Both specifications are built natively on Token-2022, leveraging transfer hooks for compliance enforcement and confidential transfers for privacy-preserving transactions. The standard is designed with Latin American markets in mind, where stablecoin adoption is growing rapidly and regulatory requirements vary by jurisdiction. Having a common specification means wallets, exchanges, and DeFi protocols can support new compliant stablecoins without custom integration work. Maintained by @lvj_luiz and @kauenet. The repository was archived in June 2026 and is read-only; the specifications remain available as a reference.
 
 ---
 
@@ -98,7 +98,7 @@ Both specifications are built natively on Token-2022, leveraging transfer hooks 
 
 ### Metaplex Core
 
-[https://developers.metaplex.com/core](https://developers.metaplex.com/core)
+[https://www.metaplex.com/docs/smart-contracts/core](https://www.metaplex.com/docs/smart-contracts/core)
 
 The next-generation NFT standard and the recommended choice for new NFT projects on Solana. Core uses a single account per NFT (vs the 3-5 accounts required by the legacy standard), reducing rent costs and simplifying queries. It introduces a plugin system for adding functionality -- royalties, freeze, burn, and custom plugins -- without modifying the core program.
 
@@ -106,7 +106,7 @@ Core enforces royalties at the protocol level, meaning creators can guarantee th
 
 ### Metaplex Bubblegum
 
-[https://developers.metaplex.com/bubblegum](https://developers.metaplex.com/bubblegum)
+[https://www.metaplex.com/docs/smart-contracts/bubblegum](https://www.metaplex.com/docs/smart-contracts/bubblegum)
 
 Compressed NFTs (cNFTs) via state compression using concurrent Merkle trees. Bubblegum lets you mint millions of NFTs for pennies by storing only a Merkle root on-chain and the full data in off-chain indexed storage (accessible via the DAS API from providers like Helius).
 
@@ -114,7 +114,7 @@ The trade-off is complexity -- reading compressed NFTs requires an indexer, and 
 
 ### Metaplex Token Metadata
 
-[https://developers.metaplex.com/token-metadata](https://developers.metaplex.com/token-metadata)
+[https://www.metaplex.com/docs/smart-contracts/token-metadata](https://www.metaplex.com/docs/smart-contracts/token-metadata)
 
 The legacy metadata standard that most existing Solana NFTs use. Token Metadata attaches a metadata account to an SPL Token mint, storing name, symbol, URI (pointing to off-chain JSON), creators, and royalty information. While Metaplex Core is the recommended standard for new projects, Token Metadata remains important because the vast majority of existing NFTs use it.
 
@@ -122,13 +122,13 @@ You will encounter Token Metadata when working with existing collections, market
 
 ### Metaplex Documentation
 
-[https://developers.metaplex.com/](https://developers.metaplex.com/)
+[https://www.metaplex.com/docs](https://www.metaplex.com/docs)
 
 The full Metaplex developer platform documentation covering all their programs and tools -- Core, Bubblegum, Token Metadata, Candy Machine (minting), Sugar (CLI), Umi (client framework), and more. This is your starting point for any NFT or digital asset development on Solana. The documentation includes guides, API references, and code examples for each product.
 
 ### MPL-Hybrid (MPL-404)
 
-[https://developers.metaplex.com/mpl-hybrid](https://developers.metaplex.com/mpl-hybrid)
+[https://www.metaplex.com/docs/smart-contracts/mpl-hybrid](https://www.metaplex.com/docs/smart-contracts/mpl-hybrid)
 
 A protocol for hybrid NFT-fungible token assets that can switch between being an NFT and a fungible token. MPL-404 enables "re-rolling" mechanics where holders can swap between NFT and token forms, creating unique trading and gamification dynamics. The protocol handles escrow, swapping, and metadata management for both states. Use this for gaming assets that need liquidity, collectibles with fungible trading pairs, or any asset that benefits from dual representation.
 
@@ -154,10 +154,10 @@ The `spl-token` CLI includes full support for creating and managing Token-2022 m
 
 [https://github.com/solana-labs/token-list](https://github.com/solana-labs/token-list)
 
-The legacy token registry that maps mint addresses to metadata (name, symbol, logo). While this registry is now deprecated in favor of on-chain metadata (Token-2022 metadata extension or Metaplex Token Metadata), it remains relevant because many existing tokens still rely on it, and some older tools and wallets reference it. Understanding the transition from off-chain registries to on-chain metadata is important context for token development.
+The legacy token registry that maps mint addresses to metadata (name, symbol, logo). While this registry is now deprecated in favor of on-chain metadata (Token-2022 metadata extension or Metaplex Token Metadata), it remains relevant because many existing tokens still rely on it, and some older tools and wallets reference it. Understanding the transition from off-chain registries to on-chain metadata is important context for token development. The repository itself has been archived on GitHub since July 2022.
 
 ### DAS API (Digital Asset Standard)
 
-[https://docs.helius.dev/compression-and-das-api/digital-asset-standard-das-api](https://docs.helius.dev/compression-and-das-api/digital-asset-standard-das-api)
+[https://www.helius.dev/docs/api-reference/das](https://www.helius.dev/docs/api-reference/das)
 
 The DAS API provides a unified interface for querying all types of digital assets on Solana -- regular NFTs, compressed NFTs, fungible tokens, and Token-2022 assets. Supported by RPC providers like Helius, the DAS API abstracts away the differences between asset types, letting you query by owner, collection, creator, or attributes with a single API. Essential for any application that needs to display or manage user assets across the full spectrum of Solana token standards.

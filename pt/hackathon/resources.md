@@ -10,17 +10,17 @@
 
 - [Introdução ao Desenvolvimento Solana](https://solana.com/docs/intro/quick-start) — quickstart oficial.
 - [Conceitos Importantes](https://solana.com/docs#start-learning) — fundamentos para desenvolvedores.
-- [Configurar Ambiente Local](https://solana.com/developers/guides/getstarted/setup-local-development) — setup recomendado.
-- [Hello World na Solana](https://solana.com/developers/guides/getstarted/hello-world-in-your-browser) — primeiro app on-chain via web IDE.
+- [Configurar Ambiente Local](https://solana.com/docs/intro/installation) — setup recomendado.
+- [Hello World na Solana](https://solana.com/docs/intro/quick-start) — primeiro app on-chain via web IDE.
 - [Construa na Solana com Solidity usando Solang](https://docs.google.com/document/d/1yU97ZOoCI-RBmxYjBm4R5QHrQ4QvAkvRGc8QX917Vk0/edit#heading=h.5rfn4u66x4vy).
 - [Workshops para construir na Solana](https://github.com/solana-workshops).
 
 ## Links de Recursos Externos
 
-- [Recursos do Superteam](https://hackathon.superteam.fun/).
+- [Recursos do Superteam](https://superteam.fun/hackathon).
 - [Recursos da Solana Foundation](https://solana.com/hackathon).
 - [Página para Desenvolvedores Solana](https://solana.com/developers).
-- [Repositório de Ideias de Projetos](https://build.superteam.fun/ideas).
+- [Repositório de Ideias de Projetos](https://superteam.fun/build/ideas).
 - [5 dicas para vencer o hackathon da Solana](https://www.youtube.com/watch?v=SSYKC8RPoRE) (vídeo YouTube, inglês).
 
 ## Ferramentas para Desenvolvedores
@@ -34,7 +34,7 @@
 | Triton One | [triton.one](https://triton.one/) | RPC alta performance, devnet/testnet grátis |
 | Surfpool | [surfpool.run](https://surfpool.run/) | Simulação Solana conectada a Mainnet |
 | SHYFT | [shyft.to](https://shyft.to/) | APIs para Solana |
-| Hello Moon | [hellomoon.io](https://www.hellomoon.io/developers) | Analytics e dados on-chain |
+| Hello Moon | [hellomoon.io](https://www.hellomoon.io/) | Analytics e dados on-chain |
 | ThirdWeb | [thirdweb.com](https://thirdweb.com/) | SDK multi-chain |
 | OSS Superteam | [oss.superteam.fun](http://oss.superteam.fun/) | Projetos open-source do ecossistema |
 
@@ -47,8 +47,8 @@
 
 ## Templates de Apresentação
 
-- [Template de pitch deck da Sequoia Capital](https://perfectpitchdeck.com/2018/01/30/sequoia-capital-pitch-deck-template).
-- [Exemplo de deck do Shaan Puri](http://shaanpuri.com/deck).
+- [Template de pitch deck da Sequoia Capital](https://perfectpitchdeck.com/sequoia-capital-pitch-deck-template/).
+- [Exemplo de deck do Shaan Puri](https://www.shaanpuri.com/creativity).
 - [Guia de pitch deck para rodada seed da Y Combinator](https://www.ycombinator.com/library/2u-how-to-build-your-seed-round-pitch-deck).
 
 ## Exemplos de Submissões Vencedoras
@@ -60,7 +60,7 @@
 
 - [Blueshift](https://blueshift.gg/) — treinamento guiado por instrutores para desenvolvimento Solana.
 - [Solana Reading List](https://mertimus.substack.com/p/the-solana-reading-list) — publicação Substack sobre tópicos Solana.
-- [Crypto Startup School](https://a16zcrypto.com/crypto-startup-school/) — cursos a16z sobre blockchain e crypto.
+- [Crypto Startup School](https://a16zcrypto.com/accelerator/) — cursos a16z sobre blockchain e crypto.
 
 ## Vídeos em Português (Superteam Brasil)
 
@@ -69,10 +69,6 @@ Lives, aulas e workshops gravados em português pelo canal da [Superteam Brasil 
 **Ideathon & Pitch**
 - [Ideathon - Workshop de Design Thinking com Miro Leite](https://www.youtube.com/watch?v=qUooCBvhPeg).
 - [Ideathon Dia 3 - Estevão Rizzo (Pitch Deck & Market Fit)](https://www.youtube.com/watch?v=b2U2xJ39PcA).
-
-**Desenvolvimento Solana**
-- [Domine o frontend Web3 na Solana e construa interfaces prontas para produção](https://www.youtube.com/watch?v=GMPZjY3fYH8) (NearX).
-- [Desenvolva smart contracts na Solana com Anchor e evolua para nível profissional](https://www.youtube.com/watch?v=4fZnrHoITgY) (NearX).
 
 **Bootcamps de Código (2025)**
 - [Solana Bootcamp 3 - Como desenvolver e criar seu projeto na rede da Solana](https://www.youtube.com/watch?v=PVcFfrehzOs).

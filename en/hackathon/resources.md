@@ -10,17 +10,17 @@
 
 - [Introduction to Solana Development](https://solana.com/docs/intro/quick-start) — official quickstart
 - [Key Concepts](https://solana.com/docs#start-learning) — fundamentals for developers
-- [Set Up Local Environment](https://solana.com/developers/guides/getstarted/setup-local-development) — recommended setup
-- [Hello World on Solana](https://solana.com/developers/guides/getstarted/hello-world-in-your-browser) — first on-chain app via web IDE
+- [Set Up Local Environment](https://solana.com/docs/intro/installation) — recommended setup
+- [Hello World on Solana](https://solana.com/docs/intro/quick-start) — first on-chain app via web IDE
 - [Build on Solana with Solidity using Solang](https://docs.google.com/document/d/1yU97ZOoCI-RBmxYjBm4R5QHrQ4QvAkvRGc8QX917Vk0/edit#heading=h.5rfn4u66x4vy)
 - [Workshops for building on Solana](https://github.com/solana-workshops)
 
 ## External Resource Links
 
-- [Superteam Resources](https://hackathon.superteam.fun/)
+- [Superteam Resources](https://superteam.fun/hackathon)
 - [Solana Foundation Resources](https://solana.com/hackathon)
 - [Solana Developer Page](https://solana.com/developers)
-- [Project Ideas Repository](https://build.superteam.fun/ideas)
+- [Project Ideas Repository](https://superteam.fun/build/ideas)
 - [5 tips to win the Solana hackathon](https://www.youtube.com/watch?v=SSYKC8RPoRE) (YouTube video, English)
 
 ## Developer Tools
@@ -34,7 +34,7 @@
 | Triton One | [triton.one](https://triton.one/) | High-performance RPC, free devnet/testnet |
 | Surfpool | [surfpool.run](https://surfpool.run/) | Solana simulation connected to Mainnet |
 | SHYFT | [shyft.to](https://shyft.to/) | APIs for Solana |
-| Hello Moon | [hellomoon.io](https://www.hellomoon.io/developers) | On-chain analytics and data |
+| Hello Moon | [hellomoon.io](https://www.hellomoon.io/) | On-chain analytics and data |
 | ThirdWeb | [thirdweb.com](https://thirdweb.com/) | Multi-chain SDK |
 | OSS Superteam | [oss.superteam.fun](http://oss.superteam.fun/) | Ecosystem open-source projects |
 
@@ -47,8 +47,8 @@
 
 ## Presentation Templates
 
-- [Sequoia Capital pitch deck template](https://perfectpitchdeck.com/2018/01/30/sequoia-capital-pitch-deck-template)
-- [Shaan Puri deck example](http://shaanpuri.com/deck)
+- [Sequoia Capital pitch deck template](https://perfectpitchdeck.com/sequoia-capital-pitch-deck-template/)
+- [Shaan Puri deck example](https://www.shaanpuri.com/creativity)
 - [Y Combinator seed round pitch deck guide](https://www.ycombinator.com/library/2u-how-to-build-your-seed-round-pitch-deck)
 
 ## Winning Submission Examples
@@ -60,7 +60,7 @@
 
 - [Blueshift](https://blueshift.gg/) — instructor-led training for Solana development
 - [Solana Reading List](https://mertimus.substack.com/p/the-solana-reading-list) — Substack publication on Solana topics
-- [Crypto Startup School](https://a16zcrypto.com/crypto-startup-school/) — a16z courses on blockchain and crypto
+- [Crypto Startup School](https://a16zcrypto.com/accelerator/) — a16z courses on blockchain and crypto
 
 ## Videos in Portuguese (Superteam Brasil)
 
@@ -69,10 +69,6 @@ Lives, classes, and recorded workshops in Portuguese from the [Superteam Brasil 
 **Ideathon & Pitch**
 - [Ideathon - Design Thinking Workshop with Miro Leite](https://www.youtube.com/watch?v=qUooCBvhPeg)
 - [Ideathon Day 3 - Estevao Rizzo (Pitch Deck & Market Fit)](https://www.youtube.com/watch?v=b2U2xJ39PcA)
-
-**Solana Development**
-- [Master web3 frontend on Solana and build production-ready interfaces](https://www.youtube.com/watch?v=GMPZjY3fYH8) (NearX)
-- [Develop smart contracts on Solana with Anchor and level up to professional](https://www.youtube.com/watch?v=4fZnrHoITgY) (NearX)
 
 **Code Bootcamps (2025)**
 - [Solana Bootcamp 3 - How to develop and create your project on the Solana network](https://www.youtube.com/watch?v=PVcFfrehzOs)

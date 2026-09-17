@@ -14,19 +14,19 @@ A decentralized electric vehicle charging platform that aims to "facilitate the 
 
 A payment solution offering "local and international payments for web3 companies."
 
-- [Presentation](https://www.youtube.com/watch?v=txcGFy6Yl2c) | [Website](https://www.blindpay.com/)
+- [Website](https://www.blindpay.com/)
 
-### Triad
+### Triadmarkets
 
 "The easiest way to invest in the Solana ecosystem," with discovery, analysis, and investment capabilities.
 
-- [GitHub](https://github.com/triadxyz) | [Website](https://triadfi.co/)
+- [GitHub](https://github.com/triadxyz) | [Website](https://triadmarkets.app/)
 
 ### Facto
 
 An on-chain credit platform that "directly connects institutional borrowers and investors through crowdfunding and tokenization, eliminating intermediaries."
 
-- [GitHub](https://github.com/notuslabs/facto)
+- [GitHub](https://github.com/notuslabs/facto) (archived)
 
 ## Cypherpunk (September-October 2025)
 
@@ -34,7 +34,7 @@ An on-chain credit platform that "directly connects institutional borrowers and 
 
 A mixing protocol for privacy on Solana. Allows users to "deposit from one wallet, withdraw to different wallets, and the link between them remains hidden." Solana-native, open-source, with mobile functionality.
 
-- [Website](https://www.cloaklabz.xyz/)
+- [X (@cloaklabz)](https://x.com/cloaklabz)
 
 ### VitalFi
 

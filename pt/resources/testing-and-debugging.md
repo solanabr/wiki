@@ -34,7 +34,7 @@ Testes de integração verificam que seu programa funciona corretamente ao inter
 
 ### Surfpool
 
-[https://github.com/txtx/surfpool](https://github.com/txtx/surfpool)
+[https://github.com/solana-foundation/surfpool](https://github.com/solana-foundation/surfpool)
 
 O Surfpool permite que você reproduza estado da mainnet ou devnet localmente sem implantar nada. Ele busca dados de contas reais e estado de programas, e então executa suas transações contra esse snapshot. Isso significa que você pode testar as interações do seu programa com Jupiter, Pyth, SPL Token e qualquer outro programa implantado usando o estado real on-chain.
 
@@ -101,7 +101,7 @@ A documentação oficial do Anchor tem uma seção dedicada espelhando o repo Se
 
 ### solana-verify
 
-[https://github.com/Ellipsis-Labs/solana-verifiable-build](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+[https://github.com/solana-foundation/solana-verifiable-build](https://github.com/solana-foundation/solana-verifiable-build)
 
 Uma ferramenta para produzir e verificar builds determinísticos de programas. Builds verificáveis garantem que o bytecode implantado on-chain corresponde a um commit específico do código fonte. Isso é crítico para confiança -- usuários e auditores podem confirmar que o que está rodando on-chain é exatamente o que foi auditado. A ferramenta usa Docker para criar ambientes de build reproduzíveis, e o Solana Explorer pode exibir o status de verificação para programas verificados.
 
@@ -133,6 +133,6 @@ Um explorador focado em desenvolvedores que decodifica automaticamente dados de 
 
 ### XRAY
 
-[https://xray.helius.xyz/](https://xray.helius.xyz/)
+[https://xray.helius.dev/](https://xray.helius.dev/)
 
 Um explorador minimalista e legível construído pelo Helius. O XRAY foca em tornar dados de transação compreensíveis para usuários não-técnicos -- ele traduz transações Solana brutas em descrições em linguagem natural como "Trocou 1.5 SOL por 200 USDC no Jupiter." Use quando precisar entender rapidamente o que uma transação fez sem fazer parse de dados de instrução, ou quando quiser compartilhar detalhes de transação com não-desenvolvedores.

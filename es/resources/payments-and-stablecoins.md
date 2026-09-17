@@ -86,7 +86,7 @@ Este es el hecho regulatorio más importante para cualquiera que construya pagos
 
 [https://github.com/solanabr/solana-stablecoin-standard](https://github.com/solanabr/solana-stablecoin-standard)
 
-La especificación orientada a builders para emitir stablecoins en Solana, de Superteam Brazil. SSS-1 cubre la interfaz básica de mint/burn/pause con control de acceso basado en roles; SSS-2 agrega las funcionalidades que la regulación brasileña ahora efectivamente exige — hooks de cumplimiento, gestión de listas negras, oráculos actualizables y transparencia de reservas — construidas nativamente sobre Token-2022. Si vas a emitir una stablecoin que debe sobrevivir al marco del BCB de arriba, empieza aquí. Mantenido por @lvj_luiz y @kauenet.
+La especificación orientada a builders para emitir stablecoins en Solana, de Superteam Brazil. SSS-1 cubre la interfaz básica de mint/burn/pause con control de acceso basado en roles; SSS-2 agrega las funcionalidades que la regulación brasileña ahora efectivamente exige — hooks de cumplimiento, gestión de listas negras, oráculos actualizables y transparencia de reservas — construidas nativamente sobre Token-2022. Si vas a emitir una stablecoin que debe sobrevivir al marco del BCB de arriba, empieza aquí. Mantenido por @lvj_luiz y @kauenet. El repositorio fue archivado en junio de 2026 y es de solo lectura; las especificaciones siguen disponibles como referencia.
 
 El desglose completo vive en [Estándares de Tokens](token-standards.md) y [Desarrollo DeFi](defi-development.md).
 

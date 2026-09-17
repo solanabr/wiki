@@ -20,7 +20,7 @@ O validador está hospedado em **São Paulo, Brasil**, contribuindo para a desce
 
 ## Impacto Acumulado
 
-Desde o início, a Superteam Brazil tem facilitado um crescimento significativo em todo o ecossistema brasileiro de Solana. Os números abaixo refletem totais acumulados até agosto de 2026 (recompensas e taxa de conclusão vêm da página de patrocinador ao vivo no [Superteam Earn](https://earn.superteam.fun/); contagens de listagens e submissões conforme o relatório do Q1 2026):
+Desde o início, a Superteam Brazil tem facilitado um crescimento significativo em todo o ecossistema brasileiro de Solana. Os números abaixo refletem totais acumulados até agosto de 2026 (recompensas e taxa de conclusão vêm da página de patrocinador ao vivo no [Superteam Earn](https://superteam.fun/earn); contagens de listagens e submissões conforme o relatório do Q1 2026):
 
 | Métrica | Valor |
 |---------|-------|

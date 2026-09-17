@@ -22,7 +22,7 @@ Isso importa porque a composabilidade DeFi depende de interfaces padronizadas. S
 
 Especificações SSS-1 e SSS-2 para emissão padronizada de stablecoins na Solana. SSS-1 cobre operações básicas de mint/burn com controle de acesso baseado em funções. SSS-2 adiciona recursos avançados -- hooks de compliance, blacklisting, oracles atualizáveis e gestão de reservas. Ambas as especificações são nativas de Token-2022, aproveitando transfer hooks para aplicação de compliance e confidential transfers para privacidade.
 
-Este padrão aborda uma lacuna real no ecossistema. À medida que mais stablecoins são lançadas na Solana (especialmente para mercados latino-americanos), ter uma especificação comum significa que wallets, exchanges e protocolos DeFi podem suportar novas stablecoins sem integrações customizadas. Mantido por @lvj_luiz e @kauenet.
+Este padrão aborda uma lacuna real no ecossistema. À medida que mais stablecoins são lançadas na Solana (especialmente para mercados latino-americanos), ter uma especificação comum significa que wallets, exchanges e protocolos DeFi podem suportar novas stablecoins sem integrações customizadas. Mantido por @lvj_luiz e @kauenet. O repositório foi arquivado em junho de 2026 e é somente leitura; as especificações continuam disponíveis como referência.
 
 ---
 
@@ -66,11 +66,11 @@ Para desenvolvedores, Meteora é interessante se você está construindo sobre m
 
 ### Drift
 
-[https://docs.drift.trade/](https://docs.drift.trade/)
+[https://docs.velocity.exchange/](https://docs.velocity.exchange/)
 
 Uma plataforma de trading completa oferecendo futuros perpétuos, trading spot, empréstimos e borrowing em um único protocolo. A arquitetura do Drift usa uma rede de keepers para matching de ordens e liquidações. Seu SDK permite acesso programático a todas as funcionalidades -- abrir posições de perps, gerenciar margem, ganhar yield com lending e construir bots de trading.
 
-Use Drift quando precisar de mais do que empréstimos básicos -- a combinação de perps, spot e lending em um único protocolo o torna útil para construir aplicações DeFi complexas que precisam de múltiplas primitivas.
+Use Drift quando precisar de mais do que empréstimos básicos -- a combinação de perps, spot e lending em um único protocolo o torna útil para construir aplicações DeFi complexas que precisam de múltiplas primitivas. A Drift relançou como Velocity DEX em julho de 2026, após o exploit de abril de 2026 -- a documentação agora fica em docs.velocity.exchange.
 
 ### Marginfi
 
@@ -82,7 +82,7 @@ Integre o Marginfi quando sua aplicação precisar de funcionalidade de emprést
 
 ### Kamino
 
-[https://docs.kamino.finance/](https://docs.kamino.finance/)
+[https://kamino.com/docs](https://kamino.com/docs)
 
 Estratégias automatizadas de liquidez e empréstimo. O Kamino começou como uma ferramenta de gestão automatizada de liquidez (rebalanceamento automático de posições LP na Orca e Raydium) e expandiu para lending. Seu produto de lending é integrado com seus vaults de liquidez, significando que tokens LP podem ser usados como colateral. O Kamino é atualmente o maior money market da Solana em TVL.
 
@@ -122,7 +122,7 @@ Use Switchboard quando precisar de dados que o Pyth não fornece, quando quiser 
 
 ### Sanctum
 
-[https://docs.sanctum.so/](https://docs.sanctum.so/)
+[https://learn.sanctum.so/docs](https://learn.sanctum.so/docs)
 
 Infraestrutura de liquid staking que viabiliza criação, negociação e unstaking instantâneo de LSTs (Liquid Staking Tokens) na Solana. O valor único do Sanctum é o roteador de LST -- ele permite swaps instantâneos entre quaisquer LSTs e SOL com slippage mínimo, resolvendo o problema de fragmentação de liquidez que afeta liquid staking em todas as chains.
 
@@ -130,7 +130,7 @@ Para desenvolvedores, Sanctum é relevante se você está construindo produtos d
 
 ### Jito
 
-[https://docs.jito.network/](https://docs.jito.network/)
+[https://www.jito.network/docs/hub/overview/](https://www.jito.network/docs/hub/overview/)
 
 Liquid staking com MEV. O JitoSOL ganha yield padrão de staking mais recompensas adicionais de MEV do block engine do Jito, tornando-o um dos LSTs com maior rendimento na Solana. A infraestrutura do Jito também inclui distribuição de tips para validadores e um block engine que searchers usam para extração de MEV.
 
@@ -142,7 +142,7 @@ Para desenvolvedores, a relevância do Jito vai além do staking. Se você está
 
 ### Wormhole
 
-[https://docs.wormhole.com/](https://docs.wormhole.com/)
+[https://wormhole.com/docs/](https://wormhole.com/docs/)
 
 Um protocolo de mensagens cross-chain que permite transferências de ativos e passagem de mensagens arbitrárias entre Solana e mais de 30 outras chains. O Wormhole usa uma rede de guardiões para verificar mensagens cross-chain, e sua integração com Solana suporta bridge de SOL, tokens SPL e NFTs para chains EVM, Cosmos e mais.
 
@@ -150,7 +150,7 @@ Para desenvolvedores, o SDK do Wormhole permite construir aplicações que inter
 
 ### deBridge
 
-[https://docs.debridge.finance/](https://docs.debridge.finance/)
+[https://docs.debridge.com/](https://docs.debridge.com/)
 
 Uma bridge cross-chain de alta performance com suporte a Solana. O deBridge foca em transferências cross-chain rápidas e eficientes em capital com preços competitivos. Seu SDK fornece funcionalidade de swap e bridge que pode ser integrada em dApps para usuários que precisam mover ativos entre Solana e outras chains.
 
@@ -160,7 +160,7 @@ Uma bridge cross-chain de alta performance com suporte a Solana. O deBridge foca
 
 ### Birdeye
 
-[https://docs.birdeye.so/](https://docs.birdeye.so/)
+[https://data.birdeye.so/docs/getting-started](https://data.birdeye.so/docs/getting-started)
 
 Analytics de tokens e API de dados para Solana. O Birdeye fornece feeds de preços em tempo real, scores de segurança de tokens, dados de portfolio de wallets, gráficos OHLCV e analytics de pares de trading via API. Seus dados cobrem tokens em todas as principais DEXs da Solana. Útil para construir interfaces de trading, trackers de portfolio ou qualquer aplicação que precise de dados abrangentes de mercado de tokens.
 
@@ -226,6 +226,6 @@ O serviço de estimativa de priority fees recomendado. Retorna 6 níveis de prio
 
 ### Guia de Priority Fees da Solana
 
-[https://solana.com/developers/guides/advanced/how-to-use-priority-fees](https://solana.com/developers/guides/advanced/how-to-use-priority-fees)
+[https://solana.com/docs/core/fees](https://solana.com/docs/core/fees)
 
 O guia oficial cobrindo o Compute Budget Program, como definir priority fees via `ComputeBudgetProgram.setComputeUnitPrice()`, e como estimar o valor correto usando `getRecentPrioritizationFees`. Também cobre como definir limites de compute units baseados em resultados de simulação -- sempre defina um limite justo (uso real + 10-20% de buffer) para evitar pagar demais.

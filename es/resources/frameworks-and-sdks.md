@@ -34,7 +34,7 @@ Elige Steel cuando quieras mas estructura que el desarrollo native pero menos ov
 
 ### Bolt (MagicBlock)
 
-[https://docs.magicblock.gg/bolt/introduction](https://docs.magicblock.gg/bolt/introduction)
+[https://github.com/magicblock-labs/bolt](https://github.com/magicblock-labs/bolt)
 
 Un framework Entity Component System (ECS) on-chain especificamente disenado para desarrollo de juegos en Solana, construido por MagicBlock. Bolt estructura el estado on-chain como entidades con componentes composables, mapeando el patron ECS directamente al modelo de cuentas de Solana.
 
@@ -92,7 +92,7 @@ Cliente Python para Solana. Proporciona metodos RPC, construccion de transaccion
 
 ### Solana Go SDK
 
-[https://github.com/gagliardetto/solana-go](https://github.com/gagliardetto/solana-go)
+[https://github.com/solana-foundation/solana-go](https://github.com/solana-foundation/solana-go)
 
 Un cliente Go para Solana mantenido por gagliardetto. Proporciona metodos RPC, construccion de transacciones, interaccion con programas y subscripciones WebSocket. Ideal para infraestructura basada en Go.
 

@@ -34,7 +34,7 @@ Los tests de integración verifican que tu programa funciona correctamente al in
 
 ### Surfpool
 
-[https://github.com/txtx/surfpool](https://github.com/txtx/surfpool)
+[https://github.com/solana-foundation/surfpool](https://github.com/solana-foundation/surfpool)
 
 Surfpool te permite reproducir estado de mainnet o devnet localmente sin desplegar nada. Obtiene datos de cuentas reales y estado de programas, luego ejecuta tus transacciones contra esa instantánea. Esto significa que puedes testear las interacciones de tu programa con Jupiter, Pyth, SPL Token y cualquier otro programa desplegado usando su estado on-chain real.
 
@@ -101,7 +101,7 @@ La documentación oficial de Anchor tiene una sección dedicada que refleja el r
 
 ### solana-verify
 
-[https://github.com/Ellipsis-Labs/solana-verifiable-build](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+[https://github.com/solana-foundation/solana-verifiable-build](https://github.com/solana-foundation/solana-verifiable-build)
 
 Una herramienta para producir y verificar builds determinísticos de programas. Los builds verificables garantizan que el bytecode desplegado on-chain corresponde a un commit específico del código fuente. Esto es crítico para la confianza — usuarios y auditores pueden confirmar que lo que está corriendo on-chain es exactamente lo que fue auditado. La herramienta usa Docker para crear entornos de build reproducibles, y el Solana Explorer puede mostrar el estado de verificación para programas verificados.
 
@@ -133,6 +133,6 @@ Un explorador enfocado en desarrolladores que decodifica automáticamente datos 
 
 ### XRAY
 
-[https://xray.helius.xyz/](https://xray.helius.xyz/)
+[https://xray.helius.dev/](https://xray.helius.dev/)
 
 Un explorador minimalista y legible construido por Helius. XRAY se enfoca en hacer los datos de transacciones comprensibles para usuarios no técnicos — traduce transacciones raw de Solana en descripciones en lenguaje natural como "Intercambió 1.5 SOL por 200 USDC en Jupiter." Úsalo cuando necesites entender rápidamente qué hizo una transacción sin parsear datos de instrucciones, o cuando quieras compartir detalles de transacciones con personas no técnicas.

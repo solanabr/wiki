@@ -9,10 +9,10 @@
 
 ## Donde Buscar Ideas
 
-- [Superteam Build](https://build.superteam.fun/) — Repositorio curado con ideas prometedoras
-- [Ganadores anteriores del Solana Hackathon](https://build.superteam.fun/past-hackathon-winners) — Formulas comprobadas para iterar
+- [Superteam Build](https://superteam.fun/build) — Repositorio curado con ideas prometedoras
+- [Ganadores anteriores del Solana Hackathon](https://superteam.fun/build/past-hackathon-winners) — Formulas comprobadas para iterar
 - Ganadores de hackathons en otras blockchains — Perspectivas de ecosistemas como Ethereum y Polygon
-- [Proyectos del ecosistema Solana](https://solana.com/ecosystem) — Incluyendo [soluciones de pago](https://solanapayments.fun/)
+- [Proyectos del ecosistema Solana](https://solana.com/ecosystem)
 
 ## Reconociendo Ideas con Potencial
 

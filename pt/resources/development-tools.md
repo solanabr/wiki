@@ -86,7 +86,7 @@ SDKs em TypeScript, Rust e Go. A interface é compatível com código Yellowston
 
 ### Light Protocol
 
-[https://docs.lightprotocol.com/](https://docs.lightprotocol.com/)
+[https://www.zkcompression.com/](https://www.zkcompression.com/)
 
 Infraestrutura de compressão ZK para Solana. O Light Protocol permite que aplicações armazenem estado em forma comprimida usando provas de conhecimento zero, reduzindo drasticamente os custos de armazenamento on-chain. Uma conta comprimida custa uma fração de uma conta padrão enquanto mantém as mesmas garantias de segurança por meio de provas Merkle.
 
@@ -100,7 +100,7 @@ Actions e Blinks são uma inovação específica da Solana que transforma qualqu
 
 ### Especificação Solana Actions
 
-[https://solana.com/developers/guides/advanced/actions](https://solana.com/developers/guides/advanced/actions)
+[https://solana.com/docs/tools/actions](https://solana.com/docs/tools/actions)
 
 A especificação oficial para Solana Actions -- APIs padronizadas que retornam transações assináveis a partir de uma URL. Qualquer aplicação, site ou plataforma de mídia social pode incorporar uma Action que permite que usuários executem transações Solana sem sair do contexto atual. Por exemplo, um tweet contendo um Blink (blockchain link) pode incluir um botão "Comprar" ou "Doar" que aciona um popup de wallet diretamente no feed do Twitter.
 
@@ -153,7 +153,7 @@ Melhor prática para produção: transfira a autoridade de upgrade para um multi
 
 [https://solana.com/docs/core/transactions/versioned-transactions](https://solana.com/docs/core/transactions/versioned-transactions)
 
-Transações legadas são limitadas a ~35 contas. Address Lookup Tables (ALTs) armazenam até 256 chaves públicas em uma conta on-chain, permitindo que transações as referenciem com índices de 1 byte em vez de chaves de 32 bytes. Transações V0 são necessárias para usar ALTs e são essenciais para interações DeFi complexas (swaps Jupiter, rotas multi-pool, transações em bundle). Guia: [solana.com/developers/guides/advanced/lookup-tables](https://solana.com/developers/guides/advanced/lookup-tables).
+Transações legadas são limitadas a ~35 contas. Address Lookup Tables (ALTs) armazenam até 256 chaves públicas em uma conta on-chain, permitindo que transações as referenciem com índices de 1 byte em vez de chaves de 32 bytes. Transações V0 são necessárias para usar ALTs e são essenciais para interações DeFi complexas (swaps Jupiter, rotas multi-pool, transações em bundle). Guia: [solana.com/developers/cookbook/transactions/lookup-tables](https://solana.com/developers/cookbook/transactions/lookup-tables).
 
 ### Durable Nonces
 

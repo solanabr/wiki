@@ -54,7 +54,7 @@ El hub oficial de DePIN de Solana: redes destacadas, estadísticas del ecosistem
 
 ### Guía de Inicio Rápido de DePIN
 
-[https://solana.com/developers/guides/depin/getting-started](https://solana.com/developers/guides/depin/getting-started)
+[https://solana.com/developers/cookbook/depin](https://solana.com/developers/cookbook/depin)
 
 La guía oficial para desarrolladores sobre el lado on-chain de un protocolo DePIN: elegir entre SPL Token y Token-2022 para tu token de recompensas, distribución de recompensas basada en claims vs push (incluyendo enfoques con árboles de Merkle y ZK compression), patrones de proof-of-contribution, trade-offs entre datos on-chain y off-chain, y gobernanza. Léela primero — condensa las decisiones de diseño que cada red de arriba tuvo que tomar, con implementaciones de referencia.
 

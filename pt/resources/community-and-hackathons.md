@@ -84,7 +84,7 @@ Hackathons são a principal porta de entrada para novos builders Solana. Eles fo
 
 ### Colosseum
 
-[https://www.colosseum.org/](https://www.colosseum.org/)
+[https://colosseum.com/](https://colosseum.com/)
 
 A plataforma de hackathons Solana. O Colosseum hospeda grandes hackathons com premiações multimilionárias, atraindo milhares de equipes do mundo todo. A plataforma lida com formação de equipes, submissão de projetos, julgamento e distribuição de prêmios. Hackathons anteriores lançaram protocolos reais que depois captaram investimento e foram lançados em mainnet.
 

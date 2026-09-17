@@ -12,10 +12,10 @@
 | Track | Descripcion | Ejemplos |
 |-------|-------------|----------|
 | **DePIN** | Infraestructura fisica descentralizada | [Helium](https://solana.com/news/case-study-helium), [Hivemapper](https://solana.com/news/case-study-hivemapper) |
-| **DAOs & Comunidades** | Gobernanza y organizacion descentralizada | [Squads](https://squads.so/protocol), [Superteam](https://superteam.fun/), [MangoDAO](https://dao.mango.markets/dao/MNGO) |
+| **DAOs & Comunidades** | Gobernanza y organizacion descentralizada | [Squads](https://squads.xyz/protocol), [Superteam](https://superteam.fun/) |
 | **DeFi & Pagos** | Finanzas descentralizadas y pagos | [Orca](https://www.orca.so/), [Decaf](https://www.decaf.so/) |
-| **Consumer Apps** | Aplicaciones para usuarios finales | [Phantom](https://phantom.app/), [ASICS](https://solana.com/news/case-study-asics-solana-pay), [Dialect](https://www.dialect.to/) |
-| **Infraestructura** | Herramientas y protocolos base | [Wormhole](https://solana.com/ecosystem/wormhole), [Pyth](https://pyth.network/) |
+| **Consumer Apps** | Aplicaciones para usuarios finales | [Phantom](https://phantom.com/), [ASICS](https://solana.com/news/case-study-asics-solana-pay), [Dialect](https://www.dialect.to/) |
+| **Infraestructura** | Herramientas y protocolos base | [Wormhole](https://wormhole.com/), [Pyth](https://pyth.network/) |
 | **Gaming** | Juegos on-chain | [Star Atlas](https://staratlas.com/), [Aurory](https://aurory.io/) |
 
 ## Premios (Detallado)
@@ -109,7 +109,7 @@ Los jurados — fundadores, desarrolladores e inversionistas destacados en el ec
 - Equipos con miembros tecnicos **y** no tecnicos tienden a tener mas exito
 - Promedio de los equipos ganadores: **mas de 3 miembros**
 - Solo founders deben explicar experiencia relevante
-- Usa el [Cofounder Directory de Colosseum](https://arena.colosseum.org) para encontrar cofundadores
+- Usa el [Cofounder Directory de Colosseum](https://colosseum.com/arena) para encontrar cofundadores
 
 ## Timeline Recomendado (5 semanas)
 

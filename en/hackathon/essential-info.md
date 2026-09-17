@@ -12,10 +12,10 @@
 | Track | Description | Examples |
 |-------|-------------|----------|
 | **DePIN** | Decentralized physical infrastructure | [Helium](https://solana.com/news/case-study-helium), [Hivemapper](https://solana.com/news/case-study-hivemapper) |
-| **DAOs & Communities** | Decentralized governance and organization | [Squads](https://squads.so/protocol), [Superteam](https://superteam.fun/), [MangoDAO](https://dao.mango.markets/dao/MNGO) |
+| **DAOs & Communities** | Decentralized governance and organization | [Squads](https://squads.xyz/protocol), [Superteam](https://superteam.fun/) |
 | **DeFi & Payments** | Decentralized finance and payments | [Orca](https://www.orca.so/), [Decaf](https://www.decaf.so/) |
-| **Consumer Apps** | End-user applications | [Phantom](https://phantom.app/), [ASICS](https://solana.com/news/case-study-asics-solana-pay), [Dialect](https://www.dialect.to/) |
-| **Infrastructure** | Base tools and protocols | [Wormhole](https://solana.com/ecosystem/wormhole), [Pyth](https://pyth.network/) |
+| **Consumer Apps** | End-user applications | [Phantom](https://phantom.com/), [ASICS](https://solana.com/news/case-study-asics-solana-pay), [Dialect](https://www.dialect.to/) |
+| **Infrastructure** | Base tools and protocols | [Wormhole](https://wormhole.com/), [Pyth](https://pyth.network/) |
 | **Gaming** | On-chain games | [Star Atlas](https://staratlas.com/), [Aurory](https://aurory.io/) |
 
 ## Prizes (Detailed)
@@ -109,7 +109,7 @@ The judges â€” prominent founders, developers, and investors in the ecosystem â€
 - Teams with both technical **and** non-technical members tend to be more successful
 - Average winning team size: **more than 3 members**
 - Solo founders should explain relevant experience
-- Use the [Colosseum Cofounder Directory](https://arena.colosseum.org) to find co-founders
+- Use the [Colosseum Cofounder Directory](https://colosseum.com/arena) to find co-founders
 
 ## Recommended Timeline (5 weeks)
 
