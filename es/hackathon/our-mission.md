@@ -1,6 +1,6 @@
 # Nuestra Mision
 
-El tema del hackathon Solana es "Frontier", orientado a explorar nuevos territorios dentro del ecosistema Solana. La iniciativa fortalece a la **[Superteam Brasil](https://www.superteam.com.br/pt)**, "una comunidad con los mejores builders en web3 que ayudan a Solana a crecer mundialmente."
+La edicion actual del hackathon es el **Crypto World's Fair** — una competencia abierta de las ideas, tecnologias y comunidades que moldean el ecosistema blockchain, con Solana como track dedicado. La iniciativa fortalece a la **[Superteam Brasil](https://www.superteam.com.br/pt)**, "una comunidad con los mejores builders en web3 que ayudan a Solana a crecer mundialmente."
 
 ## Tres Objetivos
 

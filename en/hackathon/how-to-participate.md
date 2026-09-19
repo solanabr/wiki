@@ -1,31 +1,31 @@
 # How to Participate
 
+Participation is free, 100% online, and open to anyone anywhere. You don't need blockchain or Rust experience, a ready idea, a team, or English fluency — the community supports you in Portuguese, helps with team formation, and runs workshops (including AI and vibe-coding sessions) throughout the hackathon. Designers, product, marketing, and business profiles are welcome.
+
 ## Registration Steps
 
-1. Visit the Colosseum platform at [colosseum.com/arena](https://colosseum.com/arena?ref=brasil) and create your account
-2. Register and share your achievement badge on X (Twitter), mentioning [@SuperteamBR](https://x.com/superteamBR)
-3. Join the official channels: [Discord](https://discord.gg/superteambrasil) | [WhatsApp](https://chat.whatsapp.com/HPIu1YV3mri5QOGf0gUMTO) | [Telegram](https://t.me/+rQ5OtAGRw5NkNGVh)
-4. Start developing your project
-5. Submit before the fall hackathon deadline (November 2, 2026)
+1. **Sign up at [hackathon.superteam.com.br](https://hackathon.superteam.com.br)** — the official landing page. The signup on the Superteam platform takes about 2 minutes.
+2. **Register on the Colosseum site** at [colosseum.com/worldsfair](https://colosseum.com/worldsfair) — this is the global hackathon platform where projects and teams are registered and submissions happen.
+3. **Join the community WhatsApp group**: [chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT) — announcements, team formation, and direct support.
+
+Then start building: project registration and team formation opened on September 14, and what counts for the competition is what's built from September 14 onward. Submit before the deadline — **October 12, 2026, at 23h59 (Brasília time)**.
 
 ## Brazil Local Track
 
-**In addition to the global hackathon, there is an exclusive local track for Brazilians with $10,000 in prizes.** To participate:
+**In addition to the global hackathon, there is an exclusive local track for Brazilian participants with US$5,000 (R$25k) in additional prizes plus perks.** To participate:
 
 - Registration in the global hackathon (Colosseum) is mandatory
-- The **same project** must be used in both tracks (global + Brazil)
-- Register for the local track via Superteam Earn: [hackathon SuperteamBrasil](https://superteam.fun/earn/listing/hackathon-superteambrasil)
-- Select **Brazil** as your base country during submission
-
-> The Frontier-edition Brazil track is closed — 81 submissions, winners announced June 1, 2026. A new Earn listing for the fall 2026 cycle will be linked here when published.
+- The **same project** can compete in both tracks simultaneously (global + Brazil)
+- Register for the local track via Superteam Earn: [superteam.fun/earn/s/superteambr](https://superteam.fun/earn/s/superteambr)
 
 ## Important Links
 
 | What | Link |
 |------|------|
-| Registration platform | [colosseum.com/arena](https://colosseum.com/arena?ref=brasil) |
-| Hackathon info | [colosseum.com/hackathon](https://colosseum.com/hackathon) |
-| Brazil Track | [superteam.fun/earn](https://superteam.fun/earn/listing/hackathon-superteambrasil) (Frontier edition — closed) |
-| Brazil Site | [hackathonsolana.com](https://hackathonsolana.com/) (covers the spring 2026 cycle; fall cycle links coming) |
+| Landing page (start here) | [hackathon.superteam.com.br](https://hackathon.superteam.com.br) |
+| Registration platform | [colosseum.com/worldsfair](https://colosseum.com/worldsfair) |
+| Brazil Track | [superteam.fun/earn/s/superteambr](https://superteam.fun/earn/s/superteambr) |
+| WhatsApp community | [Community Group](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT) |
+| Discord | [discord.gg/superteambrasil](https://discord.gg/superteambrasil) |
 
 > **Tip**: Submit your work before the final deadline rather than waiting until the last day.

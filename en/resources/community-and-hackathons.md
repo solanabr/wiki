@@ -22,7 +22,7 @@ Community chat for quick conversations, ecosystem news, and informal discussions
 
 ### WhatsApp
 
-[https://chat.whatsapp.com/HPIu1YV3mri5QOGf0gUMTO](https://chat.whatsapp.com/HPIu1YV3mri5QOGf0gUMTO)
+[https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT)
 
 Quick conversations and updates for the Brazilian community. Since WhatsApp is the dominant messaging platform in Brazil, this group provides an accessible entry point for builders who may not be active on Discord or Telegram.
 
@@ -78,7 +78,7 @@ This is also where sRFC proposals like the Vault Standard (sRFC 40) are discusse
 
 ## Hackathons & Competitions
 
-> **Frontier 2026**: The Solana Frontier hackathon ran April 6 - May 11, 2026. For the complete guide, including results, prizes, resources, tips, and history, see the [Hackathon section](../hackathon/README.md).
+> **Crypto World's Fair 2026**: The current global hackathon runs September 14 – October 12, 2026 — Brazilian participants should start at [hackathon.superteam.com.br](https://hackathon.superteam.com.br). For the complete guide, including how to participate, prizes, resources, tips, and history, see the [Hackathon section](../hackathon/README.md).
 
 Hackathons are the primary on-ramp for new Solana builders. They provide structure, deadlines, mentorship, and often significant prize pools.
 
@@ -90,7 +90,13 @@ The Solana hackathon platform. Colosseum hosts major hackathons with multi-milli
 
 Colosseum hackathons typically run for several weeks, giving teams time to build substantial projects rather than rushed prototypes. Categories usually include DeFi, infrastructure, consumer, gaming, and DAOs.
 
-Between hackathons, Colosseum Eternal lets teams start an on-demand 4-week sprint at any time, competing for $250K in pre-seed funding, admission to the next accelerator batch, and the semi-annual $25K Eternal Award. The next Solana hackathon runs September 28 – November 2, 2026.
+Between hackathons, Colosseum Eternal lets teams start an on-demand 4-week sprint at any time, competing for $250K in pre-seed funding, admission to the next accelerator batch, and the semi-annual $25K Eternal Award.
+
+### Crypto World's Fair (2026)
+
+[https://colosseum.com/worldsfair](https://colosseum.com/worldsfair)
+
+The current edition, running September 14 – October 12, 2026: an online competition bringing together builders across all crypto ecosystems, with a dedicated Solana track ($100K pool, 10 projects x $10K). The global awards total $840K in prizes plus $2.5M in seed funding through the Colosseum accelerator ($250K pre-seed per accepted team). Brazilian participants get an exclusive local track with US$5K (R$25k) in additional prizes on Superteam Earn — start at [hackathon.superteam.com.br](https://hackathon.superteam.com.br) and see the [Hackathon section](../hackathon/README.md) for the full flow.
 
 ### Frontier Hackathon (2026)
 

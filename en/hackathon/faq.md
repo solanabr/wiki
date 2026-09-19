@@ -2,14 +2,14 @@
 
 ## Overview
 
-Solana's global hackathons are run by Colosseum (two per year). The Frontier edition (April 6 – May 11, 2026) has concluded — see [Frontier 2026 Results](frontier-2026-results.md) for the numbers, winners, and prizes. The next hackathon runs **September 28 – November 2, 2026**; Colosseum's Eternal Challenge also runs year-round for teams that don't want to wait. Prize structures are detailed in [Essential Info](essential-info.md).
+The global hackathons are run by Colosseum. The current edition is the **Crypto World's Fair** (September 14 – October 12, 2026), an online competition across all crypto ecosystems with Solana as a dedicated track — 100% online, free, and open to anyone anywhere. The previous Frontier edition (April 6 – May 11, 2026) has concluded — see [Frontier 2026 Results](frontier-2026-results.md). Colosseum's Eternal Challenge also runs year-round for teams that don't want to wait. Prize structures are detailed in [Essential Info](essential-info.md).
 
 ## Registration
 
-- Register at [colosseum.com/arena](https://colosseum.com/arena?ref=brasil) (arena.colosseum.org now permanently redirects there — keep the `?ref=brasil` parameter)
+- Start at the Superteam Brasil landing page: [hackathon.superteam.com.br](https://hackathon.superteam.com.br) (about 2 minutes), then register on the Colosseum platform: [colosseum.com/worldsfair](https://colosseum.com/worldsfair)
 - Each team member needs an individual account
-- Historically the submission form opens about 1 week before the deadline (November 2 for the fall edition)
-- Hackathon info: [colosseum.com/hackathon](https://colosseum.com/hackathon)
+- Submissions close **October 12, 2026, at 23h59 (Brasília time)**
+- Full flow: [How to Participate](how-to-participate.md)
 
 ## Eligibility
 
@@ -25,8 +25,8 @@ Individual submissions are allowed, but diverse teams (devs + marketers + design
 ## Brazil Local Track
 
 - Registration in the global hackathon is mandatory
-- **Same project** in both tracks (global + Brazil)
-- The Frontier-edition [Earn listing](https://superteam.fun/earn/listing/hackathon-superteambrasil) is completed (winners announced June 1, 2026 — 10,000 USDG distributed across 10 teams); the fall-edition local track listing is TBD — watch [superteam.fun/earn](https://superteam.fun/earn) and the [Superteam Brasil Discord](https://discord.gg/superteambrasil)
+- The **same project** can compete in both tracks simultaneously (global + Brazil)
+- **US$5,000 (R$25k) in additional prizes plus perks**, exclusive to Brazilian participants — published on [Superteam Earn](https://superteam.fun/earn/s/superteambr)
 - Select Brazil as your base country during submission
 
 ## Support

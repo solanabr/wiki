@@ -25,9 +25,9 @@ Em 29 de junho de 2026, a Colosseum anunciou o quinto cohort do seu acelerador: 
 
 ## Próximos Passos
 
-### Hackathon de Outono 2026
+### Crypto World's Fair (Edição Atual)
 
-O próximo hackathon global acontece de **28 de setembro a 2 de novembro de 2026** (nome ainda não anunciado). Inscrição e informações oficiais: [colosseum.com/hackathon](https://colosseum.com/hackathon). A trilha local do Brasil para o ciclo de outono está a confirmar — acompanhe [superteam.fun/earn](https://superteam.fun/earn) e o [Discord da Superteam Brasil](https://discord.gg/superteambrasil).
+O hackathon global atual é o **Crypto World's Fair**, que acontece de **14 de setembro a 12 de outubro de 2026** — uma competição online entre todos os ecossistemas cripto com uma trilha Solana dedicada. Inscrição e informações oficiais: [colosseum.com/worldsfair](https://colosseum.com/worldsfair). Participantes brasileiros devem começar por [hackathon.superteam.com.br](https://hackathon.superteam.com.br) — veja [Como Participar](how-to-participate.md) para a trilha Brasil e o fluxo completo.
 
 ### Colosseum Eternal
 

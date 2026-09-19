@@ -2,54 +2,48 @@
 
 ## Important Dates
 
-- **September 28, 2026**: Fall hackathon begins
-- **November 2, 2026**: Submission deadline
-- **~1 week before the deadline**: Submission form becomes available on the platform
-- **Winner announcement**: typically ~6-7 weeks after the deadline (Frontier: May 11 deadline, winners announced June 26, 2026)
+- **September 14, 2026**: Crypto World's Fair begins — project registration and team formation open
+- **October 12, 2026, 23h59 (Brasília time)**: Submission deadline
+- **September–October**: workshops and mentorship sessions run throughout the hackathon
+- **Winner announcement**: after judging concludes — participants are notified by email and WhatsApp
 
-## Competition Categories (Tracks)
+> Registrations made before September 14 acted as a waitlist; what counts for the competition is what's built from September 14 onward.
 
-| Track | Description | Examples |
-|-------|-------------|----------|
-| **DePIN** | Decentralized physical infrastructure | [Helium](https://solana.com/news/case-study-helium), [Hivemapper](https://solana.com/news/case-study-hivemapper) |
-| **DAOs & Communities** | Decentralized governance and organization | [Squads](https://squads.xyz/protocol), [Superteam](https://superteam.fun/) |
-| **DeFi & Payments** | Decentralized finance and payments | [Orca](https://www.orca.so/), [Decaf](https://www.decaf.so/) |
-| **Consumer Apps** | End-user applications | [Phantom](https://phantom.com/), [ASICS](https://solana.com/news/case-study-asics-solana-pay), [Dialect](https://www.dialect.to/) |
-| **Infrastructure** | Base tools and protocols | [Wormhole](https://wormhole.com/), [Pyth](https://pyth.network/) |
-| **Gaming** | On-chain games | [Star Atlas](https://staratlas.com/), [Aurory](https://aurory.io/) |
+## Ecosystem Tracks
+
+The Crypto World's Fair is organized by **ecosystem tracks** rather than thematic categories: you choose a blockchain ecosystem and compete for its dedicated prize pool, in addition to the global awards. Available tracks include **Solana**, Ethereum, Hyperliquid, Base, Tempo, Arbitrum, Zcash, and Robinhood Chain.
+
+The **Solana track** has a **$100,000 prize pool — 10 projects receive $10,000 each**, presented by Solana.
 
 ## Prizes (Detailed)
 
-### Global Hackathon — Frontier (Spring 2026) structure
+### Global Awards — Crypto World's Fair
 
-The fall 2026 prize structure has not been announced yet; the table below shows the concluded Frontier edition for reference:
+Total announced: **$840,000 in prizes** and **$2.5 million in seed funding**. The global awards recognize the top teams selected across all ecosystem tracks:
 
 | Prize | Value | Qty |
 |-------|-------|-----|
-| **Grand Champion** | $30,000 | 1 |
-| **Top Winners** | $10,000 | 20 (later 25)* |
-| **University Award** (students) | $10,000 | 1 |
-| **Public Goods Award** | $10,000 | 1 |
+| **Grand Prize** | $30,000 | 1 |
+| **Next 20 best projects** | $15,000 each ($300,000 total) | 20 |
+| **Public Good Prize** | $5,000 | 1 |
+| **University Prize** | $5,000 | 1 |
 
-\* 20 Top Winner slots were announced; judging expanded the list to 25 runner-ups, for 26 winning teams total.
-
-**Announced total for the global hackathon: $250,000**
+Ecosystem track pools (like the Solana track's $100,000) are awarded **in addition** to the global awards above.
 
 ### Colosseum Accelerator
 
-Winning teams are invited to the accelerator (Cohort 5 admitted 21), each receiving:
-- **$250,000 in pre-seed capital** each
-- Exclusive access to networking and investors
-- Direct 1:1 mentorship
-- 2-week residency in San Francisco
-- Legal support and infrastructure
+All hackathon winners are interviewed and considered for the Colosseum accelerator — at least 10 teams can be selected, accounting for the $2.5 million in seed funding. Accepted teams receive:
 
-All hackathon winners receive interviews for possible inclusion in the accelerator. Cohort 5 (June 2026) admitted 21 startups drawn from Frontier winners and the Eternal sprint — Colosseum's largest cohort to date.
+- **$250,000 in pre-seed funding** each
+- 12 weeks working directly with the Colosseum team in San Francisco
+- Direct 1:1 mentorship and ecosystem connections
+- Access to an elite founder network and a Demo Day with top VC funds
 
 ### Brazil Track
 
-- **$10,000 distributed among the top 10 Brazilian teams**
-- Invitations to join Superteam Brasil
+- **US$5,000 (R$25k) in additional prizes plus perks**, exclusive to Brazilian participants
+- Published on [Superteam Earn](https://superteam.fun/earn/s/superteambr) — the same project can compete in both the global and Brazil tracks simultaneously
+- Standout participants may receive invitations to join Superteam Brasil
 
 ## Submission Requirements
 
@@ -111,13 +105,13 @@ The judges — prominent founders, developers, and investors in the ecosystem �
 - Solo founders should explain relevant experience
 - Use the [Colosseum Cofounder Directory](https://colosseum.com/arena) to find co-founders
 
-## Recommended Timeline (5 weeks)
+## Recommended Timeline (4 weeks)
 
-The September 28 – November 2, 2026 window is exactly 5 weeks:
+The September 14 – October 12, 2026 window is 4 weeks:
 
 | Week | Focus |
 |------|-------|
-| Weeks 1-4 | Engineering sprint — achieve a functional demo on Solana devnet |
-| Week 5 | Testing and presentation creation |
+| Weeks 1-3 | Engineering sprint — achieve a functional demo on Solana devnet |
+| Week 4 | Testing and presentation creation |
 
 > Start building in public from registration: create an X/Twitter account for the product, share your vision, recruit beta testers early.
