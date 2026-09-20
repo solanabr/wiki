@@ -28,7 +28,7 @@ A Colosseum anuncia um total de **US$ 840.000 em prêmios** e **US$ 2,5 milhões
 | **Public Good Prize** | $5,000 | 1 |
 | **University Prize** | $5,000 | 1 |
 
-Os **US$ 500.000** restantes do total anunciado são distribuídos entre os oito pools por trilha de ecossistema. A Colosseum só detalha na página oficial o pool da trilha Solana: **US$ 100.000, divididos em 10 prêmios de US$ 10.000**. Os pools por trilha são sempre concedidos **além** dos prêmios globais acima.
+Os **US$ 500.000** restantes são distribuídos entre os oito pools por trilha de ecossistema. A trilha Solana tem um pool de **US$ 100.000, dividido em 10 prêmios de US$ 10.000**. Os pools por trilha são concedidos **além** dos prêmios globais acima.
 
 ### Aceleradora Colosseum
 

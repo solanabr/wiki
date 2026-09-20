@@ -28,7 +28,7 @@ Colosseum announces a total of **$840,000 in prizes** and **$2.5 million in seed
 | **Public Good Prize** | $5,000 | 1 |
 | **University Prize** | $5,000 | 1 |
 
-The remaining **$500,000** of the announced total is distributed across the eight ecosystem track pools. Colosseum only itemizes the Solana track's pool on the official page: **$100,000, paid as 10 awards of $10,000**. Track pools are always awarded **in addition** to the global awards above.
+The remaining **$500,000** is distributed across the eight ecosystem track pools. The Solana track has a pool of **$100,000, paid as 10 awards of $10,000**. Track pools are awarded **in addition** to the global awards above.
 
 ### Colosseum Accelerator
 
