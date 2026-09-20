@@ -1,14 +1,14 @@
 # How to Participate
 
-Participation is free, 100% online, and open to anyone anywhere. You don't need blockchain or Rust experience, a ready idea, a team, or English fluency — the community supports you in Portuguese, helps with team formation, and runs workshops (including AI and vibe-coding sessions) throughout the hackathon. Designers, product, marketing, and business profiles are welcome.
+Participation is free, 100% online, and open to anyone anywhere. You don't need blockchain or Rust experience, a ready idea, a team, or English fluency. The community supports you in Portuguese, helps with team formation, and runs workshops (including AI and vibe-coding sessions) throughout the hackathon. Designers, product, marketing, and business profiles are welcome.
 
 ## Registration Steps
 
-1. **Sign up at [hackathon.superteam.com.br](https://hackathon.superteam.com.br)** — the official landing page. The signup on the Superteam platform takes about 2 minutes.
-2. **Register on the Colosseum site** at [colosseum.com/worldsfair](https://colosseum.com/worldsfair) — this is the global hackathon platform where projects and teams are registered and submissions happen.
-3. **Join the community WhatsApp group**: [chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT) — announcements, team formation, and direct support.
+1. **Sign up at [hackathon.superteam.com.br](https://hackathon.superteam.com.br)**, the official landing page. The signup on the Superteam platform takes about 2 minutes.
+2. **Register on the Colosseum site** at [colosseum.com/worldsfair](https://colosseum.com/worldsfair). This is the global hackathon platform where projects and teams are registered and submissions happen.
+3. **Join the community WhatsApp group**: [chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT), for announcements, team formation, and direct support.
 
-Then start building: project registration and team formation opened on September 14, and what counts for the competition is what's built from September 14 onward. Submit before the deadline — **October 12, 2026, at 23h59 (Brasília time)**.
+Then start building: project registration and team formation opened on September 14, and what counts for the competition is what's built from September 14 onward. Submit before the deadline: **October 12, 2026, at 23h59 (Brasília time)**.
 
 ## Brazil Local Track
 

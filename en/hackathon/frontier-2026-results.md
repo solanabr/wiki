@@ -7,27 +7,27 @@ The Frontier hackathon ran from April 6 to May 11, 2026, and closed as the large
 - **2,857** final projects submitted
 - **10,000+** participating builders
 - **150+** countries represented
-- **26** winning teams, announced on June 26, 2026 — Colosseum expanded the winner pool by 5 teams, citing record submission quality
+- **26** winning teams, announced on June 26, 2026. Colosseum expanded the winner pool by 5 teams, citing record submission quality
 
 Full winner list: [Announcing the Winners of the Solana Frontier Hackathon](https://blog.colosseum.com/announcing-the-winners-of-the-solana-frontier-hackathon/).
 
 ## Grand Champion: CrowdBrain
 
-**CrowdBrain**, a vertically-integrated robotics DePIN, took the $30,000 Grand Champion prize — sponsored by Phantom and paid in CASH, Phantom's USD stablecoin. The remaining pool went to 25 runner-up startups ($10,000 each) plus the $10,000 University Award and the $10,000 Public Goods Award.
+**CrowdBrain**, a vertically-integrated robotics DePIN, took the $30,000 Grand Champion prize, sponsored by Phantom and paid in CASH, Phantom's USD stablecoin. The remaining pool went to 25 runner-up startups ($10,000 each) plus the $10,000 University Award and the $10,000 Public Goods Award.
 
 ## Brazil Track Results
 
-The Brazil local track on Superteam Earn received **81 submissions**. Winners were announced on June 1, 2026, with **10,000 USDG** distributed across the top 10 Brazilian teams — see the [Earn listing](https://superteam.fun/earn/listing/hackathon-superteambrasil) for the full results.
+The Brazil local track on Superteam Earn received **81 submissions**. Winners were announced on June 1, 2026, with **10,000 USDG** distributed across the top 10 Brazilian teams. See the [Earn listing](https://superteam.fun/earn/listing/hackathon-superteambrasil) for the full results.
 
 ## Accelerator Cohort 5
 
-On June 29, 2026, Colosseum announced its fifth accelerator cohort: **21 startups** — roughly double the previous cohort and a 0.7% admittance rate — drawn from two pipelines, Frontier winners and the Eternal sprint. Details: [Announcing Colosseum's Accelerator Cohort 5](https://blog.colosseum.com/announcing-colosseums-accelerator-cohort-5/).
+On June 29, 2026, Colosseum announced its fifth accelerator cohort: **21 startups** (roughly double the previous cohort, at a 0.7% admittance rate), drawn from two pipelines, Frontier winners and the Eternal sprint. Details: [Announcing Colosseum's Accelerator Cohort 5](https://blog.colosseum.com/announcing-colosseums-accelerator-cohort-5/).
 
 ## What's Next
 
 ### Crypto World's Fair (Current Edition)
 
-The current global hackathon is the **Crypto World's Fair**, running **September 14 – October 12, 2026** — an online competition across all crypto ecosystems with a dedicated Solana track. Registration and official information: [colosseum.com/worldsfair](https://colosseum.com/worldsfair). Brazilian participants should start at [hackathon.superteam.com.br](https://hackathon.superteam.com.br) — see [How to Participate](how-to-participate.md) for the Brazil track and the full flow.
+The current global hackathon is the **Crypto World's Fair**, running **September 14 – October 12, 2026**: an online competition across all crypto ecosystems with a dedicated Solana track. Registration and official information: [colosseum.com/worldsfair](https://colosseum.com/worldsfair). Brazilian participants should start at [hackathon.superteam.com.br](https://hackathon.superteam.com.br), and see [How to Participate](how-to-participate.md) for the Brazil track and the full flow.
 
 ### Colosseum Eternal
 

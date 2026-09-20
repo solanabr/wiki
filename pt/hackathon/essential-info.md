@@ -2,10 +2,10 @@
 
 ## Datas Importantes
 
-- **14 de setembro de 2026**: Início do Crypto World's Fair — registro de projetos e formação de times abertos.
+- **14 de setembro de 2026**: Início do Crypto World's Fair, com registro de projetos e formação de times abertos.
 - **12 de outubro de 2026, 23h59 (horário de Brasília)**: Prazo de submissão.
 - **Setembro–outubro**: workshops e mentorias acontecem ao longo do hackathon.
-- **Anúncio dos vencedores**: após o fim da avaliação — os participantes são avisados por email e WhatsApp.
+- **Anúncio dos vencedores**: após o fim da avaliação; os participantes são avisados por email e WhatsApp.
 
 > Inscrições feitas antes de 14 de setembro funcionaram como lista de espera; o que conta para a competição é o que for construído a partir de 14 de setembro.
 
@@ -13,13 +13,13 @@
 
 O Crypto World's Fair é organizado por **trilhas de ecossistema**, e não por categorias temáticas: você escolhe um ecossistema blockchain e compete pelo pool de prêmios dedicado dele, além dos prêmios globais. As trilhas disponíveis incluem **Solana**, Ethereum, Hyperliquid, Base, Tempo, Arbitrum, Zcash e Robinhood Chain.
 
-A **trilha Solana** tem um pool de **US$ 100.000 — 10 projetos recebem US$ 10.000 cada**, apresentada pela Solana.
+A **trilha Solana** tem um pool de **US$ 100.000 (10 projetos recebem US$ 10.000 cada)**, apresentada pela Solana.
 
 ## Prêmios (Detalhado)
 
-### Prêmios Globais — Crypto World's Fair
+### Prêmios Globais do Crypto World's Fair
 
-Total anunciado: **US$ 840.000 em prêmios** e **US$ 2,5 milhões em investimento seed**. Os prêmios globais reconhecem os melhores times selecionados entre todas as trilhas de ecossistema:
+A Colosseum anuncia um total de **US$ 840.000 em prêmios** e **US$ 2,5 milhões em investimento seed**. Esse total combina duas camadas: os **prêmios globais** abaixo, que somam **US$ 340.000**, e os **pools por trilha de ecossistema**, concedidos separadamente. Os prêmios globais reconhecem os melhores times selecionados entre todas as trilhas de ecossistema:
 
 | Prêmio | Valor | Qtd |
 |--------|-------|-----|
@@ -28,11 +28,11 @@ Total anunciado: **US$ 840.000 em prêmios** e **US$ 2,5 milhões em investiment
 | **Public Good Prize** | $5,000 | 1 |
 | **University Prize** | $5,000 | 1 |
 
-Os pools por trilha de ecossistema (como os US$ 100.000 da trilha Solana) são concedidos **além** dos prêmios globais acima.
+Os **US$ 500.000** restantes do total anunciado são distribuídos entre os oito pools por trilha de ecossistema. A Colosseum só detalha na página oficial o pool da trilha Solana: **US$ 100.000, divididos em 10 prêmios de US$ 10.000**. Os pools por trilha são sempre concedidos **além** dos prêmios globais acima.
 
 ### Aceleradora Colosseum
 
-Todos os vencedores do hackathon são entrevistados e considerados para a aceleradora da Colosseum — pelo menos 10 times podem ser selecionados, somando os US$ 2,5 milhões em investimento seed. Os times aceitos recebem:
+Todos os vencedores do hackathon são entrevistados e considerados para a aceleradora da Colosseum. Pelo menos 10 times podem ser selecionados, somando os US$ 2,5 milhões em investimento seed. Os times aceitos recebem:
 
 - **US$ 250.000 em funding pre-seed** cada.
 - 12 semanas trabalhando diretamente com o time da Colosseum em San Francisco.
@@ -42,7 +42,7 @@ Todos os vencedores do hackathon são entrevistados e considerados para a aceler
 ### Trilha Brasil
 
 - **US$ 5.000 (R$ 25 mil) em prêmios adicionais mais perks**, exclusiva para participantes brasileiros.
-- Publicada no [Superteam Earn](https://superteam.fun/earn/s/superteambr) — o mesmo projeto pode competir nas trilhas global e Brasil simultaneamente.
+- Publicada no [Superteam Earn](https://superteam.fun/earn/s/superteambr). O mesmo projeto pode competir nas trilhas global e Brasil simultaneamente.
 - Participantes que se destacam podem receber convites para integrar a Superteam Brasil.
 
 ## Requisitos de Submissão
@@ -51,7 +51,7 @@ O formulário de submissão fica disponível na plataforma **1 semana antes do p
 
 **1. Pitch Video (max 3 minutos)**
 
-O elemento mais importante — é geralmente a primeira coisa que os jurados revisam. Deve incluir:
+O elemento mais importante e geralmente a primeira coisa que os jurados revisam. Deve incluir:
 - Background da equipe.
 - Descrição do produto.
 - Problema que está resolvendo e para quem.
@@ -63,7 +63,7 @@ O elemento mais importante — é geralmente a primeira coisa que os jurados rev
 
 **2. Vídeo de Demo Técnico (2-3 minutos)**
 
-Distinto do pitch — deve ser técnico, direto e específico sobre a implementação:
+Distinto do pitch, deve ser técnico, direto e específico sobre a implementação:
 - Demonstrar funcionalidades principais.
 - Explicar decisões de tech stack.
 - Mostrar integração com Solana e raciocínio por trás das escolhas.
@@ -76,13 +76,13 @@ Distinto do pitch — deve ser técnico, direto e específico sobre a implementa
 
 **4. Documentação**
 - Documentação técnica explicando a abordagem.
-- Preencha todos os campos opcionais do formulário — eles fornecem contexto importante.
+- Preencha todos os campos opcionais do formulário, pois eles fornecem contexto importante.
 
-> **Dica**: Continue construindo após o deadline — jurados avaliam progresso pós-hackathon também.
+> **Dica**: Continue construindo após o deadline: jurados avaliam progresso pós-hackathon também.
 
 ## Critérios de Avaliação
 
-Os jurados — fundadores, desenvolvedores e investidores de destaque no ecossistema — avaliam com base em:
+Os jurados (fundadores, desenvolvedores e investidores de destaque no ecossistema) avaliam com base em:
 
 | Critério | O que buscam |
 |----------|--------------|
@@ -111,7 +111,7 @@ A janela de 14 de setembro a 12 de outubro de 2026 tem 4 semanas:
 
 | Semana | Foco |
 |--------|------|
-| Semanas 1-3 | Sprint de engenharia — alcançar demo funcional no devnet da Solana |
+| Semanas 1-3 | Sprint de engenharia: alcançar demo funcional no devnet da Solana |
 | Semana 4 | Testes e criação da apresentação |
 
 > Comece a construir em público desde a inscrição: crie conta no X/Twitter para o produto, compartilhe sua visão, recrute beta testers cedo.

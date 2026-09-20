@@ -34,11 +34,11 @@ Meetups, workshops, hackathons e eventos comunitários organizados pela Supertea
 
 Desde o Q3 2025, a Superteam Brasil organizou mais de 23 eventos com mais de 1.770 participantes no total, incluindo:
 
-- **Semana Blockchain Rio** (Ago 2025) — 3 eventos, 485+ participantes, 3 esgotados
-- **Bootcamps Técnicos** — Sessões presenciais em São Paulo, Florianópolis (UFSC) e online
-- **Semana Latam Buenos Aires** (Nov 2025) — 8 eventos em 6 dias, 605+ participantes, parcerias com Triton, Solflare, Meteora, RAIKU e Jagpool
-- **Ideathon Road to Colosseum** (Mar 2026) — 349+ espectadores no YouTube LIVE
-- **the/Garage Coorte 1** (Abr 2026) — Kickoff da aceleradora de builders em São Paulo
+- **Semana Blockchain Rio** (Ago 2025): 3 eventos, 485+ participantes, 3 esgotados
+- **Bootcamps Técnicos**: sessões presenciais em São Paulo, Florianópolis (UFSC) e online
+- **Semana Latam Buenos Aires** (Nov 2025): 8 eventos em 6 dias, 605+ participantes, parcerias com Triton, Solflare, Meteora, RAIKU e Jagpool
+- **Ideathon Road to Colosseum** (Mar 2026): 349+ espectadores no YouTube LIVE
+- **the/Garage Coorte 1** (Abr 2026): kickoff da aceleradora de builders em São Paulo
 
 ### X (Twitter)
 
@@ -78,7 +78,7 @@ Aqui também é onde propostas de sRFC como o Vault Standard (sRFC 40) são disc
 
 ## Hackathons e Competições
 
-> **Crypto World's Fair 2026**: O hackathon global atual acontece de 14 de setembro a 12 de outubro de 2026 — participantes brasileiros devem começar por [hackathon.superteam.com.br](https://hackathon.superteam.com.br). Para o guia completo, incluindo como participar, prêmios, recursos, dicas e histórico, consulte a [seção Hackathon](../hackathon/README.md).
+> **Crypto World's Fair 2026**: O hackathon global atual acontece de 14 de setembro a 12 de outubro de 2026. Participantes brasileiros devem começar por [hackathon.superteam.com.br](https://hackathon.superteam.com.br). Para o guia completo, incluindo como participar, prêmios, recursos, dicas e histórico, consulte a [seção Hackathon](../hackathon/README.md).
 
 Hackathons são a principal porta de entrada para novos builders Solana. Eles fornecem estrutura, prazos, mentoria e frequentemente premiações significativas.
 
@@ -96,7 +96,7 @@ Entre hackathons, o Colosseum Eternal permite que equipes iniciem um sprint sob 
 
 [https://colosseum.com/worldsfair](https://colosseum.com/worldsfair)
 
-A edição atual, de 14 de setembro a 12 de outubro de 2026: uma competição online que reúne builders de todos os ecossistemas cripto, com uma trilha Solana dedicada (pool de US$ 100K, 10 projetos x US$ 10K). Os prêmios globais somam US$ 840K em prêmios mais US$ 2,5M em investimento seed através da aceleradora Colosseum (US$ 250K pre-seed por time aceito). Participantes brasileiros têm uma trilha local exclusiva com US$ 5K (R$ 25 mil) em prêmios adicionais no Superteam Earn — comece por [hackathon.superteam.com.br](https://hackathon.superteam.com.br) e veja a [seção Hackathon](../hackathon/README.md) para o fluxo completo.
+A edição atual, de 14 de setembro a 12 de outubro de 2026: uma competição online que reúne builders de todos os ecossistemas cripto, com uma trilha Solana dedicada (pool de US$ 100K, 10 projetos x US$ 10K). A Colosseum anuncia US$ 840K em prêmios totais (US$ 340K em prêmios globais mais os pools por trilha de ecossistema) e US$ 2,5M em investimento seed através da aceleradora Colosseum (US$ 250K pre-seed por time aceito). Participantes brasileiros têm uma trilha local exclusiva com US$ 5K (R$ 25 mil) em prêmios adicionais no Superteam Earn. Comece por [hackathon.superteam.com.br](https://hackathon.superteam.com.br) e veja a [seção Hackathon](../hackathon/README.md) para o fluxo completo.
 
 ### Frontier Hackathon (2026)
 

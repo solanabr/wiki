@@ -2,7 +2,7 @@
 
 Solana organiza los hackathons web3 mas grandes del mundo, habiendo distribuido **mas de 700 millones de dolares en premios e inversiones de capital**, con participacion de reconocidos inversionistas web3.
 
-Estas competencias funcionan como competencias de ideas de startups, donde los participantes interactuan con builders de elite globalmente mientras acceden a mentoria y recursos para acelerar el crecimiento. Los hackathons de Colosseum ya reunieron **60k+ builders** y produjeron **9k+ productos** — cerca del 85% de las startups de Solana financiadas por VCs salieron de estas competencias.
+Estas competencias funcionan como competencias de ideas de startups, donde los participantes interactuan con builders de elite globalmente mientras acceden a mentoria y recursos para acelerar el crecimiento. Los hackathons de Colosseum ya reunieron **60k+ builders** y produjeron **9k+ productos**; cerca del 85% de las startups de Solana financiadas por VCs salieron de estas competencias.
 
 La edicion actual, el **Crypto World's Fair** ([colosseum.com/worldsfair](https://colosseum.com/worldsfair)), expande el formato a todos los ecosistemas cripto, con Solana como track dedicado.
 

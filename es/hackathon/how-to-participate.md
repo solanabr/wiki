@@ -1,14 +1,14 @@
 # Cómo Participar
 
-La participación es gratuita, 100% online y abierta a cualquier persona en cualquier lugar. No necesitas experiencia en blockchain ni Rust, una idea lista, un equipo ni inglés fluido — la comunidad da soporte en portugués, ayuda con la formación de equipos y organiza workshops (incluyendo sesiones de AI y vibe-coding) durante todo el hackathon. Los perfiles de diseño, producto, marketing y negocios son bienvenidos.
+La participación es gratuita, 100% online y abierta a cualquier persona en cualquier lugar. No necesitas experiencia en blockchain ni Rust, una idea lista, un equipo ni inglés fluido: la comunidad da soporte en portugués, ayuda con la formación de equipos y organiza workshops (incluyendo sesiones de AI y vibe-coding) durante todo el hackathon. Los perfiles de diseño, producto, marketing y negocios son bienvenidos.
 
 ## Pasos de Registro
 
-1. **Regístrate en [hackathon.superteam.com.br](https://hackathon.superteam.com.br)** — la landing page oficial. El registro en la plataforma de Superteam toma unos 2 minutos.
-2. **Regístrate en el sitio de Colosseum** en [colosseum.com/worldsfair](https://colosseum.com/worldsfair) — la plataforma global del hackathon, donde se registran los proyectos, se forman los equipos y se hacen los envíos.
-3. **Únete al grupo de WhatsApp de la comunidad**: [chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT) — anuncios, formación de equipos y soporte directo.
+1. **Regístrate en [hackathon.superteam.com.br](https://hackathon.superteam.com.br)**, la landing page oficial. El registro en la plataforma de Superteam toma unos 2 minutos.
+2. **Regístrate en el sitio de Colosseum** en [colosseum.com/worldsfair](https://colosseum.com/worldsfair), la plataforma global del hackathon, donde se registran los proyectos, se forman los equipos y se hacen los envíos.
+3. **Únete al grupo de WhatsApp de la comunidad**: [chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT), con anuncios, formación de equipos y soporte directo.
 
-Después solo queda construir: el registro de proyectos y la formación de equipos abrieron el 14 de septiembre, y lo que cuenta para la competencia es lo que se construya a partir de esa fecha. Envía antes de la fecha límite — **12 de octubre de 2026, a las 23h59 (hora de Brasilia)**.
+Después solo queda construir: el registro de proyectos y la formación de equipos abrieron el 14 de septiembre, y lo que cuenta para la competencia es lo que se construya a partir de esa fecha. Envía antes de la fecha límite: **12 de octubre de 2026, a las 23h59 (hora de Brasilia)**.
 
 ## Track Local Brasil
 
