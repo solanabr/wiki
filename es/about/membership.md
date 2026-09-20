@@ -1,8 +1,8 @@
 # Membresía
 
-Superteam Brazil es una comunidad abierta. Cualquiera puede participar — no necesitas ser desarrollador. Damos la bienvenida a diseñadores, creadores de contenido, profesionales de marketing, community managers, asignadores de capital y cualquier persona interesada en construir el ecosistema Solana en Brasil.
+Superteam Brazil es una comunidad abierta. Cualquiera puede participar; no necesitas ser desarrollador. Damos la bienvenida a diseñadores, creadores de contenido, profesionales de marketing, community managers, asignadores de capital y cualquier persona interesada en construir el ecosistema Solana en Brasil.
 
-Ni siquiera necesitas ser brasileño — si estás contribuyendo al ecosistema Solana brasileño, eres bienvenido.
+Ni siquiera necesitas ser brasileño: si estás contribuyendo al ecosistema Solana brasileño, eres bienvenido.
 
 ## Cómo Unirse
 
@@ -28,10 +28,10 @@ La comunidad actualmente cuenta con **62 miembros** y **247+ builders** en el ec
 
 ## Beneficios de Membresía
 
-- **Bounties y Empleos** — Gana recompensas completando tareas y proyectos publicados por equipos del ecosistema.
-- **Grants** — Accede a financiamiento para herramientas open-source, investigación e iniciativas comunitarias a través de los [Solana Foundation Brazil Grants](https://superteam.fun/earn/grants/solana-foundation-brazil-grants).
-- **Red de Contactos** — Conéctate con builders, fundadores y líderes en todo el ecosistema Solana. Obtén presentaciones directas a equipos.
-- **Workshops** — Sesiones prácticas sobre desarrollo en Solana, DeFi y herramientas del ecosistema.
-- **Aceleración de Startups** — Apoyo a través del [Colosseum Accelerator](https://colosseum.com/accelerator/) y recursos de la comunidad.
-- **Eventos** — Acceso a hackathons, meetups y conferencias incluyendo Breakpoint.
-- **Delegación del Validador** — Participa en decisiones sobre cómo las recompensas del validador se asignan de vuelta a la comunidad.
+- **Bounties y Empleos**: Gana recompensas completando tareas y proyectos publicados por equipos del ecosistema.
+- **Grants**: Accede a financiamiento para herramientas open-source, investigación e iniciativas comunitarias a través de los [Solana Foundation Brazil Grants](https://superteam.fun/earn/grants/solana-foundation-brazil-grants).
+- **Red de Contactos**: Conéctate con builders, fundadores y líderes en todo el ecosistema Solana. Obtén presentaciones directas a equipos.
+- **Workshops**: Sesiones prácticas sobre desarrollo en Solana, DeFi y herramientas del ecosistema.
+- **Aceleración de Startups**: Apoyo a través del [Colosseum Accelerator](https://colosseum.com/accelerator/) y recursos de la comunidad.
+- **Eventos**: Acceso a hackathons, meetups y conferencias incluyendo Breakpoint.
+- **Delegación del Validador**: Participa en decisiones sobre cómo las recompensas del validador se asignan de vuelta a la comunidad.

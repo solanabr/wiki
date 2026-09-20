@@ -40,7 +40,7 @@ Great presentations don't happen spontaneously. They require practice. Ask yours
 - Prioritize a functional demo with good UI. Judges want tangible features.
 - Build an MVP that works end-to-end, even if incomplete.
 - Live demo > flashy video.
-- Don't spend all your time on design — build and test the actual solution.
+- Don't spend all your time on design; build and test the actual solution.
 
 ## Pitfall 5: Lack of a Business Plan
 
@@ -50,4 +50,4 @@ Judges know that even incredible ideas go nowhere without a viable business mode
 - Structure presentations around detailed features, not just promotional videos.
 - Avoid buzzwords and hype. Show practical application and utility.
 - Be prepared to answer detailed questions about how it works under the hood.
-- Impress with substance, not style — real demos instead of bold claims.
+- Impress with substance, not style: real demos instead of bold claims.

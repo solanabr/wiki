@@ -2,7 +2,7 @@
 
 ## Overview
 
-The global hackathons are run by Colosseum. The current edition is the **Crypto World's Fair** (September 14 – October 12, 2026), an online competition across all crypto ecosystems with Solana as a dedicated track — 100% online, free, and open to anyone anywhere. The previous Frontier edition (April 6 – May 11, 2026) has concluded — see [Frontier 2026 Results](frontier-2026-results.md). Colosseum's Eternal Challenge also runs year-round for teams that don't want to wait. Prize structures are detailed in [Essential Info](essential-info.md).
+The global hackathons are run by Colosseum. The current edition is the **Crypto World's Fair** (September 14 – October 12, 2026), an online competition across all crypto ecosystems with Solana as a dedicated track. It is 100% online, free, and open to anyone anywhere. The previous Frontier edition (April 6 – May 11, 2026) has concluded; see [Frontier 2026 Results](frontier-2026-results.md). Colosseum's Eternal Challenge also runs year-round for teams that don't want to wait. Prize structures are detailed in [Essential Info](essential-info.md).
 
 ## Registration
 
@@ -26,7 +26,7 @@ Individual submissions are allowed, but diverse teams (devs + marketers + design
 
 - Registration in the global hackathon is mandatory
 - The **same project** can compete in both tracks simultaneously (global + Brazil)
-- **US$5,000 (R$25k) in additional prizes plus perks**, exclusive to Brazilian participants — published on [Superteam Earn](https://superteam.fun/earn/s/superteambr)
+- **US$5,000 (R$25k) in additional prizes plus perks**, exclusive to Brazilian participants and published on [Superteam Earn](https://superteam.fun/earn/s/superteambr)
 - Select Brazil as your base country during submission
 
 ## Support

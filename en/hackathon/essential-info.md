@@ -2,10 +2,10 @@
 
 ## Important Dates
 
-- **September 14, 2026**: Crypto World's Fair begins — project registration and team formation open
+- **September 14, 2026**: Crypto World's Fair begins; project registration and team formation open
 - **October 12, 2026, 23h59 (Brasília time)**: Submission deadline
 - **September–October**: workshops and mentorship sessions run throughout the hackathon
-- **Winner announcement**: after judging concludes — participants are notified by email and WhatsApp
+- **Winner announcement**: after judging concludes; participants are notified by email and WhatsApp
 
 > Registrations made before September 14 acted as a waitlist; what counts for the competition is what's built from September 14 onward.
 
@@ -13,13 +13,13 @@
 
 The Crypto World's Fair is organized by **ecosystem tracks** rather than thematic categories: you choose a blockchain ecosystem and compete for its dedicated prize pool, in addition to the global awards. Available tracks include **Solana**, Ethereum, Hyperliquid, Base, Tempo, Arbitrum, Zcash, and Robinhood Chain.
 
-The **Solana track** has a **$100,000 prize pool — 10 projects receive $10,000 each**, presented by Solana.
+The **Solana track**, presented by Solana, has a **$100,000 prize pool: 10 projects receive $10,000 each**.
 
 ## Prizes (Detailed)
 
-### Global Awards — Crypto World's Fair
+### Global Awards: Crypto World's Fair
 
-Total announced: **$840,000 in prizes** and **$2.5 million in seed funding**. The global awards recognize the top teams selected across all ecosystem tracks:
+Colosseum announces a total of **$840,000 in prizes** and **$2.5 million in seed funding**. That total combines two layers: the **global awards** below, which sum to **$340,000**, and the dedicated **ecosystem track pools**, awarded in addition. The global awards recognize the top teams selected across all ecosystem tracks:
 
 | Prize | Value | Qty |
 |-------|-------|-----|
@@ -28,11 +28,11 @@ Total announced: **$840,000 in prizes** and **$2.5 million in seed funding**. Th
 | **Public Good Prize** | $5,000 | 1 |
 | **University Prize** | $5,000 | 1 |
 
-Ecosystem track pools (like the Solana track's $100,000) are awarded **in addition** to the global awards above.
+The remaining **$500,000** of the announced total is distributed across the eight ecosystem track pools. Colosseum only itemizes the Solana track's pool on the official page: **$100,000, paid as 10 awards of $10,000**. Track pools are always awarded **in addition** to the global awards above.
 
 ### Colosseum Accelerator
 
-All hackathon winners are interviewed and considered for the Colosseum accelerator — at least 10 teams can be selected, accounting for the $2.5 million in seed funding. Accepted teams receive:
+All hackathon winners are interviewed and considered for the Colosseum accelerator: at least 10 teams can be selected, accounting for the $2.5 million in seed funding. Accepted teams receive:
 
 - **$250,000 in pre-seed funding** each
 - 12 weeks working directly with the Colosseum team in San Francisco
@@ -42,7 +42,7 @@ All hackathon winners are interviewed and considered for the Colosseum accelerat
 ### Brazil Track
 
 - **US$5,000 (R$25k) in additional prizes plus perks**, exclusive to Brazilian participants
-- Published on [Superteam Earn](https://superteam.fun/earn/s/superteambr) — the same project can compete in both the global and Brazil tracks simultaneously
+- Published on [Superteam Earn](https://superteam.fun/earn/s/superteambr); the same project can compete in both the global and Brazil tracks simultaneously
 - Standout participants may receive invitations to join Superteam Brasil
 
 ## Submission Requirements
@@ -51,7 +51,7 @@ The submission form becomes available on the platform **1 week before the final 
 
 **1. Pitch Video (max 3 minutes)**
 
-The most important element — and usually the first thing judges review. It should include:
+The most important element, and usually the first thing judges review. It should include:
 - Team background
 - Product description
 - Problem being solved and for whom
@@ -63,7 +63,7 @@ The most important element — and usually the first thing judges review. It sho
 
 **2. Technical Demo Video (2-3 minutes)**
 
-Distinct from the pitch — should be technical, direct, and specific about the implementation:
+Distinct from the pitch, this video should be technical, direct, and specific about the implementation:
 - Demonstrate core functionalities
 - Explain tech stack decisions
 - Show Solana integration and the reasoning behind the choices
@@ -76,13 +76,13 @@ Distinct from the pitch — should be technical, direct, and specific about the 
 
 **4. Documentation**
 - Technical documentation explaining the approach
-- Fill in all optional form fields — they provide important context
+- Fill in all optional form fields; they provide important context
 
-> **Tip**: Keep building after the deadline — judges also evaluate post-hackathon progress.
+> **Tip**: Keep building after the deadline. Judges also evaluate post-hackathon progress.
 
 ## Evaluation Criteria
 
-The judges — prominent founders, developers, and investors in the ecosystem — evaluate based on:
+The judges (prominent founders, developers, and investors in the ecosystem) evaluate based on:
 
 | Criterion | What They Look For |
 |-----------|-------------------|
@@ -111,7 +111,7 @@ The September 14 – October 12, 2026 window is 4 weeks:
 
 | Week | Focus |
 |------|-------|
-| Weeks 1-3 | Engineering sprint — achieve a functional demo on Solana devnet |
+| Weeks 1-3 | Engineering sprint: achieve a functional demo on Solana devnet |
 | Week 4 | Testing and presentation creation |
 
 > Start building in public from registration: create an X/Twitter account for the product, share your vision, recruit beta testers early.

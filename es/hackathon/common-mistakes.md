@@ -40,7 +40,7 @@ Grandes presentaciones no suceden espontaneamente. Requieren practica. Hazte pre
 - Prioriza un demo funcional con buen UI. Los jueces quieren funcionalidades tangibles.
 - Construye un MVP que funcione de punta a punta, incluso incompleto.
 - Demo en vivo > video llamativo.
-- No gastes todo el tiempo en diseño — construye y prueba la solucion real.
+- No gastes todo el tiempo en diseño: construye y prueba la solucion real.
 
 ## Trampa 5: Ausencia de un plan de negocios
 
@@ -50,4 +50,4 @@ Los jurados saben que incluso ideas increibles no llegan a ningun lado sin un mo
 - Estructura presentaciones alrededor de funcionalidades detalladas, no solo videos promocionales.
 - Evita frases hechas y exageraciones. Muestra aplicacion practica y utilidad.
 - Estate preparado para responder preguntas detalladas sobre como funciona por debajo del capo.
-- Impresiona con sustancia, no estilo — demos reales en vez de afirmaciones audaces.
+- Impresiona con sustancia, no estilo: demos reales en vez de afirmaciones audaces.

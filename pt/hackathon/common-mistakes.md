@@ -40,7 +40,7 @@ Grandes apresentações não acontecem espontaneamente. Exigem prática. Faça p
 - Priorize um demo funcional com bom UI. Juízes querem funcionalidades tangíveis.
 - Construa um MVP que funcione de ponta a ponta, mesmo incompleto.
 - Demo ao vivo > vídeo chamativo.
-- Não gaste todo o tempo em design — construa e teste a solução real.
+- Não gaste todo o tempo em design: construa e teste a solução real.
 
 ## Armadilha 5: Ausência de um plano de negócios
 
@@ -50,4 +50,4 @@ Os jurados sabem que mesmo ideias incríveis não levam a lugar nenhum sem model
 - Estruture apresentações em torno de funcionalidades detalhadas, não apenas vídeos promocionais.
 - Evite chavões e exageros. Mostre aplicação prática e utilidade.
 - Esteja preparado para responder perguntas detalhadas sobre como funciona por baixo do capô.
-- Impressione com substância, não estilo — demos reais em vez de afirmações ousadas.
+- Impressione com substância, não estilo: demos reais em vez de afirmações ousadas.

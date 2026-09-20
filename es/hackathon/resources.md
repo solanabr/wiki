@@ -2,16 +2,16 @@
 
 ## Guias Oficiales Colosseum
 
-- [Como Ganar un Hackathon Colosseum](https://blog.colosseum.com/how-to-win-a-colosseum-hackathon/) — guia completa de estrategia
-- [Perfeccionando tu Presentacion](https://blog.colosseum.com/perfecting-your-hackathon-submission/) — requisitos de pitch, demo y GitHub
-- [Crypto World's Fair (Colosseum)](https://colosseum.com/worldsfair) — pagina oficial del hackathon actual: premios, tracks y jueces
+- [Como Ganar un Hackathon Colosseum](https://blog.colosseum.com/how-to-win-a-colosseum-hackathon/): guia completa de estrategia
+- [Perfeccionando tu Presentacion](https://blog.colosseum.com/perfecting-your-hackathon-submission/): requisitos de pitch, demo y GitHub
+- [Crypto World's Fair (Colosseum)](https://colosseum.com/worldsfair): pagina oficial del hackathon actual con premios, tracks y jueces
 
 ## Comenzando a Desarrollar en Solana
 
-- [Introduccion al Desarrollo Solana](https://solana.com/docs/intro/quick-start) — quickstart oficial
-- [Conceptos Importantes](https://solana.com/docs#start-learning) — fundamentos para desarrolladores
-- [Configurar Ambiente Local](https://solana.com/docs/intro/installation) — setup recomendado
-- [Hello World en Solana](https://solana.com/docs/intro/quick-start) — primera app on-chain via web IDE
+- [Introduccion al Desarrollo Solana](https://solana.com/docs/intro/quick-start): quickstart oficial
+- [Conceptos Importantes](https://solana.com/docs#start-learning): fundamentos para desarrolladores
+- [Configurar Ambiente Local](https://solana.com/docs/intro/installation): setup recomendado
+- [Hello World en Solana](https://solana.com/docs/intro/quick-start): primera app on-chain via web IDE
 - [Construye en Solana con Solidity usando Solang](https://docs.google.com/document/d/1yU97ZOoCI-RBmxYjBm4R5QHrQ4QvAkvRGc8QX917Vk0/edit#heading=h.5rfn4u66x4vy)
 - [Workshops para construir en Solana](https://github.com/solana-workshops)
 
@@ -40,9 +40,9 @@
 
 ## Herramientas de IA
 
-- [Noah](https://trynoah.ai/) — asistente AI para desarrollo Solana
-- [Codigo.ai](https://codigo.ai/) — generacion de codigo para Solana
-- [GitHub Copilot](https://github.com/features/copilot) — asistente de codigo
+- [Noah](https://trynoah.ai/): asistente AI para desarrollo Solana
+- [Codigo.ai](https://codigo.ai/): generacion de codigo para Solana
+- [GitHub Copilot](https://github.com/features/copilot): asistente de codigo
 - [Alternativas a Copilot](https://blog.pragmaticengineer.com/github-copilot-alternatives/)
 
 ## Templates de Presentacion
@@ -58,23 +58,23 @@
 
 ## Educacion y Lectura
 
-- [Blueshift](https://blueshift.gg/) — entrenamiento guiado por instructores para desarrollo Solana
-- [Solana Reading List](https://mertimus.substack.com/p/the-solana-reading-list) — publicacion Substack sobre temas Solana
-- [Crypto Startup School](https://a16zcrypto.com/accelerator/) — cursos a16z sobre blockchain y crypto
+- [Blueshift](https://blueshift.gg/): entrenamiento guiado por instructores para desarrollo Solana
+- [Solana Reading List](https://mertimus.substack.com/p/the-solana-reading-list): publicacion Substack sobre temas Solana
+- [Crypto Startup School](https://a16zcrypto.com/accelerator/): cursos a16z sobre blockchain y crypto
 
 ## Videos en Portugues (Superteam Brasil)
 
 Lives, clases y workshops grabados en portugues por el canal de [Superteam Brazil en YouTube](https://www.youtube.com/@SuperteamBrazil).
 
-**Bootcamps — Crypto World's Fair (2026)**
+**Bootcamps del Crypto World's Fair (2026)**
 
-Grabaciones de los bootcamps del ciclo actual del hackathon — nuevas grabaciones llegan al canal a medida que ocurren las sesiones:
+Grabaciones de los bootcamps del ciclo actual del hackathon. Nuevas grabaciones llegan al canal a medida que ocurren las sesiones:
 
-Programacion on-chain — crea tus primeros smart contracts con Anchor:
+Programacion on-chain, para crear tus primeros smart contracts con Anchor:
 
 {% embed url="https://www.youtube.com/watch?v=uLDxjEzEQdM" %}
 
-Frontend web3 — conectando tu interfaz a Solana:
+Frontend web3, conectando tu interfaz a Solana:
 
 {% embed url="https://www.youtube.com/watch?v=iZuD4Hvb53o" %}
 
