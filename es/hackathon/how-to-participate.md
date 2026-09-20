@@ -1,31 +1,31 @@
-# Como Participar
+# Cómo Participar
 
-## Pasos para la Inscripcion
+La participación es gratuita, 100% online y abierta a cualquier persona en cualquier lugar. No necesitas experiencia en blockchain ni Rust, una idea lista, un equipo ni inglés fluido — la comunidad da soporte en portugués, ayuda con la formación de equipos y organiza workshops (incluyendo sesiones de AI y vibe-coding) durante todo el hackathon. Los perfiles de diseño, producto, marketing y negocios son bienvenidos.
 
-1. Visita la plataforma de Colosseum en [colosseum.com/arena](https://colosseum.com/arena?ref=brasil) y crea tu cuenta
-2. Registrate y comparte tu badge de logro en X (Twitter), mencionando a [@SuperteamBR](https://x.com/superteamBR)
-3. Unete a los canales oficiales: [Discord](https://discord.gg/superteambrasil) | [WhatsApp](https://chat.whatsapp.com/HPIu1YV3mri5QOGf0gUMTO) | [Telegram](https://t.me/+rQ5OtAGRw5NkNGVh)
-4. Comienza a desarrollar tu proyecto
-5. Envia antes de la fecha limite del hackathon de otoño (2 de noviembre de 2026)
+## Pasos de Registro
+
+1. **Regístrate en [hackathon.superteam.com.br](https://hackathon.superteam.com.br)** — la landing page oficial. El registro en la plataforma de Superteam toma unos 2 minutos.
+2. **Regístrate en el sitio de Colosseum** en [colosseum.com/worldsfair](https://colosseum.com/worldsfair) — la plataforma global del hackathon, donde se registran los proyectos, se forman los equipos y se hacen los envíos.
+3. **Únete al grupo de WhatsApp de la comunidad**: [chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT) — anuncios, formación de equipos y soporte directo.
+
+Después solo queda construir: el registro de proyectos y la formación de equipos abrieron el 14 de septiembre, y lo que cuenta para la competencia es lo que se construya a partir de esa fecha. Envía antes de la fecha límite — **12 de octubre de 2026, a las 23h59 (hora de Brasilia)**.
 
 ## Track Local Brasil
 
-**Ademas del hackathon global, existe un track local exclusivo para brasileños con $10,000 en premios.** Para participar:
+**Además del hackathon global, existe un track local exclusivo para participantes brasileños con US$5,000 (R$25 mil) en premios adicionales más perks.** Para participar:
 
-- Inscripcion obligatoria en el hackathon global (Colosseum)
-- El **mismo proyecto** debe usarse en ambos tracks (global + Brasil)
-- Inscripcion en el track local por Superteam Earn: [hackathon SuperteamBrasil](https://superteam.fun/earn/listing/hackathon-superteambrasil)
-- Seleccionar **Brasil** como pais base durante la presentacion
-
-> El track Brasil de la edicion Frontier esta cerrado — 81 presentaciones, ganadores anunciados el 1 de junio de 2026. Un nuevo listing de Earn para el ciclo de otoño 2026 sera vinculado aqui cuando se publique.
+- El registro en el hackathon global (Colosseum) es obligatorio
+- El **mismo proyecto** puede competir en ambos tracks simultáneamente (global + Brasil)
+- Regístrate en el track local vía Superteam Earn: [superteam.fun/earn/s/superteambr](https://superteam.fun/earn/s/superteambr)
 
 ## Links Importantes
 
-| Que | Link |
+| Qué | Link |
 |-----|------|
-| Plataforma de inscripcion | [colosseum.com/arena](https://colosseum.com/arena?ref=brasil) |
-| Info sobre el hackathon | [colosseum.com/hackathon](https://colosseum.com/hackathon) |
-| Track Brasil | [superteam.fun/earn](https://superteam.fun/earn/listing/hackathon-superteambrasil) (edicion Frontier — cerrada) |
-| Sitio Brasil | [hackathonsolana.com](https://hackathonsolana.com/) (cubre el ciclo de primavera 2026; los links del ciclo de otoño llegaran pronto) |
+| Landing page (empieza aquí) | [hackathon.superteam.com.br](https://hackathon.superteam.com.br) |
+| Plataforma de registro | [colosseum.com/worldsfair](https://colosseum.com/worldsfair) |
+| Track Brasil | [superteam.fun/earn/s/superteambr](https://superteam.fun/earn/s/superteambr) |
+| Comunidad en WhatsApp | [Grupo de la Comunidad](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT) |
+| Discord | [discord.gg/superteambrasil](https://discord.gg/superteambrasil) |
 
-> **Consejo**: Envia tu trabajo antes de la fecha limite en lugar de esperar hasta el ultimo dia.
+> **Consejo**: Envía tu trabajo antes de la fecha límite final en lugar de esperar hasta el último día.

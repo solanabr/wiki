@@ -6,7 +6,7 @@ You don't even need to be Brazilian — if you're contributing to the Brazilian 
 
 ## How to Join
 
-1. **Join the community.** Enter our [Discord](https://discord.gg/superteambrasil) or [WhatsApp](https://chat.whatsapp.com/HPIu1YV3mri5QOGf0gUMTO) and introduce yourself. We welcome builders of all skill levels.
+1. **Join the community.** Enter our [Discord](https://discord.gg/superteambrasil) or [WhatsApp](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT) and introduce yourself. We welcome builders of all skill levels.
 2. **Attend events and workshops.** Join community calls, participate in discussions, and attend [our events](https://luma.com/superteambrasil).
 3. **Contribute.** Complete bounties on [Superteam Earn](https://superteam.fun/earn/s/superteambr), contribute to open-source projects, create content, or help organize events.
 4. **Get recognized.** Active participation in events and projects can lead to an official invite to become a member.

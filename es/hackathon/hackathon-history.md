@@ -2,7 +2,9 @@
 
 Solana organiza los hackathons web3 mas grandes del mundo, habiendo distribuido **mas de 700 millones de dolares en premios e inversiones de capital**, con participacion de reconocidos inversionistas web3.
 
-Estas competencias funcionan como competencias de ideas de startups, donde los participantes interactuan con builders de elite globalmente mientras acceden a mentoria y recursos para acelerar el crecimiento.
+Estas competencias funcionan como competencias de ideas de startups, donde los participantes interactuan con builders de elite globalmente mientras acceden a mentoria y recursos para acelerar el crecimiento. Los hackathons de Colosseum ya reunieron **60k+ builders** y produjeron **9k+ productos** — cerca del 85% de las startups de Solana financiadas por VCs salieron de estas competencias.
+
+La edicion actual, el **Crypto World's Fair** ([colosseum.com/worldsfair](https://colosseum.com/worldsfair)), expande el formato a todos los ecosistemas cripto, con Solana como track dedicado.
 
 | Evento | Fecha | Participantes | Proyectos | Ganadores |
 |--------|-------|---------------|-----------|-----------|
@@ -17,7 +19,7 @@ Estas competencias funcionan como competencias de ideas de startups, donde los p
 | Breakout | Abril-Mayo 2025 | 10,000+ | 1,400+ | [Ver](https://blog.colosseum.com/announcing-the-winners-of-the-solana-breakout-hackathon/) |
 | Cypherpunk | Septiembre-Octubre 2025 | 9,000+ | 1,500+ | [Ver](https://blog.colosseum.com/cypherpunk-winners-stamp-light-token-firedancer/) |
 | Frontier | Abril-Mayo 2026 | 10,000+ | 2,857 | [Ver](https://blog.colosseum.com/announcing-the-winners-of-the-solana-frontier-hackathon/) |
-| **Otoño 2026 (por anunciar)** | **28 de septiembre – 2 de noviembre de 2026** | **Proximamente** | **-** | **-** |
+| **Crypto World's Fair** | **14 de septiembre – 12 de octubre de 2026** | **En curso** | **-** | **-** |
 
 Frontier fue el hackathon crypto mas grande hasta la fecha, con builders de 150+ paises; Grand Champion: CrowdBrain (DePIN de robotica).
 

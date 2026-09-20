@@ -2,6 +2,8 @@
 
 Proyectos brasileños destacados en los hackathons anteriores de Solana.
 
+En dos ediciones con el apoyo de Superteam Brasil, tres equipos brasileños levantaron juntos **R$15 millones+**: [Cloak](https://cloak.ag/) (3er lugar y un cheque de aceleradora de ~R$1.5 millones), [Bido](https://usebido.com/) (capa de pagos para agentes de AI que entro a una incubadora de primer nivel de Silicon Valley y levanto una ronda de R$10 millones) y [BlindPay](https://www.blindpay.com/) (aceptada en Y Combinator).
+
 ## Renaissance (Marzo-Abril 2024)
 
 ### DeVolt
@@ -12,7 +14,7 @@ Plataforma descentralizada de abastecimiento de vehiculos electricos que busca "
 
 ### BlindPay
 
-Solucion de pago que ofrece "pagos locales e internacionales para empresas web3."
+Solucion de pago que ofrece "pagos locales e internacionales para empresas web3." Despues del hackathon, el equipo fue aceptado en Y Combinator.
 
 - [Website](https://www.blindpay.com/)
 
@@ -32,9 +34,9 @@ Plataforma de credito on-chain que "conecta directamente a prestatarios instituc
 
 ### Cloak
 
-Protocolo de mixing para privacidad en Solana. Permite que los usuarios "depositen desde una wallet, retiren a diferentes wallets, y el vinculo entre ellas queda oculto." Nativo de Solana, open-source, con funcionalidad mobile.
+Infraestructura de privacidad para empresas que usan blockchain. Permite que los usuarios "depositen desde una wallet, retiren a diferentes wallets, y el vinculo entre ellas queda oculto." Nativa de Solana, open-source, con funcionalidad mobile. Construida por un equipo de estudiantes universitarios, Cloak quedo en 3er lugar y recibio un cheque de aceleradora de cerca de R$1.5 millones.
 
-- [X (@cloaklabz)](https://x.com/cloaklabz)
+- [X (@cloaklabz)](https://x.com/cloaklabz) | [Website](https://cloak.ag/)
 
 ### VitalFi
 

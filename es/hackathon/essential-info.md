@@ -2,54 +2,48 @@
 
 ## Fechas Importantes
 
-- **28 de septiembre de 2026**: Inicio del hackathon de otoño
-- **2 de noviembre de 2026**: Fecha limite de presentacion
-- **~1 semana antes de la fecha limite**: El formulario de presentacion estara disponible en la plataforma
-- **Anuncio de ganadores**: tipicamente ~6-7 semanas despues de la fecha limite (Frontier: deadline el 11 de mayo, ganadores anunciados el 26 de junio de 2026)
+- **14 de septiembre de 2026**: Inicio del Crypto World's Fair — registro de proyectos y formacion de equipos abiertos
+- **12 de octubre de 2026, 23h59 (hora de Brasilia)**: Fecha limite de presentacion
+- **Septiembre–octubre**: workshops y mentorias durante todo el hackathon
+- **Anuncio de ganadores**: despues de que concluya la evaluacion — los participantes son notificados por email y WhatsApp
 
-## Categorias de Competencia (Tracks)
+> Los registros hechos antes del 14 de septiembre funcionaron como lista de espera; lo que cuenta para la competencia es lo que se construya a partir del 14 de septiembre.
 
-| Track | Descripcion | Ejemplos |
-|-------|-------------|----------|
-| **DePIN** | Infraestructura fisica descentralizada | [Helium](https://solana.com/news/case-study-helium), [Hivemapper](https://solana.com/news/case-study-hivemapper) |
-| **DAOs & Comunidades** | Gobernanza y organizacion descentralizada | [Squads](https://squads.xyz/protocol), [Superteam](https://superteam.fun/) |
-| **DeFi & Pagos** | Finanzas descentralizadas y pagos | [Orca](https://www.orca.so/), [Decaf](https://www.decaf.so/) |
-| **Consumer Apps** | Aplicaciones para usuarios finales | [Phantom](https://phantom.com/), [ASICS](https://solana.com/news/case-study-asics-solana-pay), [Dialect](https://www.dialect.to/) |
-| **Infraestructura** | Herramientas y protocolos base | [Wormhole](https://wormhole.com/), [Pyth](https://pyth.network/) |
-| **Gaming** | Juegos on-chain | [Star Atlas](https://staratlas.com/), [Aurory](https://aurory.io/) |
+## Tracks por Ecosistema
+
+El Crypto World's Fair esta organizado por **tracks de ecosistema** en lugar de categorias tematicas: eliges un ecosistema blockchain y compites por su pool de premios dedicado, ademas de los premios globales. Los tracks disponibles incluyen **Solana**, Ethereum, Hyperliquid, Base, Tempo, Arbitrum, Zcash y Robinhood Chain.
+
+El **track de Solana** tiene un pool de **US$100,000 — 10 proyectos reciben US$10,000 cada uno**, presentado por Solana.
 
 ## Premios (Detallado)
 
-### Hackathon Global — estructura de Frontier (primavera 2026)
+### Premios Globales — Crypto World's Fair
 
-La estructura de premios del otoño 2026 aun no fue anunciada; la tabla a continuacion muestra la edicion Frontier concluida como referencia:
+Total anunciado: **US$840,000 en premios** y **US$2.5 millones en inversion seed**. Los premios globales reconocen a los mejores equipos seleccionados entre todos los tracks de ecosistema:
 
 | Premio | Valor | Cant. |
 |--------|-------|-------|
-| **Grand Champion** | $30,000 | 1 |
-| **Top Winners** | $10,000 | 20 (luego 25)* |
-| **University Award** (estudiantes) | $10,000 | 1 |
-| **Public Goods Award** | $10,000 | 1 |
+| **Grand Prize** | $30,000 | 1 |
+| **Siguientes 20 mejores proyectos** | $15,000 cada uno ($300,000 en total) | 20 |
+| **Public Good Prize** | $5,000 | 1 |
+| **University Prize** | $5,000 | 1 |
 
-\* Se anunciaron 20 lugares de Top Winner; la evaluacion amplio la lista a 25 runner-ups, para un total de 26 equipos ganadores.
+Los pools por track de ecosistema (como los US$100,000 del track de Solana) se otorgan **ademas** de los premios globales anteriores.
 
-**Total anunciado para el hackathon global: $250,000**
+### Aceleradora Colosseum
 
-### Acelerador Colosseum
+Todos los ganadores del hackathon son entrevistados y considerados para la aceleradora de Colosseum — al menos 10 equipos pueden ser seleccionados, sumando los US$2.5 millones en inversion seed. Los equipos aceptados reciben:
 
-Los equipos ganadores son invitados al acelerador (el Cohort 5 admitio 21), y cada uno recibe:
-- **$250,000 en capital pre-seed** cada uno
-- Acceso exclusivo a networking e inversionistas
-- Mentoria directa 1:1
-- Residencia de 2 semanas en San Francisco
-- Soporte legal e infraestructura
-
-Todos los ganadores del hackathon reciben entrevistas para posible inclusion en el acelerador. El Cohort 5 (junio de 2026) admitio 21 startups provenientes de los ganadores de Frontier y del sprint Eternal — el cohort mas grande de Colosseum hasta la fecha.
+- **US$250,000 en funding pre-seed** cada uno
+- 12 semanas trabajando directamente con el equipo de Colosseum en San Francisco
+- Mentoria directa 1:1 y conexiones en el ecosistema
+- Acceso a una red de fundadores de elite y un Demo Day con fondos de VC de primer nivel
 
 ### Track Brasil
 
-- **$10,000 distribuidos entre los 10 mejores equipos brasileños**
-- Invitaciones para integrar la Superteam Brasil
+- **US$5,000 (R$25 mil) en premios adicionales mas perks**, exclusivo para participantes brasileños
+- Publicado en [Superteam Earn](https://superteam.fun/earn/s/superteambr) — el mismo proyecto puede competir en los tracks global y Brasil simultaneamente
+- Los participantes destacados pueden recibir invitaciones para integrar la Superteam Brasil
 
 ## Requisitos de Presentacion
 
@@ -111,13 +105,13 @@ Los jurados — fundadores, desarrolladores e inversionistas destacados en el ec
 - Solo founders deben explicar experiencia relevante
 - Usa el [Cofounder Directory de Colosseum](https://colosseum.com/arena) para encontrar cofundadores
 
-## Timeline Recomendado (5 semanas)
+## Timeline Recomendado (4 semanas)
 
-La ventana del 28 de septiembre al 2 de noviembre de 2026 es exactamente de 5 semanas:
+La ventana del 14 de septiembre al 12 de octubre de 2026 es de 4 semanas:
 
 | Semana | Enfoque |
 |--------|---------|
-| Semanas 1-4 | Sprint de ingenieria — alcanzar demo funcional en el devnet de Solana |
-| Semana 5 | Pruebas y creacion de la presentacion |
+| Semanas 1-3 | Sprint de ingenieria — alcanzar demo funcional en el devnet de Solana |
+| Semana 4 | Pruebas y creacion de la presentacion |
 
 > Comienza a construir en publico desde la inscripcion: crea una cuenta en X/Twitter para el producto, comparte tu vision, recluta beta testers temprano.

@@ -6,7 +6,7 @@ Você nem precisa ser brasileiro -- se está contribuindo para o ecossistema Sol
 
 ## Como Participar
 
-1. **Entre na comunidade.** Acesse nosso [Discord](https://discord.gg/superteambrasil) ou [WhatsApp](https://chat.whatsapp.com/HPIu1YV3mri5QOGf0gUMTO) e se apresente. Recebemos builders de todos os níveis.
+1. **Entre na comunidade.** Acesse nosso [Discord](https://discord.gg/superteambrasil) ou [WhatsApp](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT) e se apresente. Recebemos builders de todos os níveis.
 2. **Participe de eventos e workshops.** Entre nas calls da comunidade, participe de discussões e vá aos [nossos eventos](https://luma.com/superteambrasil).
 3. **Contribua.** Complete bounties no [Superteam Earn](https://superteam.fun/earn/s/superteambr), contribua com projetos open-source, crie conteúdo ou ajude a organizar eventos.
 4. **Seja reconhecido.** A participação ativa em eventos e projetos pode levar a um convite oficial para se tornar membro.

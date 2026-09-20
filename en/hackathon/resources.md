@@ -4,7 +4,7 @@
 
 - [How to Win a Colosseum Hackathon](https://blog.colosseum.com/how-to-win-a-colosseum-hackathon/) — complete strategy guide
 - [Perfecting Your Submission](https://blog.colosseum.com/perfecting-your-hackathon-submission/) — pitch, demo, and GitHub requirements
-- [Official Hackathon Page (Colosseum)](https://colosseum.com/hackathon) — current hackathon, resources and sponsors
+- [Crypto World's Fair (Colosseum)](https://colosseum.com/worldsfair) — official page for the current hackathon: prizes, tracks, and judges
 
 ## Getting Started with Solana Development
 
@@ -64,7 +64,19 @@
 
 ## Videos in Portuguese (Superteam Brasil)
 
-Lives, classes, and recorded workshops in Portuguese from the [Superteam Brasil YouTube channel](https://www.youtube.com/@SuperteamBrasil).
+Lives, classes, and recorded workshops in Portuguese from the [Superteam Brazil YouTube channel](https://www.youtube.com/@SuperteamBrazil).
+
+**Bootcamps — Crypto World's Fair (2026)**
+
+Recordings from the current hackathon cycle's bootcamps — more recordings land on the channel as sessions happen:
+
+On-chain programming — build your first smart contracts with Anchor:
+
+{% embed url="https://www.youtube.com/watch?v=uLDxjEzEQdM" %}
+
+Web3 frontend — connect your interface to Solana:
+
+{% embed url="https://www.youtube.com/watch?v=iZuD4Hvb53o" %}
 
 **Ideathon & Pitch**
 - [Ideathon - Design Thinking Workshop with Miro Leite](https://www.youtube.com/watch?v=qUooCBvhPeg)

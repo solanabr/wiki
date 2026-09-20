@@ -6,7 +6,7 @@ Ni siquiera necesitas ser brasileño — si estás contribuyendo al ecosistema S
 
 ## Cómo Unirse
 
-1. **Únete a la comunidad.** Entra a nuestro [Discord](https://discord.gg/superteambrasil) o [WhatsApp](https://chat.whatsapp.com/HPIu1YV3mri5QOGf0gUMTO) y preséntate. Damos la bienvenida a builders de todos los niveles.
+1. **Únete a la comunidad.** Entra a nuestro [Discord](https://discord.gg/superteambrasil) o [WhatsApp](https://chat.whatsapp.com/BVXYPlcB9R853QnvgzpCRT) y preséntate. Damos la bienvenida a builders de todos los niveles.
 2. **Asiste a eventos y workshops.** Únete a las reuniones de la comunidad, participa en discusiones y asiste a [nuestros eventos](https://luma.com/superteambrasil).
 3. **Contribuye.** Completa bounties en [Superteam Earn](https://superteam.fun/earn/s/superteambr), contribuye a proyectos open-source, crea contenido o ayuda a organizar eventos.
 4. **Obtén reconocimiento.** La participación activa en eventos y proyectos puede llevar a una invitación oficial para convertirte en miembro.

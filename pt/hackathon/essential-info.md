@@ -2,54 +2,48 @@
 
 ## Datas Importantes
 
-- **28 de setembro de 2026**: Início do hackathon de outono.
-- **2 de novembro de 2026**: Prazo de submissão.
-- **~1 semana antes do prazo**: Formulário de submissão fica disponível na plataforma.
-- **Anúncio dos vencedores**: normalmente ~6-7 semanas após o prazo (Frontier: prazo em 11 de maio, vencedores anunciados em 26 de junho de 2026).
+- **14 de setembro de 2026**: Início do Crypto World's Fair — registro de projetos e formação de times abertos.
+- **12 de outubro de 2026, 23h59 (horário de Brasília)**: Prazo de submissão.
+- **Setembro–outubro**: workshops e mentorias acontecem ao longo do hackathon.
+- **Anúncio dos vencedores**: após o fim da avaliação — os participantes são avisados por email e WhatsApp.
 
-## Categorias de Competição (Tracks)
+> Inscrições feitas antes de 14 de setembro funcionaram como lista de espera; o que conta para a competição é o que for construído a partir de 14 de setembro.
 
-| Track | Descrição | Exemplos |
-|-------|-----------|----------|
-| **DePIN** | Infraestrutura física descentralizada | [Helium](https://solana.com/news/case-study-helium), [Hivemapper](https://solana.com/news/case-study-hivemapper) |
-| **DAOs & Comunidades** | Governança e organização descentralizada | [Squads](https://squads.xyz/protocol), [Superteam](https://superteam.fun/) |
-| **DeFi & Pagamentos** | Finanças descentralizadas e pagamentos | [Orca](https://www.orca.so/), [Decaf](https://www.decaf.so/) |
-| **Consumer Apps** | Aplicativos para usuários finais | [Phantom](https://phantom.com/), [ASICS](https://solana.com/news/case-study-asics-solana-pay), [Dialect](https://www.dialect.to/) |
-| **Infraestrutura** | Ferramentas e protocolos base | [Wormhole](https://wormhole.com/), [Pyth](https://pyth.network/) |
-| **Gaming** | Jogos on-chain | [Star Atlas](https://staratlas.com/), [Aurory](https://aurory.io/) |
+## Trilhas por Ecossistema
+
+O Crypto World's Fair é organizado por **trilhas de ecossistema**, e não por categorias temáticas: você escolhe um ecossistema blockchain e compete pelo pool de prêmios dedicado dele, além dos prêmios globais. As trilhas disponíveis incluem **Solana**, Ethereum, Hyperliquid, Base, Tempo, Arbitrum, Zcash e Robinhood Chain.
+
+A **trilha Solana** tem um pool de **US$ 100.000 — 10 projetos recebem US$ 10.000 cada**, apresentada pela Solana.
 
 ## Prêmios (Detalhado)
 
-### Hackathon Global — estrutura do Frontier (primavera de 2026)
+### Prêmios Globais — Crypto World's Fair
 
-A estrutura de prêmios do outono de 2026 ainda não foi anunciada; a tabela abaixo mostra a edição Frontier, já concluída, como referência:
+Total anunciado: **US$ 840.000 em prêmios** e **US$ 2,5 milhões em investimento seed**. Os prêmios globais reconhecem os melhores times selecionados entre todas as trilhas de ecossistema:
 
 | Prêmio | Valor | Qtd |
 |--------|-------|-----|
-| **Grand Champion** | $30,000 | 1 |
-| **Top Winners** | $10,000 | 20 (depois 25)* |
-| **University Award** (estudantes) | $10,000 | 1 |
-| **Public Goods Award** | $10,000 | 1 |
+| **Grand Prize** | $30,000 | 1 |
+| **Próximos 20 melhores projetos** | $15,000 cada ($300,000 no total) | 20 |
+| **Public Good Prize** | $5,000 | 1 |
+| **University Prize** | $5,000 | 1 |
 
-\* Foram anunciadas 20 vagas de Top Winner; a avaliação ampliou a lista para 25 runner-ups, totalizando 26 equipes vencedoras.
+Os pools por trilha de ecossistema (como os US$ 100.000 da trilha Solana) são concedidos **além** dos prêmios globais acima.
 
-**Total anunciado para o hackathon global: $250,000.**
+### Aceleradora Colosseum
 
-### Acelerador Colosseum
+Todos os vencedores do hackathon são entrevistados e considerados para a aceleradora da Colosseum — pelo menos 10 times podem ser selecionados, somando os US$ 2,5 milhões em investimento seed. Os times aceitos recebem:
 
-As equipes vencedoras são convidadas para o acelerador (o Cohort 5 admitiu 21), cada uma recebendo:
-- **$250,000 em capital pre-seed** cada.
-- Acesso exclusivo a networking e investidores.
-- Mentoria direta 1:1.
-- Residência de 2 semanas em San Francisco.
-- Suporte jurídico e infraestrutura.
-
-Todos os vencedores do hackathon recebem entrevistas para possível inclusão no acelerador. O Cohort 5 (junho de 2026) admitiu 21 startups vindas dos vencedores do Frontier e do sprint Eternal — o maior cohort da Colosseum até hoje.
+- **US$ 250.000 em funding pre-seed** cada.
+- 12 semanas trabalhando diretamente com o time da Colosseum em San Francisco.
+- Mentoria direta 1:1 e conexões no ecossistema.
+- Acesso a uma rede de fundadores de elite e um Demo Day com fundos de VC de ponta.
 
 ### Trilha Brasil
 
-- **$10,000 distribuídos entre as 10 melhores equipes brasileiras.**
-- Convites para integrar a Superteam Brasil.
+- **US$ 5.000 (R$ 25 mil) em prêmios adicionais mais perks**, exclusiva para participantes brasileiros.
+- Publicada no [Superteam Earn](https://superteam.fun/earn/s/superteambr) — o mesmo projeto pode competir nas trilhas global e Brasil simultaneamente.
+- Participantes que se destacam podem receber convites para integrar a Superteam Brasil.
 
 ## Requisitos de Submissão
 
@@ -111,13 +105,13 @@ Os jurados — fundadores, desenvolvedores e investidores de destaque no ecossis
 - Solo founders devem explicar experiência relevante.
 - Use o [Cofounder Directory do Colosseum](https://colosseum.com/arena) para encontrar cofundadores.
 
-## Timeline Recomendado (5 semanas)
+## Timeline Recomendado (4 semanas)
 
-A janela de 28 de setembro a 2 de novembro de 2026 tem exatamente 5 semanas:
+A janela de 14 de setembro a 12 de outubro de 2026 tem 4 semanas:
 
 | Semana | Foco |
 |--------|------|
-| Semanas 1-4 | Sprint de engenharia — alcançar demo funcional no devnet da Solana |
-| Semana 5 | Testes e criação da apresentação |
+| Semanas 1-3 | Sprint de engenharia — alcançar demo funcional no devnet da Solana |
+| Semana 4 | Testes e criação da apresentação |
 
 > Comece a construir em público desde a inscrição: crie conta no X/Twitter para o produto, compartilhe sua visão, recrute beta testers cedo.
